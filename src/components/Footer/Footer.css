@@ -1,0 +1,28 @@
+@import '../../assets/colors.css';
+
+footer {
+  background-color: var(--blue_dark);
+  padding: 3rem;
+  color: white;
+  text-align: center;
+  position: relative;
+}
+
+.footer-content {
+  text-align: center;
+  color: #fff;
+  padding: 1rem;
+}
+
+.social-icons, .social-icons a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  margin: 0 1rem;
+  font-size: 2rem;
+}
+
+.social-icons a:hover {
+  color: var(--yellow_dark);
+}

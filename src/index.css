@@ -1,0 +1,32 @@
+@font-face {
+  font-family: 'Montserrat';
+  src: url('./assets/fonts/static/Montserrat-Regular.ttf');
+}
+@font-face {
+  font-family: 'Title';
+  src: url('./assets/fonts/static/Montserrat-ThinItalic.ttf');
+}
+@import './assets/colors.css';
+
+body {
+  margin: 0;
+  font-family: 'Montserrat';
+  background-color: var(--blue_dark);
+}
+
+.title {
+  font-family: 'Title';
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+p {
+  width: 100vh;
+}
+
+header {
+  z-index: 9999;
+}

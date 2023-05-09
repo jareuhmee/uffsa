@@ -1,0 +1,54 @@
+@import '../../assets/colors.css';
+
+.home {
+    height: 80vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+.overlay {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    font-size: 4rem;
+    color: #ffffff;
+    text-align: center;
+}
+
+#welcome {
+    height: 60vh;
+    width: 100%;
+    margin: 0 auto;
+    background-color: var(--yellow_dark);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    position: relative;
+}
+
+p {
+    font-size: large;
+}
+
+#welcome::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0.05;
+    background-image: url('../../assets/textures/fabric.png');
+    background-repeat: repeat;
+    pointer-events: none;
+}
+  
