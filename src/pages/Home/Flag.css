@@ -1,9 +1,9 @@
 @import '../../assets/colors.css';
 
-#section1 {
+#section-flag {
     position: relative;
     width: 100vw;
-    height: 40vw;
+    height: 20vw;
     padding-top: 5rem;
     padding-bottom: 5rem;
     background-color: var(--yellow_dark);
@@ -12,11 +12,11 @@
 .flag-container {
     position: relative;
     margin: 0 auto;
-    width: 80%;
+    width: 40%;
     height: 100%;
-    box-shadow: 15px 10px 1px rgba(0, 0, 0, 1);
+    box-shadow: 15px 10px 10px rgba(0, 0, 0, 1);
 }
-  
+
 .triangle {
     position: absolute;
     left: 0;
@@ -26,7 +26,7 @@
     background-color: white;
     clip-path: polygon(0 0, 0% 100%, 100% 50%);
 }
-  
+
 .trapezoid {
     position: absolute;
     top: 0;
@@ -44,33 +44,3 @@
     background-color: var(--red);
     clip-path: polygon(50% 50%, 100% 50%, 100% 100%, 0 100%);
 }
-
-/* #section1 h1 {
-    font-size: 5vw;
-} */
-
-#UF {
-    position: absolute;
-    top: 25%;
-    left: 18%;
-    font-size: 8vw;
-    color: var(--yellow_dark);
-}
-
-#FSA {
-    position: absolute;
-    top: 3%;
-    right: 11%;
-    text-align: right;
-    font-size: 5vw;
-    color: var(--yellow_dark);
-}
-
-/* #description {
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    font-size: 1rem;
-    text-align: right;
-    padding-bottom: 5%;
-} */
