@@ -1,26 +1,33 @@
 @import '../../assets/colors.css';
 
+
+#header {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 9999;
+}
+
+#background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: var(--blue_dark);
+  transition: opacity 0.3s ease-in-out;
+}
+
 .navbar {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: var(--blue_dark);
   padding: 0.5rem;
   margin: 0 auto;
   position: relative;
-}
-
-.navbar::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  opacity: 0.05;
-  background-image: url('../../assets/textures/lines.png');
-  background-repeat: repeat;
-  pointer-events: none;
+  text-shadow: 1px 1px 1px var(--blue_dark);
+  z-index: 9999;
 }
 
 .navbar__list {
@@ -58,6 +65,14 @@
   margin: 0 1rem;
 }
 
+#logo {
+  transition: width 0.3s ease-in-out;
+}
+
+.navbar-logo:hover {
+  transform: scale(1.025);
+}
+
 .pillars-dropdown {
   position: relative;
 }
@@ -70,12 +85,12 @@
   display: none;
   position: absolute;
   top: 100%;
-  z-index: 9999;
   background-color: var(--blue_dark);
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 1);
   padding: 0.5rem;
   min-width: max-content;
   list-style: none;
+  z-index: 9999;
 }
 
 .navbar__subitem {
@@ -92,11 +107,11 @@
 }
 
 #divider {
-  height: 1vh;
+  height: 0.25rem;
   width: 100%;
   background-color: var(--red);
-  text-align: center;
-  position: relative;
+  position: absolute;
+  bottom: 0;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 

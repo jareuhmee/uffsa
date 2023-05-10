@@ -1,11 +1,36 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import { Link, NavLink } from 'react-router-dom';
 import './Header.css';
 import logo from './logo.png';
 
 function Header() {
+  const [scrollPosition, setScrollPosition] = useState(0);
+  const [toggleLogo, setToggleLogo] = useState(true);
+
+  useEffect(() => {
+    window.addEventListener("scroll", handleScroll);
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
+  const handleScroll = () => {
+    const newScrollPosition = window.pageYOffset;
+    setScrollPosition(newScrollPosition);
+  };
+
+  if (scrollPosition > 110 && toggleLogo) {
+    setToggleLogo(false);
+  } else if (scrollPosition < 10 && !toggleLogo) {
+    setToggleLogo(true);
+  }
+
+  let logoWidth = toggleLogo ? 6 : 4;
+  let opacity = toggleLogo ? 1 : 0;
+
   return (
     <>
+    <div id="header">
       <nav className="navbar">
         <ul className="navbar__list">
           <li className="navbar__item">
@@ -66,7 +91,7 @@ function Header() {
 
         <div className="navbar-logo">
           <Link to="/">
-            <img src={logo} alt="Logo" style={{ width: '135px' }} />
+            <img src={logo} id="logo" alt="Logo" style={{ width: `${logoWidth}rem` }} />
           </Link>
         </div>
 
@@ -106,7 +131,11 @@ function Header() {
         </ul>
       </nav>
       
-      <div id="divider" />
+
+      <div id="background" className="fade-out" style={{ opacity: opacity }}>
+        <div id="divider" />
+      </div>
+    </div>
     </>
   );
 }
