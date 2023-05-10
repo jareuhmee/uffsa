@@ -1,13 +1,16 @@
 import React from 'react';
 import './Dance.css';
+import backgroundImage from '../Home/background.png'
 
 function Dance() {
   return (
     <>
-      <div className="home" style={ { backgroundImage: `url(https://scontent.ftpa1-1.fna.fbcdn.net/v/t1.6435-9/32376688_1756957227696588_6339619449724731392_n.jpg?stp=dst-jpg_s2048x2048&_nc_cat=109&ccb=1-7&_nc_sid=8631f5&_nc_ohc=Jj13eaRmAp0AX9QjGL1&_nc_ht=scontent.ftpa1-1.fna&oh=00_AfCDYk_lCGPjipBoHcVBFoQrvlUVRlk0Zam63NDGQkhj0g&oe=6482D42B)`,
-        height: '700px'
-      }}>
+    <div className="home">
+      <div className="overlay">
+        <img id="fsapic" src={backgroundImage} />
+        <h1 className="title">University of Florida<br />Filipino Student Association</h1>
       </div>
+    </div>
 
     <div id="welcofsme" className="container" style={{textAlign: 'center'}}>
       <p>

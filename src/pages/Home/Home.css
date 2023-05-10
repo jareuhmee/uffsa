@@ -4,27 +4,43 @@
     position: -webkit-sticky;
     position: sticky;
     top: 0;
-    height: 80vh;
+    height: fit-content;
     width: 100%;
     background-position: center;
     background-size: cover;
+    background-color: var(--red);
     z-index: -1;
+}
+
+#fsapic {
+    position: absolute;
+    opacity: 0.4;
+    width: 100%;
 }
 
 .overlay {
     height: 100%;
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.1);
+    position: absolute;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    text-shadow: 3px 2px 3px var(--yellow_dark);
 }
 
 .container {
     height: fit-content;
     width: 100%;
     margin: 0 auto;
-    background-color: var(--yellow_dark);
+    background-color: var(--red);
     display: flex;
     justify-content: center;
     align-items: center;

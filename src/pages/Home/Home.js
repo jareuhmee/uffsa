@@ -5,8 +5,9 @@ import './Home.css';
 function Home() {
   return (
     <>
-    <div className="home" style={{ backgroundImage: `url(${backgroundImage})` }}>
+    <div className="home">
       <div className="overlay">
+        <img id="fsapic" src={backgroundImage} />
         <h1 className="title">University of Florida<br />Filipino Student Association</h1>
       </div>
     </div>
