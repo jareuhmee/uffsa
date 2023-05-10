@@ -1,9 +1,14 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Link, NavLink } from 'react-router-dom';
 import logo from './logo.png';
 
 function Navbar(props) {
-    const { scrollPosition, isSmallDevice, toggleLogo } = props;
+    const { isSmallDevice, toggleLogo } = props;
+    const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+    const handleMenuToggle = () => {
+      setIsMenuOpen(!isMenuOpen);
+    }
 
     let list1 = (
         <ul className="navbar__list">
@@ -12,11 +17,12 @@ function Navbar(props) {
               ABOUT
             </Link>
           </li>
+
           <li className="navbar__item navbar__dropdown pillars-dropdown">
             <NavLink activeclassname="navbar__link--active" className="navbar__link navbar__dropdown-toggle">
               PILLARS
             </NavLink>
-            <ul className="navbar__sublist">
+            <ul className={`navbar__sublist ${isSmallDevice ? 'navbar__accordion' : ''}`}>
               <li className="navbar__subitem">
                 <NavLink to="/dance" activeclassname="navbar__link--active" className="navbar__link">
                   DANCE
@@ -39,11 +45,12 @@ function Navbar(props) {
               </li>
             </ul>
           </li>
+
           <li className="navbar__item navbar__dropdown pillars-dropdown">
             <NavLink activeclassname="navbar__link--active" className="navbar__link navbar__dropdown-toggle">
               PROGRAMS
             </NavLink>
-            <ul className="navbar__sublist">
+            <ul className={`navbar__sublist ${isSmallDevice ? 'navbar__accordion' : ''}`}>
               <li className="navbar__subitem">
                 <NavLink to="/aka" activeclassname="navbar__link--active" className="navbar__link">
                   AKA / RAKA
@@ -59,6 +66,7 @@ function Navbar(props) {
                   FSA+
                 </NavLink>
               </li>
+
             </ul>
           </li>
         </ul>
@@ -71,11 +79,12 @@ function Navbar(props) {
               EVENTS
             </NavLink>
           </li>
+
           <li className="navbar__item navbar__dropdown pillars-dropdown">
             <NavLink activeclassname="navbar__link--active" className="navbar__link navbar__dropdown-toggle">
               MEDIA
             </NavLink>
-            <ul className="navbar__sublist">
+            <ul className={`navbar__sublist ${isSmallDevice ? 'navbar__accordion' : ''}`}>
               <li className="navbar__subitem">
                 <NavLink to="/barkada" activeclassname="navbar__link--active" className="navbar__link">
                   BARKADA NEWSLETTER
@@ -93,11 +102,13 @@ function Navbar(props) {
               </li>
             </ul>
           </li>
+
           <li className="navbar__item navbar__dropdown">
             <NavLink to="/merch" activeclassname="navbar__link--active" className="navbar__link navbar__dropdown-toggle">
               MERCHANDISE
             </NavLink>
           </li>
+          
         </ul>
       );
 
@@ -113,9 +124,14 @@ function Navbar(props) {
                         <img src={logo} id="logo" alt="Logo" style={{ width: '3rem' }} />
                     </Link>
                 </div>
-                <ul className="navbar__list">
-                    {list1.props.children}
-                    {list2.props.children}
+
+                <div className="navbar__menu-toggle" onClick={handleMenuToggle}>
+                  <span className="navbar__menu-icon"></span>
+                </div>
+
+                <ul className={`navbar__list ${isMenuOpen ? 'active' : ''}`} id="linkList">
+                  {list1.props.children}
+                  {list2.props.children}
                 </ul>
             </nav>
         );

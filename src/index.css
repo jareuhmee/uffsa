@@ -4,7 +4,7 @@
 }
 @font-face {
   font-family: 'Title';
-  src: url('./assets/fonts/static/Montserrat-ThinItalic.ttf');
+  src: url('./assets/fonts/static/Montserrat-Medium.ttf');
 }
 @import './assets/colors.css';
 

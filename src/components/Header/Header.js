@@ -27,26 +27,23 @@ function Header() {
     setIsSmallDevice(width <= 768);
   };
 
-  if (scrollPosition > 110 && toggleLogo)
-    setToggleLogo(false);
-  else if (scrollPosition < 10 && !toggleLogo)
-    setToggleLogo(true);
-
-    
-  let opacity = toggleLogo ? 1 : 0;
 
   if (isSmallDevice) {
 
   }
   else {
-
+    if (scrollPosition > 110 && toggleLogo)
+      setToggleLogo(false);
+    else if (scrollPosition < 10 && !toggleLogo)
+      setToggleLogo(true);
   }
+
+  let opacity = toggleLogo ? 1 : 0;
 
   return (
     <>
     <div id="header">
-      <Navbar 
-        scrollPosition = {scrollPosition}
+      <Navbar
         isSmallDevice = {isSmallDevice}
         toggleLogo = {toggleLogo}
       />
