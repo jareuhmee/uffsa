@@ -11,7 +11,7 @@ function Home() {
       </div>
     </div>
 
-    <div id="welcome" className="container" style={{textAlign: 'center'}}>
+    <div className="container">
       <p>
           The Filipino Student Association (FSA) at the University of Florida is a home away from home for anyone, not just Filipinos.
           From the Def Talent Jam dance competition in the fall to the Barrio Fiesta cultural show in the spring, FSA hosts a wide variety of 

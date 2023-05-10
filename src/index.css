@@ -16,6 +16,9 @@ body {
 
 .title {
   font-family: 'Title';
+  font-size: 4rem;
+  color: white;
+  text-align: center;
 }
 
 code {
