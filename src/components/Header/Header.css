@@ -120,13 +120,14 @@
   .navbar__list {
     flex-wrap: wrap;
     justify-content: center;
+    flex-direction: column;
   }
 
   .navbar__item {
     margin: 8px;
   }
 
-  .navbar-logo {
+  /* .navbar-logo {
     margin: 8px 0;
-  }
+  } */
 }
