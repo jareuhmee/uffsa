@@ -16,20 +16,4 @@ body {
 
 .title {
   font-family: 'Title';
-  font-size: 4rem;
-  color: white;
-  text-align: center;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
-
-p {
-  width: 100%;
-}
-
-header {
-  z-index: 9999;
 }

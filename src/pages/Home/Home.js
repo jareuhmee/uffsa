@@ -5,12 +5,16 @@ import './Flag.css';
 function Home() {
     return (
       <>
-      <div id="title">
-        <h1>Filipino Student Association</h1>
+      <div id="home-title">
+        <div id="title-background"></div>
+        <h1 className="title">Filipino Student Association</h1>
         <h2>University of Florida</h2>
+        <p><br></br>Isang Pamilya. Isang Diwa. Isang Mahal.</p>
       </div>
       
       <div id="about">
+        <h1 className="title">About Us</h1>
+        <br></br>
         <p>
           The Filipino Student Association (FSA) at the University of Florida is a home away from home for anyone, not just Filipinos. <br/><br/>
 
@@ -23,10 +27,14 @@ function Home() {
           FSA is dance.<br/><br/>
           FSA is culture.<br/><br/>
           FSA is sports.<br/><br/>
-          FSA is philanthropy.<br/><br/><br/><br/>
+          FSA is philanthropy.<br/><br/>
 
           And above all else, FSA is family.
         </p>
+      </div>
+
+      <div id="home-pillars">
+        <h1 className='title'>Pillars</h1>
       </div>
 
       <div id="section-flag">

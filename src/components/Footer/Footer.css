@@ -33,9 +33,11 @@ footer::before {
   color: #fff;
   margin: 0 1rem;
   font-size: 2rem;
-  z-index: 9999;
+  z-index: 1;
+  transition: all 0.3s ease-in-out;
 }
 
 .social-icons a:hover {
   color: var(--yellow_dark);
+  transform: scale(1.05);
 }
