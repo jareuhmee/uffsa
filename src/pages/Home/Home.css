@@ -25,7 +25,7 @@
 
 #home-title h1, #home-title h2, #home-title p {
     padding-left: 20%;
-    padding-right: 10%;
+    padding-right: 20%;
 }
 
 #home-title h1 {
@@ -50,7 +50,8 @@
     height: fit-content;
     width: 100%;
     max-width: fit-content;
-    padding: 4rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
     background-color: white;
 }
 
@@ -67,10 +68,18 @@
 
 #about h1, #about p {
     position: relative;
-    width: 50%;
     margin: 0 auto;
     color: black;
     text-align: center;
+}
+
+#about p {
+    padding-left: 25%;
+    padding-right: 25%;
+}
+
+#about h1 {
+    width: 10rem;
 }
 
 #about h1::after, #home-pillars h1::after {
@@ -86,17 +95,29 @@
 
 #home-pillars {
     position: relative;
-    height: 50vh;
+    height: fit-content;
     width: 100%;
     max-width: 100%;
-    background-color: var(--yellow_dark);
+    background-color: gray;
 }
 
 #home-pillars h1 {
     padding-top: 2rem;
     position: relative;
-    width: 50%;
+    width: 11rem;
     margin: 0 auto;
     color: black;
     text-align: center;
+}
+
+#test {
+    width: 100%;
+    height: fit-content;
+}
+
+@media screen and (max-width: 768px) {
+    #home-title h1, #home-title h2, #home-title p, #about p {
+      padding-left: 5%;
+      padding-right: 5%;
+    }
 }

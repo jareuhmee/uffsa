@@ -1,6 +1,7 @@
 import React from 'react';
 import './Home.css'
 import './Flag.css';
+import Cards from '../../components/Cards/Cards';
 
 function Home() {
     return (
@@ -34,9 +35,12 @@ function Home() {
       </div>
 
       <div id="home-pillars">
-        <h1 className='title'>Pillars</h1>
+        <h1 className='title'> Our Pillars</h1>
+        <Cards />
+
       </div>
 
+      
       <div id="section-flag">
         <div class="flag-container">
           <div class="triangle"></div>

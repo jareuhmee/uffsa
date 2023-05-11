@@ -1,0 +1,163 @@
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: fit-content;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    margin: 0 auto;
+}
+
+.card {
+    position: relative;
+    width: 20rem;
+    height:30rem;
+    background-color: var(--blue_dark);
+    /* border: 2px solid var(--yellow_dark); */
+    border-radius: 5px;
+    padding: 0.5rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 5rem;
+    text-align: center;
+    box-shadow: 5px 2px 3px rgba(0, 0, 0, 0.5);
+}
+
+#dance-card {
+    background-color: rgba(235,143,154,1);
+}
+
+#culture-card {
+    background-color: var(--red);
+}
+
+
+#sports-card {
+    background-color: #0905ff;
+}
+
+
+#philanthropy-card {
+    background-color: black;
+}
+
+
+.card::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    transform: translate(-50%, -50%);
+    background-size: cover;
+    width: 10rem;
+    height: 10rem;
+    z-index: 1;
+}
+
+#dance-card::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    opacity: 0.75;
+    background-image: url("../../assets/card-backgrounds/dancecard.jpeg");
+    background-size: 100%;
+}
+
+#culture-card::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    opacity: 0.75;
+    background-image: url("../../assets/card-backgrounds/culturecard.JPG");
+    background-position: 50% 45%;
+    background-size: 130%;
+}
+
+#sports-card::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    opacity: 0.85;
+    background-image: url("../../assets/card-backgrounds/sportscard.JPG");
+    background-position: 50% 30%;
+    background-size: 130%;
+}
+
+#philanthropy-card::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-image: url("../../assets/card-backgrounds/philanthropycard.JPG");
+    background-position: 48% 100%;
+    background-size: 150%;
+}
+
+#dance-card::before {
+    background-image: url("../../assets/logos/dance.png");
+}
+
+#culture-card::before {
+    background-image: url("../../assets/logos/culture.png");
+}
+
+#sports-card::before {
+    background-image: url("../../assets/logos/sports.png");
+}
+  
+#philanthropy-card::before {
+    background-image: url("../../assets/logos/philanthropy.png");
+}
+
+.card button {
+    position: absolute;
+    bottom: 2rem;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 1rem 1rem;
+    font-size: 1.1rem;
+    cursor: pointer;
+    z-index: 1;
+    transition: all 0.3s ease-in-out;
+}
+
+#dance-card button {
+    background-color: rgba(235,143,154,255);
+    transition: all 0.3s ease-in-out;
+}
+
+#culture-card button {
+    background-color: var(--red);
+    transition: all 0.3s ease-in-out;
+}
+
+#sports-card button {
+    background-color: #0905ff;
+    transition: all 0.3s ease-in-out;
+}
+
+#philanthropy-card button {
+    background-color: black;
+    transition: all 0.3s ease-in-out;
+}
+
+.card button::after {
+    content: '';
+    display: inline-block;
+    width: 0.5em;
+    height: 0.5em;
+    margin-left: 0.5em;
+    border-top: 0.15em solid currentColor;
+    border-right: 0.15em solid currentColor;
+    transform: rotate(45deg);
+}
+
+#dance-card button:hover, #culture-card button:hover, #sports-card button:hover, #philanthropy-card button:hover {
+    background-color: white;
+    color: black;
+}
