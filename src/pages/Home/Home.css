@@ -53,13 +53,13 @@
     height: fit-content;
     width: 100%;
     max-width: 100%;
-    background-color: gray;
+    background-color:aliceblue;
 }
 
 #home-pillars h1 {
-    padding-top: 2rem;
+    padding-top: 4rem;
     position: relative;
-    width: 12rem;
+    width: 13rem;
     margin: 0 auto;
     color: black;
     text-align: center;

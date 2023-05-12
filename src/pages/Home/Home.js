@@ -23,9 +23,9 @@ function Home() {
               }}
             />
           }
+          button = "GET INVOLVED!"
+          link = "home-pillars"
         >
-          
-
         </Hero>
         
         <div id="about">

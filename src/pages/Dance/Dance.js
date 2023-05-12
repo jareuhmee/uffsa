@@ -8,6 +8,7 @@ function Dance() {
                 color = "pink"
                 title="Dance"
                 subtitle="UF'n Right!"
+                text="lol dance"
             />
         </>
     );
