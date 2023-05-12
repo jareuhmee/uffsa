@@ -1,7 +1,5 @@
-@import '../../assets/colors.css';
-
 footer {
-  background-color: var(--blue_dark);
+  background-color: var(--blue);
   padding: 3rem;
   color: white;
   text-align: center;
@@ -38,6 +36,6 @@ footer::before {
 }
 
 .social-icons a:hover {
-  color: var(--yellow_dark);
+  color: var(--yellow);
   transform: scale(1.05);
 }

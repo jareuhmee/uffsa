@@ -1,12 +1,10 @@
-@import '../../assets/colors.css';
-
 #section-flag {
     position: relative;
     width: 100vw;
     height: 20vw;
     padding-top: 5rem;
     padding-bottom: 5rem;
-    background-color: var(--yellow_dark);
+    background-color: var(--yellow);
 }
 
 .flag-container {
@@ -36,7 +34,7 @@
 }
   
 .top {
-    background-color: var(--blue_dark);
+    background-color: var(--blue);
     clip-path: polygon(0 0, 100% 0, 100% 50%, 50% 50%);
 }
 

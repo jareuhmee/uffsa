@@ -3,16 +3,19 @@
   src: url('./assets/fonts/Montserrat-VariableFont_wght.ttf');
 }
 
-@import './assets/colors.css';
-
 body {
   margin: 0;
   font-family: 'Montserrat';
   font-weight: 400;
-  background-color: var(--blue_dark);
+  background-color: var(--blue);
 }
 
-.title {
-  font-family: 'Montserrat';
+h1, h2, h3, h4, h5, h6 {
   font-weight: 600;
+}
+
+:root {
+  --blue: rgba(43, 123, 176, 1);
+  --yellow: rgba(245, 197, 42, 1);
+  --red: rgba(226, 62, 82, 1);
 }

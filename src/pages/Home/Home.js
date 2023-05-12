@@ -1,17 +1,24 @@
 import React from 'react';
 import './Home.css'
 import './Flag.css';
+
+import Hero from '../../components/Hero/Hero';
 import Cards from '../../components/Cards/Cards';
+
+import backgroundImage from './background.png';
 
 function Home() {
     return (
       <>
-      <div id="home-title">
-        <div id="title-background"></div>
-        <h1 className="title">Filipino Student Association</h1>
-        <h2>University of Florida</h2>
-        <p><br></br>Isang Pamilya. Isang Diwa. Isang Mahal.</p>
-      </div>
+      <Hero 
+        color = "var(--red)"
+        background = {backgroundImage}
+        title = "Filipino Student Association"
+        subtitle = "at the University of Florida"
+        text = "A home away from home for anyone, not just Filipinos."
+      >
+        <p>Isang Pamilya. Isang Diwa. Isang Mahal.</p>
+      </Hero>
       
       <div id="about">
         <h1 className="title">About Us</h1>
@@ -42,10 +49,10 @@ function Home() {
 
       
       <div id="section-flag">
-        <div class="flag-container">
-          <div class="triangle"></div>
-          <div class="trapezoid top"></div>
-          <div class="trapezoid bottom"></div>
+        <div className="flag-container">
+          <div className="triangle"></div>
+          <div className="trapezoid top"></div>
+          <div className="trapezoid bottom"></div>
         </div>
       </div>
 

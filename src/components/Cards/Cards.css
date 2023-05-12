@@ -3,8 +3,8 @@
     flex-wrap: wrap;
     justify-content: center;
     height: fit-content;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 4rem;
     margin: 0 auto;
 }
 
@@ -12,15 +12,15 @@
     position: relative;
     width: 20rem;
     height:30rem;
-    background-color: var(--blue_dark);
-    /* border: 2px solid var(--yellow_dark); */
+    background-color: var(--blue);
+    /* border: 2px solid var(--yellow); */
     /* border-radius: 5px; */
     /* padding: 0.5rem; */
     margin-left: 1rem;
     margin-right: 1rem;
-    margin-top: 5rem;
+    margin-top: 6rem;
     text-align: center;
-    box-shadow: 5px 2px 3px rgba(0, 0, 0, 0.5);
+    box-shadow: 4px 5px 25px rgba(0, 0, 0, 0.5);
     transition: all 0.3s ease-in-out;
 }
 
@@ -34,7 +34,7 @@
 
 
 #sports-card {
-    background-color: var(--blue_dark);
+    background-color: var(--blue);
 }
 
 
@@ -114,15 +114,15 @@
 
 .card button {
     position: absolute;
-    bottom: -1.8rem;
+    bottom: -2rem;
     transform: translate(-50%, -50%);
     width: 100%;
     color: white;
     border: none;
-    /* border: 2px solid var(--yellow_dark); */
+    /* border: 2px solid var(--yellow); */
     /* border-radius: 5px; */
     padding: 1rem 1rem;
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     font-weight: 900;
     letter-spacing: 0.1em;
     cursor: pointer;
@@ -131,7 +131,7 @@
 }
 
 #dance-card button {
-    background-color: rgba(235,143,154,255);
+    background-color: rgba(235,143,154,1);
     transition: all 0.3s ease-in-out;
 }
 
@@ -141,7 +141,7 @@
 }
 
 #sports-card button {
-    background-color: var(--blue_dark);
+    background-color: var(--blue);
     transition: all 0.3s ease-in-out;
 }
 
@@ -168,5 +168,5 @@
 
 .card:hover {
     transform: scale(1.05);
-    box-shadow: 0px 0px 30px var(--yellow_dark);
+    box-shadow: 0px 0px 30px var(--yellow);
 }

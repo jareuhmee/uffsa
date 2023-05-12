@@ -1,0 +1,66 @@
+.hero {
+    position: relative;
+    height: 60vh;
+    width: 100%;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    color: white;
+    text-align: center;
+}
+
+.hero-background {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.05;
+    background-position: center center;
+}
+
+.hero-title, .hero-subtitle, .hero-text {
+    top: 10%;
+}
+
+.hero-title {
+    position: relative;
+    font-size: 3rem;
+    font-weight: 800;
+    color: var(--yellow);
+    text-shadow: 2px 1px 5px black;
+}
+
+.hero-subtitle {
+    position: relative;
+    font-size: 2rem;
+    font-style: italic;
+    font-weight: 600;
+    color: var(--blue);
+    text-shadow: 1px 0.5px 3px black;
+}
+
+.hero-text {
+    position: relative;
+    font-size: 1.25rem;
+    font-weight: 400;
+}
+
+@media screen and (max-width: 768px) {
+    .hero-title, .hero-subtitle, .hero-text {
+      padding-left: 5%;
+      padding-right: 5%;
+    }
+
+    .hero-title {
+        font-size: 2.5rem;
+    }
+    
+    .hero-subtitle {
+        font-size: 1.5rem;
+    }
+    
+    .hero-text {
+        font-size: 0.75rem;
+    }
+}
