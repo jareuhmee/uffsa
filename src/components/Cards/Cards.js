@@ -6,29 +6,29 @@ const Cards = () => {
   return (
     <div className="card-container">
         
-      <div className="card" id="dance-card">
-        <Link to="/dance">
-            <button className='title'>DANCE</button>
-        </Link>
-      </div>
+      <Link to="/dance">
+        <div className="card" id="dance-card">
+          <button className='title'>DANCE</button>
+        </div>
+      </Link>
 
-      <div className="card" id="culture-card">
-        <Link to="/culture">
-            <button className='title'>CULTURE</button>
-        </Link>
-      </div>
+      <Link to="/culture">
+        <div className="card" id="culture-card">
+          <button className='title'>CULTURE</button>
+        </div>
+      </Link>
 
-      <div className="card" id="sports-card">
-        <Link to="/sports">
-            <button className='title'>SPORTS</button>
-        </Link>
-      </div>
+      <Link to="/sports">
+        <div className="card" id="sports-card">
+          <button className='title'>SPORTS</button>
+        </div>
+      </Link>
 
-      <div className="card" id="philanthropy-card">
-        <Link to="/philanthropy">
+      <Link to="/philanthropy">
+        <div className="card" id="philanthropy-card">
             <button className='title'>PHILANTHROPY</button>
-        </Link>
-      </div>
+        </div>
+      </Link>
 
     </div>
   );

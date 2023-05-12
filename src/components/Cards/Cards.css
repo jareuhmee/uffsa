@@ -14,13 +14,14 @@
     height:30rem;
     background-color: var(--blue_dark);
     /* border: 2px solid var(--yellow_dark); */
-    border-radius: 5px;
-    padding: 0.5rem;
+    /* border-radius: 5px; */
+    /* padding: 0.5rem; */
     margin-left: 1rem;
     margin-right: 1rem;
     margin-top: 5rem;
     text-align: center;
     box-shadow: 5px 2px 3px rgba(0, 0, 0, 0.5);
+    transition: all 0.3s ease-in-out;
 }
 
 #dance-card {
@@ -33,7 +34,7 @@
 
 
 #sports-card {
-    background-color: #0905ff;
+    background-color: var(--blue_dark);
 }
 
 
@@ -79,7 +80,7 @@
     display: block;
     width: 100%;
     height: 100%;
-    opacity: 0.85;
+    opacity: 0.75;
     background-image: url("../../assets/card-backgrounds/sportscard.JPG");
     background-position: 50% 30%;
     background-size: 130%;
@@ -113,14 +114,17 @@
 
 .card button {
     position: absolute;
-    bottom: 2rem;
+    bottom: -1.8rem;
     transform: translate(-50%, -50%);
-    width: 80%;
+    width: 100%;
     color: white;
     border: none;
-    border-radius: 5px;
+    /* border: 2px solid var(--yellow_dark); */
+    /* border-radius: 5px; */
     padding: 1rem 1rem;
     font-size: 1.1rem;
+    font-weight: 900;
+    letter-spacing: 0.1em;
     cursor: pointer;
     z-index: 1;
     transition: all 0.3s ease-in-out;
@@ -137,7 +141,7 @@
 }
 
 #sports-card button {
-    background-color: #0905ff;
+    background-color: var(--blue_dark);
     transition: all 0.3s ease-in-out;
 }
 
@@ -157,7 +161,12 @@
     transform: rotate(45deg);
 }
 
-#dance-card button:hover, #culture-card button:hover, #sports-card button:hover, #philanthropy-card button:hover {
+/* #dance-card button:hover, #culture-card button:hover, #sports-card button:hover, #philanthropy-card button:hover {
     background-color: white;
     color: black;
+} */
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 0px 30px var(--yellow_dark);
 }

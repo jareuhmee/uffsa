@@ -1,19 +1,18 @@
 @font-face {
   font-family: 'Montserrat';
-  src: url('./assets/fonts/static/Montserrat-Regular.ttf');
+  src: url('./assets/fonts/Montserrat-VariableFont_wght.ttf');
 }
-@font-face {
-  font-family: 'Title';
-  src: url('./assets/fonts/static/Montserrat-Medium.ttf');
-}
+
 @import './assets/colors.css';
 
 body {
   margin: 0;
   font-family: 'Montserrat';
+  font-weight: 400;
   background-color: var(--blue_dark);
 }
 
 .title {
-  font-family: 'Title';
+  font-family: 'Montserrat';
+  font-weight: 600;
 }
