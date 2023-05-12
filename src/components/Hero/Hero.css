@@ -1,6 +1,7 @@
 .hero {
     position: relative;
-    height: 60vh;
+    height: 70vh;
+    min-height: fit-content;
     width: 100%;
     padding-top: 2rem;
     padding-bottom: 2rem;
@@ -15,12 +16,14 @@
     top: 0;
     width: 100%;
     height: 100%;
-    opacity: 0.05;
+    opacity: 0.1;
     background-position: center center;
 }
 
 .hero-title, .hero-subtitle, .hero-text {
     top: 10%;
+    padding-left: 1rem;
+    padding-right: 1rem;
 }
 
 .hero-title {
@@ -44,23 +47,4 @@
     position: relative;
     font-size: 1.25rem;
     font-weight: 400;
-}
-
-@media screen and (max-width: 768px) {
-    .hero-title, .hero-subtitle, .hero-text {
-      padding-left: 5%;
-      padding-right: 5%;
-    }
-
-    .hero-title {
-        font-size: 2.5rem;
-    }
-    
-    .hero-subtitle {
-        font-size: 1.5rem;
-    }
-    
-    .hero-text {
-        font-size: 0.75rem;
-    }
 }

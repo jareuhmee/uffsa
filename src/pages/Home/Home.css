@@ -32,7 +32,7 @@
 }
 
 #about h1 {
-    width: 10rem;
+    width: 11rem;
 }
 
 #about h1::after, #home-pillars h1::after {
@@ -59,7 +59,7 @@
 #home-pillars h1 {
     padding-top: 2rem;
     position: relative;
-    width: 11rem;
+    width: 12rem;
     margin: 0 auto;
     color: black;
     text-align: center;
