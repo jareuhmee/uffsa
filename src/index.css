@@ -3,11 +3,20 @@
   src: url('./assets/fonts/Montserrat-VariableFont_wght.ttf');
 }
 
+@font-face {
+  font-family: 'Sigmar';
+  src: url('./assets/fonts/Margarine-Regular.ttf');
+}
+
 body {
   margin: 0;
   font-family: 'Montserrat';
   font-weight: 400;
   background-color: var(--blue);
+}
+
+.main-title {
+  font-family: 'Sigmar';
 }
 
 h1, h2, h3, h4, h5, h6 {

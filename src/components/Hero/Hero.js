@@ -5,30 +5,33 @@ import './Hero.css';
 
 const Hero = () => {  
   return (<>
-    <section className="hero" style={{ backgroundColor: 'var(--red)' }}>
-      <div className="hero-background"></div>
-      <div className="hero-text">
-        <h1 className="hero-title">UFFSA</h1>
-        <h1 className="hero-subtitle">Filipino Student Association at the University of Florida</h1>
-        <br></br><br></br>
-        <div className="hero-description">
-          A home away from home for anyone, not just Filipinos.
-          <Typewriter
-            options={{
-              strings: ['Isang Pamilya.', 'Isang Diwa.', 'Isang Mahal.'],
-              autoStart: true,
-              loop: true,
-            }}
-          />
-        </div>
-        <ScrollLink to="home-pillars" offset={-50} smooth={true} duration={500}>
-          <button className="hero-button">
-            Get Involved
-          </button>
-        </ScrollLink>
-      </div>
+    <section className="hero-section">
 
-      
+      <div className="hero-background"></div>
+
+      <div className="hero">
+        <div className="hero-textbox">
+
+          <h1 className="hero-subtitle main-title">University of Florida</h1>
+          <h1 className="hero-title main-title">Filipino Student Association</h1>
+          
+          <div className="hero-description">
+            <Typewriter className="hero-typewriter"
+              options={{
+                strings: ['Isang Pamilya.', 'Isang Diwa.', 'Isang Mahal.'],
+                autoStart: true,
+                loop: true,
+              }}
+            />
+          </div>
+
+          <ScrollLink to="home-pillars" offset={-50} smooth={true} duration={500}>
+            <button className="hero-button">
+              Get Involved
+            </button>
+          </ScrollLink>
+        </div>
+      </div>
 
     </section>
     </>

@@ -1,6 +1,6 @@
 /* Wavy background for footer */
 .wave-background {
-    background-color: white;
+    background-color: var(--red);
     position: relative;
     margin-top: -8%;
     overflow: hidden;

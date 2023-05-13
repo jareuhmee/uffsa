@@ -3,7 +3,7 @@
     width: 100%;
     padding-top: 2rem;
     padding-bottom: 4rem;
-    background-color: white;
+    background-color: var(--red);
     margin: 0 auto;
 }
 
