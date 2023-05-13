@@ -14,7 +14,7 @@ function Navbar(props) {
         <ul className="navbar__list">
           <li className="navbar__item">
             <Link to="/" className="navbar__link navbar__brand">
-              ABOUT
+              HOME
             </Link>
           </li>
 
@@ -66,6 +66,11 @@ function Navbar(props) {
                   FSA+
                 </NavLink>
               </li>
+              <li className="navbar__subitem">
+                <NavLink to="/committees" activeclassname="navbar__link--active" className="navbar__link">
+                  COMMITTEES
+                </NavLink>
+              </li>
 
             </ul>
           </li>
@@ -76,7 +81,7 @@ function Navbar(props) {
         <ul className="navbar__list">
           <li className="navbar__item navbar__dropdown">
             <NavLink to="/contact" activeclassname="navbar__link--active" className="navbar__link navbar__dropdown-toggle">
-              EVENTS
+              BOARD
             </NavLink>
           </li>
 
@@ -112,7 +117,7 @@ function Navbar(props) {
         </ul>
       );
 
-      let logoWidth = toggleLogo ? 6 : 4;
+      let logoWidth = toggleLogo ? 6 : 3;
 
       let navbar;
 
@@ -151,9 +156,7 @@ function Navbar(props) {
       }
 
     return (
-        <>
-            {navbar}
-        </>
+      <>{navbar}</>
     );
 }
 

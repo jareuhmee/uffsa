@@ -12,7 +12,7 @@
   height: 100%;
   width: 100%;
   background-color: var(--blue);
-  transition: opacity 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 
 #background::after {
@@ -68,7 +68,7 @@
 }
 
 #logo {
-  transition: width 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 
 .navbar-logo:hover {

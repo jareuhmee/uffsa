@@ -1,19 +1,17 @@
 .hero-section {
-    
     position: relative;
     min-height: fit-content;
     width: 100%;
     color: white;
     text-align: left;
     background-color: var(--blue);
-
     z-index: 0;
 }
 
 .hero-background {
     content: "";
     display: block;
-    position: absolute;
+    position: fixed;
     top: 0;
     width: 100%;
     height: 100%;
