@@ -25,7 +25,7 @@ const Hero = () => {
             />
           </div>
 
-          <ScrollLink to="home-pillars" offset={-50} smooth={true} duration={500}>
+          <ScrollLink to="events-section" offset={-50} smooth={true} duration={500}>
             <button className="hero-button">
               Get Involved
             </button>
