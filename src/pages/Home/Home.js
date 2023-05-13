@@ -13,7 +13,7 @@ function Home() {
         <WaveDivider></WaveDivider>
         
 
-        <section className="about-section">
+        <section className="about-section" id="about">
           <div className="about-container">
             <h1 className="about-title">About Us</h1>
             <p className="about-text">

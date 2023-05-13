@@ -12,10 +12,27 @@ function Navbar(props) {
 
     let list1 = (
         <ul className="navbar__list">
-          <li className="navbar__item">
-            <Link to="/" className="navbar__link navbar__brand">
+          <li className="navbar__item navbar__dropdown pillars-dropdown">
+            <NavLink to="/" activeclassname="navbar__link--active" className="navbar__link navbar__dropdown-toggle">
               HOME
-            </Link>
+            </NavLink>
+            <ul className={`navbar__sublist ${isSmallDevice ? 'navbar__accordion' : ''}`}>
+              <li className="navbar__subitem">
+                <Link to="/#about" activeclassname="navbar__link--active" className="navbar__link">
+                  ABOUT
+                </Link>
+              </li>
+              <li className="navbar__subitem">
+                <NavLink to="/#pillars-section" activeclassname="navbar__link--active" className="navbar__link">
+                  INVOLVEMENT
+                </NavLink>
+              </li>
+              <li className="navbar__subitem">
+                <NavLink to="/#calendar" activeclassname="navbar__link--active" className="navbar__link">
+                  CALENDAR
+                </NavLink>
+              </li>
+            </ul>
           </li>
 
           <li className="navbar__item navbar__dropdown pillars-dropdown">
@@ -79,12 +96,23 @@ function Navbar(props) {
     
       let list2 = (
         <ul className="navbar__list">
-          <li className="navbar__item navbar__dropdown">
-            <NavLink to="/contact" activeclassname="navbar__link--active" className="navbar__link navbar__dropdown-toggle">
+          <li className="navbar__item navbar__dropdown pillars-dropdown">
+            <NavLink activeclassname="navbar__link--active" className="navbar__link navbar__dropdown-toggle">
               BOARD
             </NavLink>
+            <ul className={`navbar__sublist ${isSmallDevice ? 'navbar__accordion' : ''}`}>
+              <li className="navbar__subitem">
+                <NavLink to="/barkada" activeclassname="navbar__link--active" className="navbar__link">
+                  EXECUTIVE BOARD
+                </NavLink>
+              </li>
+              <li className="navbar__subitem">
+                <NavLink to="/project-lunchbox" activeclassname="navbar__link--active" className="navbar__link">
+                  CHAIR BOARD
+                </NavLink>
+              </li>
+            </ul>
           </li>
-
           <li className="navbar__item navbar__dropdown pillars-dropdown">
             <NavLink activeclassname="navbar__link--active" className="navbar__link navbar__dropdown-toggle">
               MEDIA
@@ -98,6 +126,11 @@ function Navbar(props) {
               <li className="navbar__subitem">
                 <NavLink to="/project-lunchbox" activeclassname="navbar__link--active" className="navbar__link">
                   PROJECT LUNCHBOX
+                </NavLink>
+              </li>
+              <li className="navbar__subitem">
+                <NavLink to="/gallery" activeclassname="navbar__link--active" className="navbar__link">
+                  GALLERY
                 </NavLink>
               </li>
               <li className="navbar__subitem">
