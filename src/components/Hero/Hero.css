@@ -61,10 +61,10 @@
 .hero-button {
     position: relative;
     margin-top: 3rem;
-    padding: 0.75rem 0.75rem;
+    padding: 0.75rem 2rem;
     color: white;
     background-color: transparent;
-    border: 1.5px solid white;
+    border: 2px solid white;
     border-radius: 5px;
     font-size: 1rem;
     font-weight: 500;
