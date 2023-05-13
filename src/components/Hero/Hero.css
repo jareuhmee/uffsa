@@ -41,12 +41,10 @@
     padding-bottom: 15rem;
     text-align: left;
     color: white;
-
-    /* outline: 2px solid var(--yellow); */
 }
 
 .hero-subtitle {
-    font-size: 58px;
+    font-size: 56px;
     letter-spacing: 5px;
     margin-bottom: 0;
 }
@@ -86,8 +84,8 @@
     z-index: 2;
 }
 
-/* @media screen and (max-width: 768px) {
-    .hero-section {
-        padding-bottom: 15rem;
+@media screen and (max-width: 768px) {
+    .hero {
+        padding: 0;
     }
-} */
+}
