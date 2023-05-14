@@ -1,6 +1,7 @@
 .about-section {
     position: relative;
     width: 100%;
+    height: fit-content;
     padding-top: 2rem;
     padding-bottom: 4rem;
     background-color: var(--red);
