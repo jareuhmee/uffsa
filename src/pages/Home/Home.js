@@ -1,5 +1,6 @@
 import React from 'react';
 import Hero from '../../components/Hero/Hero';
+import FourPillars from './sections/FourPillars';
 import Cards from '../../components/Cards/Cards';
 import './Home.css'
 import './Flag.css';
@@ -15,7 +16,7 @@ function Home() {
 
         <section className="about-section" id="about">
           <div className="about-container">
-            <h1 className="about-title">About Us</h1>
+            <h1 className="about-title">About UFFSA</h1>
             <p className="about-text">
               The Filipino Student Association (FSA) at the University of Florida is a home away from home for anyone, not just Filipinos. 
 
@@ -35,15 +36,15 @@ function Home() {
           </div>
         </section>
 
+        {/* <FourPillars></FourPillars> */}
 
 
-        <div id="home-pillars">
-          <h1 className="title">Our Pillars</h1>
-          <Cards />
-        </div>
+
+        <Cards />
 
         <section className="events-section">
           <div className="events-container">
+            
             <h1 className="title">Events</h1>
             <iframe
               src="https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%23F5C52A&ctz=America%2FNew_York&title=UFFSA%20Calendars&showTitle=0&showTz=0&showPrint=0&showTabs=0&src=YWFzdS51ZkBnbWFpbC5jb20&src=dWZmc2EuZGFuY2VAZ21haWwuY29t&color=%23D50000&color=%234285F4"

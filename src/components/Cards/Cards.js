@@ -4,33 +4,38 @@ import './Cards.css';
 
 const Cards = () => {
   return (
-    <div className="card-container">
-        
-      <Link to="/dance">
-        <div className="card" id="dance-card">
-          <button className='title'>DANCE</button>
-        </div>
-      </Link>
+    <section className="pillars-section">
+      <h1 className="pillars-title">Our Pillars</h1>
 
-      <Link to="/culture">
-        <div className="card" id="culture-card">
-          <button className='title'>CULTURE</button>
-        </div>
-      </Link>
+      <div className="card-container">
+          
+        <Link to="/dance">
+          <div className="card" id="dance-card">
+            <h1 className='card-title'>DANCE</h1>
+          </div>
+        </Link>
 
-      <Link to="/sports">
-        <div className="card" id="sports-card">
-          <button className='title'>SPORTS</button>
-        </div>
-      </Link>
+        <Link to="/culture">
+          <div className="card" id="culture-card">
+            <h1 className='card-title'>CULTURE</h1>
+          </div>
+        </Link>
 
-      <Link to="/philanthropy">
-        <div className="card" id="philanthropy-card">
-            <button className='title'>PHILANTHROPY</button>
-        </div>
-      </Link>
+        <Link to="/sports">
+          <div className="card" id="sports-card">
+            <h1 className='card-title'>SPORTS</h1>
+          </div>
+        </Link>
 
-    </div>
+        <Link to="/philanthropy">
+          <div className="card" id="philanthropy-card">
+              <h1 className='card-title'>PHILANTHROPY</h1>
+          </div>
+        </Link>
+
+      </div>
+    </section>
+    
   );
 }
 
