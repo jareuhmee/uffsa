@@ -12,8 +12,8 @@ const Hero = () => {
       <div className="hero">
         <div className="hero-textbox">
 
-          <h1 className="hero-subtitle main-title">University of Florida</h1>
-          <h1 className="hero-title main-title">Filipino Student Association</h1>
+          <h1 className="hero-subtitle title">University of Florida</h1>
+          <h1 className="hero-title title">Filipino Student Association</h1>
           
           <div className="hero-description">
             <Typewriter className="hero-typewriter"

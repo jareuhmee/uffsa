@@ -2,14 +2,18 @@
 .pillars-section {
     position: relative;
     background-color: #f8f8f8;
+    background-color: var(--red);
+    /* background-image: linear-gradient(var(--red) 90%, var(--yellow) 100%); */
     margin: 0;
-    padding: 4rem 0;
+    padding: 2rem 0;
+    box-sizing: border-box;
 }
 
 .pillars-section-title {
     color: black;
     text-align: center;
 }
+
 
 
 /* Pillars Container */
@@ -41,7 +45,7 @@
     border-radius: 25px;
 
     box-shadow: 5px 5px 10px black;
-    transition: all 0.5s;
+    transition: all 0.5s ease-in-out;
     color: white;
 }
 

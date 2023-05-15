@@ -1,0 +1,65 @@
+/* About Section */
+.about-section {
+    position: relative;
+    width: 100%;
+    padding-top: 8rem;
+    padding-bottom: 1rem;
+    background-color: var(--red);
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-section::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(../../../assets/textures/grain.png);
+    opacity: 0.1;
+}
+
+
+/* About Text */
+.about-container {
+    position: relative;
+    top: 0;
+    width: 70ch;
+    max-width: 80%;
+    margin: 0 2rem;
+    text-align: left;
+    color: black;
+}
+
+.about-title {
+    /* margin: 0 auto; */
+    position: relative;
+    width: fit-content;
+    font-size: 2rem;
+    font-weight: 800;
+    margin-bottom: 2rem;
+}
+
+.about-title:after {
+    content: "";
+    position: absolute;
+    bottom: -25%;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background-color: var(--yellow);
+    box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.5);
+}
+
+
+/* About Video */
+.about-vid {
+    position: relative;
+    width: 500px;
+    max-width: 95vw;
+    margin: 2rem 2rem;
+}
