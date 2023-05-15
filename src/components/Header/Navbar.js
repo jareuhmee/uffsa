@@ -83,12 +83,6 @@ function Navbar(props) {
                   FSA+
                 </NavLink>
               </li>
-              <li className="navbar__subitem">
-                <NavLink to="/committees" activeclassname="navbar__link--active" className="navbar__link">
-                  COMMITTEES
-                </NavLink>
-              </li>
-
             </ul>
           </li>
         </ul>
@@ -98,17 +92,22 @@ function Navbar(props) {
         <ul className="navbar__list">
           <li className="navbar__item navbar__dropdown pillars-dropdown">
             <NavLink activeclassname="navbar__link--active" className="navbar__link navbar__dropdown-toggle">
-              BOARD
+              LEADERSHIP
             </NavLink>
             <ul className={`navbar__sublist ${isSmallDevice ? 'navbar__accordion' : ''}`}>
               <li className="navbar__subitem">
-                <NavLink to="/barkada" activeclassname="navbar__link--active" className="navbar__link">
+                <NavLink to="/eboard" activeclassname="navbar__link--active" className="navbar__link">
                   EXECUTIVE BOARD
                 </NavLink>
               </li>
               <li className="navbar__subitem">
-                <NavLink to="/project-lunchbox" activeclassname="navbar__link--active" className="navbar__link">
+                <NavLink to="/cboard" activeclassname="navbar__link--active" className="navbar__link">
                   CHAIR BOARD
+                </NavLink>
+              </li>
+              <li className="navbar__subitem">
+                <NavLink to="/committees" activeclassname="navbar__link--active" className="navbar__link">
+                  EVENT COMMITTEES
                 </NavLink>
               </li>
             </ul>
@@ -141,10 +140,27 @@ function Navbar(props) {
             </ul>
           </li>
 
-          <li className="navbar__item navbar__dropdown">
-            <NavLink to="/merch" activeclassname="navbar__link--active" className="navbar__link navbar__dropdown-toggle">
-              MERCHANDISE
+          <li className="navbar__item navbar__dropdown pillars-dropdown">
+            <NavLink activeclassname="navbar__link--active" className="navbar__link navbar__dropdown-toggle">
+              SHOP
             </NavLink>
+            <ul className={`navbar__sublist ${isSmallDevice ? 'navbar__accordion' : ''}`}>
+              <li className="navbar__subitem">
+                <NavLink to="/fundraising" activeclassname="navbar__link--active" className="navbar__link">
+                  FUNDRAISING
+                </NavLink>
+              </li>
+              <li className="navbar__subitem">
+                <NavLink to="/apparel" activeclassname="navbar__link--active" className="navbar__link">
+                  APPAREL
+                </NavLink>
+              </li>
+              <li className="navbar__subitem">
+                <NavLink to="/threads-of-hope" activeclassname="navbar__link--active" className="navbar__link">
+                  THREADS OF HOPE
+                </NavLink>
+              </li>
+            </ul>
           </li>
           
         </ul>
