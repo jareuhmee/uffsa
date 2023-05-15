@@ -2,7 +2,8 @@
 .wave-background {
     background-color: var(--red);
     position: relative;
-    margin-top: -8%;
+    margin-top: -10rem;
+    margin-bottom: -2rem;
     overflow: hidden;
     height: 100px;
     clip-path: polygon(
@@ -121,11 +122,4 @@
     height: 100%;
     background-image: url(../../assets/textures/grain.png);
     opacity: 0.1;
-}
-
-
-@media screen and (max-width: 768px) {
-    .wave-background {
-        margin-top: -35%;
-    }
 }
