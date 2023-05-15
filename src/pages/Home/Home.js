@@ -1,7 +1,6 @@
 import React from 'react';
 import Hero from '../../components/Hero/Hero';
 import FourPillars from './sections/FourPillars';
-import Cards from '../../components/Cards/Cards';
 import './Home.css'
 import './Flag.css';
 
@@ -36,11 +35,9 @@ function Home() {
           </div>
         </section>
 
-        {/* <FourPillars></FourPillars> */}
 
+        <FourPillars />
 
-
-        <Cards />
 
         <section className="events-section">
           <div className="events-container">
