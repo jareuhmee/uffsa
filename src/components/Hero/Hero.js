@@ -1,6 +1,6 @@
 import React from 'react';
 import Typewriter from "typewriter-effect";
-import { Link as ScrollLink } from "react-scroll";
+import { HashLink } from 'react-router-hash-link';
 import './Hero.css';
 
 const Hero = () => {  
@@ -25,11 +25,11 @@ const Hero = () => {
             />
           </div>
 
-          <ScrollLink to="events-section" offset={-50} smooth={true} duration={500}>
+          <HashLink smooth to="/#involvement" >
             <button className="hero-button">
               Get Involved
             </button>
-          </ScrollLink>
+          </HashLink>
         </div>
       </div>
 

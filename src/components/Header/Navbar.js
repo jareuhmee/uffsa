@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
-import { Link, NavLink } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
+import { HashLink } from 'react-router-hash-link';
 import logo from './logo.png';
 
 function Navbar(props) {
@@ -13,19 +14,19 @@ function Navbar(props) {
     let list1 = (
         <ul className="navbar__list">
           <li className="navbar__item navbar__dropdown pillars-dropdown">
-            <NavLink to="/" activeclassname="navbar__link--active" className="navbar__link navbar__dropdown-toggle">
+            <HashLink smooth to="/#" activeclassname="navbar__link--active" className="navbar__link navbar__dropdown-toggle">
               HOME
-            </NavLink>
+            </HashLink>
             <ul className={`navbar__sublist ${isSmallDevice ? 'navbar__accordion' : ''}`}>
               <li className="navbar__subitem">
-                <Link to="/#about" activeclassname="navbar__link--active" className="navbar__link">
+                <HashLink smooth to="/#about" activeclassname="navbar__link--active" className="navbar__link">
                   ABOUT
-                </Link>
+                </HashLink>
               </li>
               <li className="navbar__subitem">
-                <NavLink to="/#pillars-section" activeclassname="navbar__link--active" className="navbar__link">
+                <HashLink smooth to="/#involvement" activeclassname="navbar__link--active" className="navbar__link">
                   INVOLVEMENT
-                </NavLink>
+                </HashLink>
               </li>
               <li className="navbar__subitem">
                 <NavLink to="/#calendar" activeclassname="navbar__link--active" className="navbar__link">
@@ -36,9 +37,9 @@ function Navbar(props) {
           </li>
 
           <li className="navbar__item navbar__dropdown pillars-dropdown">
-            <NavLink activeclassname="navbar__link--active" className="navbar__link navbar__dropdown-toggle">
+            <HashLink smooth to="/#pillars" activeclassname="navbar__link--active" className="navbar__link navbar__dropdown-toggle">
               PILLARS
-            </NavLink>
+            </HashLink>
             <ul className={`navbar__sublist ${isSmallDevice ? 'navbar__accordion' : ''}`}>
               <li className="navbar__subitem">
                 <NavLink to="/dance" activeclassname="navbar__link--active" className="navbar__link">
@@ -174,9 +175,9 @@ function Navbar(props) {
         navbar = (
             <nav className="navbar">
                 <div className="navbar-logo">
-                    <Link to="/">
+                    <HashLink smooth to="/#">
                         <img src={logo} id="logo" alt="Logo" style={{ width: '3rem' }} />
-                    </Link>
+                    </HashLink>
                 </div>
 
                 <div className="navbar__menu-toggle" onClick={handleMenuToggle}>
@@ -195,9 +196,9 @@ function Navbar(props) {
             <nav className="navbar">
                 {list1}
                 <div className="navbar-logo">
-                    <Link to="/">
+                  <HashLink smooth to="/#">
                         <img src={logo} id="logo" alt="Logo" style={{ width: `${logoWidth}rem` }} />
-                    </Link>
+                    </HashLink>
                 </div>
                 {list2}
             </nav>

@@ -17,7 +17,7 @@ function Home() {
         <FourPillars />
 
 
-        <section className="events-section">
+        <section className="events-section" id="involvement">
           <div className="events-container">
             
             <h1 className="title">Events</h1>
