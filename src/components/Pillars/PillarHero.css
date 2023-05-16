@@ -1,0 +1,31 @@
+.pillar-hero-section {
+    position: relative;
+    width: 100%;
+    min-height: fit-content;
+    color: black;
+    text-align: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pillar-hero-section::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(../../assets/textures/grain.png);
+    opacity: 0.1;
+}
+
+.pillar-hero-logo {
+    width: 10rem;
+}
+
+.pillar-hero-title {
+    font-size: 6rem;
+    margin-left: 2rem;
+}
