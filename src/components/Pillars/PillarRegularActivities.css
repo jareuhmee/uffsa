@@ -2,13 +2,14 @@
 .pillar-regular-activities-section {
     position: relative;
     width: 100%;
-    padding: 2rem 1rem;
+    padding: 2rem 0rem;
     background-color: gray;
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    box-sizing: border-box;
 }
 
 
