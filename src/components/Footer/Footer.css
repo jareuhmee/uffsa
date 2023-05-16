@@ -26,10 +26,11 @@ footer::before {
 
 .social-icons, .social-icons a {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   color: #fff;
-  margin: 0 1rem;
+  margin: 1rem 0.75rem;
   font-size: 2rem;
   z-index: 1;
   transition: all 0.3s ease-in-out;

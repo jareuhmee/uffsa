@@ -129,7 +129,11 @@
     flex-direction: column;
     width: 100%;
     align-items: center;
-    display: none;
+    display: flex;
+    max-height: 0;
+    overflow: hidden;
+    opacity: 0;
+    transition: all 0.3s ease-in-out;
   }
 
   .navbar__list li {
@@ -137,7 +141,8 @@
   }
 
   .navbar__list.active {
-    display: flex;
+    opacity: 1;
+    max-height: 15rem;
   }
 
 
@@ -155,8 +160,6 @@
     justify-content: center;
 
     background-color: var(--yellow);
-
-    animation: menu-icon 1s ease-in-out infinite alternate;
   }
   
   .navbar__menu-icon:before,
