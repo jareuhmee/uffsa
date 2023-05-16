@@ -1,16 +1,18 @@
 .pillar-hero-section {
     position: relative;
-    width: 100%;
+    width: 100;
     min-height: fit-content;
-    color: black;
+    color: white;
     text-align: center;
 
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    padding: 1rem 1rem;
 }
 
-.pillar-hero-section::after {
+.pillar-hero-section::before {
     content: "";
     position: absolute;
     top: 0;
@@ -18,14 +20,17 @@
     width: 100%;
     height: 100%;
     background-image: url(../../assets/textures/grain.png);
-    opacity: 0.1;
+    opacity: 0.0;
+    z-index: 0;
 }
 
 .pillar-hero-logo {
-    width: 10rem;
+    position: relative;
+    width: 6.5rem;
+    padding: 0 1rem;
 }
 
 .pillar-hero-title {
-    font-size: 6rem;
-    margin-left: 2rem;
+    position: relative;
+    font-size: 2.5rem;
 }

@@ -31,8 +31,8 @@ const About = () => {
           <iframe className='vid'
             width={1280}
             height={720}
-            src="https://www.youtube.com/embed/yro1VBUmkac"
-            title="FSA 2021-2022 Recap"
+            src="https://www.youtube.com/embed/eFda4wkMEgw"
+            title="FSA Promo 2020"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             allowFullScreen={true}
           />

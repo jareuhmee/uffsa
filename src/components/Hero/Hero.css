@@ -3,7 +3,7 @@
     min-height: fit-content;
     width: 100%;
     color: white;
-    text-align: left;
+    text-align: center;
     background-color: var(--blue);
     z-index: 0;
 }
@@ -23,9 +23,9 @@
 }
 
 
-.hero {
+/* .hero {
     padding-left: 10%;
-}
+} */
 
 /* Text box */
 .hero-textbox {
@@ -37,18 +37,18 @@
     padding-right: 2rem;
     padding-top: 4rem;
     padding-bottom: 15rem;
-    text-align: left;
     color: white;
+    margin: 0 auto;
 }
 
 .hero-subtitle {
-    font-size: 56px;
-    letter-spacing: 5px;
-    margin-bottom: 0;
+    font-size: 50px;
+    margin-bottom: 1rem;
 }
 
 .hero-title {
-    font-size: 52px;
+    font-size: 58px;
+    font-style: italic;
     color: var(--yellow);
     margin-top: 0;
 }

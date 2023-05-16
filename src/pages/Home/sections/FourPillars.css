@@ -43,7 +43,7 @@
     border-radius: 25px;
 
     box-shadow: 5px 5px 10px black;
-    transition: all 0.5s ease-in-out;
+    transition: all 0.3s;
     color: white;
 }
 
