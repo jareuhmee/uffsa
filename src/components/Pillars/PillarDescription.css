@@ -1,9 +1,9 @@
 /* Hero */
-.pillar-hero-section {
+.pillar-description-section {
     position: relative;
     width: 100%;
     min-height: fit-content;
-    color: white;
+    color: black;
     text-align: center;
 
     display: flex;
@@ -11,10 +11,11 @@
     justify-content: center;
     align-items: center;
     padding: 2rem 1rem;
+    text-align: left;
     box-sizing: border-box;
 }
 
-.pillar-hero-section::before {
+.pillar-description-section::before {
     content: "";
     position: absolute;
     top: 0;
@@ -26,13 +27,8 @@
     z-index: 0;
 }
 
-.pillar-hero-logo {
+.pillar-description-content {
     position: relative;
-    width: 6.5rem;
-    padding: 0 1rem;
-}
-
-.pillar-hero-title {
-    position: relative;
-    font-size: 2.5rem;
+    width: 70ch;
+    text-align: left;
 }

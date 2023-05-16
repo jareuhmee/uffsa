@@ -42,24 +42,24 @@ function Navbar(props) {
             </HashLink>
             <ul className={`navbar__sublist ${isSmallDevice ? 'navbar__accordion' : ''}`}>
               <li className="navbar__subitem">
-                <NavLink to="/dance" activeclassname="navbar__link--active" className="navbar__link">
+                <HashLink smooth to="/dance#" activeclassname="navbar__link--active" className="navbar__link navbar__dropdown-toggle">
                   DANCE
-                </NavLink>
+                </HashLink>
               </li>
               <li className="navbar__subitem">
-                <NavLink to="/culture" activeclassname="navbar__link--active" className="navbar__link">
+                <HashLink smooth to="/culture#" activeclassname="navbar__link--active" className="navbar__link navbar__dropdown-toggle">
                   CULTURE
-                </NavLink>
+                </HashLink>
               </li>
               <li className="navbar__subitem">
-                <NavLink to="/sports" activeclassname="navbar__link--active" className="navbar__link">
+                <HashLink smooth to="/sports#" activeclassname="navbar__link--active" className="navbar__link navbar__dropdown-toggle">
                   SPORTS
-                </NavLink>
+                </HashLink>
               </li>
               <li className="navbar__subitem">
-                <NavLink to="/philanthropy" activeclassname="navbar__link--active" className="navbar__link">
+                <HashLink smooth to="/philanthropy#" activeclassname="navbar__link--active" className="navbar__link navbar__dropdown-toggle">
                   PHILANTHROPY
-                </NavLink>
+                </HashLink>
               </li>
             </ul>
           </li>

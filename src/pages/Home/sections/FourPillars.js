@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { HashLink } from 'react-router-hash-link';
 import './FourPillars.css';
 
 import danceLogo from '../../../assets/logos/dance.png';
@@ -14,7 +14,7 @@ const FourPillars = () => {
       
       <div className="pillars-container">
         
-        <Link className="pillar dance-pillar" to="/dance" style={{ backgroundColor: '#eb8f9a' }}>
+        <HashLink className="pillar dance-pillar" to="/dance#" style={{ backgroundColor: '#eb8f9a' }}>
           <div className="pillar-header">
             <h1 className='pillar-title title'>Dance</h1>
             <img className="pillar-logo" src={danceLogo} alt="dance logo"/>
@@ -27,9 +27,9 @@ const FourPillars = () => {
               and just enjoying the company 
               of our favorite people!
             </p>
-        </Link>
+        </HashLink>
 
-        <Link className="pillar culture-pillar" to="/culture" style={{ backgroundColor: 'var(--red)' }}>
+        <HashLink className="pillar culture-pillar" to="/culture#" style={{ backgroundColor: 'var(--red)' }}>
           <div className="pillar-header">
             <h1 className='pillar-title title'>Culture</h1>
             <img className="pillar-logo" src={cultureLogo} alt="culture logo" />
@@ -43,9 +43,9 @@ const FourPillars = () => {
               to any of our events and see 
               what we have to offer!
             </p>
-        </Link>
+        </HashLink>
 
-        <Link className="pillar sports-pillar" to="/sports" style={{ backgroundColor: 'var(--blue)' }}>
+        <HashLink className="pillar sports-pillar" to="/sports#" style={{ backgroundColor: 'var(--blue)' }}>
           <div className="pillar-header"> 
             <h1 className='pillar-title title'>Sports</h1>
             <img className="pillar-logo" src={sportsLogo} alt="sports logo" />
@@ -58,9 +58,9 @@ const FourPillars = () => {
               sport they're good at, they just 
               don't know it.
             </p>
-        </Link>
+        </HashLink>
 
-        <Link className="pillar philanthropy-pillar" to="/philanthropy" style={{ backgroundColor: '#333333' }}>
+        <HashLink className="pillar philanthropy-pillar" to="/philanthropy#" style={{ backgroundColor: '#333333' }}>
           <div className="pillar-header">
             <h1 className='pillar-title title'>Philanthropy</h1>
             <img className="pillar-logo" src={philanthropyLogo} alt="philanthropy logo" />
@@ -74,7 +74,7 @@ const FourPillars = () => {
             help from our pamilya can 
             make a big impact.
             </p>
-        </Link>
+        </HashLink>
       </div>
         
       
