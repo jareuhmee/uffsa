@@ -178,4 +178,19 @@
   .navbar__menu-icon:after {
     transform: translateY(10px);
   }
+
+  .navbar__menu-icon-hitbox {
+    position: absolute;
+    top: 2rem;
+    right: 1.5rem;
+
+    width: 30px;
+    height: 30px;
+    transform: translateY(-10px);
+
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 }

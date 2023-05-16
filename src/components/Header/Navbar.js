@@ -181,7 +181,8 @@ function Navbar(props) {
                 </div>
 
                 <div className="navbar__menu-toggle" onClick={handleMenuToggle}>
-                  <span className="navbar__menu-icon"></span>
+                  <div className="navbar__menu-icon" />
+                  <div className="navbar__menu-icon-hitbox" />
                 </div>
 
                 <ul className={`navbar__list ${isMenuOpen ? 'active' : ''}`} id="linkList">
