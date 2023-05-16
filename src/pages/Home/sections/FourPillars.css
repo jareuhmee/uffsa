@@ -38,9 +38,9 @@
     height: 460px;
 
     text-decoration: none;
-    text-align: left;
+    text-align: center;
 
-    padding: 2rem 1rem;
+    padding: 1rem 1rem;
     margin: 1.5rem 1rem;
     border-radius: 25px;
 
@@ -51,23 +51,23 @@
 
 .pillar-header {
     display: flex;
+    flex-direction: column;
     justify-content: flex-start;
-    align-items: flex-start;
+    align-items: center;
 }
 
 .pillar-title {
-    font-size: 1.5rem;
+    font-size: 2rem;
 }
 
 .pillar-logo {
-    width: 4rem;
+    width: 10rem;
     position: relative;
-    margin-right: 0.5rem;
 }
 
 .pillar-text {
     position: relative;
-    padding: 0rem 2rem;
+    padding: 0rem 1rem;
 
     display: block;
 }
