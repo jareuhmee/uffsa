@@ -27,7 +27,6 @@ function Header() {
     setIsSmallDevice(width <= 768);
   };
 
-
   if (!isSmallDevice) {
     if (scrollPosition > 110 && toggleLogo)
       setToggleLogo(false);
@@ -39,16 +38,17 @@ function Header() {
 
   return (
     <>
-    <div id="header">
-      <Navbar
-        isSmallDevice = {isSmallDevice}
-        toggleLogo = {toggleLogo}
-      />
-      
-      <div id="background" className="fade-out" style={{ opacity: opacity }}>
-        <div id="divider" />
+      <div id="header">
+        <Navbar
+          isSmallDevice = {isSmallDevice}
+          toggleLogo = {toggleLogo}
+        />
+        <div id="background" className="fade-out" style={{ opacity: opacity }}>
+          <div id="divider" />
+        </div>
       </div>
-    </div>
+
+      <div className='sd-spacer' />
     </>
   );
 }

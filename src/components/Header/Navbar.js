@@ -12,75 +12,75 @@ function Navbar(props) {
     }
 
     let list1 = (
-        <ul className="navbar__list">
-          <li className="navbar__item navbar__dropdown pillars-dropdown">
-            <HashLink smooth to="/#" activeclassname="navbar__link--active" className="navbar__link navbar__dropdown-toggle">
+        <ul className="navbar-list">
+          <li className="navbar-dropdown">
+            <HashLink smooth to="/#" className="navbar-link" onClick={handleMenuToggle}>
               HOME
             </HashLink>
-            <ul className={`navbar__sublist ${isSmallDevice ? 'navbar__accordion' : ''}`}>
-              <li className="navbar__subitem">
-                <HashLink smooth to="/#about" activeclassname="navbar__link--active" className="navbar__link">
+            <ul className={`navbar-sublist ${isSmallDevice ? 'navbar-accordion' : ''}`}>
+              <li className="navbar-subitem">
+                <HashLink smooth to="/#about" className="navbar-link" onClick={handleMenuToggle}>
                   ABOUT
                 </HashLink>
               </li>
-              <li className="navbar__subitem">
-                <HashLink smooth to="/#involvement" activeclassname="navbar__link--active" className="navbar__link">
+              <li className="navbar-subitem">
+                <HashLink smooth to="/#involvement" className="navbar-link" onClick={handleMenuToggle}>
                   INVOLVEMENT
                 </HashLink>
               </li>
-              <li className="navbar__subitem">
-                <NavLink to="/#calendar" activeclassname="navbar__link--active" className="navbar__link">
+              <li className="navbar-subitem">
+                <NavLink to="/#calendar" className="navbar-link" onClick={handleMenuToggle}>
                   CALENDAR
                 </NavLink>
               </li>
             </ul>
           </li>
 
-          <li className="navbar__item navbar__dropdown pillars-dropdown">
-            <HashLink smooth to="/#pillars" activeclassname="navbar__link--active" className="navbar__link navbar__dropdown-toggle">
+          <li className="navbar-dropdown">
+            <HashLink smooth to="/#pillars" className="navbar-link" onClick={handleMenuToggle}>
               PILLARS
             </HashLink>
-            <ul className={`navbar__sublist ${isSmallDevice ? 'navbar__accordion' : ''}`}>
-              <li className="navbar__subitem">
-                <HashLink smooth to="/dance#" activeclassname="navbar__link--active" className="navbar__link">
+            <ul className={`navbar-sublist ${isSmallDevice ? 'navbar-accordion' : ''}`}>
+              <li className="navbar-subitem">
+                <HashLink smooth to="/dance#" className="navbar-link" onClick={handleMenuToggle}>
                   DANCE
                 </HashLink>
               </li>
-              <li className="navbar__subitem">
-                <HashLink smooth to="/culture#" activeclassname="navbar__link--active" className="navbar__link">
+              <li className="navbar-subitem">
+                <HashLink smooth to="/culture#" className="navbar-link" onClick={handleMenuToggle}>
                   CULTURE
                 </HashLink>
               </li>
-              <li className="navbar__subitem">
-                <HashLink smooth to="/sports#" activeclassname="navbar__link--active" className="navbar__link">
+              <li className="navbar-subitem">
+                <HashLink smooth to="/sports#" className="navbar-link" onClick={handleMenuToggle}>
                   SPORTS
                 </HashLink>
               </li>
-              <li className="navbar__subitem">
-                <HashLink smooth to="/philanthropy#" activeclassname="navbar__link--active" className="navbar__link">
+              <li className="navbar-subitem">
+                <HashLink smooth to="/philanthropy#" className="navbar-link" onClick={handleMenuToggle}>
                   PHILANTHROPY
                 </HashLink>
               </li>
             </ul>
           </li>
 
-          <li className="navbar__item navbar__dropdown pillars-dropdown">
-            <NavLink activeclassname="navbar__link--active" className="navbar__link navbar__dropdown-toggle">
+          <li className="navbar-dropdown">
+            <NavLink className="navbar-link" onClick={handleMenuToggle}>
               PROGRAMS
             </NavLink>
-            <ul className={`navbar__sublist ${isSmallDevice ? 'navbar__accordion' : ''}`}>
-              <li className="navbar__subitem">
-                <HashLink to="/aka#" activeclassname="navbar__link--active" className="navbar__link">
+            <ul className={`navbar-sublist ${isSmallDevice ? 'navbar-accordion' : ''}`}>
+              <li className="navbar-subitem">
+                <HashLink to="/aka#" className="navbar-link" onClick={handleMenuToggle}>
                   AKA / RAKA
                 </HashLink>
               </li>
-              <li className="navbar__subitem">
-                <HashLink to="/maffia#" activeclassname="navbar__link--active" className="navbar__link">
+              <li className="navbar-subitem">
+                <HashLink to="/maffia#" className="navbar-link" onClick={handleMenuToggle}>
                   MAFFIA
                 </HashLink>
               </li>
-              <li className="navbar__subitem">
-                <HashLink to="/fsa+#" activeclassname="navbar__link--active" className="navbar__link">
+              <li className="navbar-subitem">
+                <HashLink to="/fsa+#" className="navbar-link" onClick={handleMenuToggle}>
                   FSA+
                 </HashLink>
               </li>
@@ -90,74 +90,74 @@ function Navbar(props) {
       );
     
       let list2 = (
-        <ul className="navbar__list">
-          <li className="navbar__item navbar__dropdown pillars-dropdown">
-            <NavLink activeclassname="navbar__link--active" className="navbar__link navbar__dropdown-toggle">
+        <ul className="navbar-list">
+          <li className="navbar-dropdown">
+            <NavLink className="navbar-link" onClick={handleMenuToggle}>
               LEADERSHIP
             </NavLink>
-            <ul className={`navbar__sublist ${isSmallDevice ? 'navbar__accordion' : ''}`}>
-              <li className="navbar__subitem">
-                <NavLink to="/eboard" activeclassname="navbar__link--active" className="navbar__link">
+            <ul className={`navbar-sublist ${isSmallDevice ? 'navbar-accordion' : ''}`}>
+              <li className="navbar-subitem">
+                <NavLink to="/eboard" className="navbar-link" onClick={handleMenuToggle}>
                   EXECUTIVE BOARD
                 </NavLink>
               </li>
-              <li className="navbar__subitem">
-                <NavLink to="/cboard" activeclassname="navbar__link--active" className="navbar__link">
+              <li className="navbar-subitem">
+                <NavLink to="/cboard" className="navbar-link" onClick={handleMenuToggle}>
                   CHAIR BOARD
                 </NavLink>
               </li>
-              <li className="navbar__subitem">
-                <NavLink to="/committees" activeclassname="navbar__link--active" className="navbar__link">
+              <li className="navbar-subitem">
+                <NavLink to="/committees" className="navbar-link" onClick={handleMenuToggle}>
                   EVENT COMMITTEES
                 </NavLink>
               </li>
             </ul>
           </li>
-          <li className="navbar__item navbar__dropdown pillars-dropdown">
-            <NavLink activeclassname="navbar__link--active" className="navbar__link navbar__dropdown-toggle">
+          <li className="navbar-dropdown">
+            <NavLink className="navbar-link" onClick={handleMenuToggle}>
               MEDIA
             </NavLink>
-            <ul className={`navbar__sublist ${isSmallDevice ? 'navbar__accordion' : ''}`}>
-              <li className="navbar__subitem">
-                <NavLink to="/barkada" activeclassname="navbar__link--active" className="navbar__link">
+            <ul className={`navbar-sublist ${isSmallDevice ? 'navbar-accordion' : ''}`}>
+              <li className="navbar-subitem">
+                <NavLink to="/barkada" className="navbar-link" onClick={handleMenuToggle}>
                   BARKADA NEWSLETTER
                 </NavLink>
               </li>
-              <li className="navbar__subitem">
-                <NavLink to="/project-lunchbox" activeclassname="navbar__link--active" className="navbar__link">
+              <li className="navbar-subitem">
+                <NavLink to="/project-lunchbox" className="navbar-link" onClick={handleMenuToggle}>
                   PROJECT LUNCHBOX
                 </NavLink>
               </li>
-              <li className="navbar__subitem">
-                <NavLink to="/gallery" activeclassname="navbar__link--active" className="navbar__link">
+              <li className="navbar-subitem">
+                <NavLink to="/gallery" className="navbar-link" onClick={handleMenuToggle}>
                   GALLERY
                 </NavLink>
               </li>
-              <li className="navbar__subitem">
-                <NavLink to="/archive" activeclassname="navbar__link--active" className="navbar__link">
+              <li className="navbar-subitem">
+                <NavLink to="/archive" className="navbar-link" onClick={handleMenuToggle}>
                   ARCHIVE
                 </NavLink>
               </li>
             </ul>
           </li>
 
-          <li className="navbar__item navbar__dropdown pillars-dropdown">
-            <NavLink activeclassname="navbar__link--active" className="navbar__link navbar__dropdown-toggle">
+          <li className="navbar-dropdown">
+            <NavLink className="navbar-link" onClick={handleMenuToggle}>
               SHOP
             </NavLink>
-            <ul className={`navbar__sublist ${isSmallDevice ? 'navbar__accordion' : ''}`}>
-              <li className="navbar__subitem">
-                <NavLink to="/fundraising" activeclassname="navbar__link--active" className="navbar__link">
+            <ul className={`navbar-sublist ${isSmallDevice ? 'navbar-accordion' : ''}`}>
+              <li className="navbar-subitem">
+                <NavLink to="/fundraising" className="navbar-link" onClick={handleMenuToggle}>
                   FUNDRAISING
                 </NavLink>
               </li>
-              <li className="navbar__subitem">
-                <NavLink to="/apparel" activeclassname="navbar__link--active" className="navbar__link">
+              <li className="navbar-subitem">
+                <NavLink to="/apparel" className="navbar-link" onClick={handleMenuToggle}>
                   APPAREL
                 </NavLink>
               </li>
-              <li className="navbar__subitem">
-                <NavLink to="/threads-of-hope" activeclassname="navbar__link--active" className="navbar__link">
+              <li className="navbar-subitem">
+                <NavLink to="/threads-of-hope" className="navbar-link" onClick={handleMenuToggle}>
                   THREADS OF HOPE
                 </NavLink>
               </li>
@@ -168,7 +168,6 @@ function Navbar(props) {
       );
 
       let logoWidth = toggleLogo ? 6 : 3;
-
       let navbar;
 
       if (isSmallDevice) {
@@ -180,12 +179,11 @@ function Navbar(props) {
                     </HashLink>
                 </div>
 
-                <div className="navbar__menu-toggle" onClick={handleMenuToggle}>
-                  <div className="navbar__menu-icon" />
-                  <div className="navbar__menu-icon-hitbox" />
+                <div className="navbar-menu-toggle" onClick={handleMenuToggle}>
+                  <div className={`navbar-menu-icon ${isMenuOpen ? 'active' : ''}`} />
                 </div>
 
-                <ul className={`navbar__list ${isMenuOpen ? 'active' : ''}`} id="linkList">
+                <ul className={`navbar-list ${isMenuOpen ? 'active' : ''}`} id="linkList">
                   {list1.props.children}
                   {list2.props.children}
                 </ul>
@@ -198,8 +196,8 @@ function Navbar(props) {
                 {list1}
                 <div className="navbar-logo">
                   <HashLink smooth to="/#">
-                        <img src={logo} id="logo" alt="Logo" style={{ width: `${logoWidth}rem` }} />
-                    </HashLink>
+                      <img src={logo} id="logo" alt="Logo" style={{ width: `${logoWidth}rem` }} />
+                  </HashLink>
                 </div>
                 {list2}
             </nav>
@@ -207,7 +205,9 @@ function Navbar(props) {
       }
 
     return (
-      <>{navbar}</>
+      <>
+        {navbar}
+      </>
     );
 }
 
