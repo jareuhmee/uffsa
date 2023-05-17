@@ -70,19 +70,19 @@ function Navbar(props) {
             </NavLink>
             <ul className={`navbar__sublist ${isSmallDevice ? 'navbar__accordion' : ''}`}>
               <li className="navbar__subitem">
-                <NavLink to="/aka" activeclassname="navbar__link--active" className="navbar__link">
+                <HashLink to="/aka#" activeclassname="navbar__link--active" className="navbar__link">
                   AKA / RAKA
-                </NavLink>
+                </HashLink>
               </li>
               <li className="navbar__subitem">
-                <NavLink to="/maffia" activeclassname="navbar__link--active" className="navbar__link">
+                <HashLink to="/maffia#" activeclassname="navbar__link--active" className="navbar__link">
                   MAFFIA
-                </NavLink>
+                </HashLink>
               </li>
               <li className="navbar__subitem">
-                <NavLink to="/fsa+" activeclassname="navbar__link--active" className="navbar__link">
+                <HashLink to="/fsa+#" activeclassname="navbar__link--active" className="navbar__link">
                   FSA+
-                </NavLink>
+                </HashLink>
               </li>
             </ul>
           </li>
