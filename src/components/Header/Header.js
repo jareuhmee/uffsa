@@ -28,10 +28,10 @@ function Header() {
   };
 
   if (!isSmallDevice) {
-    if (scrollPosition > 110 && toggleLogo)
-      setToggleLogo(false);
-    else if (scrollPosition < 10 && !toggleLogo)
-      setToggleLogo(true);
+    // if (scrollPosition > 110 && toggleLogo)
+    //   setToggleLogo(false);
+    // else if (scrollPosition < 10 && !toggleLogo)
+    //   setToggleLogo(true);
   }
 
   let opacity = toggleLogo ? 1 : 0;

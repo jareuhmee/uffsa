@@ -1,7 +1,8 @@
 /* Header */
 #header {
-  position: -webkit-sticky;
-  position: sticky;
+  /* position: -webkit-sticky;
+  position: sticky; */
+  position: relative;
   top: 0;
   width: 100%;
   height: fit-content;

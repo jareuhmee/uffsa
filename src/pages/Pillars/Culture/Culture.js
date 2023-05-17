@@ -17,7 +17,7 @@ const Culture = () => {
         />
 
         <PillarDescription 
-            backgroundColor={"whitesmoke"}
+            backgroundColor={"#f5f2f0"}
             content="Welcome to the UFFSA culture page! We will be posting information about Filipino culture, Filipino history, and current events from the Philippines! We will also posting information about our huge fall culture event, Filipino American History Month. Also, get ready for the other big spring culture event, Barrio Fiesta! Get ready for a year of Filipino culture!"
         />
 

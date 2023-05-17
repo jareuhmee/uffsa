@@ -10,7 +10,7 @@ import philanthropyLogo from '../../../assets/logos/philanthropy.png';
 const FourPillars = () => {
   return (
     <section className="pillars-section" id="pillars">
-      <h1 className='pillars-section-title'>Our Pillars</h1>
+      <h1 className='pillars-section-title title'>Our Pillars</h1>
       
       <div className="pillars-container">
         
