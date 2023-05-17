@@ -1,0 +1,32 @@
+/* Container */
+.aka-title-container {
+    position: relative;
+    width: 100%px;
+    height: fit-content;
+    margin: 0 auto;
+    text-align: center;
+    background-color: lightslategrey;
+}
+
+/* Title */
+.aka-title {
+    position: relative;
+    width: 320px;
+    height: 180px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}
+
+.aka-title h1 {
+    position: relative;
+    margin: 0;
+    color: white;
+
+    font-size: 2rem;
+    font-weight: 900;
+    /* font-style: italic; */
+    /* text-shadow: 2px 2px 2px black; */
+}

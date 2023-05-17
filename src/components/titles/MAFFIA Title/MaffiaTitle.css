@@ -1,0 +1,66 @@
+/* Container */
+.maffia-title-container {
+    position: relative;
+    width: 100%;
+    height: fit-content;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #1e1e1e;
+}
+
+/* Title */
+.maffia-title {
+    position: relative;
+    width: 320px;
+    height: 180px;
+    margin: 0 auto;
+}
+
+.maffia-title h1 {
+    position: relative;
+    top: 50%;
+    transform: translate(0, -50%);
+    margin: 0;
+    color: white;
+
+    font-size: 3.5rem;
+    text-shadow: 2px 2px 2px black;
+}
+
+.maffia-title img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    height: 80%;
+}
+
+
+.maffia-left-box {
+    position: absolute;
+    top: 50%;
+    left: 12%;
+    transform: translate(0, -50%);
+    
+    width: 20%;
+    height: 33%;
+
+
+    border: var(--red) solid 2px;
+    border-style: solid none solid none;
+}
+
+.maffia-right-box {
+    position: absolute;
+    top: 50%;
+    right: 12%;
+    transform: translate(0, -50%);
+    
+    width: 20%;
+    height: 33%;
+
+
+    border: var(--blue) solid 2px;
+    border-style: solid none solid none
+}

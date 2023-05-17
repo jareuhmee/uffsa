@@ -20,7 +20,7 @@
   display: block;
   width: 100%;
   height: 100%;
-  opacity: 0.25;
+  opacity: 0.2;
   background-image: url(../../assets/textures/grain.png);
 }
 
@@ -117,7 +117,7 @@
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
-
+/* Small Devices */
 @media screen and (max-width: 768px) {
   .navbar {
     flex-direction: column;
@@ -131,7 +131,8 @@
     align-items: center;
     display: flex;
     max-height: 0;
-    opacity: 0;
+    opacity: -1;
+    overflow: scroll;
     transition: all 0.3s ease-in-out;
   }
 
@@ -140,6 +141,7 @@
   }
 
   .navbar__list.active {
+    display: flex;
     opacity: 1;
     max-height: 15rem;
   }
