@@ -2,11 +2,11 @@ import React from 'react';
 import './PillarRegularActivities.css';
 
 
-const PillarRegularActivities = () => {
+const PillarRegularActivities = ({children}) => {
   return (
     <section className="pillar-regular-activities-section">
-      <div className="pillar-regular-activities-container">
-        <h1 className="pillar-regular-activities-title title">Regular Activities</h1>
+      <h1 className="pillar-regular-activities-title title">Regular Activities</h1>
+      {/* <div className="pillar-regular-activities-container">
         <p className="pillar-regular-activities-text">
           The Filipino Student Association (FSA) at the University of Florida is a home away from home for anyone, not just Filipinos. 
 
@@ -23,7 +23,8 @@ const PillarRegularActivities = () => {
 
           And above all else, FSA is family.
         </p>
-      </div>
+      </div> */}
+      {children}
     </section>
   );
 }
