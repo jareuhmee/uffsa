@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/uffsa/static/css/main.6d674721.css",
+    "main.js": "/uffsa/static/js/main.375fbe9a.js",
+    "static/media/background.png": "/uffsa/static/media/background.7521bd9431e42e602801.png",
+    "static/media/paper.png": "/uffsa/static/media/paper.80fed0ead3eb04b49f96.png",
+    "static/media/grain.png": "/uffsa/static/media/grain.a297bc3e3f17176232c9.png",
+    "static/media/default.png": "/uffsa/static/media/default.c3a73256e7210ff066bc.png",
+    "static/media/aasa.jpeg": "/uffsa/static/media/aasa.fd8b6ba3a19098f8e0b1.jpeg",
+    "static/media/dance.png": "/uffsa/static/media/dance.1336f21ac41c850885df.png",
+    "static/media/Montserrat-VariableFont_wght.ttf": "/uffsa/static/media/Montserrat-VariableFont_wght.c28a96c369871653b853.ttf",
+    "static/media/Ghiya Strokes Reg.ttf": "/uffsa/static/media/Ghiya Strokes Reg.95df9f6e51a7f9df623f.ttf",
+    "static/media/philfest.jpeg": "/uffsa/static/media/philfest.6fa836bc64a46b863ed6.jpeg",
+    "static/media/culture.png": "/uffsa/static/media/culture.3ba01914e97cde79b4c4.png",
+    "static/media/dtj.jpeg": "/uffsa/static/media/dtj.0af8a4aebdfe3e86513b.jpeg",
+    "static/media/sports.png": "/uffsa/static/media/sports.957142822c323e1ce195.png",
+    "static/media/star.png": "/uffsa/static/media/star.e019e048777872070a12.png",
+    "static/media/philanthropy.png": "/uffsa/static/media/philanthropy.c64c020a9db52f5fdbbb.png",
+    "static/media/logo.png": "/uffsa/static/media/logo.2d474d98786a767124ce.png",
+    "index.html": "/uffsa/index.html",
+    "main.6d674721.css.map": "/uffsa/static/css/main.6d674721.css.map",
+    "main.375fbe9a.js.map": "/uffsa/static/js/main.375fbe9a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6d674721.css",
+    "static/js/main.375fbe9a.js"
+  ]
+}
