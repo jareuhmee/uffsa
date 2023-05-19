@@ -1,4 +1,5 @@
-import { HashRouter, Route, Routes } from 'react-router-dom';
+import React, { useEffect } from 'react';
+import { BrowserRouter, Route, Routes, useNavigate, Navigate } from 'react-router-dom';
 
 import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer"
@@ -14,9 +15,24 @@ import MAFFIA from './pages/Programs/MAFFIA/MAFFIA';
 import FsaPlus from './pages/Programs/FSA+/FSA+';
 
 
+function RedirectHandler() {
+  const navigate = useNavigate();
+
+  useEffect(() => {
+    const hash = window.location.hash;
+    if (hash) {
+      const subpagePath = hash.substring(1);
+      navigate(subpagePath);
+    }
+  }, [navigate]);
+
+  return null;
+}
+
 function App() {
   return (
-    <HashRouter>
+    <BrowserRouter>
+      <RedirectHandler />
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />
@@ -29,9 +45,12 @@ function App() {
         <Route path="/aka" element={<AKA />} />
         <Route path="/maffia" element={<MAFFIA />} />
         <Route path="/fsa+" element={<FsaPlus />} />
+
+
+        <Route path="*" element={<Navigate to="/" />} />
       </Routes>
       <Footer />
-    </HashRouter>
+    </BrowserRouter>
   );
 }
 
