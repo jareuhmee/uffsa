@@ -1,19 +1,19 @@
 import React from 'react';
+import { FaMapMarkerAlt } from 'react-icons/fa';
 import './EventCard.css';
-
-
 
 const EventCard = ({image, title, date, address, description}) => {
     return ( 
       <div className='event-card'>
-        <div className='event-image-container'>
-            <img className="event-image" src={image} alt="Event Image"/>
-        </div>
+        <div className='event-card-container' />
 
-        <div className='event-text'>
-            <h3 className='event-date'>{date}</h3>
+        
+        <img className="event-image" src={image} alt="Event"/>
+
+        <div className='event-text-container'>
             <h1 className='event-title'>{title}</h1>
-            <h2 className='event-address'>{address}</h2>
+            <h2 className='event-date'>{date}</h2>
+            <h3 className='event-address'> <FaMapMarkerAlt /> {address}</h3>
 
             <p className='event-description'>{description}</p>
         </div>

@@ -5,59 +5,81 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-
 }
 
+/* Card */
 .event-card {
     position: relative;
-    width: 378px;
+    width: 30%;
     height: 252px;
+    min-width: 30rem;
     margin: 1rem;
     margin-bottom: 0;
-    background-color: white;
-    border-radius: 5px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.event-card-container {
+    position: absolute;
+    width: calc(100% - 2rem);
+    height: 100%;
+
+    margin-left: 2rem;
+    box-sizing: border-box;
+
+    background-color: var(--yellow);
+    border-radius: 25px;
     box-shadow: 3px 3px 5px rgb(0, 0, 0, 0.5);
 }
 
-.event-image-container {
-    position: relative;
-    width: 100%;
-    height: 66%;
-    overflow: hidden;
-}
-
-.event-image {
+.event-card-container::before {
+    content: "";
     position: absolute;
-    top: 0;
-    left: 0;
     width: 100%;
     height: 100%;
 
-    border-radius: 5px 5px 0 0;
+    opacity: 0.05;
+    background-image: url(../../assets/textures/lines.png);
+    border-radius: 25px;
 }
 
-.event-text {
-    padding: 0;
-    margin: 0;
-    line-height: 0.5rem;
+.event-image {
+    position: relative;
+    width: auto;
+    max-width: 70vw;
+    max-height: auto;
+    height: 180px;
 
-    padding-left: 0.5rem;
-    padding-right: 0.5rem;
+    border-radius: 15px;
+    box-shadow: 3px 3px 5px rgb(0, 0, 0, 0.5);
 }
 
-.event-date {
-    font-size: 0.75rem;
-    font-weight: 500;
+.event-text-container {
+    position: relative;
+    /* line-height: 0.5rem; */
+
+    width: 65%;
+    padding-right: 2rem;
+    padding-left: 2rem;
+    box-sizing: border-box;
 }
 
 .event-title {
-    font-size: 1rem;
+    font-size: 1.5rem;
     font-weight: 800;
 }
 
-.event-address {
-    font-size: 0.75rem;
+.event-date {
+    font-size: 1.1rem;
     font-weight: 600;
+    color: #2b2b2b;
+}
+
+.event-address {
+    font-size: 1rem;
+    font-weight: 500;
 }
 
 .event-description {
@@ -68,23 +90,21 @@
 
 @media screen and (max-width: 768px) {
     .event-card {
-        width: 320px;
-        height: 240px;
-    }
-
-    .event-date {
-        font-size: 0.65rem;
+        min-width: 80%;
+        height: 450px;
+        flex-direction: column;
     }
     
-    .event-title {
-        font-size: 0.90rem;
+    .event-card-container {
+        width: 100%;
+        height: calc(100% - 2rem);
+        margin-left: 0;
+        margin-top: 2rem;
     }
     
-    .event-address {
-        font-size: 0.65rem;
-    }
-    
-    .event-description {
-        font-size: 0.56rem;
+    .event-text-container { 
+        height: 65%;
+        width: 100%;
+        padding-top: 0.5rem;
     }
 }

@@ -4,10 +4,14 @@ import PillarDescription from '../../../components/Pillars/PillarDescription';
 import PillarSignatureEvents from '../../../components/Pillars/PillarSignatureEvents';
 import PillarRegularActivities from '../../../components/Pillars/PillarRegularActivities';
 
+import EventCard from '../../../components/events/EventCard';
+
 
 import './Sports.css';
 
 import sportsLogo from '../../../assets/logos/sports.png';
+import adobowl from './adobowl.jpeg';
+import ssg from './ssg.jpg';
 
 const Sports = () => {  
     return (<>
@@ -23,8 +27,52 @@ const Sports = () => {
 
         />
 
-        <PillarSignatureEvents />
-        <PillarRegularActivities />
+        <PillarSignatureEvents>
+            <div className='event-container'>
+                <EventCard
+                    title="Adobowl"
+                    date="FALL | October 22, 2023"
+                    address="Flavet Field"
+                    description=""
+                    image={adobowl}
+                />
+
+                <EventCard
+                    title="Southern Survival Games"
+                    date="SPRING | April 2024"
+                    address="Squirrel Ridge Park"
+                    description=""
+                    image={ssg}
+                />
+            </div>
+        </PillarSignatureEvents>
+
+        
+        <PillarRegularActivities>
+            <div className='event-container'>
+                <EventCard
+                    title="Intramural Sports"
+                    date=""
+                    address=""
+                    description=""
+                />
+
+                <EventCard
+                    title="Tailgating"
+                    date=""
+                    address=""
+                    description=""
+                />
+
+                <EventCard
+                    title="Tournaments"
+                    date=""
+                    address=""
+                    description=""
+                />
+            </div>
+        </PillarRegularActivities>
+
     </> 
   );
 }

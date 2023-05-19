@@ -9,7 +9,6 @@ import EventCard from '../../../components/events/EventCard';
 import './Dance.css';
 
 import danceLogo from '../../../assets/logos/dance.png';
-import DefTalentJam from './default.png';
 import AASA from './aasa.jpeg';
 import DTJ from './dtj.jpeg';
 import PhilFest from './philfest.jpeg';
@@ -57,10 +56,6 @@ const Dance = () => {
         </PillarSignatureEvents>
 
         
-
-        
-
-        
         <PillarRegularActivities>
             <div className='event-container'>
                 <EventCard
@@ -68,7 +63,6 @@ const Dance = () => {
                     date=""
                     address=""
                     description=""
-                    image={DefTalentJam}
                 />
 
                 <EventCard
@@ -76,7 +70,6 @@ const Dance = () => {
                     date=""
                     address=""
                     description=""
-                    image={DefTalentJam}
                 />
 
                 <EventCard
@@ -84,7 +77,6 @@ const Dance = () => {
                     date=""
                     address=""
                     description=""
-                    image={DefTalentJam}
                 />
             </div>
         </PillarRegularActivities>
