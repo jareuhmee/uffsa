@@ -1,12 +1,11 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8" />
-    <title>Page Not Found</title>
+    <meta charset="utf-8">
+    <title>Redirecting...</title>
     <script>
-      const url = new URL(window.location.href);
-      const path = url.pathname.replace(/\/$/, "");
-      window.location.replace("/" + path);
+      const url = window.location.pathname.substring(1);
+      window.location.replace("https://uffsa.net/" + url);
     </script>
   </head>
   <body>
