@@ -1,4 +1,4 @@
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { HashRouter, Route, Routes } from 'react-router-dom';
 
 import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer"
@@ -16,7 +16,7 @@ import FsaPlus from './pages/Programs/FSA+/FSA+';
 
 function App() {
   return (
-    <BrowserRouter basename={process.env.PUBLIC_URL}>
+    <HashRouter>
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />
@@ -31,7 +31,7 @@ function App() {
         <Route path="/fsa+" element={<FsaPlus />} />
       </Routes>
       <Footer />
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
