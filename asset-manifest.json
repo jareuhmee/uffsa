@@ -1,28 +1,33 @@
 {
   "files": {
-    "main.css": "/static/css/main.18605c56.css",
-    "main.js": "/static/js/main.9c98528c.js",
+    "main.css": "/static/css/main.f76e74ae.css",
+    "main.js": "/static/js/main.5750e0d2.js",
     "static/media/background.png": "/static/media/background.7521bd9431e42e602801.png",
+    "static/media/lines.png": "/static/media/lines.7ad20b976dceba72e47f.png",
     "static/media/paper.png": "/static/media/paper.80fed0ead3eb04b49f96.png",
     "static/media/grain.png": "/static/media/grain.a297bc3e3f17176232c9.png",
-    "static/media/default.png": "/static/media/default.c3a73256e7210ff066bc.png",
-    "static/media/aasa.jpeg": "/static/media/aasa.fd8b6ba3a19098f8e0b1.jpeg",
+    "static/media/ssg.jpg": "/static/media/ssg.584017a465c4eb9562ef.jpg",
     "static/media/dance.png": "/static/media/dance.1336f21ac41c850885df.png",
     "static/media/Montserrat-VariableFont_wght.ttf": "/static/media/Montserrat-VariableFont_wght.c28a96c369871653b853.ttf",
+    "static/media/aasa.jpeg": "/static/media/aasa.0c47947309fe383f0063.jpeg",
+    "static/media/FAHM.jpeg": "/static/media/FAHM.e9b79da20e1bf09344ec.jpeg",
+    "static/media/GK.jpeg": "/static/media/GK.ebf3ecb040118169e6c4.jpeg",
     "static/media/Ghiya Strokes Reg.ttf": "/static/media/Ghiya Strokes Reg.95df9f6e51a7f9df623f.ttf",
+    "static/media/dtj.jpeg": "/static/media/dtj.f3a3c81760c151088680.jpeg",
+    "static/media/barrio.jpeg": "/static/media/barrio.0bcfb6362f0f94c09d6b.jpeg",
+    "static/media/adobowl.jpeg": "/static/media/adobowl.a83cde0290012137fc0e.jpeg",
     "static/media/philfest.jpeg": "/static/media/philfest.6fa836bc64a46b863ed6.jpeg",
     "static/media/culture.png": "/static/media/culture.3ba01914e97cde79b4c4.png",
-    "static/media/dtj.jpeg": "/static/media/dtj.0af8a4aebdfe3e86513b.jpeg",
     "static/media/sports.png": "/static/media/sports.957142822c323e1ce195.png",
     "static/media/star.png": "/static/media/star.e019e048777872070a12.png",
     "static/media/philanthropy.png": "/static/media/philanthropy.c64c020a9db52f5fdbbb.png",
     "static/media/logo.png": "/static/media/logo.2d474d98786a767124ce.png",
     "index.html": "/index.html",
-    "main.18605c56.css.map": "/static/css/main.18605c56.css.map",
-    "main.9c98528c.js.map": "/static/js/main.9c98528c.js.map"
+    "main.f76e74ae.css.map": "/static/css/main.f76e74ae.css.map",
+    "main.5750e0d2.js.map": "/static/js/main.5750e0d2.js.map"
   },
   "entrypoints": [
-    "static/css/main.18605c56.css",
-    "static/js/main.9c98528c.js"
+    "static/css/main.f76e74ae.css",
+    "static/js/main.5750e0d2.js"
   ]
 }
