@@ -92,24 +92,24 @@ function Navbar(props) {
       let list2 = (
         <ul className="navbar-list">
           <li className="navbar-dropdown">
-            <NavLink className="navbar-link" onClick={handleMenuToggle}>
+            <HashLink smooth to="/leadership#" className="navbar-link" onClick={handleMenuToggle}>
               LEADERSHIP
-            </NavLink>
+            </HashLink>
             <ul className={`navbar-sublist ${isSmallDevice ? 'navbar-accordion' : ''}`}>
               <li className="navbar-subitem">
-                <NavLink to="/eboard" className="navbar-link" onClick={handleMenuToggle}>
+                <HashLink smooth to="/leadership#eboard" className="navbar-link" onClick={handleMenuToggle}>
                   EXECUTIVE BOARD
-                </NavLink>
+                </HashLink>
               </li>
               <li className="navbar-subitem">
-                <NavLink to="/cboard" className="navbar-link" onClick={handleMenuToggle}>
+                <HashLink smooth to="/leadership#cboard" className="navbar-link" onClick={handleMenuToggle}>
                   CHAIR BOARD
-                </NavLink>
+                </HashLink>
               </li>
               <li className="navbar-subitem">
-                <NavLink to="/committees" className="navbar-link" onClick={handleMenuToggle}>
+                <HashLink smooth to="/leadership#committees" className="navbar-link" onClick={handleMenuToggle}>
                   EVENT COMMITTEES
-                </NavLink>
+                </HashLink>
               </li>
             </ul>
           </li>
@@ -119,47 +119,42 @@ function Navbar(props) {
             </NavLink>
             <ul className={`navbar-sublist ${isSmallDevice ? 'navbar-accordion' : ''}`}>
               <li className="navbar-subitem">
-                <NavLink to="/barkada" className="navbar-link" onClick={handleMenuToggle}>
+                <HashLink to="/barkada-newsletter#" className="navbar-link" onClick={handleMenuToggle}>
                   BARKADA NEWSLETTER
-                </NavLink>
+                </HashLink>
               </li>
               <li className="navbar-subitem">
-                <NavLink to="/project-lunchbox" className="navbar-link" onClick={handleMenuToggle}>
+                <HashLink to="/project-lunchbox#" className="navbar-link" onClick={handleMenuToggle}>
                   PROJECT LUNCHBOX
-                </NavLink>
+                </HashLink>
               </li>
               <li className="navbar-subitem">
-                <NavLink to="/gallery" className="navbar-link" onClick={handleMenuToggle}>
-                  GALLERY
-                </NavLink>
-              </li>
-              <li className="navbar-subitem">
-                <NavLink to="/archive" className="navbar-link" onClick={handleMenuToggle}>
+                <HashLink to="/archive#" className="navbar-link" onClick={handleMenuToggle}>
                   ARCHIVE
-                </NavLink>
+                </HashLink>
               </li>
             </ul>
           </li>
 
           <li className="navbar-dropdown">
-            <NavLink className="navbar-link" onClick={handleMenuToggle}>
+            <HashLink to="/shop#" className="navbar-link" onClick={handleMenuToggle}>
               SHOP
-            </NavLink>
+            </HashLink>
             <ul className={`navbar-sublist ${isSmallDevice ? 'navbar-accordion' : ''}`}>
               <li className="navbar-subitem">
-                <NavLink to="/fundraising" className="navbar-link" onClick={handleMenuToggle}>
-                  FUNDRAISING
-                </NavLink>
+                <HashLink smooth to="/shop#fundraising" className="navbar-link" onClick={handleMenuToggle}>
+                  FUNDRAISING EVENTS
+                </HashLink>
               </li>
               <li className="navbar-subitem">
-                <NavLink to="/apparel" className="navbar-link" onClick={handleMenuToggle}>
+                <HashLink smooth to="/shop#apparel" className="navbar-link" onClick={handleMenuToggle}>
                   APPAREL
-                </NavLink>
+                </HashLink>
               </li>
               <li className="navbar-subitem">
-                <NavLink to="/threads-of-hope" className="navbar-link" onClick={handleMenuToggle}>
+                <HashLink smooth to="/shop#philanthropy" className="navbar-link" onClick={handleMenuToggle}>
                   THREADS OF HOPE
-                </NavLink>
+                </HashLink>
               </li>
             </ul>
           </li>

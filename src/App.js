@@ -14,6 +14,14 @@ import AKA from './pages/Programs/AKA/AKA';
 import MAFFIA from './pages/Programs/MAFFIA/MAFFIA';
 import FsaPlus from './pages/Programs/FSA+/FSA+';
 
+import Leadership from './pages/Leadership/Leadership';
+
+import BarkadaNewsletter from './pages/Media/Barkada';
+import ProjectLunchbox from './pages/Media/ProjectLunchbox';
+import Archive from './pages/Media/Archive';
+
+import Shop from './pages/Shop/Shop';
+
 
 function RedirectHandler() {
   const navigate = useNavigate();
@@ -48,6 +56,14 @@ function App() {
         <Route path="/aka" element={<AKA />} />
         <Route path="/maffia" element={<MAFFIA />} />
         <Route path="/fsa+" element={<FsaPlus />} />
+
+        <Route path="/leadership" element={<Leadership />} />
+
+        <Route path="/barkada-newsletter" element={<BarkadaNewsletter />} />
+        <Route path="/project-lunchbox" element={<ProjectLunchbox />} />
+        <Route path="/archive" element={<Archive />} />
+
+        <Route path="/shop" element={<Shop />} />
 
 
         <Route path="*" element={<Navigate to="/" />} />

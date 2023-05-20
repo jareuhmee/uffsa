@@ -7,7 +7,13 @@ const MAFFIA = () => {
     return (<>
         <div>
           <MaffiaTitle />
-          <div className="maffia-description"></div>
+          <div className="maffia-description">
+            <div className='temp-text-container'>
+              MAFFIA Description: Our first-year involvement program (Membership and FSA First-year Involvement Alliance) <br /><br />
+              Embed Application <br /><br />
+              Describe Rotations, feature recent work: Multimedia, Culture, Mass Communications, Philanthropy <br /><br />
+            </div>
+          </div>
         </div>
     </> 
   );
