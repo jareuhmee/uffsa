@@ -20,9 +20,12 @@ function RedirectHandler() {
 
   useEffect(() => {
     const hash = window.location.hash;
+    
     if (hash) {
       const subpagePath = hash.substring(1);
-      navigate(subpagePath);
+      if (subpagePath.startsWith('/')) {
+        navigate(subpagePath);
+      }
     }
   }, [navigate]);
 
