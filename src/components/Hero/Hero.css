@@ -22,11 +22,6 @@
     z-index: -1;
 }
 
-
-/* .hero {
-    padding-left: 10%;
-} */
-
 /* Text box */
 .hero-textbox {
     box-sizing: border-box;
@@ -56,11 +51,18 @@
 .hero-description {
     font-size: 1.25rem;
     margin-top: 6rem;
+    margin-bottom: 3rem;
+}
+
+.hero-buttons {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
 }
 
 .hero-button {
     position: relative;
-    margin-top: 3rem;
+    margin: 0.5rem;
     padding: 0.75rem 2rem;
     color: white;
     background-color: transparent;
@@ -81,6 +83,7 @@
     box-shadow: 0px 0px 5px white;
     z-index: 2;
 }
+
 
 @media screen and (max-width: 768px) {
     .hero {

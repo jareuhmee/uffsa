@@ -25,11 +25,19 @@ const Hero = () => {
             />
           </div>
 
-          <HashLink smooth to="/#involvement" >
-            <button className="hero-button">
-              Get Involved
-            </button>
-          </HashLink>
+          <div className='hero-buttons'>
+            <HashLink smooth to="/#involvement" >
+              <button className="hero-button">
+                Get Involved
+              </button>
+            </HashLink>
+            
+            <a href='https://linktr.ee/uffsa' target="_blank" rel="noopener noreferrer">
+              <button className="hero-button">
+                Linktree
+              </button>
+            </a>
+          </div>
         </div>
       </div>
 
