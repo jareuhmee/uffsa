@@ -1,8 +1,8 @@
 /* Pillars Section */
 .pillars-section {
     position: relative;
-    background-color: #f8f8f8;
-    background-color: var(--red);
+    background-color: var(--black);
+    /* background-color: var(--red); */
     margin: 0;
     padding: 2rem 0;
     box-sizing: border-box;
@@ -35,8 +35,8 @@
 .pillar {
     box-sizing: border-box;
     position: relative;
-    width: 350px;
-    height: 460px;
+    width: 300px;
+    height: 400px;
 
     text-decoration: none;
     text-align: center;
@@ -58,23 +58,24 @@
 }
 
 .pillar-title {
-    font-size: 2rem;
+    font-size: 1.8rem;
 }
 
 .pillar-logo {
-    width: 10rem;
+    width: 8rem;
     position: relative;
 }
 
 .pillar-text {
     position: relative;
-    padding: 0rem 1rem;
+    padding: 0rem 0.5rem;
+    font-size: 0.9rem;
 }
 
 
 /* Hover Effect */
 .pillar:hover {
-    transform: scale(1.03) translateY(-1rem);
+    transform: scale(1.03) translateY(-0.75rem);
     color: black;
     background-color: white !important;
     box-shadow: 0 0 25px white;

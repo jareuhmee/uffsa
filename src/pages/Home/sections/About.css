@@ -3,13 +3,14 @@
     position: relative;
     width: 100%;
     padding-top: 8rem;
-    padding-bottom: 1rem;
+    padding-bottom: 4rem;
     background-color: var(--red);
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    gap: 2rem;
 }
 
 .about-section::before {
@@ -28,9 +29,8 @@
 .about-container {
     position: relative;
     top: 0;
-    width: 70ch;
+    width: 65ch;
     max-width: 80%;
-    margin: 0 2rem;
     text-align: left;
     color: black;
 }
