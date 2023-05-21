@@ -5,7 +5,7 @@ import './FSA+.css';
 
 const FsaPlus = () => {  
     return (<>
-        <div>
+        <div className='fsaplus-page'>
           <FsaPlusTitle />
           <div className='fsaplus-description'>
 

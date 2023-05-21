@@ -1,3 +1,7 @@
+.aka-page {
+    background-color: var(--yellow);
+}
+
 .aka-description {
     position: relative;
     width: 100%;

@@ -25,13 +25,13 @@ function Navbar(props) {
               </li>
               <li className="navbar-subitem">
                 <HashLink smooth to="/#involvement" className="navbar-link" onClick={handleMenuToggle}>
-                  INVOLVEMENT
+                  GET INVOLVED
                 </HashLink>
               </li>
               <li className="navbar-subitem">
-                <NavLink to="/#calendar" className="navbar-link" onClick={handleMenuToggle}>
-                  CALENDAR
-                </NavLink>
+                <HashLink smooth to="/#events" className="navbar-link" onClick={handleMenuToggle}>
+                  EVENTS
+                </HashLink>
               </li>
             </ul>
           </li>
@@ -65,9 +65,9 @@ function Navbar(props) {
           </li>
 
           <li className="navbar-dropdown">
-            <NavLink className="navbar-link" onClick={handleMenuToggle}>
+            <HashLink smooth to="/#programs" className="navbar-link" onClick={handleMenuToggle}>
               PROGRAMS
-            </NavLink>
+            </HashLink>
             <ul className={`navbar-sublist ${isSmallDevice ? 'navbar-accordion' : ''}`}>
               <li className="navbar-subitem">
                 <HashLink to="/aka#" className="navbar-link" onClick={handleMenuToggle}>

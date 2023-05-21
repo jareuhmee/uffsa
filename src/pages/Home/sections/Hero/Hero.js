@@ -26,7 +26,7 @@ const Hero = () => {
           </div>
 
           <div className='hero-buttons'>
-            <HashLink smooth to="/#involvement" >
+            <HashLink smooth to="/#events" >
               <button className="hero-button hero-button-primary">
                 Events
               </button>

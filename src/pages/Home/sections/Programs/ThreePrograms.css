@@ -1,14 +1,14 @@
-/* Pillars Section */
-.pillars-section {
+/* programs Section */
+.programs-section {
     position: relative;
-    background-color: #333333;
+    background-color: var(--black);
     /* background-color: var(--red); */
     margin: 0;
     padding: 4rem 0;
     box-sizing: border-box;
 }
 
-.pillars-section-title {
+.programs-section-title {
     color: white;
     text-align: center;
     font-weight: 100;
@@ -17,8 +17,8 @@
 }
 
 
-/* Pillars Container */
-.pillars-container {
+/* programs Container */
+.programs-container {
     position: relative;
     width: 100%;
     height: fit-content;
@@ -31,12 +31,12 @@
 }
 
 
-/* Pillar */
-.pillar {
+/* program */
+.program {
     box-sizing: border-box;
     position: relative;
-    width: 300px;
-    height: 400px;
+    width: 400px;
+    height: 250px;
 
     text-decoration: none;
     text-align: center;
@@ -50,23 +50,23 @@
     color: white;
 }
 
-.pillar-header {
+.program-header {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-.pillar-title {
+.program-title {
     font-size: 1.8rem;
 }
 
-.pillar-logo {
+.program-logo {
     width: 8rem;
     position: relative;
 }
 
-.pillar-text {
+.program-text {
     position: relative;
     padding: 0rem 0.5rem;
     font-size: 0.9rem;
@@ -74,30 +74,14 @@
 
 
 /* Hover Effect */
-.pillar:hover {
-    transform: scale(1.03) translateY(-0.75rem);
-    color: black;
-    background-color: white !important;
+.program:hover {
+    transform: scale(1.03) translateY(-0.5rem);
+    /* color: black;
+    background-color: white !important; */
     box-shadow: 0 0 25px white;
 }
 
-.dance-pillar:hover {
-    color: #eb8f9a;
-}
-
-.culture-pillar:hover {
-    color: var(--red);
-}
-
-.sports-pillar:hover {
-    color: var(--blue);
-}
-
-.philanthropy-pillar:hover {
-    color: #333333;
-}
-
-.pillars-section::before {
+.programs-section::before {
     content: "";
     position: absolute;
     top: 0;

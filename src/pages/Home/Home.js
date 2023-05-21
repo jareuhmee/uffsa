@@ -2,6 +2,7 @@ import React from 'react';
 import Hero from './sections/Hero/Hero';
 import About from './sections/About/About';
 import FourPillars from './sections/Pillars/FourPillars';
+import ThreePrograms from './sections/Programs/ThreePrograms';
 import './Home.css'
 import './Flag.css';
 
@@ -15,9 +16,10 @@ function Home() {
         
         <About />
         <FourPillars />
+        <ThreePrograms />
 
 
-        <section className="events-section" id="involvement">
+        <section className="events-section" id="events">
           <div className="events-container">
             
             <h1 className="title">Events</h1>

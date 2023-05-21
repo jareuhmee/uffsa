@@ -5,7 +5,7 @@ import MaffiaTitle from '../../../components/titles/MAFFIA Title/MaffiaTitle';
 
 const MAFFIA = () => {  
     return (<>
-        <div>
+        <div className='maffia-page'>
           <MaffiaTitle />
           <div className="maffia-description">
             <div className='temp-text-container'>
