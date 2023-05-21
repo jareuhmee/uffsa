@@ -16,7 +16,7 @@
     width: 100%;
     height: 100%;
     opacity: 0.5;
-    background-image: url(../../pages/Home/background.png);
+    background-image: url(./background.png);
     background-position: center center;
     filter: brightness(0.25);
     z-index: -1;
@@ -80,9 +80,9 @@
 }
 
 .hero-button-primary {
-    background-color: var(--yellow);
-    color: var(--blue);
-    border: 2px solid var(--yellow);
+    background-color: var(--red);
+    color: white;
+    border: 2px solid var(--red);
 }
 
 .hero-button:hover {

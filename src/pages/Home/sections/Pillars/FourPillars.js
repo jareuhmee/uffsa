@@ -2,10 +2,10 @@ import React from 'react';
 import { HashLink } from 'react-router-hash-link';
 import './FourPillars.css';
 
-import danceLogo from '../../../assets/logos/dance.png';
-import cultureLogo from '../../../assets/logos/culture.png';
-import sportsLogo from '../../../assets/logos/sports.png';
-import philanthropyLogo from '../../../assets/logos/philanthropy.png';
+import danceLogo from '../../../../assets/logos/dance.png';
+import cultureLogo from '../../../../assets/logos/culture.png';
+import sportsLogo from '../../../../assets/logos/sports.png';
+import philanthropyLogo from '../../../../assets/logos/philanthropy.png';
 
 const FourPillars = () => {
   return (

@@ -1,7 +1,7 @@
 import React from 'react';
-import Hero from '../../components/Hero/Hero';
-import About from './sections/About';
-import FourPillars from './sections/FourPillars';
+import Hero from './sections/Hero/Hero';
+import About from './sections/About/About';
+import FourPillars from './sections/Pillars/FourPillars';
 import './Home.css'
 import './Flag.css';
 
