@@ -27,7 +27,7 @@ const Hero = () => {
 
           <div className='hero-buttons'>
             <HashLink smooth to="/#involvement" >
-              <button className="hero-button">
+              <button className="hero-button hero-button-primary">
                 Get Involved
               </button>
             </HashLink>
