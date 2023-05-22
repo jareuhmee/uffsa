@@ -24,7 +24,7 @@ function Navbar(props) {
                 </HashLink>
               </li>
               <li className="navbar-subitem">
-                <HashLink smooth to="/#involvement" className="navbar-link" onClick={handleMenuToggle}>
+                <HashLink smooth to="/#get-involved" className="navbar-link" onClick={handleMenuToggle}>
                   GET INVOLVED
                 </HashLink>
               </li>

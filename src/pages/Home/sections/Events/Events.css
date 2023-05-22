@@ -1,0 +1,79 @@
+/* Events Section */
+.events-section {
+    box-sizing: border-box;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 8rem 0.25rem;
+    padding-top: 12rem;
+    background-color: var(--yellow);
+    text-align: center;
+}
+
+.events-section::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(../../../../assets/textures/grain.png);
+    opacity: 0.1;
+}
+
+
+/* Events Section Title */
+.events-title {
+    position: relative;
+    margin: -4rem 0;
+    width: fit-content;
+    font-size: 2rem;
+    font-weight: 800;
+    margin-bottom: 2rem;
+}
+
+.events-title:after {
+    content: "";
+    position: absolute;
+    bottom: -25%;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background-color: var(--yellow);
+    box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.5);
+}
+
+
+/* Events Container */
+.events-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    /* margin: 0 auto; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 4rem;
+}
+
+
+/* Calendar */
+.events-calendar {
+    width: 800px;
+    max-width: 100%;
+    height: 600px;
+    border: none;
+}
+
+.events-list {
+    width: 400px;
+    max-width: 100%;
+    height: fit-content;
+    padding: 0 2rem;
+
+    text-align: left;
+
+
+    /* border: 1px solid white; */
+}
