@@ -19,10 +19,10 @@ function Home() {
         <About />
 
         <section className='involvement-section' id="get-involved">
-          {/* <h1 className='involvement-section-title title'>
+          <h1 className='involvement-section-title title'>
             Get Involved
           </h1>
-          <p className='involvement-section-text'>
+          {/* <p className='involvement-section-text'>
             Check out our pillars and programs!
           </p> */}
 

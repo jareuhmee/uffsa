@@ -9,7 +9,7 @@ import FsaPlusTitle from '../../../../components/titles/FSA+ Title/FsaPlusTitle'
 const ThreePrograms = () => {
   return (
     <section className="programs-section" id="programs">
-      <h1 className='programs-section-title title'>Three Programs</h1>
+      <h1 className='programs-section-title'>Three Programs</h1>
       
       <div className="programs-container">
         

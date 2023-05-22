@@ -4,7 +4,7 @@
     background-color: var(--black);
     /* background-color: var(--red); */
     margin: 0;
-    padding: 4rem 0;
+    padding: 1rem 0 4rem 0;
     box-sizing: border-box;
 }
 
@@ -12,9 +12,10 @@
     position: relative;
     color: white;
     text-align: center;
-    font-weight: 100;
+    font-weight: 200;
 
-    font-size: 1.8rem;
+    font-size: 1.5rem;
+    font-style: italic;
 }
 
 
