@@ -9,11 +9,12 @@
 }
 
 .pillars-section-title {
+    position: relative;
     color: white;
     text-align: center;
     font-weight: 100;
 
-    font-size: 2rem;
+    font-size: 1.8rem;
 }
 
 
