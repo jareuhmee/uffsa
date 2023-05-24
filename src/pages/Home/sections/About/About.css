@@ -2,15 +2,15 @@
 .about-section {
     position: relative;
     width: 100%;
-    padding-top: 8rem;
-    padding-bottom: 4rem;
+    padding-top: 12rem;
+    padding-bottom: 8rem;
     background-color: var(--red);
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    gap: 2rem;
+    gap: 8rem;
 }
 
 .about-section::before {
@@ -29,14 +29,14 @@
 .about-container {
     position: relative;
     top: 0;
-    width: 65ch;
+    width: 60ch;
     max-width: 80%;
     text-align: left;
     color: black;
 }
 
 .about-title {
-    /* margin: 0 auto; */
+    margin: -2rem 0;
     position: relative;
     width: fit-content;
     font-size: 2rem;
@@ -55,11 +55,15 @@
     box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.5);
 }
 
+.about-text__intro {
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
 
 /* About Video */
 .about-vid {
     position: relative;
-    width: 500px;
+    width: 480px;
     max-width: 95vw;
-    margin: 2rem 2rem;
 }
