@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.6ea1ce53.css",
+    "main.css": "/static/css/main.57878bd7.css",
     "main.js": "/static/js/main.962468c3.js",
     "static/media/background.png": "/static/media/background.7521bd9431e42e602801.png",
     "static/media/lines.png": "/static/media/lines.7ad20b976dceba72e47f.png",
@@ -23,11 +23,11 @@
     "static/media/philanthropy.png": "/static/media/philanthropy.c64c020a9db52f5fdbbb.png",
     "static/media/logo.png": "/static/media/logo.2d474d98786a767124ce.png",
     "index.html": "/index.html",
-    "main.6ea1ce53.css.map": "/static/css/main.6ea1ce53.css.map",
+    "main.57878bd7.css.map": "/static/css/main.57878bd7.css.map",
     "main.962468c3.js.map": "/static/js/main.962468c3.js.map"
   },
   "entrypoints": [
-    "static/css/main.6ea1ce53.css",
+    "static/css/main.57878bd7.css",
     "static/js/main.962468c3.js"
   ]
 }
