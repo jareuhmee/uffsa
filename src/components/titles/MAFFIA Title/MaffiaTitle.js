@@ -3,10 +3,10 @@ import './MaffiaTitle.css';
 
 import star from './star.png';
 
-const MaffiaTitle = () => {  
+const MaffiaTitle = ({ color }) => {  
     return (
       <div className='maffia-title-container'>
-        <div className='maffia-title'>
+        <div className='maffia-title' style={{ color }}>
           <div className='maffia-left-box' />
           <div className='maffia-right-box' />
           <img src={star} alt="star"/>

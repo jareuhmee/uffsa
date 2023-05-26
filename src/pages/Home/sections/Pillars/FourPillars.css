@@ -78,7 +78,6 @@
 /* Hover Effect */
 .pillar:hover {
     transform: scale(1.03) translateY(-0.75rem);
-    color: black;
     background-color: white !important;
     box-shadow: 0 0 25px white;
 }

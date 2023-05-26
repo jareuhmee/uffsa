@@ -5,7 +5,6 @@
     height: fit-content;
     margin: 0 auto;
     text-align: center;
-    /* background-color: #1e1e1e; */
 }
 
 /* Title */
@@ -21,7 +20,6 @@
     top: 50%;
     transform: translate(0, -50%);
     margin: 0;
-    color: white;
 
     font-size: 3.5rem;
     text-shadow: 2px 2px 2px black;
@@ -42,10 +40,8 @@
     top: 50%;
     left: 12%;
     transform: translate(0, -50%);
-    
     width: 20%;
     height: 33%;
-
 
     border: var(--red) solid 2px;
     border-style: solid none solid none;
@@ -56,10 +52,8 @@
     top: 50%;
     right: 12%;
     transform: translate(0, -50%);
-    
     width: 20%;
     height: 33%;
-
 
     border: var(--blue) solid 2px;
     border-style: solid none solid none

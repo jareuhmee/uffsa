@@ -5,20 +5,8 @@
     height: fit-content;
     margin: 0 auto;
     text-align: center;
-    /* background-color: white; */
 }
 
-.fsaPlus-title-container::before {
-    content: "";
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    margin: 0;
-    top: 0;
-    left: 0;
-    opacity: 0.5;
-    /* background-image: url('../../../assets/textures/paper.png'); */
-}
 
 /* Title */
 .fsaPlus-title {
@@ -29,26 +17,26 @@
     text-align: center;
 }
 
+/* Title Text */
 .fsaPlus-title h1 {
     position: relative;
     top: 50%;
     transform: translate(0, -50%);
     margin: 0;
-    color: rgb(31, 31, 31);
-
+    color: #1e1e1e;
     font-size: 4rem;
     font-weight: 500;
     letter-spacing: 1rem;
 }
 
+/* Plus Sign */
 .fsaPlus-title h2 {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(0, -50%);
     margin: 0 5rem;
-    color: rgba(31, 31, 31, 0.75);
-
+    color: #1e1e1ebf;
     font-size: 4rem;
     font-weight: 600;
 }

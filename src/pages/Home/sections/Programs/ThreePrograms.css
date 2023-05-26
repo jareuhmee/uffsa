@@ -1,8 +1,7 @@
-/* programs Section */
+/* Programs Section */
 .programs-section {
     position: relative;
     background-color: var(--black);
-    /* background-color: var(--red); */
     margin: 0;
     padding: 1rem 0 4rem 0;
     box-sizing: border-box;
@@ -19,7 +18,7 @@
 }
 
 
-/* programs Container */
+/* Programs Container */
 .programs-container {
     position: relative;
     width: 100%;
@@ -33,7 +32,7 @@
 }
 
 
-/* program */
+/* Program */
 .program {
     box-sizing: border-box;
     position: relative;
@@ -78,10 +77,19 @@
 /* Hover Effect */
 .program:hover {
     transform: scale(1.03) translateY(-0.5rem);
-    /* color: black;
-    background-color: white !important; */
+    background-color: white !important;
     box-shadow: 0 0 25px white;
 }
+
+.aka-program:hover {
+    color: var(--yellow);
+}
+
+.maffia-program:hover {
+    color: #1e1e1e;
+}
+
+
 
 .programs-section::before {
     content: "";

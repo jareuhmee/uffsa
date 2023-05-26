@@ -5,7 +5,6 @@
     height: fit-content;
     margin: 0 auto;
     text-align: center;
-    /* background-color: lightslategrey; */
 }
 
 /* Title */
@@ -23,10 +22,6 @@
 .aka-title h1 {
     position: relative;
     margin: 0;
-    color: white;
-
     font-size: 2rem;
     font-weight: 900;
-    /* font-style: italic; */
-    /* text-shadow: 2px 2px 2px black; */
 }

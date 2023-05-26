@@ -6,7 +6,7 @@ import './AKA.css';
 const AKA = () => {  
     return (<>
         <div className='aka-page'>
-          <AKATitle />
+          <AKATitle color="white" />
 
           <div className='aka-description'>
             <div className='temp-text-container'>
