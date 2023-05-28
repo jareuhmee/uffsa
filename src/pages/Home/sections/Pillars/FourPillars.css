@@ -1,11 +1,15 @@
 /* Pillars Section */
 .pillars-section {
     position: relative;
-    background-color: #333333;
-    /* background-color: var(--red); */
-    margin: 0;
-    padding: 0.5rem 0;
+    background-color: var(--black);
+    padding: 1rem;
+    padding-bottom: 2rem;
     box-sizing: border-box;
+
+    width: fit-content;
+    max-width: 100%;
+    margin: 2rem auto;
+    border-radius: 50px;
 }
 
 .pillars-section-title {
@@ -96,15 +100,4 @@
 
 .philanthropy-pillar:hover {
     color: #333333;
-}
-
-.pillars-section::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-image: url(../../../../assets/textures/grain.png);
-    opacity: 0.1;
 }

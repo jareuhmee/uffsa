@@ -9,6 +9,7 @@ import './Home.css'
 import './Flag.css';
 
 import WaveDivider from '../../components/Dividers/Waves';
+import { HashLink } from 'react-router-hash-link';
 
 function Home() {
     return (
@@ -19,13 +20,15 @@ function Home() {
         <About />
 
         <section className='involvement-section' id="get-involved">
-          <h1 className='involvement-section-title title'>
-            Get Involved
-          </h1>
-          {/* <p className='involvement-section-text'>
-            Check out our pillars and programs!
-          </p> */}
 
+          <div className='involvement-section-text'>
+            <h1 className='involvement-section-title title'>
+              Get Involved
+            </h1>
+            <p className='involvement-section-paragraph'>
+              Find your home by exploring our  <HashLink smooth to="/#pillars">pillars</HashLink> and  <HashLink smooth to="/#programs">programs</HashLink>, or simply join us at any of our upcoming <HashLink smooth to="/#events">events</HashLink>!
+            </p>
+          </div>
 
           <FourPillars />
           <ThreePrograms />

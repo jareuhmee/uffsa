@@ -2,9 +2,14 @@
 .programs-section {
     position: relative;
     background-color: var(--black);
-    margin: 0;
-    padding: 1rem 0 4rem 0;
+    padding: 1rem 2rem;
+    padding-bottom: 2rem;
     box-sizing: border-box;
+
+    width: fit-content;
+    max-width: 100%;
+    margin: 0 auto;
+    border-radius: 50px;
 }
 
 .programs-section-title {
@@ -42,7 +47,7 @@
     text-decoration: none;
     text-align: center;
 
-    padding: 1rem 1rem;
+    padding: 1rem;
     margin: 1.5rem 1rem;
     border-radius: 25px;
 
@@ -87,17 +92,4 @@
 
 .maffia-program:hover {
     color: #1e1e1e;
-}
-
-
-
-.programs-section::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-image: url(../../../../assets/textures/grain.png);
-    opacity: 0.1;
 }

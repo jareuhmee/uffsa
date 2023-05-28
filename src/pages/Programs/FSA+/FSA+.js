@@ -6,9 +6,13 @@ import './FSA+.css';
 const FsaPlus = () => {  
     return (<>
         <div className='fsaplus-page'>
-          <FsaPlusTitle />
-          <div className='fsaplus-description'>
 
+          <section className='fsaplus-hero'>
+            <FsaPlusTitle />
+          </section>
+
+
+          <div className='fsaplus-description'>
             <div className='temp-text-container'>
               FSA+ Description: Our academic and career support program<br /><br />
               Embed Class Connector Form & Spreadsheet (Members can submit schedules to find others taking same courses) <br /><br />

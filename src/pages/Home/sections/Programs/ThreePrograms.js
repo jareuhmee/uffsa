@@ -36,13 +36,11 @@ const ThreePrograms = () => {
             <FsaPlusTitle />
           </div>
             <p className="program-text" style={{ color: 'black' }}>
-              Our academic and career support program.
+              Our career & academic support program.
             </p>
         </HashLink>
       </div>
         
-      
-
     </section>
   );
 }

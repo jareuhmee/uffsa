@@ -3,8 +3,8 @@
     margin: 0rem;
     background-color: #333333;
     color: white;
-    padding-top: 4rem;
-    /* padding: 1rem; */
+    padding: 4rem 0.5rem;
+    box-sizing: border-box;
 }
 
 .involvement-section::before {
@@ -18,13 +18,19 @@
     opacity: 0.1;
 }
 
+.involvement-section-text {
+    width: 84rem;
+    max-width: 95%;
+    margin: 0 auto;
+    padding: 0 2rem;
+    box-sizing: border-box;
+}
 
 .involvement-section-title {
     position: relative;
     text-align: center;
     font-size: 2rem;
     width: fit-content;
-    margin: 1rem auto;
 }
 
 .involvement-section-title::after {
@@ -38,13 +44,18 @@
     box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.5);
 }
 
-.involvement-section-text {
+.involvement-section-paragraph {
     position: relative;
-    /* margin: 2rem; */
-    text-align: center;
 }
 
+.involvement-section-paragraph a {
+    color: var(--yellow);
+    text-decoration: none;
+    font-weight: 600;
+    transition: all 0.3s ease-in-out;
+}
 
-@media screen and (max-width: 768px) {
-    
+.involvement-section-paragraph a:hover {
+    color: white;
+    text-shadow: 0 0 1px white;
 }
