@@ -7,7 +7,7 @@ const Hero = () => {
   return (<>
     <section className="hero-section">
 
-      <div className="hero-background"></div>
+      <div className="hero-background" />
 
       <div className="hero">
         <div className="hero-textbox">
