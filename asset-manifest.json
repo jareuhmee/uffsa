@@ -1,10 +1,9 @@
 {
   "files": {
-    "main.css": "/static/css/main.66febc04.css",
-    "main.js": "/static/js/main.cbbff0ec.js",
+    "main.css": "/static/css/main.5e7b535e.css",
+    "main.js": "/static/js/main.07909f49.js",
     "static/media/background.png": "/static/media/background.7521bd9431e42e602801.png",
     "static/media/lines.png": "/static/media/lines.7ad20b976dceba72e47f.png",
-    "static/media/paper.png": "/static/media/paper.80fed0ead3eb04b49f96.png",
     "static/media/grain.png": "/static/media/grain.a297bc3e3f17176232c9.png",
     "static/media/ssg.jpg": "/static/media/ssg.584017a465c4eb9562ef.jpg",
     "static/media/dance.png": "/static/media/dance.1336f21ac41c850885df.png",
@@ -23,11 +22,11 @@
     "static/media/philanthropy.png": "/static/media/philanthropy.c64c020a9db52f5fdbbb.png",
     "static/media/logo.png": "/static/media/logo.2d474d98786a767124ce.png",
     "index.html": "/index.html",
-    "main.66febc04.css.map": "/static/css/main.66febc04.css.map",
-    "main.cbbff0ec.js.map": "/static/js/main.cbbff0ec.js.map"
+    "main.5e7b535e.css.map": "/static/css/main.5e7b535e.css.map",
+    "main.07909f49.js.map": "/static/js/main.07909f49.js.map"
   },
   "entrypoints": [
-    "static/css/main.66febc04.css",
-    "static/js/main.cbbff0ec.js"
+    "static/css/main.5e7b535e.css",
+    "static/js/main.07909f49.js"
   ]
 }
