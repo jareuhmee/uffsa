@@ -9,7 +9,9 @@ const PillarSignatureEvents = ({children}) => {
         Signature Events
       </h1>
 
-      {children}
+      <div className='pillar-signature-events-container'>
+        {children}
+      </div>
     </section>
   );
 }

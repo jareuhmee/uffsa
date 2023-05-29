@@ -1,9 +1,11 @@
 import React from 'react';
+
 import PillarHero from '../../../components/Pillars/PillarHero';
 import PillarDescription from '../../../components/Pillars/PillarDescription';
 import PillarSignatureEvents from '../../../components/Pillars/PillarSignatureEvents';
 import PillarRegularActivities from '../../../components/Pillars/PillarRegularActivities';
 
+import EventAccordion from '../../../components/EventAccordion/EventAccordion';
 import EventCard from '../../../components/events/EventCard';
 
 import './Dance.css';
@@ -29,7 +31,36 @@ const Dance = () => {
 
         <PillarSignatureEvents>
             <div className='event-container'>
-                <EventCard
+
+                <EventAccordion
+                    backgroundColor="#eb8f9a"
+                    header="Asian American Student Assembly (AASA)"
+                    body="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+                    malesuada lacus ex, sit amet blandit leo lobortis eget. Lorem ipsum dolor
+                    sit amet, consectetur adipiscing elit. Suspendisse malesuada lacus ex,
+                    sit amet blandit leo lobortis eget."
+                />
+
+                <EventAccordion
+                    backgroundColor="#eb8f9a"
+                    header="Def Talent Jam (DTJ)"
+                    body="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+                    malesuada lacus ex, sit amet blandit leo lobortis eget. Lorem ipsum dolor
+                    sit amet, consectetur adipiscing elit. Suspendisse malesuada lacus ex,
+                    sit amet blandit leo lobortis eget."
+                />
+
+                <EventAccordion
+                    backgroundColor="#eb8f9a"
+                    header="PhilFest"
+                    body="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+                    malesuada lacus ex, sit amet blandit leo lobortis eget. Lorem ipsum dolor
+                    sit amet, consectetur adipiscing elit. Suspendisse malesuada lacus ex,
+                    sit amet blandit leo lobortis eget."
+                />
+
+
+                {/* <EventCard
                     title="Asian American Student Assembly"
                     date="FALL | August 26, 2023 AT 6 PM"
                     address="Phillips Center"
@@ -51,14 +82,42 @@ const Dance = () => {
                     address="Tampa"
                     description=""
                     image={PhilFest}
-                />
+                /> */}
             </div>
         </PillarSignatureEvents>
 
         
         <PillarRegularActivities>
             <div className='event-container'>
-                <EventCard
+
+            <EventAccordion
+                backgroundColor="#eb8f9a"
+                header="Dance Workshops"
+                body="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+                malesuada lacus ex, sit amet blandit leo lobortis eget. Lorem ipsum dolor
+                sit amet, consectetur adipiscing elit. Suspendisse malesuada lacus ex,
+                sit amet blandit leo lobortis eget."
+            />
+
+            <EventAccordion
+                backgroundColor="#eb8f9a"
+                header="Traditions"
+                body="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+                malesuada lacus ex, sit amet blandit leo lobortis eget. Lorem ipsum dolor
+                sit amet, consectetur adipiscing elit. Suspendisse malesuada lacus ex,
+                sit amet blandit leo lobortis eget."
+            />
+
+            <EventAccordion
+                backgroundColor="#eb8f9a"
+                header="Collaborative Showcases"
+                body="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+                malesuada lacus ex, sit amet blandit leo lobortis eget. Lorem ipsum dolor
+                sit amet, consectetur adipiscing elit. Suspendisse malesuada lacus ex,
+                sit amet blandit leo lobortis eget."
+            />
+
+                {/* <EventCard
                     title="Dance Workshops"
                     date=""
                     address=""
@@ -77,7 +136,7 @@ const Dance = () => {
                     date=""
                     address=""
                     description=""
-                />
+                /> */}
             </div>
         </PillarRegularActivities>
         

@@ -4,6 +4,7 @@ import PillarDescription from '../../../components/Pillars/PillarDescription';
 import PillarSignatureEvents from '../../../components/Pillars/PillarSignatureEvents';
 import PillarRegularActivities from '../../../components/Pillars/PillarRegularActivities';
 
+import EventAccordion from '../../../components/EventAccordion/EventAccordion';
 import EventCard from '../../../components/events/EventCard';
 
 import './Culture.css';
@@ -27,7 +28,24 @@ const Culture = () => {
 
         <PillarSignatureEvents>
             <div className='event-container'>
-                <EventCard
+                <EventAccordion
+                    backgroundColor="var(--red)"
+                    header="Filipino American History Month (FAHM)"
+                    body="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+                    malesuada lacus ex, sit amet blandit leo lobortis eget. Lorem ipsum dolor
+                    sit amet, consectetur adipiscing elit. Suspendisse malesuada lacus ex,
+                    sit amet blandit leo lobortis eget."
+                />
+
+                <EventAccordion
+                    backgroundColor="var(--red)"
+                    header="Barrio Fiesta"
+                    body="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+                    malesuada lacus ex, sit amet blandit leo lobortis eget. Lorem ipsum dolor
+                    sit amet, consectetur adipiscing elit. Suspendisse malesuada lacus ex,
+                    sit amet blandit leo lobortis eget."
+                />
+                {/* <EventCard
                     title="Filipino American History Month"
                     date="FALL | October 2023"
                     address="Phillips Center"
@@ -41,14 +59,30 @@ const Culture = () => {
                     address="Gator Wesley Foundation"
                     description=""
                     image={barrio}
-                />
+                /> */}
             </div>
         </PillarSignatureEvents>
 
         
         <PillarRegularActivities>
             <div className='event-container'>
-                <EventCard
+                <EventAccordion
+                    backgroundColor="var(--red)"
+                    header="Blogs"
+                    body="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+                    malesuada lacus ex, sit amet blandit leo lobortis eget. Lorem ipsum dolor
+                    sit amet, consectetur adipiscing elit. Suspendisse malesuada lacus ex,
+                    sit amet blandit leo lobortis eget."
+                />
+                <EventAccordion
+                    backgroundColor="var(--red)"
+                    header="Presentations"
+                    body="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+                    malesuada lacus ex, sit amet blandit leo lobortis eget. Lorem ipsum dolor
+                    sit amet, consectetur adipiscing elit. Suspendisse malesuada lacus ex,
+                    sit amet blandit leo lobortis eget."
+                />
+                {/* <EventCard
                     title="Blogs"
                     date=""
                     address=""
@@ -60,7 +94,7 @@ const Culture = () => {
                     date=""
                     address=""
                     description=""
-                />
+                /> */}
             </div>
         </PillarRegularActivities>
 

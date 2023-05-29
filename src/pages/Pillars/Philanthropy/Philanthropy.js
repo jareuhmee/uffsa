@@ -4,6 +4,7 @@ import PillarDescription from '../../../components/Pillars/PillarDescription';
 import PillarSignatureEvents from '../../../components/Pillars/PillarSignatureEvents';
 import PillarRegularActivities from '../../../components/Pillars/PillarRegularActivities';
 
+import EventAccordion from '../../../components/EventAccordion/EventAccordion';
 import EventCard from '../../../components/events/EventCard';
 
 import './Philanthropy.css';
@@ -27,20 +28,53 @@ const Philanthropy = () => {
 
         <PillarSignatureEvents>
             <div className='event-container'>
-                <EventCard
+                <EventAccordion
+                    backgroundColor="#333333"
+                    header="Gawad Kalinga (GK) Month"
+                    body="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+                    malesuada lacus ex, sit amet blandit leo lobortis eget. Lorem ipsum dolor
+                    sit amet, consectetur adipiscing elit. Suspendisse malesuada lacus ex,
+                    sit amet blandit leo lobortis eget."
+                />
+
+                {/* <EventCard
                     title="Gawad Kalinga Month"
                     date="SPRING | March 2024"
                     address="Gainesville"
                     description=""
                     image={GK}
-                />
+                /> */}
             </div>
         </PillarSignatureEvents>
 
         
         <PillarRegularActivities>
             <div className='event-container'>
-                <EventCard
+                <EventAccordion
+                    backgroundColor="#333333"
+                    header="Project Lunchbox"
+                    body="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+                    malesuada lacus ex, sit amet blandit leo lobortis eget. Lorem ipsum dolor
+                    sit amet, consectetur adipiscing elit. Suspendisse malesuada lacus ex,
+                    sit amet blandit leo lobortis eget."
+                />
+                <EventAccordion
+                    backgroundColor="#333333"
+                    header="Presentations"
+                    body="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+                    malesuada lacus ex, sit amet blandit leo lobortis eget. Lorem ipsum dolor
+                    sit amet, consectetur adipiscing elit. Suspendisse malesuada lacus ex,
+                    sit amet blandit leo lobortis eget."
+                />
+                <EventAccordion
+                    backgroundColor="#333333"
+                    header="Fundraising"
+                    body="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+                    malesuada lacus ex, sit amet blandit leo lobortis eget. Lorem ipsum dolor
+                    sit amet, consectetur adipiscing elit. Suspendisse malesuada lacus ex,
+                    sit amet blandit leo lobortis eget."
+                />
+                {/* <EventCard
                     title="Project Lunchbox"
                     date=""
                     address=""
@@ -59,7 +93,7 @@ const Philanthropy = () => {
                     date=""
                     address=""
                     description=""
-                />
+                /> */}
             </div>
         </PillarRegularActivities>
 

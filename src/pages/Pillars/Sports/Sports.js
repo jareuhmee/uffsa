@@ -4,6 +4,7 @@ import PillarDescription from '../../../components/Pillars/PillarDescription';
 import PillarSignatureEvents from '../../../components/Pillars/PillarSignatureEvents';
 import PillarRegularActivities from '../../../components/Pillars/PillarRegularActivities';
 
+import EventAccordion from '../../../components/EventAccordion/EventAccordion';
 import EventCard from '../../../components/events/EventCard';
 
 
@@ -29,7 +30,24 @@ const Sports = () => {
 
         <PillarSignatureEvents>
             <div className='event-container'>
-                <EventCard
+                <EventAccordion
+                    backgroundColor="var(--blue)"
+                    header="Adobowl"
+                    body="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+                    malesuada lacus ex, sit amet blandit leo lobortis eget. Lorem ipsum dolor
+                    sit amet, consectetur adipiscing elit. Suspendisse malesuada lacus ex,
+                    sit amet blandit leo lobortis eget."
+                />
+                <EventAccordion
+                    backgroundColor="var(--blue)"
+                    header="Southern Survival Games (SSG)"
+                    body="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+                    malesuada lacus ex, sit amet blandit leo lobortis eget. Lorem ipsum dolor
+                    sit amet, consectetur adipiscing elit. Suspendisse malesuada lacus ex,
+                    sit amet blandit leo lobortis eget."
+                />
+
+                {/* <EventCard
                     title="Adobowl"
                     date="FALL | October 22, 2023"
                     address="Flavet Field"
@@ -43,14 +61,38 @@ const Sports = () => {
                     address="Squirrel Ridge Park"
                     description=""
                     image={ssg}
-                />
+                /> */}
             </div>
         </PillarSignatureEvents>
 
         
         <PillarRegularActivities>
             <div className='event-container'>
-                <EventCard
+                <EventAccordion
+                    backgroundColor="var(--blue)"
+                    header="Intramural Sports"
+                    body="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+                    malesuada lacus ex, sit amet blandit leo lobortis eget. Lorem ipsum dolor
+                    sit amet, consectetur adipiscing elit. Suspendisse malesuada lacus ex,
+                    sit amet blandit leo lobortis eget."
+                />
+                <EventAccordion
+                    backgroundColor="var(--blue)"
+                    header="Tailgating"
+                    body="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+                    malesuada lacus ex, sit amet blandit leo lobortis eget. Lorem ipsum dolor
+                    sit amet, consectetur adipiscing elit. Suspendisse malesuada lacus ex,
+                    sit amet blandit leo lobortis eget."
+                />
+                <EventAccordion
+                    backgroundColor="var(--blue)"
+                    header="Tournaments"
+                    body="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+                    malesuada lacus ex, sit amet blandit leo lobortis eget. Lorem ipsum dolor
+                    sit amet, consectetur adipiscing elit. Suspendisse malesuada lacus ex,
+                    sit amet blandit leo lobortis eget."
+                />
+                {/* <EventCard
                     title="Intramural Sports"
                     date=""
                     address=""
@@ -69,7 +111,7 @@ const Sports = () => {
                     date=""
                     address=""
                     description=""
-                />
+                /> */}
             </div>
         </PillarRegularActivities>
 
