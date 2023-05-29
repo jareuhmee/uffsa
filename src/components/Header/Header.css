@@ -208,10 +208,6 @@
     max-height: 8rem;
   }
 
-  /* .navbar-dropdown:hover .navbar-link {
-    color: rgba(245, 197, 42, 1);
-  } */
-
   .navbar-link:hover {
     transform: scale(1);
   }
@@ -248,7 +244,7 @@
     height: 2px;
     background-color: var(--yellow);
     position: absolute;
-    transition: all 0.3s ease;
+    transition: all 0.1s ease;
   }
   
   .navbar-menu-icon::before {
