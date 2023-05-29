@@ -44,10 +44,24 @@ const Dance = () => {
                 <EventAccordion
                     backgroundColor="#eb8f9a"
                     header="Def Talent Jam (DTJ)"
-                    body="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-                    malesuada lacus ex, sit amet blandit leo lobortis eget. Lorem ipsum dolor
-                    sit amet, consectetur adipiscing elit. Suspendisse malesuada lacus ex,
-                    sit amet blandit leo lobortis eget."
+                    body={<>
+                        <iframe
+                            src="https://www.instagram.com/p/CsytnwHuKWc/embed/"
+                            width="300"
+                            height="354"
+                            title="Instagram Post"
+                            frameBorder="0"
+                            scrolling="no"
+                            allowFullScreen
+                            className='dtj-post'
+                        />
+
+                        <p> "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+                            malesuada lacus ex, sit amet blandit leo lobortis eget. Lorem ipsum dolor
+                            sit amet, consectetur adipiscing elit. Suspendisse malesuada lacus ex,
+                            sit amet blandit leo lobortis eget."
+                        </p>
+                    </>}
                 />
 
                 <EventAccordion

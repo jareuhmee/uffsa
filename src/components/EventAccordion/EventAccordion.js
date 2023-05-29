@@ -22,8 +22,8 @@ const AccordionSummary = styled((props) => (
     expandIcon={<ArrowForwardIosSharpIcon sx={{ fontSize: '1rem', color: "white" }} />}
     {...props}
   />
-))(({ theme, backgroundColor }) => ({
-  backgroundColor: backgroundColor,
+))(({ theme, color }) => ({
+  backgroundColor: color,
   flexDirection: 'row-reverse',
   '& .MuiAccordionSummary-expandIconWrapper.Mui-expanded': {
     transform: 'rotate(90deg)',
@@ -43,7 +43,7 @@ const AccordionDetails = styled(MuiAccordionDetails)(({ theme }) => ({
 function EventAccordion({ header, body, backgroundColor }) {
   return (
     <Accordion>
-      <AccordionSummary backgroundColor={backgroundColor}>
+      <AccordionSummary color={backgroundColor}>
         {header}
       </AccordionSummary>
 
