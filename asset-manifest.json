@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.251a8019.css",
-    "main.js": "/static/js/main.c65bfdeb.js",
+    "main.css": "/static/css/main.c0d2f1ac.css",
+    "main.js": "/static/js/main.6c64ff82.js",
     "static/media/background.png": "/static/media/background.7521bd9431e42e602801.png",
     "static/media/lines.png": "/static/media/lines.7ad20b976dceba72e47f.png",
     "static/media/grain.png": "/static/media/grain.a297bc3e3f17176232c9.png",
@@ -22,11 +22,11 @@
     "static/media/philanthropy.png": "/static/media/philanthropy.c64c020a9db52f5fdbbb.png",
     "static/media/logo.png": "/static/media/logo.2d474d98786a767124ce.png",
     "index.html": "/index.html",
-    "main.251a8019.css.map": "/static/css/main.251a8019.css.map",
-    "main.c65bfdeb.js.map": "/static/js/main.c65bfdeb.js.map"
+    "main.c0d2f1ac.css.map": "/static/css/main.c0d2f1ac.css.map",
+    "main.6c64ff82.js.map": "/static/js/main.6c64ff82.js.map"
   },
   "entrypoints": [
-    "static/css/main.251a8019.css",
-    "static/js/main.c65bfdeb.js"
+    "static/css/main.c0d2f1ac.css",
+    "static/js/main.6c64ff82.js"
   ]
 }
