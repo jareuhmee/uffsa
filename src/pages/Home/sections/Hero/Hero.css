@@ -74,7 +74,7 @@
     font-weight: 500;
     letter-spacing: 0.2em;
     cursor: pointer;
-    transition: all 0.3s ease-in-out;
+    transition: all 0.3s;
 }
 
 .hero-button-primary {
