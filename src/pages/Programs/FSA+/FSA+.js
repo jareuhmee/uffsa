@@ -45,7 +45,7 @@ const FsaPlus = () => {
 
             <div className='fsaplus-sticky-container'>
                 <div className='fsaplus-sticky-note'>
-                  <h1 className='title'> Study Socials: </h1>
+                  <h1 className='title'> Study Socials </h1>
                   <p className='title'> Next Event: TBD </p>
                 </div>
 
