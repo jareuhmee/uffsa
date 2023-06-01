@@ -34,7 +34,6 @@ const FsaPlus = () => {
                   </button>
                 </a>
               </div>
-
               <a href='https://www.linkedin.com/company/filipino-student-association-at-uf/' target="_blank" rel="noopener noreferrer">
                 <button>
                   <FaLinkedin /> Filipino Student Association at UF
@@ -78,22 +77,22 @@ const FsaPlus = () => {
               <div className='fsaplus-org-container'>
                 <a href='https://www.instagram.com/ufheal/' target="_blank" rel="noopener noreferrer" className='fsaplus-org-card'>
                   <h1 className='title'>UF HEAL</h1>
-                  <img src={HEAL} title='HEAL' />
+                  <img src={HEAL} alt='HEAL' />
                 </a>
 
                 <a href='https://www.instagram.com/ufsase/' target="_blank" rel="noopener noreferrer" className='fsaplus-org-card'>
                   <h1 className='title'>UF SASE</h1>
-                  <img src={SASE} title='SASE' />
+                  <img src={SASE} alt='SASE' />
                 </a>
 
                 <a href='https://www.instagram.com/uf_aausla/' target="_blank" rel="noopener noreferrer" className='fsaplus-org-card'>
                   <h1 className='title'>UF AAUSLA</h1>
-                  <img src={AAUSLA} title='AAUSLA' />
+                  <img src={AAUSLA} alt='AAUSLA' />
                 </a>
 
                 <a href='https://www.instagram.com/uf.absa/' target="_blank" rel="noopener noreferrer" className='fsaplus-org-card'>
                   <h1 className='title'>UF ABSA</h1>
-                  <img src={ABSA} title='ABSA' />
+                  <img src={ABSA} alt='ABSA' />
                 </a>
               </div>
 
@@ -102,15 +101,11 @@ const FsaPlus = () => {
 
 
           <section className='fsaplus-description'>
-
-            
-
             <div className='temp-text-container'>
               FSA+ Description: Our career & academic support program<br /><br />
               Group chats (use uffsa discord): class recommendations, sharing surveys for papers/research projects, requested majors/tracks  <br /><br />
               Other Resources: Scholarships, internships/research, career fairs, study edge, smokin notes  <br /><br />
             </div>
-
           </section>
 
         </div>

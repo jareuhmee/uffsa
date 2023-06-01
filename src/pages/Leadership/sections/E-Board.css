@@ -1,0 +1,49 @@
+.eboard-section {
+    padding: 4rem 0;
+    box-sizing: border-box;
+    background-color: #f5f2f0;
+}
+
+.eboard-section-title {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.eboard-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.eboard-card {
+    position: relative;
+    width: 250px;
+    height: 350px;
+    padding: 0.5rem 1rem;
+    box-sizing: border-box;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    background-color: var(--red);
+    border: 2px solid black;
+    border-radius: 10px;
+    
+}
+
+.eboard-card img {
+    width: 200px;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.eboard-card h1 {
+    font-size: 1.2rem;
+}
+
+.eboard-card h2 {
+    font-size: 1rem;
+}
