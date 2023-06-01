@@ -1,11 +1,13 @@
 {
   "files": {
-    "main.css": "/static/css/main.5c2d34b7.css",
-    "main.js": "/static/js/main.fa412d7a.js",
+    "main.css": "/static/css/main.ee558df7.css",
+    "main.js": "/static/js/main.dfb04a09.js",
     "static/media/background.png": "/static/media/background.7521bd9431e42e602801.png",
     "static/media/lines.png": "/static/media/lines.7ad20b976dceba72e47f.png",
     "static/media/grain.png": "/static/media/grain.a297bc3e3f17176232c9.png",
     "static/media/ssg.jpg": "/static/media/ssg.584017a465c4eb9562ef.jpg",
+    "static/media/AAUSLA.png": "/static/media/AAUSLA.f0e075b7d719562002c2.png",
+    "static/media/HEAL.png": "/static/media/HEAL.a940c251a0dcd9f187d4.png",
     "static/media/dance.png": "/static/media/dance.1336f21ac41c850885df.png",
     "static/media/Montserrat-VariableFont_wght.ttf": "/static/media/Montserrat-VariableFont_wght.c28a96c369871653b853.ttf",
     "static/media/aasa.jpeg": "/static/media/aasa.0c47947309fe383f0063.jpeg",
@@ -17,16 +19,18 @@
     "static/media/adobowl.jpeg": "/static/media/adobowl.a83cde0290012137fc0e.jpeg",
     "static/media/philfest.jpeg": "/static/media/philfest.6fa836bc64a46b863ed6.jpeg",
     "static/media/culture.png": "/static/media/culture.3ba01914e97cde79b4c4.png",
+    "static/media/ABSA.png": "/static/media/ABSA.8f7ca2d741c1170d6710.png",
     "static/media/sports.png": "/static/media/sports.957142822c323e1ce195.png",
+    "static/media/SASE.png": "/static/media/SASE.b678b54d4b29c9bcba8b.png",
     "static/media/star.png": "/static/media/star.e019e048777872070a12.png",
     "static/media/philanthropy.png": "/static/media/philanthropy.c64c020a9db52f5fdbbb.png",
     "static/media/logo.png": "/static/media/logo.2d474d98786a767124ce.png",
     "index.html": "/index.html",
-    "main.5c2d34b7.css.map": "/static/css/main.5c2d34b7.css.map",
-    "main.fa412d7a.js.map": "/static/js/main.fa412d7a.js.map"
+    "main.ee558df7.css.map": "/static/css/main.ee558df7.css.map",
+    "main.dfb04a09.js.map": "/static/js/main.dfb04a09.js.map"
   },
   "entrypoints": [
-    "static/css/main.5c2d34b7.css",
-    "static/js/main.fa412d7a.js"
+    "static/css/main.ee558df7.css",
+    "static/js/main.dfb04a09.js"
   ]
 }
