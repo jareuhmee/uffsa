@@ -1,9 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.ee558df7.css",
-    "main.js": "/static/js/main.dfb04a09.js",
+    "main.css": "/static/css/main.f8c4cdce.css",
+    "main.js": "/static/js/main.d17c7f31.js",
     "static/media/background.png": "/static/media/background.7521bd9431e42e602801.png",
     "static/media/lines.png": "/static/media/lines.7ad20b976dceba72e47f.png",
+    "static/media/logo2.png": "/static/media/logo2.a566d9cf59acb754358b.png",
     "static/media/grain.png": "/static/media/grain.a297bc3e3f17176232c9.png",
     "static/media/ssg.jpg": "/static/media/ssg.584017a465c4eb9562ef.jpg",
     "static/media/AAUSLA.png": "/static/media/AAUSLA.f0e075b7d719562002c2.png",
@@ -11,6 +12,10 @@
     "static/media/dance.png": "/static/media/dance.1336f21ac41c850885df.png",
     "static/media/Montserrat-VariableFont_wght.ttf": "/static/media/Montserrat-VariableFont_wght.c28a96c369871653b853.ttf",
     "static/media/aasa.jpeg": "/static/media/aasa.0c47947309fe383f0063.jpeg",
+    "static/media/vpmc.jpeg": "/static/media/vpmc.a777fc8a4ec9b9b916cd.jpeg",
+    "static/media/evp.jpeg": "/static/media/evp.65bdd9630a14df9e33f0.jpeg",
+    "static/media/vpf.jpeg": "/static/media/vpf.9aef46f4a70c2d41caa9.jpeg",
+    "static/media/vpmm.jpeg": "/static/media/vpmm.adc4f244f04a94c4e271.jpeg",
     "static/media/FAHM.jpeg": "/static/media/FAHM.e9b79da20e1bf09344ec.jpeg",
     "static/media/GK.jpeg": "/static/media/GK.ebf3ecb040118169e6c4.jpeg",
     "static/media/Ghiya Strokes Reg.ttf": "/static/media/Ghiya Strokes Reg.95df9f6e51a7f9df623f.ttf",
@@ -19,18 +24,20 @@
     "static/media/adobowl.jpeg": "/static/media/adobowl.a83cde0290012137fc0e.jpeg",
     "static/media/philfest.jpeg": "/static/media/philfest.6fa836bc64a46b863ed6.jpeg",
     "static/media/culture.png": "/static/media/culture.3ba01914e97cde79b4c4.png",
+    "static/media/vpea.jpeg": "/static/media/vpea.eb0d24d237209e688a6a.jpeg",
     "static/media/ABSA.png": "/static/media/ABSA.8f7ca2d741c1170d6710.png",
     "static/media/sports.png": "/static/media/sports.957142822c323e1ce195.png",
     "static/media/SASE.png": "/static/media/SASE.b678b54d4b29c9bcba8b.png",
     "static/media/star.png": "/static/media/star.e019e048777872070a12.png",
     "static/media/philanthropy.png": "/static/media/philanthropy.c64c020a9db52f5fdbbb.png",
+    "static/media/vpm2.jpeg": "/static/media/vpm2.a557ae85ad177e7e2ea7.jpeg",
     "static/media/logo.png": "/static/media/logo.2d474d98786a767124ce.png",
     "index.html": "/index.html",
-    "main.ee558df7.css.map": "/static/css/main.ee558df7.css.map",
-    "main.dfb04a09.js.map": "/static/js/main.dfb04a09.js.map"
+    "main.f8c4cdce.css.map": "/static/css/main.f8c4cdce.css.map",
+    "main.d17c7f31.js.map": "/static/js/main.d17c7f31.js.map"
   },
   "entrypoints": [
-    "static/css/main.ee558df7.css",
-    "static/js/main.dfb04a09.js"
+    "static/css/main.f8c4cdce.css",
+    "static/js/main.d17c7f31.js"
   ]
 }
