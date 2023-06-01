@@ -2,6 +2,11 @@ import React from 'react';
 import { FaFacebook, FaLinkedin } from 'react-icons/fa';
 import FsaPlusTitle from '../../../components/titles/FSA+ Title/FsaPlusTitle';
 
+import HEAL from './org logos/HEAL.png';
+import SASE from './org logos/SASE.png';
+import AAUSLA from './org logos/AAUSLA.png';
+import ABSA from './org logos/ABSA.png';
+
 import './FSA+.css';
 
 const FsaPlus = () => {  
@@ -18,13 +23,11 @@ const FsaPlus = () => {
                     <FaFacebook /> FSA+
                   </button>
                 </a>
-
                 <a href='https://www.facebook.com/groups/UFFSA.Alumni/' target="_blank" rel="noopener noreferrer">
                   <button>
                     <FaFacebook /> UFFSA Alumni
                   </button>
                 </a>
-
                 <a href='https://www.facebook.com/groups/FSAnetworking/' target="_blank" rel="noopener noreferrer">
                   <button>
                     <FaFacebook /> FSA Networking
@@ -41,12 +44,14 @@ const FsaPlus = () => {
           </section>
 
 
-          <section className='fsaplus-description'>
+          <section className='fsaplus-main-resources'>
+            <h1 className='fsaplus-main-resources-title title'>FSA+ Resources</h1>
 
             <div className='fsaplus-sticky-container'>
                 <div className='fsaplus-sticky-note'>
                   <h1 className='title'> Study Socials </h1>
                   <p className='title'> Next Event: TBD </p>
+                  <p className='title'> Location: TBD </p>
                 </div>
 
                 <div className='fsaplus-sticky-note'>
@@ -61,11 +66,48 @@ const FsaPlus = () => {
                   <p className='title'> Google Drive of Notes </p>
                 </div>
             </div>
+          </section>
+
+
+          <section className='fsaplus-other-orgs'>
+
+            <div className='fsaplus-other-orgs__board'>
+
+              <h1 className='fsaplus-other-orgs-title title'>Asian-Interest Professional Organizations</h1>
+
+              <div className='fsaplus-org-container'>
+                <a href='https://www.instagram.com/ufheal/' target="_blank" rel="noopener noreferrer" className='fsaplus-org-card'>
+                  <h1 className='title'>UF HEAL</h1>
+                  <img src={HEAL} title='HEAL' />
+                </a>
+
+                <a href='https://www.instagram.com/ufsase/' target="_blank" rel="noopener noreferrer" className='fsaplus-org-card'>
+                  <h1 className='title'>UF SASE</h1>
+                  <img src={SASE} title='SASE' />
+                </a>
+
+                <a href='https://www.instagram.com/uf_aausla/' target="_blank" rel="noopener noreferrer" className='fsaplus-org-card'>
+                  <h1 className='title'>UF AAUSLA</h1>
+                  <img src={AAUSLA} title='AAUSLA' />
+                </a>
+
+                <a href='https://www.instagram.com/uf.absa/' target="_blank" rel="noopener noreferrer" className='fsaplus-org-card'>
+                  <h1 className='title'>UF ABSA</h1>
+                  <img src={ABSA} title='ABSA' />
+                </a>
+              </div>
+
+            </div>
+          </section>
+
+
+          <section className='fsaplus-description'>
+
+            
 
             <div className='temp-text-container'>
               FSA+ Description: Our career & academic support program<br /><br />
               Group chats (use uffsa discord): class recommendations, sharing surveys for papers/research projects, requested majors/tracks  <br /><br />
-              Asian-Interest Professional Organizations: UF HEAL, UF SASE, UF AAUSLA, UF ABSA <br /><br />
               Other Resources: Scholarships, internships/research, career fairs, study edge, smokin notes  <br /><br />
             </div>
 
