@@ -1,10 +1,10 @@
-.eboard-section {
+.cboard-section {
     padding: 4rem 0;
     box-sizing: border-box;
     background-color: #f5f2f0;
 }
 
-.eboard-section-title {
+.cboard-section-title {
     position: relative;
     text-align: center;
     font-size: 2rem;
@@ -12,7 +12,7 @@
     margin: 0 auto;
 }
 
-.eboard-section-title::after {
+.cboard-section-title::after {
     content: "";
     position: absolute;
     bottom: -25%;
@@ -24,7 +24,7 @@
 }
 
 
-.eboard-container {
+.cboard-container {
     padding-top: 2rem;
     max-width: 1200px;
     margin: 0 auto;
@@ -35,7 +35,7 @@
     gap: 1rem;
 }
 
-.eboard-card {
+.cboard-card {
     position: relative;
     width: 250px;
     height: 350px;
@@ -44,22 +44,22 @@
     text-align: center;
     text-decoration: none;
     color: white;
-    background-color: var(--red);
+    background-color: var(--blue);
     border: 2px solid black;
     border-radius: 10px;
     
 }
 
-.eboard-card img {
+.cboard-card img {
     width: 200px;
     border-radius: 5px;
     background-color: white;
 }
 
-.eboard-card h1 {
+.cboard-card h1 {
     font-size: 1.2rem;
 }
 
-.eboard-card h2 {
+.cboard-card h2 {
     font-size: 1rem;
 }

@@ -1,6 +1,7 @@
 import React from 'react';
 import './Leadership.css';
 import EBoard from './sections/E-Board';
+import CBoard from './sections/C-Board';
 
 const Leadership = () => {  
   return (
@@ -16,6 +17,7 @@ const Leadership = () => {
       </div>
 
       <EBoard />
+      <CBoard />
     </div>
   );
 }
