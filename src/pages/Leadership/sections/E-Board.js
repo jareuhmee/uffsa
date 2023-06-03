@@ -5,6 +5,7 @@ import temp from '../../../components/Header/logo2.png'
 
 import EVP from '../photos/evp.jpeg';
 import VPF from '../photos/vpf.jpeg';
+import IVP from '../photos/ivp.jpeg';
 import VPMC from '../photos/vpmc.jpeg';
 import VPM2 from '../photos/vpm2.jpeg';
 import VPMM from '../photos/vpmm.jpeg';
@@ -35,7 +36,7 @@ const EBoard = () => {
 
                 <a href='https://www.instagram.com/johannahtador/' target="_blank" rel="noopener noreferrer" className='eboard-card'>
                   <h1>Johannah Tador</h1>
-                  <img src={temp} alt='Vice President of Internal Affairs' />
+                  <img src={IVP} alt='Vice President of Internal Affairs' />
                   <h2>Vice President of Internal Affairs</h2>
                 </a>
 

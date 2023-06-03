@@ -47,6 +47,7 @@
     background-color: var(--red);
     border: 2px solid black;
     border-radius: 10px;
+    transition: all 0.3s;
     
 }
 
@@ -62,4 +63,8 @@
 
 .eboard-card h2 {
     font-size: 1rem;
+}
+
+.eboard-card:hover {
+    transform: scale(1.02) translateY(-0.5rem);
 }
