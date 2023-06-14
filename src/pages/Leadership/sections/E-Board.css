@@ -44,7 +44,7 @@
     text-align: center;
     text-decoration: none;
     color: white;
-    background-color: var(--red);
+    background-color: var(--black);
     border: 2px solid black;
     border-radius: 10px;
     transition: all 0.3s;

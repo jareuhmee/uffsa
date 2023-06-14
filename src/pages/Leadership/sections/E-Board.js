@@ -3,13 +3,13 @@ import './E-Board.css';
 
 import temp from '../../../components/Header/logo2.png'
 
-import EVP from '../photos/evp.jpeg';
-import VPF from '../photos/vpf.jpeg';
-import IVP from '../photos/ivp.jpeg';
-import VPMC from '../photos/vpmc.jpeg';
-import VPM2 from '../photos/vpm2.jpeg';
-import VPMM from '../photos/vpmm.jpeg';
-import VPEA from '../photos/vpea.jpeg';
+import EVP from '../photos/eboard/evp.jpeg';
+import VPF from '../photos/eboard/vpf.jpeg';
+import IVP from '../photos/eboard/ivp.jpeg';
+import VPMC from '../photos/eboard/vpmc.jpeg';
+import VPM2 from '../photos/eboard/vpm2.jpeg';
+import VPMM from '../photos/eboard/vpmm.jpeg';
+import VPEA from '../photos/eboard/vpea.jpeg';
 
 const EBoard = () => {  
     return (

@@ -26,7 +26,7 @@
 
 .cboard-container {
     padding-top: 2rem;
-    max-width: 1200px;
+    max-width: 1350px;
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
@@ -44,9 +44,10 @@
     text-align: center;
     text-decoration: none;
     color: white;
-    background-color: var(--blue);
+    background-color: var(--black);
     border: 2px solid black;
     border-radius: 10px;
+    transition: all 0.3s;
     
 }
 
@@ -63,3 +64,54 @@
 .cboard-card h2 {
     font-size: 1rem;
 }
+
+.cboard-card:hover {
+    transform: scale(1.02) translateY(-0.5rem);
+}
+
+
+/* .rush-card {
+    background-color: var(--yellow);
+}
+
+.acheesyment-card {
+    background-color: yellow;
+}
+
+
+.culture-card {
+    background-color: var(--red);
+}
+
+.philanthropy-card {
+    background-color: #333333;
+}
+
+.advocacy-card {
+    background-color: #1b1b1b;
+}
+
+
+.dance-card {
+    background-color: #eb8f9a;
+}
+
+.sports-card {
+    background-color: var(--blue);
+}
+
+.fundraising-card {
+    background-color: blue;
+}
+
+.multimedia-card {
+    background-color: red;
+}
+
+.masscom-card {
+    background-color: orange;
+}
+
+.webmaster-card {
+    background-color: gold;
+} */
