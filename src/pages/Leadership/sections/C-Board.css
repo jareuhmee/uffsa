@@ -26,7 +26,7 @@
 
 .cboard-container {
     padding-top: 2rem;
-    max-width: 1350px;
+    max-width: 1400px;
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
@@ -37,36 +37,39 @@
 
 .cboard-card {
     position: relative;
-    width: 250px;
-    height: 350px;
-    padding: 0.5rem 1rem;
+    width: 20rem;
+    padding: 0.5rem 0.5rem;
     box-sizing: border-box;
-    text-align: center;
     text-decoration: none;
-    color: white;
-    background-color: var(--black);
-    border: 2px solid black;
+    color: var(--black);
+    border: 2px dashed var(--yellow);
     border-radius: 10px;
+
+    display: flex;
+    align-items: center;
+    gap: 1rem;
     transition: all 0.3s;
-    
 }
 
 .cboard-card img {
-    width: 200px;
+    width: 100px;
     border-radius: 5px;
     background-color: white;
 }
 
 .cboard-card h1 {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
 }
 
 .cboard-card h2 {
-    font-size: 1rem;
+    font-size: 0.9rem;
+    color: #4b4b4b;
 }
 
 .cboard-card:hover {
-    transform: scale(1.02) translateY(-0.5rem);
+    transform: scale(1.05);
+    background-color: var(--yellow);
+    box-shadow: 0 0 5px var(--yellow);
 }
 
 
