@@ -2,6 +2,7 @@ import React from 'react';
 import './Leadership.css';
 import EBoard from './sections/E-Board';
 import CBoard from './sections/C-Board';
+import Committees from './sections/Committees';
 
 const Leadership = () => {  
   return (
@@ -18,6 +19,7 @@ const Leadership = () => {
 
       <EBoard />
       <CBoard />
+      <Committees />
     </div>
   );
 }

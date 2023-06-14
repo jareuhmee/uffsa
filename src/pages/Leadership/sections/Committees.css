@@ -1,0 +1,32 @@
+.committees-section {
+    padding: 4rem 0;
+    box-sizing: border-box;
+    background-color: #f5f2f0;
+}
+
+.committees-section-title {
+    position: relative;
+    text-align: center;
+    font-size: 2rem;
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.committees-section-title::after {
+    content: "";
+    position: absolute;
+    bottom: -25%;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background-color: var(--yellow);
+    box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.5);
+}
+
+
+.committees-container {
+    padding-top: 2rem;
+    width: 800px;
+    margin: 0 auto;
+}
+
