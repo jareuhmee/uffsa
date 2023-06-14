@@ -1,5 +1,5 @@
 .committees-section {
-    padding: 4rem 0;
+    padding: 4rem 2rem;
     box-sizing: border-box;
     background-color: #f5f2f0;
 }
@@ -27,6 +27,7 @@
 .committees-container {
     padding-top: 2rem;
     width: 800px;
+    max-width: 100%;
     margin: 0 auto;
 }
 
