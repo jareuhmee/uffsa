@@ -20,6 +20,7 @@ import Magnicel from '../photos/cboard/Magnicel.jpg';
 import Maia from '../photos/cboard/Maia.jpg';
 import Matthew from '../photos/cboard/Matthew.jpg';
 import Maya from '../photos/cboard/Maya.jpg';
+import Mika from '../photos/cboard/Mika.jpg';
 import Sara from '../photos/cboard/Sara.jpg';
 import Serena from '../photos/cboard/Serena.jpg';
 import Skyler from '../photos/cboard/Skyler.jpg';
@@ -83,7 +84,7 @@ const CBoard = () => {
                   </div>
                 </a>
                 <a href='https://www.instagram.com/kriziamelendez/' target="_blank" rel="noopener noreferrer" className='cboard-card culture-card'>
-                  <img src={temp} alt='temp' />
+                  <img src={Mika} alt='Krizia Mika Melendez' />
                   <div className='cboard-card__text'>
                     <h1>Krizia Mika Melendez</h1>
                     <h2>Culture Chair</h2>
@@ -176,7 +177,7 @@ const CBoard = () => {
                 <a href='https://www.instagram.com/vincent.tol/' target="_blank" rel="noopener noreferrer" className='cboard-card multimedia-card'>
                   <img src={Vincent} alt='Vincent Toledo' />
                   <div className='cboard-card__text'>
-                    <h1>Jacob Patag</h1>
+                    <h1>Vincent Toledo</h1>
                     <h2>Multimedia Chair</h2>
                   </div>
                 </a>

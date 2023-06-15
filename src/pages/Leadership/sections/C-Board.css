@@ -43,12 +43,11 @@
     box-sizing: border-box;
     text-decoration: none;
     color: var(--black);
-    border: 2px dashed var(--yellow);
+    border: 2px dashed var(--black);
     border-radius: 10px;
-
     display: flex;
     align-items: center;
-    gap: 1rem;
+    gap: 1.2rem;
     transition: all 0.3s;
 }
 
@@ -60,10 +59,12 @@
 
 .cboard-card h1 {
     font-size: 1.1rem;
+    font-weight: 600;
 }
 
 .cboard-card h2 {
     font-size: 0.9rem;
+    font-weight: 550;
     color: #4b4b4b;
 }
 
