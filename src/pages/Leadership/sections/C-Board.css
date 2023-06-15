@@ -1,7 +1,7 @@
 .cboard-section {
     padding: 4rem 0;
     box-sizing: border-box;
-    background-color: #f5f2f0;
+    background-color: hsl(22, 20%, 93%);
 }
 
 .cboard-section-title {
@@ -12,7 +12,7 @@
     margin: 0 auto;
 }
 
-.cboard-section-title::after {
+/* .cboard-section-title::after {
     content: "";
     position: absolute;
     bottom: -25%;
@@ -21,11 +21,11 @@
     height: 3px;
     background-color: var(--yellow);
     box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.5);
-}
+} */
 
 
 .cboard-container {
-    padding-top: 2rem;
+    padding: 2rem;
     max-width: 1400px;
     margin: 0 auto;
     display: flex;
@@ -33,6 +33,7 @@
     justify-content: center;
     align-items: center;
     gap: 1rem;
+    box-sizing: border-box;
 }
 
 .cboard-card {

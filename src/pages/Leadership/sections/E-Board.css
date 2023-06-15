@@ -12,7 +12,7 @@
     margin: 0 auto;
 }
 
-.eboard-section-title::after {
+/* .eboard-section-title::after {
     content: "";
     position: absolute;
     bottom: -25%;
@@ -21,50 +21,55 @@
     height: 3px;
     background-color: var(--yellow);
     box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.5);
-}
+} */
 
 
 .eboard-container {
-    padding-top: 2rem;
-    max-width: 1200px;
+    padding: 2rem;
+    max-width: 1400px;
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    gap: 1rem;
+    gap: 1rem 2rem;
+    box-sizing: border-box;
 }
 
 .eboard-card {
     position: relative;
-    width: 250px;
-    height: 350px;
-    padding: 0.5rem 1rem;
+    width: 20rem;
+    padding: 0.5rem 0.5rem;
     box-sizing: border-box;
-    text-align: center;
     text-decoration: none;
-    color: white;
-    background-color: var(--black);
-    border: 2px solid black;
+    color: var(--black);
+    border: 2px dashed var(--yellow);
     border-radius: 10px;
+
+    display: flex;
+    align-items: center;
+    gap: 1rem;
     transition: all 0.3s;
     
 }
 
 .eboard-card img {
-    width: 200px;
+    width: 100px;
     border-radius: 5px;
     background-color: white;
 }
 
 .eboard-card h1 {
-    font-size: 1.2rem;
-}
-
-.eboard-card h2 {
     font-size: 1rem;
 }
 
+.eboard-card h2 {
+    font-size: 0.9rem;
+    color: #4b4b4b;
+}
+
 .eboard-card:hover {
-    transform: scale(1.02) translateY(-0.5rem);
+    transform: scale(1.05);
+    background-color: var(--yellow);
+    box-shadow: 0 0 5px var(--yellow);
 }
