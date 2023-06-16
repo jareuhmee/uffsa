@@ -96,37 +96,38 @@ const Dance = () => {
 
             <TabPanel value={signatureEventsValue} index={0}>
                 <h2>Asian American Student Assembly</h2>
-                <p> "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
                     malesuada lacus ex, sit amet blandit leo lobortis eget. Lorem ipsum dolor
                     sit amet, consectetur adipiscing elit. Suspendisse malesuada lacus ex,
-                    sit amet blandit leo lobortis eget."
+                    sit amet blandit leo lobortis eget.
                 </p>
-                <p> "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
                     malesuada lacus ex, sit amet blandit leo lobortis eget. Lorem ipsum dolor
                     sit amet, consectetur adipiscing elit. Suspendisse malesuada lacus ex,
-                    sit amet blandit leo lobortis eget."
+                    sit amet blandit leo lobortis eget.
                 </p>
             </TabPanel>
             <TabPanel value={signatureEventsValue} index={1}>
                 <h2>Def Talent Jam</h2>
-                <p> "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
                     malesuada lacus ex, sit amet blandit leo lobortis eget. Lorem ipsum dolor
-                    sit amet, consectetur adipiscing elit."
+                    sit amet, consectetur adipiscing elit.
                 </p>
-                <p> "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-                    malesuada lacus ex, sit amet blandit leo lobortis eget.  Suspendisse malesuada lacus ex,
-                    sit amet blandit leo lobortis eget."
+                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+                    malesuada lacus ex, sit amet blandit leo lobortis eget. Suspendisse malesuada lacus ex,
+                    sit amet blandit leo lobortis eget. Lorem ipsum dolor
+                    sit amet, consectetur adipiscing elit.
                 </p>
             </TabPanel>
             <TabPanel value={signatureEventsValue} index={2}>
                 <h2>Philfest</h2>
-                <p> "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor
+                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor
                     sit amet, consectetur adipiscing elit. Suspendisse malesuada lacus ex,
-                    sit amet blandit leo lobortis eget."
+                    sit amet blandit leo lobortis eget.
                 </p>
-                <p> "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
                     malesuada lacus ex, sit amet blandit leo lobortis eget. Lorem ipsum dolor
-                    sit amet, consectetur adipiscing elit. "
+                    sit amet, consectetur adipiscing elit.
                 </p>
             </TabPanel>
 
@@ -149,37 +150,38 @@ const Dance = () => {
 
             <TabPanel value={regularActivitiesValue} index={0}>
                 <h2>Dance Workshops</h2>
-                <p> "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
                     malesuada lacus ex, sit amet blandit leo lobortis eget. Lorem ipsum dolor
                     sit amet, consectetur adipiscing elit. Suspendisse malesuada lacus ex,
-                    sit amet blandit leo lobortis eget."
+                    sit amet blandit leo lobortis eget.
                 </p>
-                <p> "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
                     malesuada lacus ex, sit amet blandit leo lobortis eget. Lorem ipsum dolor
                     sit amet, consectetur adipiscing elit. Suspendisse malesuada lacus ex,
-                    sit amet blandit leo lobortis eget."
+                    sit amet blandit leo lobortis eget.
                 </p>
             </TabPanel>
             <TabPanel value={regularActivitiesValue} index={1}>
                 <h2>Traditions</h2>
-                <p> "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
                     malesuada lacus ex, sit amet blandit leo lobortis eget. Lorem ipsum dolor
-                    sit amet, consectetur adipiscing elit."
+                    sit amet, consectetur adipiscing elit.
                 </p>
-                <p> "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-                    malesuada lacus ex, sit amet blandit leo lobortis eget.  Suspendisse malesuada lacus ex,
-                    sit amet blandit leo lobortis eget."
+                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+                    malesuada lacus ex, sit amet blandit leo lobortis eget. Suspendisse malesuada lacus ex,
+                    sit amet blandit leo lobortis eget.
                 </p>
             </TabPanel>
             <TabPanel value={regularActivitiesValue} index={2}>
                 <h2>Collaborative Showcases</h2>
-                <p> "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor
+                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor
                     sit amet, consectetur adipiscing elit. Suspendisse malesuada lacus ex,
-                    sit amet blandit leo lobortis eget."
+                    sit amet blandit leo lobortis eget. Lorem ipsum dolor
+                    sit amet, consectetur adipiscing elit.
                 </p>
-                <p> "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
                     malesuada lacus ex, sit amet blandit leo lobortis eget. Lorem ipsum dolor
-                    sit amet, consectetur adipiscing elit. "
+                    sit amet, consectetur adipiscing elit.
                 </p>
             </TabPanel>
 

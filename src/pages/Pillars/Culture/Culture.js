@@ -85,26 +85,26 @@ const Culture = () => {
 
             <TabPanel value={signatureEventsValue} index={0}>
                 <h2>Filipino American History Month</h2>
-                <p> "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
                     malesuada lacus ex, sit amet blandit leo lobortis eget. Lorem ipsum dolor
                     sit amet, consectetur adipiscing elit. Suspendisse malesuada lacus ex,
-                    sit amet blandit leo lobortis eget."
+                    sit amet blandit leo lobortis eget.
                 </p>
-                <p> "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
                     malesuada lacus ex, sit amet blandit leo lobortis eget. Lorem ipsum dolor
                     sit amet, consectetur adipiscing elit. Suspendisse malesuada lacus ex,
-                    sit amet blandit leo lobortis eget."
+                    sit amet blandit leo lobortis eget.
                 </p>
             </TabPanel>
             <TabPanel value={signatureEventsValue} index={1}>
                 <h2>Barrio Fiesta</h2>
-                <p> "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
                     malesuada lacus ex, sit amet blandit leo lobortis eget. Lorem ipsum dolor
-                    sit amet, consectetur adipiscing elit."
+                    sit amet, consectetur adipiscing elit.
                 </p>
-                <p> "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-                    malesuada lacus ex, sit amet blandit leo lobortis eget.  Suspendisse malesuada lacus ex,
-                    sit amet blandit leo lobortis eget."
+                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+                    malesuada lacus ex, sit amet blandit leo lobortis eget. Suspendisse malesuada lacus ex,
+                    sit amet blandit leo lobortis eget.
                 </p>
             </TabPanel>
 
@@ -125,26 +125,26 @@ const Culture = () => {
 
             <TabPanel value={regularActivitiesValue} index={0}>
                 <h2>Facebook Blogs</h2>
-                <p> "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
                     malesuada lacus ex, sit amet blandit leo lobortis eget. Lorem ipsum dolor
                     sit amet, consectetur adipiscing elit. Suspendisse malesuada lacus ex,
-                    sit amet blandit leo lobortis eget."
+                    sit amet blandit leo lobortis eget.
                 </p>
-                <p> "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
                     malesuada lacus ex, sit amet blandit leo lobortis eget. Lorem ipsum dolor
                     sit amet, consectetur adipiscing elit. Suspendisse malesuada lacus ex,
-                    sit amet blandit leo lobortis eget."
+                    sit amet blandit leo lobortis eget.
                 </p>
             </TabPanel>
             <TabPanel value={regularActivitiesValue} index={1}>
                 <h2>Presentations</h2>
-                <p> "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
                     malesuada lacus ex, sit amet blandit leo lobortis eget. Lorem ipsum dolor
-                    sit amet, consectetur adipiscing elit."
+                    sit amet, consectetur adipiscing elit.
                 </p>
-                <p> "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
                     malesuada lacus ex, sit amet blandit leo lobortis eget.  Suspendisse malesuada lacus ex,
-                    sit amet blandit leo lobortis eget."
+                    sit amet blandit leo lobortis eget.
                 </p>
             </TabPanel>
 

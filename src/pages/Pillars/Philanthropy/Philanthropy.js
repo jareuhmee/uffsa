@@ -83,15 +83,15 @@ const Philanthropy = () => {
 
             <TabPanel value={signatureEventsValue} index={0}>
                 <h2>Gawad Kalinga Month</h2>
-                <p> "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
                     malesuada lacus ex, sit amet blandit leo lobortis eget. Lorem ipsum dolor
                     sit amet, consectetur adipiscing elit. Suspendisse malesuada lacus ex,
-                    sit amet blandit leo lobortis eget."
+                    sit amet blandit leo lobortis eget.
                 </p>
-                <p> "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
                     malesuada lacus ex, sit amet blandit leo lobortis eget. Lorem ipsum dolor
                     sit amet, consectetur adipiscing elit. Suspendisse malesuada lacus ex,
-                    sit amet blandit leo lobortis eget."
+                    sit amet blandit leo lobortis eget.
                 </p>
             </TabPanel>
 
@@ -113,37 +113,37 @@ const Philanthropy = () => {
 
             <TabPanel value={regularActivitiesValue} index={0}>
                 <h2>Project Lunchbox</h2>
-                <p> "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
                     malesuada lacus ex, sit amet blandit leo lobortis eget. Lorem ipsum dolor
                     sit amet, consectetur adipiscing elit. Suspendisse malesuada lacus ex,
-                    sit amet blandit leo lobortis eget."
+                    sit amet blandit leo lobortis eget.
                 </p>
-                <p> "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
                     malesuada lacus ex, sit amet blandit leo lobortis eget. Lorem ipsum dolor
                     sit amet, consectetur adipiscing elit. Suspendisse malesuada lacus ex,
-                    sit amet blandit leo lobortis eget."
+                    sit amet blandit leo lobortis eget.
                 </p>
             </TabPanel>
             <TabPanel value={regularActivitiesValue} index={1}>
                 <h2>GBM Segments</h2>
-                <p> "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
                     malesuada lacus ex, sit amet blandit leo lobortis eget. Lorem ipsum dolor
-                    sit amet, consectetur adipiscing elit."
+                    sit amet, consectetur adipiscing elit.
                 </p>
-                <p> "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
                     malesuada lacus ex, sit amet blandit leo lobortis eget.  Suspendisse malesuada lacus ex,
-                    sit amet blandit leo lobortis eget."
+                    sit amet blandit leo lobortis eget.
                 </p>
             </TabPanel>
             <TabPanel value={regularActivitiesValue} index={2}>
                 <h2>Fundraising</h2>
-                <p> "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor
+                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor
                     sit amet, consectetur adipiscing elit. Suspendisse malesuada lacus ex,
-                    sit amet blandit leo lobortis eget."
+                    sit amet blandit leo lobortis eget.
                 </p>
-                <p> "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
                     malesuada lacus ex, sit amet blandit leo lobortis eget. Lorem ipsum dolor
-                    sit amet, consectetur adipiscing elit. "
+                    sit amet, consectetur adipiscing elit.
                 </p>
             </TabPanel>
         </PillarRegularActivities>
