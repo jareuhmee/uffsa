@@ -2,14 +2,14 @@
     position: relative;
     width: 100%;
     min-height: fit-content;
-    color: black;
+    color: var(--black);
     text-align: center;
 
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    padding: 2rem 1rem;
+    padding: 4rem 1rem;
     text-align: left;
     box-sizing: border-box;
 }

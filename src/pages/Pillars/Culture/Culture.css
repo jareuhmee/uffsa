@@ -1,0 +1,35 @@
+.culture-tabs {
+    padding: 0 2rem;
+    border-bottom: 2px solid var(--black);
+    margin: 4rem auto 0;
+    width: 48rem;
+    max-width: 100%;
+    box-sizing: border-box;
+}
+
+.culture-tabs .MuiTab-root {
+    color: var(--black);
+    width: 33%;
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+.culture-tabs .Mui-selected {
+    color: var(--red);
+}
+
+.culture-tabs .MuiTabs-indicator {
+    background-color: var(--red);
+    height: 4px;
+}
+
+
+@media screen and (max-width: 768px) {
+    .culture-tabs {
+        padding: 0;
+    }
+    .culture-tabs .MuiTab-root {
+        width: 45%;
+        font-size: 0.85rem;
+    }
+}

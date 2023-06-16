@@ -1,0 +1,34 @@
+.philanthropy-tabs {
+    padding: 0 2rem;
+    border-bottom: 2px solid var(--black);
+    margin: 4rem auto 0;
+    width: 48rem;
+    max-width: 100%;
+    box-sizing: border-box;
+}
+
+.philanthropy-tabs .MuiTab-root {
+    color: var(--black);
+    width: 33%;
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+.philanthropy-tabs .Mui-selected {
+    color: var(--dark-grayk);
+}
+
+.philanthropy-tabs .MuiTabs-indicator {
+    background-color: var(--dark-gray);
+    height: 4px;
+}
+
+
+@media screen and (max-width: 768px) {
+    .philanthropy-tabs {
+        padding: 0;
+    }
+    .philanthropy-tabs .MuiTab-root {
+        font-size: 0.85rem;
+    }
+}

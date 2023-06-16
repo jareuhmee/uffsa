@@ -2,13 +2,12 @@
 .pillar-regular-activities-section {
     position: relative;
     width: 100%;
-    padding: 2rem 0rem;
-    background-color: #f5f2f0;
+    padding: 4rem 0rem;
+    background-color: var(--white);
     margin: 0 auto;
     box-sizing: border-box;
     text-align: center;
 }
-
 
 
 .pillar-regular-activities-container {
@@ -29,7 +28,7 @@
     margin-bottom: 2rem;
 }
 
-.pillar-regular-activities-title:after {
+/* .pillar-regular-activities-title:after {
     content: "";
     position: absolute;
     bottom: -25%;
@@ -38,4 +37,4 @@
     height: 3px;
     background-color: var(--yellow);
     box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.5);
-}
+} */

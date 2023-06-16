@@ -1,5 +1,34 @@
-.dtj-post {
-    border-radius: 5px;
-    /* box-shadow: 2px 2px 5px black; */
-    margin: 0 auto;
+.dance-tabs {
+    padding: 0 2rem;
+    border-bottom: 2px solid var(--black);
+    margin: 4rem auto 0;
+    width: 48rem;
+    max-width: 100%;
+    box-sizing: border-box;
+}
+
+.dance-tabs .MuiTab-root {
+    color: var(--black);
+    width: 33%;
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+.dance-tabs .Mui-selected {
+    color: var(--pink);
+}
+
+.dance-tabs .MuiTabs-indicator {
+    background-color: var(--pink);
+    height: 4px;
+}
+
+
+@media screen and (max-width: 768px) {
+    .dance-tabs {
+        padding: 0;
+    }
+    .dance-tabs .MuiTab-root {
+        font-size: 0.85rem;
+    }
 }

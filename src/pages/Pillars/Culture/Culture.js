@@ -7,13 +7,58 @@ import PillarRegularActivities from '../../../components/Pillars/PillarRegularAc
 import EventAccordion from '../../../components/EventAccordion/EventAccordion';
 import EventCard from '../../../components/events/EventCard';
 
+import PropTypes from 'prop-types';
+import { Typography } from '@mui/material';
+import Box from '@mui/material/Box';
+import Tabs from '@mui/material/Tabs';
+import Tab from '@mui/material/Tab';
+
 import './Culture.css';
 
 import cultureLogo from '../../../assets/logos/culture.png';
 import FAHM from './FAHM.jpeg';
 import barrio from './barrio.jpeg';
 
+
+function TabPanel(props) {
+    const { children, value, index, ...other } = props;
+  
+    return (
+      <div
+        role="tabpanel"
+        hidden={value !== index}
+        id={`simple-tabpanel-${index}`}
+        aria-labelledby={`simple-tab-${index}`}
+        {...other}
+      >
+        {value === index && (
+          <Box sx={{ p: 3 }}>
+            <Typography>{children}</Typography>
+          </Box>
+        )}
+      </div>
+    );
+}
+  
+TabPanel.propTypes = {
+    children: PropTypes.node,
+    index: PropTypes.number.isRequired,
+    value: PropTypes.number.isRequired,
+};
+
+
 const Culture = () => {  
+    const [signatureEventsValue, setSignatureEventsValue] = React.useState(0);
+    const [regularActivitiesValue, setRegularActivitiesValue] = React.useState(0);
+
+    const handleSignatureEventsChange = (event, newValue) => {
+        setSignatureEventsValue(newValue);
+    };
+
+    const handleRegularActivitiesChange = (event, newValue) => {
+        setRegularActivitiesValue(newValue);
+    };
+
     return (<>
         <PillarHero 
             logo = {cultureLogo} 
@@ -27,75 +72,82 @@ const Culture = () => {
         />
 
         <PillarSignatureEvents>
-            <div className='event-container'>
-                <EventAccordion
-                    backgroundColor="var(--red)"
-                    header="Filipino American History Month (FAHM)"
-                    body="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+            <Tabs 
+                value={signatureEventsValue}
+                onChange={handleSignatureEventsChange}
+                centered
+                textColor='var(--pink)'
+                className='culture-tabs'
+            >
+                <Tab label="FAHM" />
+                <Tab label="Barrio Fiesta" />
+            </Tabs>
+
+            <TabPanel value={signatureEventsValue} index={0}>
+                <h2>Filipino American History Month</h2>
+                <p> "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
                     malesuada lacus ex, sit amet blandit leo lobortis eget. Lorem ipsum dolor
                     sit amet, consectetur adipiscing elit. Suspendisse malesuada lacus ex,
                     sit amet blandit leo lobortis eget."
-                />
-
-                <EventAccordion
-                    backgroundColor="var(--red)"
-                    header="Barrio Fiesta"
-                    body="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+                </p>
+                <p> "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
                     malesuada lacus ex, sit amet blandit leo lobortis eget. Lorem ipsum dolor
                     sit amet, consectetur adipiscing elit. Suspendisse malesuada lacus ex,
                     sit amet blandit leo lobortis eget."
-                />
-                {/* <EventCard
-                    title="Filipino American History Month"
-                    date="FALL | October 2023"
-                    address="Phillips Center"
-                    description=""
-                    image={FAHM}
-                />
+                </p>
+            </TabPanel>
+            <TabPanel value={signatureEventsValue} index={1}>
+                <h2>Barrio Fiesta</h2>
+                <p> "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+                    malesuada lacus ex, sit amet blandit leo lobortis eget. Lorem ipsum dolor
+                    sit amet, consectetur adipiscing elit."
+                </p>
+                <p> "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+                    malesuada lacus ex, sit amet blandit leo lobortis eget.  Suspendisse malesuada lacus ex,
+                    sit amet blandit leo lobortis eget."
+                </p>
+            </TabPanel>
 
-                <EventCard
-                    title="Barrio Fiesta"
-                    date="SPRING | March 4, 2024 AT 12:45 PM"
-                    address="Gator Wesley Foundation"
-                    description=""
-                    image={barrio}
-                /> */}
-            </div>
         </PillarSignatureEvents>
 
         
         <PillarRegularActivities>
-            <div className='event-container'>
-                <EventAccordion
-                    backgroundColor="var(--red)"
-                    header="Blogs"
-                    body="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-                    malesuada lacus ex, sit amet blandit leo lobortis eget. Lorem ipsum dolor
-                    sit amet, consectetur adipiscing elit. Suspendisse malesuada lacus ex,
-                    sit amet blandit leo lobortis eget."
-                />
-                <EventAccordion
-                    backgroundColor="var(--red)"
-                    header="Presentations"
-                    body="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-                    malesuada lacus ex, sit amet blandit leo lobortis eget. Lorem ipsum dolor
-                    sit amet, consectetur adipiscing elit. Suspendisse malesuada lacus ex,
-                    sit amet blandit leo lobortis eget."
-                />
-                {/* <EventCard
-                    title="Blogs"
-                    date=""
-                    address=""
-                    description=""
-                />
+            <Tabs 
+                value={regularActivitiesValue}
+                onChange={handleRegularActivitiesChange}
+                centered
+                textColor='var(--pink)'
+                className='culture-tabs'
+            >
+                <Tab label="Blogs" />
+                <Tab label="Presentations" />
+            </Tabs>
 
-                <EventCard
-                    title="Presentations"
-                    date=""
-                    address=""
-                    description=""
-                /> */}
-            </div>
+            <TabPanel value={regularActivitiesValue} index={0}>
+                <h2>Facebook Blogs</h2>
+                <p> "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+                    malesuada lacus ex, sit amet blandit leo lobortis eget. Lorem ipsum dolor
+                    sit amet, consectetur adipiscing elit. Suspendisse malesuada lacus ex,
+                    sit amet blandit leo lobortis eget."
+                </p>
+                <p> "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+                    malesuada lacus ex, sit amet blandit leo lobortis eget. Lorem ipsum dolor
+                    sit amet, consectetur adipiscing elit. Suspendisse malesuada lacus ex,
+                    sit amet blandit leo lobortis eget."
+                </p>
+            </TabPanel>
+            <TabPanel value={regularActivitiesValue} index={1}>
+                <h2>Presentations</h2>
+                <p> "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+                    malesuada lacus ex, sit amet blandit leo lobortis eget. Lorem ipsum dolor
+                    sit amet, consectetur adipiscing elit."
+                </p>
+                <p> "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+                    malesuada lacus ex, sit amet blandit leo lobortis eget.  Suspendisse malesuada lacus ex,
+                    sit amet blandit leo lobortis eget."
+                </p>
+            </TabPanel>
+
         </PillarRegularActivities>
 
     </> 

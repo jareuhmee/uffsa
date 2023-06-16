@@ -7,6 +7,11 @@ import PillarRegularActivities from '../../../components/Pillars/PillarRegularAc
 import EventAccordion from '../../../components/EventAccordion/EventAccordion';
 import EventCard from '../../../components/events/EventCard';
 
+import PropTypes from 'prop-types';
+import { Typography } from '@mui/material';
+import Box from '@mui/material/Box';
+import Tabs from '@mui/material/Tabs';
+import Tab from '@mui/material/Tab';
 
 import './Sports.css';
 
@@ -14,7 +19,45 @@ import sportsLogo from '../../../assets/logos/sports.png';
 import adobowl from './adobowl.jpeg';
 import ssg from './ssg.jpg';
 
-const Sports = () => {  
+function TabPanel(props) {
+    const { children, value, index, ...other } = props;
+  
+    return (
+      <div
+        role="tabpanel"
+        hidden={value !== index}
+        id={`simple-tabpanel-${index}`}
+        aria-labelledby={`simple-tab-${index}`}
+        {...other}
+      >
+        {value === index && (
+          <Box sx={{ p: 3 }}>
+            <Typography>{children}</Typography>
+          </Box>
+        )}
+      </div>
+    );
+}
+  
+TabPanel.propTypes = {
+    children: PropTypes.node,
+    index: PropTypes.number.isRequired,
+    value: PropTypes.number.isRequired,
+};
+
+
+const Sports = () => {
+    const [signatureEventsValue, setSignatureEventsValue] = React.useState(0);
+    const [regularActivitiesValue, setRegularActivitiesValue] = React.useState(0);
+
+    const handleSignatureEventsChange = (event, newValue) => {
+        setSignatureEventsValue(newValue);
+    };
+
+    const handleRegularActivitiesChange = (event, newValue) => {
+        setRegularActivitiesValue(newValue);
+    };
+
     return (<>
         <PillarHero 
             logo = {sportsLogo} 
@@ -29,90 +72,92 @@ const Sports = () => {
         />
 
         <PillarSignatureEvents>
-            <div className='event-container'>
-                <EventAccordion
-                    backgroundColor="var(--blue)"
-                    header="Adobowl"
-                    body="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+            <Tabs 
+                value={signatureEventsValue}
+                onChange={handleSignatureEventsChange}
+                centered
+                textColor='var(--pink)'
+                className='sports-tabs'
+            >
+                <Tab label="Adobowl" />
+                <Tab label="SSG" />
+            </Tabs>
+
+            <TabPanel value={signatureEventsValue} index={0}>
+                <h2>Adobowl</h2>
+                <p> "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
                     malesuada lacus ex, sit amet blandit leo lobortis eget. Lorem ipsum dolor
                     sit amet, consectetur adipiscing elit. Suspendisse malesuada lacus ex,
                     sit amet blandit leo lobortis eget."
-                />
-                <EventAccordion
-                    backgroundColor="var(--blue)"
-                    header="Southern Survival Games (SSG)"
-                    body="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+                </p>
+                <p> "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
                     malesuada lacus ex, sit amet blandit leo lobortis eget. Lorem ipsum dolor
                     sit amet, consectetur adipiscing elit. Suspendisse malesuada lacus ex,
                     sit amet blandit leo lobortis eget."
-                />
-
-                {/* <EventCard
-                    title="Adobowl"
-                    date="FALL | October 22, 2023"
-                    address="Flavet Field"
-                    description=""
-                    image={adobowl}
-                />
-
-                <EventCard
-                    title="Southern Survival Games"
-                    date="SPRING | April 2024"
-                    address="Squirrel Ridge Park"
-                    description=""
-                    image={ssg}
-                /> */}
-            </div>
+                </p>
+            </TabPanel>
+            <TabPanel value={signatureEventsValue} index={1}>
+                <h2>Southern Survival Games</h2>
+                <p> "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+                    malesuada lacus ex, sit amet blandit leo lobortis eget. Lorem ipsum dolor
+                    sit amet, consectetur adipiscing elit."
+                </p>
+                <p> "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+                    malesuada lacus ex, sit amet blandit leo lobortis eget.  Suspendisse malesuada lacus ex,
+                    sit amet blandit leo lobortis eget."
+                </p>
+            </TabPanel>
         </PillarSignatureEvents>
 
         
         <PillarRegularActivities>
-            <div className='event-container'>
-                <EventAccordion
-                    backgroundColor="var(--blue)"
-                    header="Intramural Sports"
-                    body="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-                    malesuada lacus ex, sit amet blandit leo lobortis eget. Lorem ipsum dolor
-                    sit amet, consectetur adipiscing elit. Suspendisse malesuada lacus ex,
-                    sit amet blandit leo lobortis eget."
-                />
-                <EventAccordion
-                    backgroundColor="var(--blue)"
-                    header="Tailgating"
-                    body="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-                    malesuada lacus ex, sit amet blandit leo lobortis eget. Lorem ipsum dolor
-                    sit amet, consectetur adipiscing elit. Suspendisse malesuada lacus ex,
-                    sit amet blandit leo lobortis eget."
-                />
-                <EventAccordion
-                    backgroundColor="var(--blue)"
-                    header="Tournaments"
-                    body="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-                    malesuada lacus ex, sit amet blandit leo lobortis eget. Lorem ipsum dolor
-                    sit amet, consectetur adipiscing elit. Suspendisse malesuada lacus ex,
-                    sit amet blandit leo lobortis eget."
-                />
-                {/* <EventCard
-                    title="Intramural Sports"
-                    date=""
-                    address=""
-                    description=""
-                />
+            <Tabs 
+                value={regularActivitiesValue}
+                onChange={handleRegularActivitiesChange}
+                centered
+                textColor='var(--pink)'
+                className='sports-tabs'
+            >
+                <Tab label="Intramurals" />
+                <Tab label="Tailgating" />
+                <Tab label="Tournaments" />
+            </Tabs>
 
-                <EventCard
-                    title="Tailgating"
-                    date=""
-                    address=""
-                    description=""
-                />
-
-                <EventCard
-                    title="Tournaments"
-                    date=""
-                    address=""
-                    description=""
-                /> */}
-            </div>
+            <TabPanel value={regularActivitiesValue} index={0}>
+                <h2>Intramural Sports</h2>
+                <p> "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+                    malesuada lacus ex, sit amet blandit leo lobortis eget. Lorem ipsum dolor
+                    sit amet, consectetur adipiscing elit. Suspendisse malesuada lacus ex,
+                    sit amet blandit leo lobortis eget."
+                </p>
+                <p> "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+                    malesuada lacus ex, sit amet blandit leo lobortis eget. Lorem ipsum dolor
+                    sit amet, consectetur adipiscing elit. Suspendisse malesuada lacus ex,
+                    sit amet blandit leo lobortis eget."
+                </p>
+            </TabPanel>
+            <TabPanel value={regularActivitiesValue} index={1}>
+                <h2>Tailgating</h2>
+                <p> "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+                    malesuada lacus ex, sit amet blandit leo lobortis eget. Lorem ipsum dolor
+                    sit amet, consectetur adipiscing elit."
+                </p>
+                <p> "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+                    malesuada lacus ex, sit amet blandit leo lobortis eget.  Suspendisse malesuada lacus ex,
+                    sit amet blandit leo lobortis eget."
+                </p>
+            </TabPanel>
+            <TabPanel value={regularActivitiesValue} index={2}>
+                <h2>Collaborative Tournaments</h2>
+                <p> "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor
+                    sit amet, consectetur adipiscing elit. Suspendisse malesuada lacus ex,
+                    sit amet blandit leo lobortis eget."
+                </p>
+                <p> "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+                    malesuada lacus ex, sit amet blandit leo lobortis eget. Lorem ipsum dolor
+                    sit amet, consectetur adipiscing elit. "
+                </p>
+            </TabPanel>
         </PillarRegularActivities>
 
     </> 

@@ -7,12 +7,56 @@ import PillarRegularActivities from '../../../components/Pillars/PillarRegularAc
 import EventAccordion from '../../../components/EventAccordion/EventAccordion';
 import EventCard from '../../../components/events/EventCard';
 
+import PropTypes from 'prop-types';
+import { Typography } from '@mui/material';
+import Box from '@mui/material/Box';
+import Tabs from '@mui/material/Tabs';
+import Tab from '@mui/material/Tab';
+
 import './Philanthropy.css';
 
 import philanthropyLogo from '../../../assets/logos/philanthropy.png';
 import GK from './GK.jpeg';
 
-const Philanthropy = () => {  
+function TabPanel(props) {
+    const { children, value, index, ...other } = props;
+  
+    return (
+      <div
+        role="tabpanel"
+        hidden={value !== index}
+        id={`simple-tabpanel-${index}`}
+        aria-labelledby={`simple-tab-${index}`}
+        {...other}
+      >
+        {value === index && (
+          <Box sx={{ p: 3 }}>
+            <Typography>{children}</Typography>
+          </Box>
+        )}
+      </div>
+    );
+}
+  
+TabPanel.propTypes = {
+    children: PropTypes.node,
+    index: PropTypes.number.isRequired,
+    value: PropTypes.number.isRequired,
+};
+
+
+const Philanthropy = () => {
+    const [signatureEventsValue, setSignatureEventsValue] = React.useState(0);
+    const [regularActivitiesValue, setRegularActivitiesValue] = React.useState(0);
+
+    const handleSignatureEventsChange = (event, newValue) => {
+        setSignatureEventsValue(newValue);
+    };
+
+    const handleRegularActivitiesChange = (event, newValue) => {
+        setRegularActivitiesValue(newValue);
+    };
+
     return (<>
         <PillarHero 
             logo = {philanthropyLogo} 
@@ -27,74 +71,81 @@ const Philanthropy = () => {
         />
 
         <PillarSignatureEvents>
-            <div className='event-container'>
-                <EventAccordion
-                    backgroundColor="#333333"
-                    header="Gawad Kalinga (GK) Month"
-                    body="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+            <Tabs 
+                value={signatureEventsValue}
+                onChange={handleSignatureEventsChange}
+                centered
+                textColor='var(--pink)'
+                className='philanthropy-tabs'
+            >
+                <Tab label="GK Month" />
+            </Tabs>
+
+            <TabPanel value={signatureEventsValue} index={0}>
+                <h2>Gawad Kalinga Month</h2>
+                <p> "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
                     malesuada lacus ex, sit amet blandit leo lobortis eget. Lorem ipsum dolor
                     sit amet, consectetur adipiscing elit. Suspendisse malesuada lacus ex,
                     sit amet blandit leo lobortis eget."
-                />
+                </p>
+                <p> "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+                    malesuada lacus ex, sit amet blandit leo lobortis eget. Lorem ipsum dolor
+                    sit amet, consectetur adipiscing elit. Suspendisse malesuada lacus ex,
+                    sit amet blandit leo lobortis eget."
+                </p>
+            </TabPanel>
 
-                {/* <EventCard
-                    title="Gawad Kalinga Month"
-                    date="SPRING | March 2024"
-                    address="Gainesville"
-                    description=""
-                    image={GK}
-                /> */}
-            </div>
         </PillarSignatureEvents>
 
         
         <PillarRegularActivities>
-            <div className='event-container'>
-                <EventAccordion
-                    backgroundColor="#333333"
-                    header="Project Lunchbox"
-                    body="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-                    malesuada lacus ex, sit amet blandit leo lobortis eget. Lorem ipsum dolor
-                    sit amet, consectetur adipiscing elit. Suspendisse malesuada lacus ex,
-                    sit amet blandit leo lobortis eget."
-                />
-                <EventAccordion
-                    backgroundColor="#333333"
-                    header="Presentations"
-                    body="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-                    malesuada lacus ex, sit amet blandit leo lobortis eget. Lorem ipsum dolor
-                    sit amet, consectetur adipiscing elit. Suspendisse malesuada lacus ex,
-                    sit amet blandit leo lobortis eget."
-                />
-                <EventAccordion
-                    backgroundColor="#333333"
-                    header="Fundraising"
-                    body="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-                    malesuada lacus ex, sit amet blandit leo lobortis eget. Lorem ipsum dolor
-                    sit amet, consectetur adipiscing elit. Suspendisse malesuada lacus ex,
-                    sit amet blandit leo lobortis eget."
-                />
-                {/* <EventCard
-                    title="Project Lunchbox"
-                    date=""
-                    address=""
-                    description=""
-                />
+            <Tabs 
+                value={regularActivitiesValue}
+                onChange={handleRegularActivitiesChange}
+                centered
+                textColor='var(--pink)'
+                className='philanthropy-tabs'
+            >
+                <Tab label="Podcasts" />
+                <Tab label="Segments" />
+                <Tab label="Fundraising" />
+            </Tabs>
 
-                <EventCard
-                    title="Presentations"
-                    date=""
-                    address=""
-                    description=""
-                />
-
-                <EventCard
-                    title="Fundraising"
-                    date=""
-                    address=""
-                    description=""
-                /> */}
-            </div>
+            <TabPanel value={regularActivitiesValue} index={0}>
+                <h2>Project Lunchbox</h2>
+                <p> "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+                    malesuada lacus ex, sit amet blandit leo lobortis eget. Lorem ipsum dolor
+                    sit amet, consectetur adipiscing elit. Suspendisse malesuada lacus ex,
+                    sit amet blandit leo lobortis eget."
+                </p>
+                <p> "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+                    malesuada lacus ex, sit amet blandit leo lobortis eget. Lorem ipsum dolor
+                    sit amet, consectetur adipiscing elit. Suspendisse malesuada lacus ex,
+                    sit amet blandit leo lobortis eget."
+                </p>
+            </TabPanel>
+            <TabPanel value={regularActivitiesValue} index={1}>
+                <h2>GBM Segments</h2>
+                <p> "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+                    malesuada lacus ex, sit amet blandit leo lobortis eget. Lorem ipsum dolor
+                    sit amet, consectetur adipiscing elit."
+                </p>
+                <p> "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+                    malesuada lacus ex, sit amet blandit leo lobortis eget.  Suspendisse malesuada lacus ex,
+                    sit amet blandit leo lobortis eget."
+                </p>
+            </TabPanel>
+            <TabPanel value={regularActivitiesValue} index={2}>
+                <h2>Fundraising</h2>
+                <p> "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor
+                    sit amet, consectetur adipiscing elit. Suspendisse malesuada lacus ex,
+                    sit amet blandit leo lobortis eget."
+                </p>
+                <p> "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+                    malesuada lacus ex, sit amet blandit leo lobortis eget. Lorem ipsum dolor
+                    sit amet, consectetur adipiscing elit. "
+                </p>
+            </TabPanel>
         </PillarRegularActivities>
 
     </> 

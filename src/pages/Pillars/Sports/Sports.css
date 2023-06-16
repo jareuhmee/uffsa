@@ -1,0 +1,34 @@
+.sports-tabs {
+    padding: 0 2rem;
+    border-bottom: 2px solid var(--black);
+    margin: 4rem auto 0;
+    width: 48rem;
+    max-width: 100%;
+    box-sizing: border-box;
+}
+
+.sports-tabs .MuiTab-root {
+    color: var(--black);
+    width: 33%;
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+.sports-tabs .Mui-selected {
+    color: var(--bluek);
+}
+
+.sports-tabs .MuiTabs-indicator {
+    background-color: var(--blue);
+    height: 4px;
+}
+
+
+@media screen and (max-width: 768px) {
+    .sports-tabs {
+        padding: 0;
+    }
+    .sports-tabs .MuiTab-root {
+        font-size: 0.85rem;
+    }
+}

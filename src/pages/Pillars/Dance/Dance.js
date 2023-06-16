@@ -5,18 +5,68 @@ import PillarDescription from '../../../components/Pillars/PillarDescription';
 import PillarSignatureEvents from '../../../components/Pillars/PillarSignatureEvents';
 import PillarRegularActivities from '../../../components/Pillars/PillarRegularActivities';
 
-import EventAccordion from '../../../components/EventAccordion/EventAccordion';
-import EventCard from '../../../components/events/EventCard';
+// import EventAccordion from '../../../components/EventAccordion/EventAccordion';
+// import EventCard from '../../../components/events/EventCard';
+
+
+import PropTypes from 'prop-types';
+import { Typography } from '@mui/material';
+import Box from '@mui/material/Box';
+import Tabs from '@mui/material/Tabs';
+import Tab from '@mui/material/Tab';
+
 
 import './Dance.css';
 
 import danceLogo from '../../../assets/logos/dance.png';
-import AASA from './aasa.jpeg';
-import DTJ from './dtj.jpeg';
-import PhilFest from './philfest.jpeg';
+// import AASA from './aasa.jpeg';
+// import DTJ from './dtj.jpeg';
+// import PhilFest from './philfest.jpeg';
 
 
-const Dance = () => {  
+
+
+function TabPanel(props) {
+    const { children, value, index, ...other } = props;
+  
+    return (
+      <div
+        role="tabpanel"
+        hidden={value !== index}
+        id={`simple-tabpanel-${index}`}
+        aria-labelledby={`simple-tab-${index}`}
+        {...other}
+      >
+        {value === index && (
+          <Box sx={{ p: 3 }}>
+            <Typography>{children}</Typography>
+          </Box>
+        )}
+      </div>
+    );
+  }
+  
+TabPanel.propTypes = {
+    children: PropTypes.node,
+    index: PropTypes.number.isRequired,
+    value: PropTypes.number.isRequired,
+};
+
+
+
+const Dance = () => {
+
+    const [signatureEventsValue, setSignatureEventsValue] = React.useState(0);
+    const [regularActivitiesValue, setRegularActivitiesValue] = React.useState(0);
+
+    const handleSignatureEventsChange = (event, newValue) => {
+        setSignatureEventsValue(newValue);
+    };
+
+    const handleRegularActivitiesChange = (event, newValue) => {
+        setRegularActivitiesValue(newValue);
+    };
+
     return (<>
         <PillarHero 
             logo={danceLogo} 
@@ -29,129 +79,110 @@ const Dance = () => {
             content="FSA Dance has a rich tradition dating back from when the Filipino Student Association at UF was founded in 1986. FSA has showcased the beautiful traditional dances of the Philippines, and in addition, FSA has led the pack with its excellence and highly entertaining modern dances, second to none. From the regionally notorious Def Talent Jam, to the PhilFest competition, and from the highly esteemed Asian American Student Assembly, to the back-to-roots Barrio Fiesta, FSA Dance touches a variety of dance styles and levels throughout the year."
         />
 
+
         <PillarSignatureEvents>
-            <div className='event-container'>
 
-                <EventAccordion
-                    backgroundColor="#eb8f9a"
-                    header="Asian American Student Assembly (AASA)"
-                    body="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+            <Tabs 
+                value={signatureEventsValue}
+                onChange={handleSignatureEventsChange}
+                centered
+                textColor='var(--pink)'
+                className='dance-tabs'
+            >
+                <Tab label="AASA" />
+                <Tab label="DTJ" />
+                <Tab label="Philfest" />
+            </Tabs>
+
+            <TabPanel value={signatureEventsValue} index={0}>
+                <h2>Asian American Student Assembly</h2>
+                <p> "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
                     malesuada lacus ex, sit amet blandit leo lobortis eget. Lorem ipsum dolor
                     sit amet, consectetur adipiscing elit. Suspendisse malesuada lacus ex,
                     sit amet blandit leo lobortis eget."
-                />
-
-                <EventAccordion
-                    backgroundColor="#eb8f9a"
-                    header="Def Talent Jam (DTJ)"
-                    body={<>
-                        <iframe
-                            src="https://www.instagram.com/p/CsytnwHuKWc/embed/"
-                            width="300"
-                            height="354"
-                            title="Instagram Post"
-                            frameBorder="0"
-                            scrolling="no"
-                            allowFullScreen
-                            className='dtj-post'
-                        />
-
-                        <p> "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-                            malesuada lacus ex, sit amet blandit leo lobortis eget. Lorem ipsum dolor
-                            sit amet, consectetur adipiscing elit. Suspendisse malesuada lacus ex,
-                            sit amet blandit leo lobortis eget."
-                        </p>
-                    </>}
-                />
-
-                <EventAccordion
-                    backgroundColor="#eb8f9a"
-                    header="PhilFest"
-                    body="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+                </p>
+                <p> "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
                     malesuada lacus ex, sit amet blandit leo lobortis eget. Lorem ipsum dolor
                     sit amet, consectetur adipiscing elit. Suspendisse malesuada lacus ex,
                     sit amet blandit leo lobortis eget."
-                />
+                </p>
+            </TabPanel>
+            <TabPanel value={signatureEventsValue} index={1}>
+                <h2>Def Talent Jam</h2>
+                <p> "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+                    malesuada lacus ex, sit amet blandit leo lobortis eget. Lorem ipsum dolor
+                    sit amet, consectetur adipiscing elit."
+                </p>
+                <p> "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+                    malesuada lacus ex, sit amet blandit leo lobortis eget.  Suspendisse malesuada lacus ex,
+                    sit amet blandit leo lobortis eget."
+                </p>
+            </TabPanel>
+            <TabPanel value={signatureEventsValue} index={2}>
+                <h2>Philfest</h2>
+                <p> "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor
+                    sit amet, consectetur adipiscing elit. Suspendisse malesuada lacus ex,
+                    sit amet blandit leo lobortis eget."
+                </p>
+                <p> "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+                    malesuada lacus ex, sit amet blandit leo lobortis eget. Lorem ipsum dolor
+                    sit amet, consectetur adipiscing elit. "
+                </p>
+            </TabPanel>
 
-
-                {/* <EventCard
-                    title="Asian American Student Assembly"
-                    date="FALL | August 26, 2023 AT 6 PM"
-                    address="Phillips Center"
-                    description=""
-                    image={AASA}
-                />
-
-                <EventCard
-                    title="Def Talent Jam"
-                    date="FALL | October 21, 2023 AT 6 PM"
-                    address="Phillips Center"
-                    description=""
-                    image={DTJ}
-                />
-
-                <EventCard
-                    title="PhilFest"
-                    date="SPRING | APRIL, 2024"
-                    address="Tampa"
-                    description=""
-                    image={PhilFest}
-                /> */}
-            </div>
         </PillarSignatureEvents>
 
         
         <PillarRegularActivities>
-            <div className='event-container'>
 
-            <EventAccordion
-                backgroundColor="#eb8f9a"
-                header="Dance Workshops"
-                body="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-                malesuada lacus ex, sit amet blandit leo lobortis eget. Lorem ipsum dolor
-                sit amet, consectetur adipiscing elit. Suspendisse malesuada lacus ex,
-                sit amet blandit leo lobortis eget."
-            />
+            <Tabs 
+                value={regularActivitiesValue}
+                onChange={handleRegularActivitiesChange}
+                centered
+                textColor='var(--pink)'
+                className='dance-tabs'
+            >
+                <Tab label="Workshops" />
+                <Tab label="Traditions" />
+                <Tab label="Collabs" />
+            </Tabs>
 
-            <EventAccordion
-                backgroundColor="#eb8f9a"
-                header="Traditions"
-                body="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-                malesuada lacus ex, sit amet blandit leo lobortis eget. Lorem ipsum dolor
-                sit amet, consectetur adipiscing elit. Suspendisse malesuada lacus ex,
-                sit amet blandit leo lobortis eget."
-            />
+            <TabPanel value={regularActivitiesValue} index={0}>
+                <h2>Dance Workshops</h2>
+                <p> "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+                    malesuada lacus ex, sit amet blandit leo lobortis eget. Lorem ipsum dolor
+                    sit amet, consectetur adipiscing elit. Suspendisse malesuada lacus ex,
+                    sit amet blandit leo lobortis eget."
+                </p>
+                <p> "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+                    malesuada lacus ex, sit amet blandit leo lobortis eget. Lorem ipsum dolor
+                    sit amet, consectetur adipiscing elit. Suspendisse malesuada lacus ex,
+                    sit amet blandit leo lobortis eget."
+                </p>
+            </TabPanel>
+            <TabPanel value={regularActivitiesValue} index={1}>
+                <h2>Traditions</h2>
+                <p> "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+                    malesuada lacus ex, sit amet blandit leo lobortis eget. Lorem ipsum dolor
+                    sit amet, consectetur adipiscing elit."
+                </p>
+                <p> "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+                    malesuada lacus ex, sit amet blandit leo lobortis eget.  Suspendisse malesuada lacus ex,
+                    sit amet blandit leo lobortis eget."
+                </p>
+            </TabPanel>
+            <TabPanel value={regularActivitiesValue} index={2}>
+                <h2>Collaborative Showcases</h2>
+                <p> "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor
+                    sit amet, consectetur adipiscing elit. Suspendisse malesuada lacus ex,
+                    sit amet blandit leo lobortis eget."
+                </p>
+                <p> "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+                    malesuada lacus ex, sit amet blandit leo lobortis eget. Lorem ipsum dolor
+                    sit amet, consectetur adipiscing elit. "
+                </p>
+            </TabPanel>
 
-            <EventAccordion
-                backgroundColor="#eb8f9a"
-                header="Collaborative Showcases"
-                body="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-                malesuada lacus ex, sit amet blandit leo lobortis eget. Lorem ipsum dolor
-                sit amet, consectetur adipiscing elit. Suspendisse malesuada lacus ex,
-                sit amet blandit leo lobortis eget."
-            />
-
-                {/* <EventCard
-                    title="Dance Workshops"
-                    date=""
-                    address=""
-                    description=""
-                />
-
-                <EventCard
-                    title="Traditions"
-                    date=""
-                    address=""
-                    description=""
-                />
-
-                <EventCard
-                    title="Collaborative Showcases"
-                    date=""
-                    address=""
-                    description=""
-                /> */}
-            </div>
         </PillarRegularActivities>
         
     </> 
