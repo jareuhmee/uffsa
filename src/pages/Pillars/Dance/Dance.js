@@ -5,16 +5,9 @@ import PillarDescription from '../../../components/Pillars/PillarDescription';
 import PillarSignatureEvents from '../../../components/Pillars/PillarSignatureEvents';
 import PillarRegularActivities from '../../../components/Pillars/PillarRegularActivities';
 
-// import EventAccordion from '../../../components/EventAccordion/EventAccordion';
-// import EventCard from '../../../components/events/EventCard';
-
-
-import PropTypes from 'prop-types';
-import { Typography } from '@mui/material';
-import Box from '@mui/material/Box';
 import Tabs from '@mui/material/Tabs';
 import Tab from '@mui/material/Tab';
-
+import TabPanel from '../../../components/TabPanel/TabPanel';
 
 import './Dance.css';
 
@@ -24,38 +17,7 @@ import danceLogo from '../../../assets/logos/dance.png';
 // import PhilFest from './philfest.jpeg';
 
 
-
-
-function TabPanel(props) {
-    const { children, value, index, ...other } = props;
-  
-    return (
-      <div
-        role="tabpanel"
-        hidden={value !== index}
-        id={`simple-tabpanel-${index}`}
-        aria-labelledby={`simple-tab-${index}`}
-        {...other}
-      >
-        {value === index && (
-          <Box sx={{ p: 3 }}>
-            <Typography>{children}</Typography>
-          </Box>
-        )}
-      </div>
-    );
-  }
-  
-TabPanel.propTypes = {
-    children: PropTypes.node,
-    index: PropTypes.number.isRequired,
-    value: PropTypes.number.isRequired,
-};
-
-
-
 const Dance = () => {
-
     const [signatureEventsValue, setSignatureEventsValue] = React.useState(0);
     const [regularActivitiesValue, setRegularActivitiesValue] = React.useState(0);
 
