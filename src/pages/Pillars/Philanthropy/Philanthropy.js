@@ -34,7 +34,7 @@ const Philanthropy = () => {
         />
 
         <PillarDescription 
-            backgroundColor={"#f5f2f0"}
+            backgroundColor={'var(--white)'}
             content="Thank you for your interest in joining University of Florida's Filipino Student Association's Community Service.
                 As a family-oriented organization, we believe it is important to give back to our community. There are many families and individuals who are in need; a little help from our pamilya (family) can make a big impact on their lives. Even though every little thing counts, we strive to do our best to provide the most diligent service. We hope to leave smiles on their faces and UFFSA in their hearts."
         />
@@ -44,7 +44,7 @@ const Philanthropy = () => {
                 value={signatureEventsValue}
                 onChange={handleSignatureEventsChange}
                 centered
-                textColor='var(--pink)'
+                textColor='var(--dark-gray)'
                 className='philanthropy-tabs'
             >
                 <Tab label="GK Month" />
@@ -72,7 +72,7 @@ const Philanthropy = () => {
                 value={regularActivitiesValue}
                 onChange={handleRegularActivitiesChange}
                 centered
-                textColor='var(--pink)'
+                textColor='var(--dark-gray)'
                 className='philanthropy-tabs'
             >
                 <Tab label="Podcasts" />

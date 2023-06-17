@@ -37,7 +37,7 @@ const Dance = () => {
         />
 
         <PillarDescription 
-            backgroundColor={"#f5f2f0"}
+            backgroundColor={'var(--white)'}
             content="FSA Dance has a rich tradition dating back from when the Filipino Student Association at UF was founded in 1986. FSA has showcased the beautiful traditional dances of the Philippines, and in addition, FSA has led the pack with its excellence and highly entertaining modern dances, second to none. From the regionally notorious Def Talent Jam, to the PhilFest competition, and from the highly esteemed Asian American Student Assembly, to the back-to-roots Barrio Fiesta, FSA Dance touches a variety of dance styles and levels throughout the year."
         />
 
@@ -58,6 +58,7 @@ const Dance = () => {
 
             <TabPanel value={signatureEventsValue} index={0}>
                 <h2>Asian American Student Assembly</h2>
+                <h4>August 26 @ UF Curtis M. Philips Center</h4>
                 <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
                     malesuada lacus ex, sit amet blandit leo lobortis eget. Lorem ipsum dolor
                     sit amet, consectetur adipiscing elit. Suspendisse malesuada lacus ex,

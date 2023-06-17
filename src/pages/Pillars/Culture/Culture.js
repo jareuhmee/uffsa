@@ -35,7 +35,7 @@ const Culture = () => {
         />
 
         <PillarDescription 
-            backgroundColor={"#f5f2f0"}
+            backgroundColor={'var(--white)'}
             content="Welcome to the UFFSA culture page! We will be posting information about Filipino culture, Filipino history, and current events from the Philippines! We will also posting information about our huge fall culture event, Filipino American History Month. Also, get ready for the other big spring culture event, Barrio Fiesta! Get ready for a year of Filipino culture!"
         />
 
@@ -44,7 +44,7 @@ const Culture = () => {
                 value={signatureEventsValue}
                 onChange={handleSignatureEventsChange}
                 centered
-                textColor='var(--pink)'
+                textColor='var(--red)'
                 className='culture-tabs'
             >
                 <Tab label="FAHM" />
@@ -84,7 +84,7 @@ const Culture = () => {
                 value={regularActivitiesValue}
                 onChange={handleRegularActivitiesChange}
                 centered
-                textColor='var(--pink)'
+                textColor='var(--red)'
                 className='culture-tabs'
             >
                 <Tab label="Blogs" />
