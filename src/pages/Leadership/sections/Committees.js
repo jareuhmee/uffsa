@@ -3,7 +3,7 @@ import './Committees.css';
 
 import EventAccordion from '../../../components/EventAccordion/EventAccordion';
 
-const EBoard = () => {  
+const EBoard = () => {
     return (
         <section className='committees-section' id='committees'>
             <h1 className='committees-section-title title'>Event Committees</h1>
