@@ -1,13 +1,11 @@
 {
   "files": {
-    "main.css": "/static/css/main.d68b01c1.css",
-    "main.js": "/static/js/main.a74bf54f.js",
+    "main.css": "/static/css/main.a49499ee.css",
+    "main.js": "/static/js/main.487727e2.js",
     "static/media/background.png": "/static/media/background.7521bd9431e42e602801.png",
-    "static/media/lines.png": "/static/media/lines.7ad20b976dceba72e47f.png",
     "static/media/logo2.png": "/static/media/logo2.a566d9cf59acb754358b.png",
     "static/media/ivp.jpeg": "/static/media/ivp.75696ce48953b6452c6c.jpeg",
     "static/media/grain.png": "/static/media/grain.a297bc3e3f17176232c9.png",
-    "static/media/ssg.jpg": "/static/media/ssg.584017a465c4eb9562ef.jpg",
     "static/media/AAUSLA.png": "/static/media/AAUSLA.f0e075b7d719562002c2.png",
     "static/media/HEAL.png": "/static/media/HEAL.a940c251a0dcd9f187d4.png",
     "static/media/dance.png": "/static/media/dance.1336f21ac41c850885df.png",
@@ -18,14 +16,10 @@
     "static/media/Daniella.jpg": "/static/media/Daniella.1eb58438f9068a313bf8.jpg",
     "static/media/vpf.jpeg": "/static/media/vpf.9aef46f4a70c2d41caa9.jpeg",
     "static/media/vpmm.jpeg": "/static/media/vpmm.adc4f244f04a94c4e271.jpeg",
-    "static/media/FAHM.jpeg": "/static/media/FAHM.e9b79da20e1bf09344ec.jpeg",
     "static/media/Maya.jpg": "/static/media/Maya.4ba78315758e1392a170.jpg",
-    "static/media/GK.jpeg": "/static/media/GK.ebf3ecb040118169e6c4.jpeg",
     "static/media/Christian.jpg": "/static/media/Christian.ba474e7cfe2b9969a0e8.jpg",
     "static/media/Ghiya Strokes Reg.ttf": "/static/media/Ghiya Strokes Reg.95df9f6e51a7f9df623f.ttf",
-    "static/media/barrio.jpeg": "/static/media/barrio.0bcfb6362f0f94c09d6b.jpeg",
     "static/media/Mika.jpg": "/static/media/Mika.193423bfce6f362f9694.jpg",
-    "static/media/adobowl.jpeg": "/static/media/adobowl.a83cde0290012137fc0e.jpeg",
     "static/media/Jeremy.jpg": "/static/media/Jeremy.a1a14c18055d8ef2d5de.jpg",
     "static/media/culture.png": "/static/media/culture.3ba01914e97cde79b4c4.png",
     "static/media/vpea.jpeg": "/static/media/vpea.eb0d24d237209e688a6a.jpeg",
@@ -55,11 +49,11 @@
     "static/media/Matthew.jpg": "/static/media/Matthew.e6a355394d386d4bbfa6.jpg",
     "static/media/logo.png": "/static/media/logo.2d474d98786a767124ce.png",
     "index.html": "/index.html",
-    "main.d68b01c1.css.map": "/static/css/main.d68b01c1.css.map",
-    "main.a74bf54f.js.map": "/static/js/main.a74bf54f.js.map"
+    "main.a49499ee.css.map": "/static/css/main.a49499ee.css.map",
+    "main.487727e2.js.map": "/static/js/main.487727e2.js.map"
   },
   "entrypoints": [
-    "static/css/main.d68b01c1.css",
-    "static/js/main.a74bf54f.js"
+    "static/css/main.a49499ee.css",
+    "static/js/main.487727e2.js"
   ]
 }
