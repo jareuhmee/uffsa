@@ -5,6 +5,9 @@ import './ThreePrograms.css';
 import AKATitle from '../../../../components/titles/AKA Title/AKATitle';
 import MaffiaTitle from '../../../../components/titles/MAFFIA Title/MaffiaTitle';
 import FsaPlusTitle from '../../../../components/titles/FSA+ Title/FsaPlusTitle';
+import ArrowForwardIosSharpIcon from '@mui/icons-material/ArrowForwardIosSharp';
+
+
 
 const ThreePrograms = () => {
   return (
@@ -17,9 +20,12 @@ const ThreePrograms = () => {
           <div className="program-header">
             <AKATitle />
           </div>
-            <p className="program-text">
-              Big/little mentorship program
-            </p>
+            <div className='program-footer'>
+              <p className="program-text">
+                Big/little mentorship program
+                <span className="arrow-icon"> <ArrowForwardIosSharpIcon sx={{ fontSize: '1rem' }} /> </span>
+              </p>
+            </div>
         </HashLink>
 
         <HashLink className="program maffia-program" to="/maffia#" style={{ backgroundColor: '#1e1e1e' }}>
@@ -28,6 +34,7 @@ const ThreePrograms = () => {
           </div>
             <p className="program-text">
               First-year involvement program
+              <span className="arrow-icon"> <ArrowForwardIosSharpIcon sx={{ fontSize: '1rem' }} /> </span>
             </p>
         </HashLink>
 
@@ -37,6 +44,7 @@ const ThreePrograms = () => {
           </div>
             <p className="program-text" style={{ color: 'var(--black)' }}>
               Career & academic support program
+              <span className="arrow-icon"> <ArrowForwardIosSharpIcon sx={{ fontSize: '1rem' }} /> </span>
             </p>
         </HashLink>
       </div>
