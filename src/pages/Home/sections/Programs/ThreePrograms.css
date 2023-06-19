@@ -7,9 +7,9 @@
     box-sizing: border-box;
 
     width: fit-content;
-    max-width: 100%;
+    max-width: 98%;
     margin: 0 auto;
-    border-radius: 50px;
+    border-radius: 25px;
 }
 
 .programs-section-title {
@@ -41,19 +41,24 @@
 .program {
     box-sizing: border-box;
     position: relative;
-    width: 400px;
-    height: 250px;
+    width: 320px;
+    height: 200px;
 
     text-decoration: none;
     text-align: center;
 
-    padding: 1rem;
+    /* padding: 1rem; */
     margin: 1.5rem 1rem;
-    border-radius: 25px;
+    border-radius: 10px;
 
-    box-shadow: 5px 5px 10px black;
+    box-shadow: 2px 2px 5px black;
     transition: all 0.3s;
     color: white;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
 }
 
 .program-header {
@@ -61,21 +66,16 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    transform: scale(0.9);
 }
 
-.program-title {
-    font-size: 1.8rem;
-}
-
-.program-logo {
-    width: 8rem;
-    position: relative;
-}
 
 .program-text {
     position: relative;
-    padding: 0rem 0.5rem;
+    text-align: center;
+    margin-top: -1rem;
     font-size: 0.9rem;
+    font-style: italic;
 }
 
 

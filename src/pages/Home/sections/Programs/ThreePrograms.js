@@ -18,7 +18,7 @@ const ThreePrograms = () => {
             <AKATitle />
           </div>
             <p className="program-text">
-              Our big/little mentorship program.
+              Big/little mentorship program
             </p>
         </HashLink>
 
@@ -27,7 +27,7 @@ const ThreePrograms = () => {
             <MaffiaTitle />
           </div>
             <p className="program-text">
-              Our first-year involvement program.
+              First-year involvement program
             </p>
         </HashLink>
 
@@ -35,8 +35,8 @@ const ThreePrograms = () => {
           <div className="program-header"> 
             <FsaPlusTitle />
           </div>
-            <p className="program-text" style={{ color: 'black' }}>
-              Our career & academic support program.
+            <p className="program-text" style={{ color: 'var(--black)' }}>
+              Career & academic support program
             </p>
         </HashLink>
       </div>

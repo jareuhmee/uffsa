@@ -19,11 +19,12 @@
 }
 
 .involvement-section-text {
-    width: 84rem;
+    width: 50ch;
     max-width: 95%;
     margin: 0 auto;
     padding: 0 2rem;
     box-sizing: border-box;
+    text-align: center;
 }
 
 .involvement-section-title {
@@ -31,6 +32,7 @@
     text-align: center;
     font-size: 2rem;
     width: fit-content;
+    margin: auto;
 }
 
 .involvement-section-title::after {
