@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.f05217b3.css",
-    "main.js": "/static/js/main.080aae74.js",
+    "main.css": "/static/css/main.d30c8167.css",
+    "main.js": "/static/js/main.b664df8b.js",
     "static/media/background.png": "/static/media/background.7521bd9431e42e602801.png",
     "static/media/logo2.png": "/static/media/logo2.a566d9cf59acb754358b.png",
     "static/media/grain.png": "/static/media/grain.a297bc3e3f17176232c9.png",
@@ -34,6 +34,7 @@
     "static/media/SASE.png": "/static/media/SASE.b678b54d4b29c9bcba8b.png",
     "static/media/Magnicel.jpg": "/static/media/Magnicel.65837bd4792a1c37da8e.jpg",
     "static/media/Andrew.jpg": "/static/media/Andrew.10fa764b90c452333f62.jpg",
+    "static/media/logo.jpg": "/static/media/logo.265963d774c99ed2bd63.jpg",
     "static/media/Bryan.jpg": "/static/media/Bryan.05d2d7e6de15648589a5.jpg",
     "static/media/Justin.jpg": "/static/media/Justin.15a8789a0dbedc4419c5.jpg",
     "static/media/Jenzen.jpg": "/static/media/Jenzen.42739b52ccaef4e5681c.jpg",
@@ -53,11 +54,11 @@
     "static/media/Matthew.jpg": "/static/media/Matthew.e6a355394d386d4bbfa6.jpg",
     "static/media/logo.png": "/static/media/logo.2d474d98786a767124ce.png",
     "index.html": "/index.html",
-    "main.f05217b3.css.map": "/static/css/main.f05217b3.css.map",
-    "main.080aae74.js.map": "/static/js/main.080aae74.js.map"
+    "main.d30c8167.css.map": "/static/css/main.d30c8167.css.map",
+    "main.b664df8b.js.map": "/static/js/main.b664df8b.js.map"
   },
   "entrypoints": [
-    "static/css/main.f05217b3.css",
-    "static/js/main.080aae74.js"
+    "static/css/main.d30c8167.css",
+    "static/js/main.b664df8b.js"
   ]
 }
