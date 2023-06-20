@@ -9,7 +9,7 @@
     width: fit-content;
     max-width: 98%;
     margin: 0 auto;
-    border-radius: 25px;
+    border-radius: 20px;
 }
 
 .programs-section-title {
@@ -34,6 +34,7 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    gap: 1.5rem;
 }
 
 
@@ -47,8 +48,6 @@
     text-decoration: none;
     text-align: center;
 
-    /* padding: 1rem; */
-    margin: 1.5rem 1rem;
     border-radius: 10px;
 
     box-shadow: 2px 2px 5px black;
