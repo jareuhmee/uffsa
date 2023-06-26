@@ -88,7 +88,7 @@ const Culture = () => {
                 className='culture-tabs'
             >
                 <Tab label="Blogs" />
-                <Tab label="Presentations" />
+                <Tab label="MAFFIA" />
             </Tabs>
 
             <TabPanel value={regularActivitiesValue} index={0}>
@@ -105,7 +105,7 @@ const Culture = () => {
                 </p>
             </TabPanel>
             <TabPanel value={regularActivitiesValue} index={1}>
-                <h2>Presentations</h2>
+                <h2>MAFFIA</h2>
                 <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
                     malesuada lacus ex, sit amet blandit leo lobortis eget. Lorem ipsum dolor
                     sit amet, consectetur adipiscing elit.

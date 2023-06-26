@@ -76,7 +76,7 @@ const Philanthropy = () => {
                 className='philanthropy-tabs'
             >
                 <Tab label="Podcasts" />
-                <Tab label="Segments" />
+                <Tab label="MAFFIA" />
                 <Tab label="Fundraising" />
             </Tabs>
 
@@ -94,7 +94,7 @@ const Philanthropy = () => {
                 </p>
             </TabPanel>
             <TabPanel value={regularActivitiesValue} index={1}>
-                <h2>GBM Segments</h2>
+                <h2>MAFFIA</h2>
                 <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
                     malesuada lacus ex, sit amet blandit leo lobortis eget. Lorem ipsum dolor
                     sit amet, consectetur adipiscing elit.
