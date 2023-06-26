@@ -9,6 +9,7 @@ import Johannah from '../photos/eboard/Johannah.jpg';
 import Nicelle from '../photos/eboard/Nicelle.jpg';
 import Rafael from '../photos/eboard/Rafael.jpg';
 import Rayvin from '../photos/eboard/Rayvin.jpg';
+import Rhyse from '../photos/eboard/Rhyse.jpg';
 import Rocky from '../photos/eboard/Rocky.jpg';
 import Theresse from '../photos/eboard/Theresse.jpg';
 import Thomas from '../photos/eboard/Thomas.jpg';
@@ -86,7 +87,7 @@ const EBoard = () => {
         </a>
 
         <a href='https://www.instagram.com/rhysesampang/' target="_blank" rel="noopener noreferrer" className='eboard-card'>
-          <img src={temp} alt='Rhyse' />
+          <img src={Rhyse} alt='Rhyse Sampang' />
           <div className='eboard-card__text'>
             <h1>Rhyse Sampang</h1>
             <h2>Vice President of Membership</h2>

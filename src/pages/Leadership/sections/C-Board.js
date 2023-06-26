@@ -11,6 +11,7 @@ import Christian from '../photos/cboard/Christian.jpg';
 import Daniella from '../photos/cboard/Daniella.jpg';
 import Earth from '../photos/cboard/Earth.jpg';
 import Felix from '../photos/cboard/Felix.jpg';
+import JAnn from '../photos/cboard/J-Ann.jpg';
 import Jacob from '../photos/cboard/Jacob.jpg';
 import Jeremy from '../photos/cboard/Jeremy.jpg';
 import Justin from '../photos/cboard/Justin.jpg';
@@ -196,7 +197,7 @@ const CBoard = () => {
           </div>
         </a>
         <a href='https://www.instagram.com/janvldr/' target="_blank" rel="noopener noreferrer" className='cboard-card masscom-card'>
-          <img src={temp} alt='J-Ann Valledor' />
+          <img src={JAnn} alt='J-Ann Valledor' />
           <div className='cboard-card__text'>
             <h1>J-Ann Valledor</h1>
             <h2>Mass Communications Chair</h2>
