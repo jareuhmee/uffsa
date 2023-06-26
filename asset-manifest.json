@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.d30c8167.css",
-    "main.js": "/static/js/main.de3d5a4f.js",
+    "main.js": "/static/js/main.8f191166.js",
     "static/media/background.png": "/static/media/background.7521bd9431e42e602801.png",
     "static/media/logo2.png": "/static/media/logo2.a566d9cf59acb754358b.png",
     "static/media/grain.png": "/static/media/grain.a297bc3e3f17176232c9.png",
@@ -17,7 +17,6 @@
     "static/media/Christian.jpg": "/static/media/Christian.ba474e7cfe2b9969a0e8.jpg",
     "static/media/Jeremy.jpg": "/static/media/Jeremy.362ff7a130b010bb5359.jpg",
     "static/media/Ghiya Strokes Reg.ttf": "/static/media/Ghiya Strokes Reg.95df9f6e51a7f9df623f.ttf",
-    "static/media/Rayvin.jpg": "/static/media/Rayvin.c72ed4f2fbd46ac4ffb2.jpg",
     "static/media/Mika.jpg": "/static/media/Mika.193423bfce6f362f9694.jpg",
     "static/media/culture.png": "/static/media/culture.3ba01914e97cde79b4c4.png",
     "static/media/Skyler.jpg": "/static/media/Skyler.40f0f3beb9bdbc4c608d.jpg",
@@ -31,6 +30,7 @@
     "static/media/Jannila.jpg": "/static/media/Jannila.93a4bbc361f201c05cb1.jpg",
     "static/media/Felix.jpg": "/static/media/Felix.79b1847f09c2a4a46cbc.jpg",
     "static/media/Johannah.jpg": "/static/media/Johannah.5928c5506087a9400197.jpg",
+    "static/media/J-Ann.jpg": "/static/media/J-Ann.083f0ea0b1054437b981.jpg",
     "static/media/SASE.png": "/static/media/SASE.b678b54d4b29c9bcba8b.png",
     "static/media/Magnicel.jpg": "/static/media/Magnicel.65837bd4792a1c37da8e.jpg",
     "static/media/Andrew.jpg": "/static/media/Andrew.10fa764b90c452333f62.jpg",
@@ -42,11 +42,13 @@
     "static/media/Sara.jpg": "/static/media/Sara.f436234ef5cd968dc85f.jpg",
     "static/media/star.png": "/static/media/star.e019e048777872070a12.png",
     "static/media/Karl.jpg": "/static/media/Karl.1a9ce868b1b337618d75.jpg",
+    "static/media/Rayvin.jpg": "/static/media/Rayvin.35917361dbc7f5f957db.jpg",
     "static/media/philanthropy.png": "/static/media/philanthropy.c64c020a9db52f5fdbbb.png",
     "static/media/Jacob.jpg": "/static/media/Jacob.4a85868c4eaf6945963a.jpg",
     "static/media/Maia.jpg": "/static/media/Maia.11d45ecd5daa47dd9429.jpg",
     "static/media/Rafael.jpg": "/static/media/Rafael.2a4594cc6c84a99e0fc1.jpg",
     "static/media/Sonia.jpg": "/static/media/Sonia.eed777085726397cc892.jpg",
+    "static/media/Rhyse.jpg": "/static/media/Rhyse.314a999ed5fa33f20995.jpg",
     "static/media/Serena.jpg": "/static/media/Serena.cbafb30961f789a5a90c.jpg",
     "static/media/Alexyss.jpg": "/static/media/Alexyss.de2d7151663d0ecadd56.jpg",
     "static/media/Theresse.jpg": "/static/media/Theresse.017f1f3b2e8dee5ed797.jpg",
@@ -54,10 +56,10 @@
     "static/media/logo.png": "/static/media/logo.2d474d98786a767124ce.png",
     "index.html": "/index.html",
     "main.d30c8167.css.map": "/static/css/main.d30c8167.css.map",
-    "main.de3d5a4f.js.map": "/static/js/main.de3d5a4f.js.map"
+    "main.8f191166.js.map": "/static/js/main.8f191166.js.map"
   },
   "entrypoints": [
     "static/css/main.d30c8167.css",
-    "static/js/main.de3d5a4f.js"
+    "static/js/main.8f191166.js"
   ]
 }
