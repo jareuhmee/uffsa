@@ -1,7 +1,7 @@
 .involvement-section {
     position: relative;
     margin: 0rem;
-    background-color: #333333;
+    background-color: var(--dark-gray);
     color: white;
     padding: 4rem 0.5rem;
     box-sizing: border-box;
