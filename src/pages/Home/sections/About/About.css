@@ -7,7 +7,7 @@
     background-color: var(--red);
     margin: 0 auto;
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: wrap-reverse;
     justify-content: center;
     align-items: center;
     gap: 8rem;
@@ -30,7 +30,7 @@
     position: relative;
     top: 0;
     width: 60ch;
-    max-width: 80%;
+    max-width: 85%;
     text-align: left;
     color: black;
 }
@@ -65,5 +65,11 @@
 .about-vid {
     position: relative;
     width: 480px;
-    max-width: 95vw;
+    max-width: 85%;
+}
+
+@media screen and (max-width: 768px) {
+    .about-section {
+        gap: 4rem;
+    }
 }
