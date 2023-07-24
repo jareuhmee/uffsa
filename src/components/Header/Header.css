@@ -15,7 +15,7 @@
   height: 100%;
   width: 100%;
   background-color: var(--blue);
-  transition: all 0.3s ease-in-out;
+  transition: all 0.3s;
 }
 
 #background::after {
@@ -57,7 +57,7 @@
   color: white;
   font-weight: 500;
   padding: 0.5rem;
-  transition: all 0.3s ease-in-out;
+  transition: all 0.3s;
 }
 
 .navbar-link:hover {
@@ -88,7 +88,7 @@
 /* Logo */
 .navbar-logo {
   margin: 0 1rem;
-  transition: all 0.3s ease-in-out;
+  transition: all 0.3s;
 }
 
 .navbar-logo:hover {
@@ -96,7 +96,7 @@
 }
 
 #logo {
-  transition: all 0.3s ease-in-out;
+  transition: all 0.3s;
 }
 
 
@@ -166,7 +166,7 @@
     opacity: 0.5;
     overflow: hidden;
     text-align: center;
-    transition: all 0.3s ease-in-out;
+    transition: all 0.3s;
   }
 
   
