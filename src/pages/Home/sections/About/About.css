@@ -60,6 +60,11 @@
     font-weight: 500;
 }
 
+.about-text__outro {
+    font-weight: 500;
+    font-style: italic;
+}
+
 
 /* About Video */
 .about-vid {
