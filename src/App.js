@@ -59,8 +59,8 @@ function App() {
 
         <Route path="/leadership" element={<Leadership />} />
 
-        <Route path="/barkada-newsletter" element={<BarkadaNewsletter />} />
-        <Route path="/project-lunchbox" element={<ProjectLunchbox />} />
+        <Route path="/barkada" element={<BarkadaNewsletter />} />
+        <Route path="/podcast" element={<ProjectLunchbox />} />
         <Route path="/archive" element={<Archive />} />
 
         <Route path="/shop" element={<Shop />} />
