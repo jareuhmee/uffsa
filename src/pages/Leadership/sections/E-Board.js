@@ -106,7 +106,7 @@ const EBoard = () => {
           <img src={Rayvin} alt='Rayvin Velasco' />
           <div className='eboard-card__text'>
             <h1>Rayvin Velasco</h1>
-            <h2>Executive President</h2>
+            <h2>Vice President of Multimedia</h2>
           </div>
         </a>
 
