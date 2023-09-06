@@ -49,7 +49,7 @@ const FsaPlus = () => {
             <h1 className='fsaplus-main-resources-title title'>Study Socials</h1>
 
             <div className='fsaplus-social-container'>
-              <a href='https://www.instagram.com/uffsa/' target="_blank" rel="noopener noreferrer" className='study-social'>
+              <a href='https://www.instagram.com/p/Cw23RGxO4xO/?utm_source=ig_web_copy_link&igshid=MzRlODBiNWFlZA==' target="_blank" rel="noopener noreferrer" className='study-social'>
                 <img src={StudySocial} alt='Study Social' />
               </a>
 
