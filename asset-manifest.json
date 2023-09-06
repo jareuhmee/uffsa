@@ -1,12 +1,11 @@
 {
   "files": {
-    "main.css": "/static/css/main.46f4650b.css",
-    "main.js": "/static/js/main.426361c2.js",
+    "main.css": "/static/css/main.f399643c.css",
+    "main.js": "/static/js/main.1588e05b.js",
     "static/media/background.png": "/static/media/background.efffda988ddf80ad6279.png",
     "static/media/logo2.png": "/static/media/logo2.a566d9cf59acb754358b.png",
+    "static/media/StudySocial.png": "/static/media/StudySocial.efa7df960f8928511e50.png",
     "static/media/grain.png": "/static/media/grain.a297bc3e3f17176232c9.png",
-    "static/media/AAUSLA.png": "/static/media/AAUSLA.f0e075b7d719562002c2.png",
-    "static/media/HEAL.png": "/static/media/HEAL.a940c251a0dcd9f187d4.png",
     "static/media/dance.png": "/static/media/dance.1336f21ac41c850885df.png",
     "static/media/Montserrat-VariableFont_wght.ttf": "/static/media/Montserrat-VariableFont_wght.c28a96c369871653b853.ttf",
     "static/media/Ahmad.jpg": "/static/media/Ahmad.021e7e492bbdef1a4e3e.jpg",
@@ -20,7 +19,6 @@
     "static/media/Mika.jpg": "/static/media/Mika.193423bfce6f362f9694.jpg",
     "static/media/culture.png": "/static/media/culture.3ba01914e97cde79b4c4.png",
     "static/media/Skyler.jpg": "/static/media/Skyler.40f0f3beb9bdbc4c608d.jpg",
-    "static/media/ABSA.png": "/static/media/ABSA.8f7ca2d741c1170d6710.png",
     "static/media/Earth.jpg": "/static/media/Earth.3435ccc42fdee6251a34.jpg",
     "static/media/Elyza.jpg": "/static/media/Elyza.8e07d25864b9f76d9a1d.jpg",
     "static/media/sports.png": "/static/media/sports.957142822c323e1ce195.png",
@@ -31,7 +29,6 @@
     "static/media/Felix.jpg": "/static/media/Felix.79b1847f09c2a4a46cbc.jpg",
     "static/media/Johannah.jpg": "/static/media/Johannah.5928c5506087a9400197.jpg",
     "static/media/J-Ann.jpg": "/static/media/J-Ann.083f0ea0b1054437b981.jpg",
-    "static/media/SASE.png": "/static/media/SASE.b678b54d4b29c9bcba8b.png",
     "static/media/Magnicel.jpg": "/static/media/Magnicel.65837bd4792a1c37da8e.jpg",
     "static/media/Andrew.jpg": "/static/media/Andrew.10fa764b90c452333f62.jpg",
     "static/media/Bryan.jpg": "/static/media/Bryan.05d2d7e6de15648589a5.jpg",
@@ -55,11 +52,11 @@
     "static/media/Matthew.jpg": "/static/media/Matthew.e6a355394d386d4bbfa6.jpg",
     "static/media/logo.png": "/static/media/logo.2d474d98786a767124ce.png",
     "index.html": "/index.html",
-    "main.46f4650b.css.map": "/static/css/main.46f4650b.css.map",
-    "main.426361c2.js.map": "/static/js/main.426361c2.js.map"
+    "main.f399643c.css.map": "/static/css/main.f399643c.css.map",
+    "main.1588e05b.js.map": "/static/js/main.1588e05b.js.map"
   },
   "entrypoints": [
-    "static/css/main.46f4650b.css",
-    "static/js/main.426361c2.js"
+    "static/css/main.f399643c.css",
+    "static/js/main.1588e05b.js"
   ]
 }
