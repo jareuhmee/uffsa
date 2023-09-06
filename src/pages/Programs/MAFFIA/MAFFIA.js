@@ -22,7 +22,9 @@ const MAFFIA = () => {
                 MAFFIA is divided into 4 sub-programs: Culture, Mass Communications, Multimedia, and Philanthropy. Over the course of the Fall semester, members will be distributed amongst these sub-programs and will rotate every GBM/show so each MAFFIA member has the opportunity to experience each program. 
               </p>
 
-              <br />
+              <p>
+                The choice is yours! Enhance your experience in FSA and join our team today.
+              </p>
 
               <a href='https://docs.google.com/forms/d/e/1FAIpQLSevYv9vuYBKO5oha0Ov7kOnObTdrq8eKVuP7uVmlnZke0IanQ/viewform' target="_blank" rel="noopener noreferrer">
                 APPLY NOW!
