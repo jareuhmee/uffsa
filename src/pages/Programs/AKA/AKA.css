@@ -17,3 +17,10 @@
     max-width: 100%;
     margin: auto;
 }
+
+.aka-description__container a {
+    color: var(--yellow);
+    text-decoration: none;
+    font-weight: 600;
+    transition: all 0.3s ease-in-out;
+}
