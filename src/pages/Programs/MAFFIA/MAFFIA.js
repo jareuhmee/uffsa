@@ -24,9 +24,9 @@ const MAFFIA = () => {
 
               <br />
 
-              <p className='maffia-application'>
-                APPLICATION COMING SOON!
-              </p>
+              <a href='https://docs.google.com/forms/d/e/1FAIpQLSevYv9vuYBKO5oha0Ov7kOnObTdrq8eKVuP7uVmlnZke0IanQ/viewform' target="_blank" rel="noopener noreferrer">
+                APPLY NOW!
+              </a>
             </div>
             
             {/* <div className='temp-text-container'>

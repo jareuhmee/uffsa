@@ -18,7 +18,9 @@
     margin: auto;
 }
 
-.maffia-application {
+.maffia-description__container a {
+    color: var(--yellow);
+    text-decoration: none;
     font-weight: 600;
-    font-style: italic;
+    transition: all 0.3s ease-in-out;
 }
