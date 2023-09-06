@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.c4c37e89.css",
-    "main.js": "/static/js/main.4a3e67d2.js",
+    "main.js": "/static/js/main.48bd6276.js",
     "static/media/background.png": "/static/media/background.efffda988ddf80ad6279.png",
     "static/media/logo2.png": "/static/media/logo2.a566d9cf59acb754358b.png",
     "static/media/StudySocial.png": "/static/media/StudySocial.efa7df960f8928511e50.png",
@@ -53,10 +53,10 @@
     "static/media/logo.png": "/static/media/logo.2d474d98786a767124ce.png",
     "index.html": "/index.html",
     "main.c4c37e89.css.map": "/static/css/main.c4c37e89.css.map",
-    "main.4a3e67d2.js.map": "/static/js/main.4a3e67d2.js.map"
+    "main.48bd6276.js.map": "/static/js/main.48bd6276.js.map"
   },
   "entrypoints": [
     "static/css/main.c4c37e89.css",
-    "static/js/main.4a3e67d2.js"
+    "static/js/main.48bd6276.js"
   ]
 }
