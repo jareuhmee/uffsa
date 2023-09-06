@@ -2,7 +2,7 @@
     background-color: #eeeeee;
 }
 
-.fsaplus-page::before {
+/* .fsaplus-page::before {
     content: "";
     position: absolute;
     width: 100%;
@@ -12,7 +12,7 @@
     left: 0;
     opacity: 0.1;
     background-image: url('../../../assets/textures/grain.png');
-}
+} */
 
 .fsaplus-hero__buttons {
     position: relative;
@@ -72,6 +72,22 @@
     background-color: #f5f2f0;
 }
 
+.fsaplus-study-social {
+    position: relative;
+    width: 100%;
+    height: fit-content;
+    padding: 4rem 2rem;
+    box-sizing: border-box;
+    background-color: white;
+    text-align: center;
+}
+
+.study-social-description {
+    width: 35ch;
+    text-align: left;
+}
+
+
 
 
 .fsaplus-main-resources {
@@ -80,7 +96,7 @@
     height: fit-content;
     padding: 4rem 2rem;
     box-sizing: border-box;
-    background-color: white;
+    background-color: var(--white);
     text-align: center;
 }
 
@@ -103,6 +119,31 @@
     background-color: var(--yellow);
     box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.5);
 }
+
+.fsaplus-social-container {
+    width: 100%;
+    height: fit-content;
+    padding-top: 3rem;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem 4rem;
+}
+
+.study-social img {
+    position: relative;
+    width: 320px;
+    max-width: 100%;
+    transform: rotate(-1deg);
+}
+
+.next-social {
+    font-weight: 600;
+}
+
+
 
 .fsaplus-sticky-container {
     width: 100%;

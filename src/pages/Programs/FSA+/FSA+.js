@@ -2,10 +2,12 @@ import React from 'react';
 import { FaFacebook, FaLinkedin } from 'react-icons/fa';
 import FsaPlusTitle from '../../../components/titles/FSA+ Title/FsaPlusTitle';
 
-import HEAL from './org logos/HEAL.png';
-import SASE from './org logos/SASE.png';
-import AAUSLA from './org logos/AAUSLA.png';
-import ABSA from './org logos/ABSA.png';
+import StudySocial from './StudySocial.png';
+
+// import HEAL from './org logos/HEAL.png';
+// import SASE from './org logos/SASE.png';
+// import AAUSLA from './org logos/AAUSLA.png';
+// import ABSA from './org logos/ABSA.png';
 
 import './FSA+.css';
 
@@ -43,32 +45,53 @@ const FsaPlus = () => {
           </section>
 
 
+          <section className='fsaplus-study-social'>
+            <h1 className='fsaplus-main-resources-title title'>Study Socials</h1>
+
+            <div className='fsaplus-social-container'>
+              <a href='https://www.instagram.com/uffsa/' target="_blank" rel="noopener noreferrer" className='study-social'>
+                <img src={StudySocial} alt='Study Social' />
+              </a>
+
+              <div className='study-social-description'>
+                <p>
+                  Need a study buddy and a good study session? Don’t worry, the pamilya has your back!
+                </p>
+                <p>
+                  Join us for a study social and get to know new people while studying for your next exam! 
+                </p>
+                <p className='next-social'>
+                  Next Social: September 11, 2023 @ Reitz 3315
+                </p>
+              </div>
+
+              
+            </div>
+          </section>
+
           <section className='fsaplus-main-resources'>
             <h1 className='fsaplus-main-resources-title title'>FSA+ Resources</h1>
 
             <div className='fsaplus-sticky-container'>
-                <div className='fsaplus-sticky-note'>
-                  <h1 className='title'> Study Socials </h1>
-                  <p className='title'> Next Event: TBD </p>
-                  <p className='title'> Location: TBD </p>
-                </div>
 
                 <div className='fsaplus-sticky-note'>
                   <h1 className='title'> Class Connector </h1>
-                  <p className='title'> Form </p>
-                  <p className='title'> Spreadsheet </p>
+                  <p className='title'> [COMING SOON] </p>
+                  {/* <p className='title'> Form </p>
+                  <p className='title'> Spreadsheet </p> */}
                 </div>
 
                 <div className='fsaplus-sticky-note'>
                   <h1 className='title'> FSA+ Library </h1>
-                  <p className='title'> Submission Form </p>
-                  <p className='title'> Google Drive of Notes </p>
+                  <p className='title'> [COMING SOON] </p>
+                  {/* <p className='title'> Submission Form </p>
+                  <p className='title'> Google Drive of Notes </p> */}
                 </div>
             </div>
           </section>
 
 
-          <section className='fsaplus-other-orgs'>
+          {/* <section className='fsaplus-other-orgs'>
 
             <div className='fsaplus-other-orgs__board'>
 
@@ -97,16 +120,16 @@ const FsaPlus = () => {
               </div>
 
             </div>
-          </section>
+          </section> */}
 
 
-          <section className='fsaplus-description'>
+          {/* <section className='fsaplus-description'>
             <div className='temp-text-container'>
               FSA+ Description: Our career & academic support program<br /><br />
               Group chats (use uffsa discord): class recommendations, sharing surveys for papers/research projects, requested majors/tracks  <br /><br />
               Other Resources: Scholarships, internships/research, career fairs, study edge, smokin notes  <br /><br />
             </div>
-          </section>
+          </section> */}
 
         </div>
     </> 
