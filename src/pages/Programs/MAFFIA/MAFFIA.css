@@ -14,6 +14,7 @@
 .maffia-description__container {
     position: relative;
     width: 65ch;
+    max-width: 100%;
     margin: auto;
 }
 
