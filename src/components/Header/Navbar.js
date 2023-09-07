@@ -119,12 +119,12 @@ function Navbar(props) {
             </NavLink>
             <ul className={`navbar-sublist ${isSmallDevice ? 'navbar-accordion' : ''}`}>
               <li className="navbar-subitem">
-                <HashLink to="/barkada-newsletter#" className="navbar-link" onClick={handleMenuToggle}>
+                <HashLink to="/barkada#" className="navbar-link" onClick={handleMenuToggle}>
                   BARKADA NEWSLETTER
                 </HashLink>
               </li>
               <li className="navbar-subitem">
-                <HashLink to="/project-lunchbox#" className="navbar-link" onClick={handleMenuToggle}>
+                <HashLink to="/podcast#" className="navbar-link" onClick={handleMenuToggle}>
                   PROJECT LUNCHBOX
                 </HashLink>
               </li>

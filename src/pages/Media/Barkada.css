@@ -1,0 +1,28 @@
+.barkada-hero {
+    width: 100%;
+    height: fit-content;
+    
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 500;
+    color: var(--white);
+
+    margin: 0;
+    padding: 2rem 1rem;
+    box-sizing: border-box;
+
+    background-color: var(--dark-gray);
+}
+
+.barkada-section {
+    width: 100%;
+    background-color: var(--white);
+    padding: 2rem;
+    box-sizing: border-box;
+}
+
+.barkada-container {
+    margin: auto;
+    width: 400px;
+    max-width: 100%;
+}
