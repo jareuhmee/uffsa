@@ -1,12 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.af80f800.css",
-    "main.js": "/static/js/main.212cb539.js",
+    "main.css": "/static/css/main.62fca3af.css",
+    "main.js": "/static/js/main.023e114f.js",
+    "static/media/sports.png": "/static/media/sports.88216f78b6f5c3ed66e1.png",
+    "static/media/philanthropy.png": "/static/media/philanthropy.257f89d195b1181ff62e.png",
     "static/media/background.png": "/static/media/background.efffda988ddf80ad6279.png",
+    "static/media/dance.png": "/static/media/dance.0197984a07f631b967a5.png",
+    "static/media/culture.png": "/static/media/culture.9a530bfc5d23fe6f54b2.png",
     "static/media/logo2.png": "/static/media/logo2.a566d9cf59acb754358b.png",
     "static/media/StudySocial.png": "/static/media/StudySocial.efa7df960f8928511e50.png",
     "static/media/grain.png": "/static/media/grain.a297bc3e3f17176232c9.png",
-    "static/media/dance.png": "/static/media/dance.1336f21ac41c850885df.png",
     "static/media/Montserrat-VariableFont_wght.ttf": "/static/media/Montserrat-VariableFont_wght.c28a96c369871653b853.ttf",
     "static/media/Ahmad.jpg": "/static/media/Ahmad.021e7e492bbdef1a4e3e.jpg",
     "static/media/Daniella.jpg": "/static/media/Daniella.1eb58438f9068a313bf8.jpg",
@@ -17,11 +20,9 @@
     "static/media/Jeremy.jpg": "/static/media/Jeremy.362ff7a130b010bb5359.jpg",
     "static/media/Ghiya Strokes Reg.ttf": "/static/media/Ghiya Strokes Reg.95df9f6e51a7f9df623f.ttf",
     "static/media/Mika.jpg": "/static/media/Mika.193423bfce6f362f9694.jpg",
-    "static/media/culture.png": "/static/media/culture.3ba01914e97cde79b4c4.png",
     "static/media/Skyler.jpg": "/static/media/Skyler.40f0f3beb9bdbc4c608d.jpg",
     "static/media/Earth.jpg": "/static/media/Earth.3435ccc42fdee6251a34.jpg",
     "static/media/Elyza.jpg": "/static/media/Elyza.8e07d25864b9f76d9a1d.jpg",
-    "static/media/sports.png": "/static/media/sports.957142822c323e1ce195.png",
     "static/media/Vincent.jpg": "/static/media/Vincent.94136cea28e20ff9abfc.jpg",
     "static/media/Arielle.jpg": "/static/media/Arielle.c7f2ff19f48a53bb1f6c.jpg",
     "static/media/Thomas.jpg": "/static/media/Thomas.ac232a27fd7983cf1b66.jpg",
@@ -40,7 +41,6 @@
     "static/media/star.png": "/static/media/star.e019e048777872070a12.png",
     "static/media/Karl.jpg": "/static/media/Karl.1a9ce868b1b337618d75.jpg",
     "static/media/Rayvin.jpg": "/static/media/Rayvin.35917361dbc7f5f957db.jpg",
-    "static/media/philanthropy.png": "/static/media/philanthropy.c64c020a9db52f5fdbbb.png",
     "static/media/Jacob.jpg": "/static/media/Jacob.4a85868c4eaf6945963a.jpg",
     "static/media/Maia.jpg": "/static/media/Maia.11d45ecd5daa47dd9429.jpg",
     "static/media/Rafael.jpg": "/static/media/Rafael.2a4594cc6c84a99e0fc1.jpg",
@@ -52,11 +52,11 @@
     "static/media/Matthew.jpg": "/static/media/Matthew.e6a355394d386d4bbfa6.jpg",
     "static/media/logo.png": "/static/media/logo.2d474d98786a767124ce.png",
     "index.html": "/index.html",
-    "main.af80f800.css.map": "/static/css/main.af80f800.css.map",
-    "main.212cb539.js.map": "/static/js/main.212cb539.js.map"
+    "main.62fca3af.css.map": "/static/css/main.62fca3af.css.map",
+    "main.023e114f.js.map": "/static/js/main.023e114f.js.map"
   },
   "entrypoints": [
-    "static/css/main.af80f800.css",
-    "static/js/main.212cb539.js"
+    "static/css/main.62fca3af.css",
+    "static/js/main.023e114f.js"
   ]
 }
