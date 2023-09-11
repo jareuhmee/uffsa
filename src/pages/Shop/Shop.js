@@ -5,6 +5,9 @@ const Shop = () => {
         <div>
           <div className="maffia-description">
             <div className='temp-text-container'>
+              <h1>
+                [WIP]
+              </h1>
               Fundraising event info <br /><br />
               UFFSA Apparel forms <a href='https://sites.google.com/view/uffsa-apparel/'>[OLD SITE]</a> <br /><br />
               Threads of Hope / <a href='http://uffsahaiyan.weebly.com/'>Philanthropy efforts</a> <br /><br />

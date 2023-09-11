@@ -1,0 +1,33 @@
+.archive-section {
+    position: relative;
+    width: 100%;
+    min-height: 70vh;
+    background-color: var(--white);
+    padding: 2rem;
+    box-sizing: border-box;
+}
+
+.archive-section__container {
+    position: relative;
+    width: 65ch;
+    max-width: 100%;
+    margin: auto;
+}
+
+.slides-container {
+    /* margin: auto; */
+    width: 400px;
+    max-width: 100%;
+}
+
+.archive-section a {
+    color: var(--yellow);
+    text-decoration: none;
+    font-weight: 600;
+    transition: all 0.3s ease-in-out;
+}
+
+.archive-section a:hover {
+    color: white;
+    text-shadow: 0 0 1px white;
+}

@@ -106,11 +106,11 @@ function Navbar(props) {
                   CHAIR BOARD
                 </HashLink>
               </li>
-              <li className="navbar-subitem">
+              {/* <li className="navbar-subitem">
                 <HashLink smooth to="/leadership#committees" className="navbar-link" onClick={handleMenuToggle}>
                   EVENT COMMITTEES
                 </HashLink>
-              </li>
+              </li> */}
             </ul>
           </li>
           <li className="navbar-dropdown">

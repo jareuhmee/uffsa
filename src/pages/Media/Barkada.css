@@ -26,3 +26,15 @@
     width: 400px;
     max-width: 100%;
 }
+
+.barkada-section a {
+    color: var(--yellow);
+    text-decoration: none;
+    font-weight: 600;
+    transition: all 0.3s ease-in-out;
+}
+
+.barkada-section a:hover {
+    color: white;
+    text-shadow: 0 0 1px white;
+}

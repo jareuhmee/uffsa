@@ -137,6 +137,12 @@
     width: 320px;
     max-width: 100%;
     transform: rotate(-1deg);
+    transition: all 0.3s;
+}
+
+.study-social img:hover {
+    transform: scale(1.03);
+    box-shadow: 0 0 25px var(--yellow);
 }
 
 .next-social {

@@ -24,3 +24,8 @@
     font-weight: 600;
     transition: all 0.3s ease-in-out;
 }
+
+.aka-description__container a:hover {
+    color: white;
+    text-shadow: 0 0 1px white;
+}

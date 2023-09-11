@@ -41,6 +41,13 @@ const BarkadaNewsletter = () => {
                 allow="fullscreen"
               ></iframe>
             </div>
+            <a
+              href="https://www.canva.com/design/DAFsVSRfJUQ/view?utm_content=DAFsVSRfJUQ&utm_campaign=designshare&utm_medium=embeds&utm_source=link"
+              target="_blank"
+              rel="noopener"
+            >
+              Fall GBM 1 Barkada
+            </a>{" "}
           </div>
         </section>
     </> 

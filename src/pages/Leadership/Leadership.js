@@ -19,7 +19,7 @@ const Leadership = () => {
 
       <EBoard />
       <CBoard />
-      <Committees />
+      {/* <Committees /> */}
     </div>
   );
 }
