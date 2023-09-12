@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.5c384978.css",
-    "main.js": "/static/js/main.570da85a.js",
+    "main.css": "/static/css/main.877a8b39.css",
+    "main.js": "/static/js/main.d799bbec.js",
     "static/media/sports.png": "/static/media/sports.88216f78b6f5c3ed66e1.png",
     "static/media/philanthropy.png": "/static/media/philanthropy.257f89d195b1181ff62e.png",
     "static/media/background.png": "/static/media/background.efffda988ddf80ad6279.png",
@@ -52,11 +52,11 @@
     "static/media/Matthew.jpg": "/static/media/Matthew.e6a355394d386d4bbfa6.jpg",
     "static/media/logo.png": "/static/media/logo.2d474d98786a767124ce.png",
     "index.html": "/index.html",
-    "main.5c384978.css.map": "/static/css/main.5c384978.css.map",
-    "main.570da85a.js.map": "/static/js/main.570da85a.js.map"
+    "main.877a8b39.css.map": "/static/css/main.877a8b39.css.map",
+    "main.d799bbec.js.map": "/static/js/main.d799bbec.js.map"
   },
   "entrypoints": [
-    "static/css/main.5c384978.css",
-    "static/js/main.570da85a.js"
+    "static/css/main.877a8b39.css",
+    "static/js/main.d799bbec.js"
   ]
 }
