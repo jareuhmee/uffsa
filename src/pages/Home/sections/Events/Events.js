@@ -17,10 +17,19 @@ const Events = () => {
             Next GBM
           </h2>
           <p>
-            September 7, 2023
-          </p> <br />
+            October 2, 2023
+          </p> 
+          <br />
 
           <h2 className='events-list__header title'>
+            Last GBM
+          </h2>
+          <p>
+            September 7, 2023
+          </p> 
+          <br />
+
+          {/* <h2 className='events-list__header title'>
             Fall Events
           </h2>
           <p>
@@ -30,7 +39,7 @@ const Events = () => {
             DTJ <br />
             Adobowl <br />
             Semi-Formal
-          </p>
+          </p> */}
 
 
           <h2 className='events-list__header title'>
