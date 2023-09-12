@@ -1,6 +1,8 @@
 import React from 'react';
 import './Events.css';
 
+import { HashLink } from 'react-router-hash-link';
+
 
 const Events = () => {
   return (
@@ -24,9 +26,9 @@ const Events = () => {
           <h2 className='events-list__header title'>
             Last GBM
           </h2>
-          <p>
-            September 7, 2023
-          </p> 
+          <HashLink smooth to="/media#archive">
+            Powerpuff Pinoys
+          </HashLink>
           <br />
 
           {/* <h2 className='events-list__header title'>
@@ -40,11 +42,6 @@ const Events = () => {
             Adobowl <br />
             Semi-Formal
           </p> */}
-
-
-          <h2 className='events-list__header title'>
-            [WIP]
-          </h2>
 
         </div>
 

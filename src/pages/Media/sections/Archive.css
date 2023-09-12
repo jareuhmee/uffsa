@@ -9,7 +9,7 @@
 
 .archive-section__container {
     position: relative;
-    width: 65ch;
+    width: fit-content;
     max-width: 100%;
     margin: auto;
 }

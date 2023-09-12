@@ -2,14 +2,14 @@ import React from 'react';
 import './ProjectLunchbox.css';
 
 const ProjectLunchbox = () => {  
-    return (<>
+    return (<>    
+      <section className='projectLunchbox-section' id='podcast'>
+        
+        <h1 className='media-title title'>
+          Project Lunchbox
+        </h1>
+        <br /> <br />
 
-      <section className='projectLunchbox-hero'>
-        <p>PROJECT</p>
-        <p>LUNCHBOX</p>
-      </section>
-    
-      <section className='projectLunchbox-section'>
         <div className='podcast-container'>
           <div className='podcast-vid'>
             <div className='vid-container'>

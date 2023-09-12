@@ -77,3 +77,16 @@
 
     /* border: 1px solid white; */
 }
+
+.events-section a {
+    color: var(--white);
+    text-decoration: none;
+    font-style: italic;
+    font-weight: 600;
+    transition: all 0.1s;
+}
+
+.events-section a:hover {
+    color: var(--yellow);
+    text-shadow: 0 0 5px black;
+}

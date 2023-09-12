@@ -1,0 +1,39 @@
+.media-hero {
+    width: 100%;
+    height: fit-content;
+    
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 500;
+    color: var(--white);
+
+    margin: 0;
+    padding: 2rem 1rem;
+    box-sizing: border-box;
+
+    background-color: #ec926f;
+}
+.media-hero p {
+    position: relative;
+    line-height: 0.2;
+    letter-spacing: 0.2rem;
+}
+
+.media-title {
+    position: relative;
+    text-align: center;
+    font-size: 2rem;
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.media-title::after {
+    content: "";
+    position: absolute;
+    bottom: -25%;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background-color: var(--yellow);
+    box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.5);
+}

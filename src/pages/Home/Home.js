@@ -36,14 +36,6 @@ function Home() {
         
 
         <Events />
-        
-        {/* <div id="section-flag">
-          <div className="flag-container">
-            <div className="triangle"></div>
-            <div className="trapezoid top"></div>
-            <div className="trapezoid bottom"></div>
-          </div>
-        </div> */}
       </>
     );
 }

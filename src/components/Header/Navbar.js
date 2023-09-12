@@ -114,22 +114,22 @@ function Navbar(props) {
             </ul>
           </li>
           <li className="navbar-dropdown">
-            <NavLink className="navbar-link" onClick={handleMenuToggle}>
+            <HashLink to="/media#" className="navbar-link" onClick={handleMenuToggle}>
               MEDIA
-            </NavLink>
+            </HashLink>
             <ul className={`navbar-sublist ${isSmallDevice ? 'navbar-accordion' : ''}`}>
               <li className="navbar-subitem">
-                <HashLink to="/barkada#" className="navbar-link" onClick={handleMenuToggle}>
+                <HashLink smooth to="/media#barkada" className="navbar-link" onClick={handleMenuToggle}>
                   BARKADA NEWSLETTER
                 </HashLink>
               </li>
               <li className="navbar-subitem">
-                <HashLink to="/podcast#" className="navbar-link" onClick={handleMenuToggle}>
+                <HashLink smooth to="/media#podcast" className="navbar-link" onClick={handleMenuToggle}>
                   PROJECT LUNCHBOX
                 </HashLink>
               </li>
               <li className="navbar-subitem">
-                <HashLink to="/archive#" className="navbar-link" onClick={handleMenuToggle}>
+                <HashLink smooth to="/media#archive" className="navbar-link" onClick={handleMenuToggle}>
                   ARCHIVE
                 </HashLink>
               </li>

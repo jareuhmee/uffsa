@@ -16,9 +16,7 @@ import FsaPlus from './pages/Programs/FSA+/FSA+';
 
 import Leadership from './pages/Leadership/Leadership';
 
-import BarkadaNewsletter from './pages/Media/Barkada';
-import ProjectLunchbox from './pages/Media/ProjectLunchbox';
-import Archive from './pages/Media/Archive';
+import Media from './pages/Media/Media'
 
 import Shop from './pages/Shop/Shop';
 
@@ -59,9 +57,7 @@ function App() {
 
         <Route path="/leadership" element={<Leadership />} />
 
-        <Route path="/barkada" element={<BarkadaNewsletter />} />
-        <Route path="/podcast" element={<ProjectLunchbox />} />
-        <Route path="/archive" element={<Archive />} />
+        <Route path="/media" element={<Media />} />
 
         <Route path="/shop" element={<Shop />} />
 
