@@ -29,3 +29,33 @@
     color: white;
     text-shadow: 0 0 1px white;
 }
+
+.apply-button__container {
+    position: relative;
+    width: fit-content;
+    height: fit-content;
+    padding: 2rem;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.apply-button {
+    position: relative;
+    width: fit-content;
+    padding: 1rem 2rem;
+    color: var(--black);
+    background-color: transparent;
+    border: 3px solid var(--black);
+    border-radius: 5px;
+    font-size: 1.25em;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.apply-button:hover {
+    color: var(--white);
+    border: 2px solid var(--black);
+    background-color: var(--black);
+    transform: scale(1.05);
+    box-shadow: 0px 0px 5px var(--black);
+}

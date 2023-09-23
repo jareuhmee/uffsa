@@ -20,8 +20,13 @@ const AKA = () => {
                 Once you submit your application, find out your pairing(s) at AKA Reveal after FAHM Opening Ceremony on September 24th at Lake Wauburg. We hope to see you there!
                 <br /><br />
 
+              </div>
+
+              <div className='apply-button__container'>
                 <a href='https://docs.google.com/forms/d/e/1FAIpQLSeiQclNIP2ruwBGAadFk7GMakF7EDzTUiocgvXreGh34KAzzw/viewform' target="_blank" rel="noopener noreferrer">
-                  APPLY NOW!
+                    <button className="apply-button title">
+                      APPLY NOW!
+                    </button>
                 </a>
               </div>
 

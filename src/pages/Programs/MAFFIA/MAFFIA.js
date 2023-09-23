@@ -25,11 +25,17 @@ const MAFFIA = () => {
               <p>
                 The choice is yours! Enhance your experience in FSA and join our team today.
               </p>
+            </div>
 
+            <div className='apply-button__container'>
               <a href='https://docs.google.com/forms/d/e/1FAIpQLSevYv9vuYBKO5oha0Ov7kOnObTdrq8eKVuP7uVmlnZke0IanQ/viewform' target="_blank" rel="noopener noreferrer">
-                APPLY NOW!
+                  <button className="apply-button title">
+                    APPLY NOW!
+                  </button>
               </a>
             </div>
+
+            
             
             {/* <div className='temp-text-container'>
               MAFFIA Description: Our first-year involvement program (Membership and FSA First-year Involvement Alliance) <br /><br />
