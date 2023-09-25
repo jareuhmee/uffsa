@@ -13,7 +13,6 @@ const ProjectLunchbox = () => {
         <div className='podcast-container'>
           <div className='podcast-vid'>
             <div className='vid-container'>
-              {/* Use recap vid or AASA promo */}
               <iframe className='vid'
                 width={1280}
                 height={720}

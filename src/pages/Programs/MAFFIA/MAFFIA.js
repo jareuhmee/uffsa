@@ -27,6 +27,19 @@ const MAFFIA = () => {
               </p>
             </div>
 
+            <div className='maffia-vid'>
+              <div className='vid-container'>
+                <iframe className='vid'
+                  width={1280}
+                  height={720}
+                  src="https://www.youtube.com/embed/Pmuu3dqGMRo?si=7pOBHDWk94ZS_PQB"
+                  title="MAFFIA 2023: The Powerpuff Pinoys"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  allowFullScreen={true}
+                />
+              </div>
+            </div>
+
             <div className='apply-button__container'>
               <a href='https://docs.google.com/forms/d/e/1FAIpQLSevYv9vuYBKO5oha0Ov7kOnObTdrq8eKVuP7uVmlnZke0IanQ/viewform' target="_blank" rel="noopener noreferrer">
                   <button className="apply-button title">
@@ -34,14 +47,6 @@ const MAFFIA = () => {
                   </button>
               </a>
             </div>
-
-            
-            
-            {/* <div className='temp-text-container'>
-              MAFFIA Description: Our first-year involvement program (Membership and FSA First-year Involvement Alliance) <br /><br />
-              Embed Application <br /><br />
-              Describe Rotations, feature recent work: Multimedia, Culture, Mass Communications, Philanthropy <br /><br />
-            </div> */}
           </section>
 
         </div>

@@ -15,17 +15,30 @@ const AKA = () => {
                 We encourage you to be as specific and descriptive as possible so we can create the best pamilya for you!
                 <br /><br />
 
-                Deadline to submit: FRIDAY, SEPTEMBER 15th @ 11:59PM
+                Deadline to submit: PAST — STAY TUNED FOR RAKA IN THE SPRING
                 <br /><br />
                 Once you submit your application, find out your pairing(s) at AKA Reveal after FAHM Opening Ceremony on September 24th at Lake Wauburg. We hope to see you there!
                 <br /><br />
 
               </div>
 
+              <div className='aka-vid'>
+                <div className='vid-container'>
+                  <iframe className='vid'
+                    width={1280}
+                    height={720}
+                    src="https://www.youtube.com/embed/RtLWP24r8mA?si=RI62JiN7anEfJDjG"
+                    title="AKA 2023: Across the PINOY-VERSE"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowFullScreen={true}
+                  />
+                </div>
+              </div>
+
               <div className='apply-button__container'>
-                <a href='https://docs.google.com/forms/d/e/1FAIpQLSeiQclNIP2ruwBGAadFk7GMakF7EDzTUiocgvXreGh34KAzzw/viewform' target="_blank" rel="noopener noreferrer">
+                <a href='https://drive.google.com/drive/folders/1KJb04ZV5mhX48P1wkiic38-620ffASxu?usp=drive_link' target="_blank" rel="noopener noreferrer">
                     <button className="apply-button title">
-                      APPLY NOW!
+                      AKA 2023 Photos
                     </button>
                 </a>
               </div>
