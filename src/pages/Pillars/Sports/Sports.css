@@ -1,3 +1,7 @@
+.sports-hero {
+    background-color: var(--blue);
+}
+
 .sports-description {
     position: relative;
     width: 100%;
@@ -7,6 +11,8 @@
     box-sizing: border-box;
 }
 
+
+/* Calendar */
 .sports-calendar__container {
     position: relative;
     width: 800px;

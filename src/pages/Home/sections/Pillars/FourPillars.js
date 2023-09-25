@@ -20,58 +20,24 @@ const FourPillars = () => {
           <img className="pillar-logo" src={danceLogo} alt="dance logo"/>
           <h1 className='pillar-title title'>Dance</h1>
           <ArrowForwardIosSharpIcon className="pillar-arrow" />
-            {/* <p className="pillar-text">
-              Join our award-winning dance 
-              troupe; all are welcome! We 
-              focus on modern styles of 
-              dance, cultural Filipino dances, 
-              and just enjoying the company 
-              of our favorite people!
-            </p> */}
         </HashLink>
 
         <HashLink className="pillar culture-pillar" to="/culture#" style={{ backgroundColor: 'var(--red)' }}>
           <img className="pillar-logo" src={cultureLogo} alt="culture logo" />
           <h1 className='pillar-title title'>Culture</h1>
           <ArrowForwardIosSharpIcon className="pillar-arrow" />
-            {/* <p className="pillar-text">
-              UFFSA is all about educating its 
-              members about Filipino-
-              American culture, Filipino 
-              history, and current events 
-              from the Philippines. Come out 
-              to any of our events and see 
-              what we have to offer!
-            </p> */}
         </HashLink>
 
         <HashLink className="pillar sports-pillar" to="/sports#" style={{ backgroundColor: 'var(--blue)' }}>
           <img className="pillar-logo" src={sportsLogo} alt="sports logo" />
           <h1 className='pillar-title title'>Sports</h1>
           <ArrowForwardIosSharpIcon className="pillar-arrow" />
-            {/* <p className="pillar-text">
-              SPOOOORTSSS! We compete 
-              and have fun in everything we 
-              do. Everyone is welcome, and 
-              anyone can join. Everyone has a 
-              sport they're good at, they just 
-              don't know it.
-            </p> */}
         </HashLink>
 
         <HashLink className="pillar philanthropy-pillar" to="/philanthropy#" style={{ backgroundColor: '#333333' }}>
           <img className="pillar-logo" src={philanthropyLogo} alt="philanthropy logo" />
           <h1 className='pillar-title title'>Philanthropy</h1>
           <ArrowForwardIosSharpIcon className="pillar-arrow" />
-            {/* <p className="pillar-text">
-              As a family-oriented 
-              organization, we believe it is 
-              important to give back to our 
-              community. There are many 
-              people who are in need; a little 
-              help from our pamilya can 
-              make a big impact.
-            </p> */}
         </HashLink>
       </div>
         

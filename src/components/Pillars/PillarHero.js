@@ -1,11 +1,13 @@
 import React from 'react';
-import './PillarHero.css';
+import '../../pages/Pillars/Pillars.css';
 
 const PillarHero = ({ backgroundColor, logo, title }) => {  
   return (
-    <section className="pillar-hero-section" style={{ backgroundColor }}>
-      <img className="pillar-hero-logo" src={logo} alt="logo"/>
-      <h1 className="pillar-hero-title title">{title}</h1>
+    <section className="pillar-hero" style={{ backgroundColor }}>
+      <div className='pillar-hero__main'>
+        <img className="pillar-hero__logo" src={logo} alt="logo"/>
+        <h1 className="pillar-hero__title title">{title}</h1>
+      </div>
     </section>
   );
 }
