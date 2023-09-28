@@ -1,6 +1,8 @@
 import React from 'react';
 import './About.css';
 
+import { IoDocumentText } from 'react-icons/io5'
+
 
 const About = () => {
   return (
@@ -34,16 +36,13 @@ const About = () => {
             members into our four pillars: dance, culture, sports, and philanthropy. 
           </p>
           <p>Since there are so many ways to get involved, it is easy for members to find their niche within FSA. Join the pamilya today!</p>
-          
-          <p className='about-text__outro'>
-          </p>
-
-          <a href='https://docs.google.com/document/d/13tK8iccWfOXyG9kFqucYMV4XaYlzVXd7aJGaccSacuM/' target="_blank" rel="noopener"> 
-            <button className='constitution-button title'> 
-              UFFSA Constitution
-            </button>
-          </a>
         </div>
+
+        <a href='https://docs.google.com/document/d/13tK8iccWfOXyG9kFqucYMV4XaYlzVXd7aJGaccSacuM/' target="_blank" rel="noopener"> 
+          <button className='constitution-button'> 
+            <IoDocumentText /> FSA Constitution
+          </button>
+        </a>
       </div>
     </section>
   );

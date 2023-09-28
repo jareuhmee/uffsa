@@ -50,7 +50,7 @@ const Sports = () => {
                     </button>
                 </a>
                 <HashLink smooth to="/sports#events">
-                    <button className="">
+                    <button>
                         <FaRegCalendar /> Calendar
                     </button>
                 </HashLink>

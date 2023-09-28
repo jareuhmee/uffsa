@@ -93,19 +93,27 @@
     text-shadow: 0 0 1px white;
 } */
 
+.about-container a {
+    text-decoration: none;
+}
+
 .constitution-button {
     position: relative;
     width: fit-content;
     padding: 0.5rem 1rem;
     color: white;
     background-color: transparent;
-    border: 2px solid white;
+    border: 1px solid white;
     border-radius: 5px;
-    font-size: 0.9rem;
+    font-size: 0.75rem;
     font-weight: 200;
     letter-spacing: 0.1em;
     cursor: pointer;
     transition: all 0.3s;
+
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
 }
 
 .constitution-button:hover {

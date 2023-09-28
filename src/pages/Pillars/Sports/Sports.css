@@ -46,7 +46,7 @@
     padding: 0.3rem 0.5rem;
     color: var(--blue);
     background-color: transparent;
-    border: 2px solid var(--blue);
+    border: 1px solid var(--blue);
     border-radius: 5px;
     font-size: 0.75em;
     font-weight: 500;
@@ -57,7 +57,6 @@
 
 .calendar-button:hover {
     color: var(--white);
-    border: 2px solid var(--blue);
     background-color: var(--blue);
     transform: scale(1.05);
     box-shadow: 0px 0px 5px var(--blue);
