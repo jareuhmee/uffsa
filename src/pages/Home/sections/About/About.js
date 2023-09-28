@@ -33,13 +33,17 @@ const About = () => {
             Fiesta cultural show, from the annual Adobowl tournament to Gawad Kalinga Month, FSA hosts a wide variety of events that immerse its 
             members into our four pillars: dance, culture, sports, and philanthropy. 
           </p>
-          <p>Since there are so many ways to get involved, it is easy for members to find their niche within FSA.</p>
+          <p>Since there are so many ways to get involved, it is easy for members to find their niche within FSA. Join the pamilya today!</p>
           
           <p className='about-text__outro'>
-            Join the pamilya today!
           </p>
+
+          <a href='https://docs.google.com/document/d/13tK8iccWfOXyG9kFqucYMV4XaYlzVXd7aJGaccSacuM/' target="_blank" rel="noopener"> 
+            <button className='constitution-button title'> 
+              UFFSA Constitution
+            </button>
+          </a>
         </div>
-        
       </div>
     </section>
   );

@@ -8,7 +8,8 @@ import React from 'react';
 // import Tab from '@mui/material/Tab';
 // import TabPanel from '../../../components/TabPanel/TabPanel';
 import { HashLink } from 'react-router-hash-link';
-import { FaInstagram } from 'react-icons/fa';
+import { FaLink, FaInstagram, FaRegCalendar } from 'react-icons/fa';
+import { SiLinktree } from "react-icons/si";
 
 import '../Pillars.css';
 import './Sports.css';
@@ -40,7 +41,7 @@ const Sports = () => {
             <div className='pillar-hero__buttons'>
                 <a href='https://linktr.ee/uffsasports' target="_blank" rel="noopener noreferrer">
                     <button>
-                        Linktree
+                        <SiLinktree /> Linktree
                     </button>
                 </a>
                 <a href='https://www.instagram.com/uffsasports/' target="_blank" rel="noopener noreferrer">
@@ -50,7 +51,7 @@ const Sports = () => {
                 </a>
                 <HashLink smooth to="/sports#events">
                     <button className="">
-                        Calendar
+                        <FaRegCalendar /> Calendar
                     </button>
                 </HashLink>
             </div>

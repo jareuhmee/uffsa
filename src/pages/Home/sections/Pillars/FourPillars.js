@@ -16,7 +16,7 @@ const FourPillars = () => {
       
       <div className="pillars-container">
         
-        <HashLink className="pillar dance-pillar" to="/dance#" style={{ backgroundColor: '#eb8f9a' }}>
+        <HashLink className="pillar dance-pillar" to="/dance#" style={{ backgroundColor: 'var(--white)' }}>
           <img className="pillar-logo" src={danceLogo} alt="dance logo"/>
           <h1 className='pillar-title title'>Dance</h1>
           <ArrowForwardIosSharpIcon className="pillar-arrow" />
@@ -28,13 +28,13 @@ const FourPillars = () => {
           <ArrowForwardIosSharpIcon className="pillar-arrow" />
         </HashLink>
 
-        <HashLink className="pillar sports-pillar" to="/sports#" style={{ backgroundColor: 'var(--blue)' }}>
+        <HashLink className="pillar sports-pillar" to="/sports#" style={{ backgroundColor: 'black' }}>
           <img className="pillar-logo" src={sportsLogo} alt="sports logo" />
           <h1 className='pillar-title title'>Sports</h1>
           <ArrowForwardIosSharpIcon className="pillar-arrow" />
         </HashLink>
 
-        <HashLink className="pillar philanthropy-pillar" to="/philanthropy#" style={{ backgroundColor: '#333333' }}>
+        <HashLink className="pillar philanthropy-pillar" to="/philanthropy#" style={{ backgroundColor: '#35106a' }}>
           <img className="pillar-logo" src={philanthropyLogo} alt="philanthropy logo" />
           <h1 className='pillar-title title'>Philanthropy</h1>
           <ArrowForwardIosSharpIcon className="pillar-arrow" />

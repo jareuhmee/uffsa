@@ -35,10 +35,17 @@ const AKA = () => {
                 </div>
               </div>
 
-              <div className='apply-button__container'>
+              <div className='aka-button__container'>
+
+                <a href='https://docs.google.com/spreadsheets/d/1FmL6qIt6ziWTvkx4nsdmgOy1C7dCz9DOtPYvMeWumv4/edit?usp=sharing' target="_blank" rel="noopener noreferrer">
+                    <button className="aka-button title">
+                      AKA Pairings
+                    </button>
+                </a>
+
                 <a href='https://drive.google.com/drive/folders/1KJb04ZV5mhX48P1wkiic38-620ffASxu?usp=drive_link' target="_blank" rel="noopener noreferrer">
-                    <button className="apply-button title">
-                      AKA 2023 Photos
+                    <button className="aka-button title">
+                      AKA Photos
                     </button>
                 </a>
               </div>

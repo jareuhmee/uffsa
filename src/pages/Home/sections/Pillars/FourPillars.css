@@ -85,8 +85,12 @@
     box-shadow: 0 0 25px white;
 }
 
+.dance-pillar {
+    color: var(--black);
+}
+
 .dance-pillar:hover {
-    color: #eb8f9a;
+    color: black;
 }
 
 .culture-pillar:hover {
@@ -94,7 +98,7 @@
 }
 
 .sports-pillar:hover {
-    color: var(--blue);
+    color: var(--black);
 }
 
 .philanthropy-pillar:hover {

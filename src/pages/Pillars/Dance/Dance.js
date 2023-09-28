@@ -8,7 +8,9 @@ import PillarRegularActivities from '../../../components/Pillars/PillarRegularAc
 import Tabs from '@mui/material/Tabs';
 import Tab from '@mui/material/Tab';
 import TabPanel from '../../../components/TabPanel/TabPanel';
+import { FaInstagram, FaDiscord } from 'react-icons/fa';
 
+import '../Pillars.css';
 import './Dance.css';
 
 import danceLogo from '../../../assets/logos/dance.png';
@@ -30,16 +32,36 @@ const Dance = () => {
     };
 
     return (<>
-        <PillarHero 
+        {/* <PillarHero 
             logo={danceLogo} 
-            backgroundColor={'#eb8f9a'} 
+            backgroundColor={'white'} 
             title="UFFSA DANCE"
-        />
+        /> */}
 
-        <PillarDescription 
+        <section className="pillar-hero dance-hero">
+            <div className='pillar-hero__main'>
+                <img className="pillar-hero__logo" src={danceLogo} alt="logo" />
+                <h1 className="pillar-hero__title title dance-hero__text">UFFSA DANCE</h1>
+            </div>
+
+            <div className='pillar-hero__buttons'>
+                <a href='https://www.instagram.com/uffsawolfpack/' target="_blank" rel="noopener noreferrer">
+                    <button className='dance-hero__button'>
+                        <FaInstagram /> Instagram
+                    </button>
+                </a>
+                <a href='https://discord.gg/DJRMYDHdJp' target="_blank" rel="noopener noreferrer">
+                    <button className='dance-hero__button'>
+                        <FaDiscord /> Discord
+                    </button>
+                </a>
+            </div>
+        </section>
+
+        {/* <PillarDescription 
             backgroundColor={'var(--white)'}
             content="FSA Dance has a rich tradition dating back from when the Filipino Student Association at UF was founded in 1986. FSA has showcased the beautiful traditional dances of the Philippines, and in addition, FSA has led the pack with its excellence and highly entertaining modern dances, second to none. From the regionally notorious Def Talent Jam, to the PhilFest competition, and from the highly esteemed Asian American Student Assembly, to the back-to-roots Barrio Fiesta, FSA Dance touches a variety of dance styles and levels throughout the year."
-        />
+        /> */}
 
 
         <PillarSignatureEvents>

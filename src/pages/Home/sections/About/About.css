@@ -78,3 +78,39 @@
         gap: 4rem;
     }
 }
+
+
+/* .sports-calendar__container a {
+    color: var(--yellow);
+    text-decoration: none;
+    font-style: italic;
+    font-weight: 600;
+    transition: all 0.1s;
+}
+
+.sports-calendar__container a:hover {
+    color: white;
+    text-shadow: 0 0 1px white;
+} */
+
+.constitution-button {
+    position: relative;
+    width: fit-content;
+    padding: 0.5rem 1rem;
+    color: white;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 5px;
+    font-size: 0.9rem;
+    font-weight: 200;
+    letter-spacing: 0.1em;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.constitution-button:hover {
+    color: var(--red);
+    background-color: white;
+    transform: scale(1.05);
+    box-shadow: 0px 0px 5px white;
+}

@@ -29,7 +29,7 @@ const Philanthropy = () => {
     return (<>
         <PillarHero 
             logo = {philanthropyLogo} 
-            backgroundColor = {'#333333'} 
+            backgroundColor = {'#35106a'} 
             title="UFFSA PHILANTHROPY"
         />
 

@@ -1,3 +1,23 @@
+.dance-hero {
+    background-color: white;
+}
+
+.dance-hero__text {
+    color: black;
+}
+
+.dance-hero__button {
+    color: black !important;
+    border: 1px solid black !important;
+}
+
+.dance-hero__button:hover {
+    color: white !important;
+    background-color: black !important;
+    box-shadow: 0px 0px 5px black !important;
+}
+
+
 .dance-tabs {
     padding: 0 2rem;
     border-bottom: 2px solid var(--black);

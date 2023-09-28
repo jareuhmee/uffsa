@@ -99,15 +99,6 @@ const Archive = () => {
                 >
                   FSA Documentary and More
                 </a>
-                <br /> <br />
-
-                <a 
-                  href='https://docs.google.com/document/d/13tK8iccWfOXyG9kFqucYMV4XaYlzVXd7aJGaccSacuM/'
-                  target="_blank"
-                  rel="noopener"
-                > 
-                  UFFSA Constitution
-                </a>
               </div>
 
             </div>
