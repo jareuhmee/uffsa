@@ -61,7 +61,7 @@ const FsaPlus = () => {
                   Join us for a study social and get to know new people while studying for your next exam! 
                 </p>
                 <p className='next-social'>
-                  Next Social: TBD
+                  Next Social: October 9th @ Reitz 3310
                 </p>
               </div>
 
