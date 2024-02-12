@@ -48,6 +48,7 @@ http://uffsa.net
 **Make sure you `git pull` before making any changes*
 
 
-#### Created by: <a href="https://github.com/jareuhmee/uffsa/graphs/contributors">
+#### Created by:
+<a href="https://github.com/jareuhmee/uffsa/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=jareuhmee/uffsa" />
 </a>
