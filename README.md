@@ -1,37 +1,49 @@
 # UFFSA Website
 http://uffsa.net
 
-### Get Started
+## Get Started
 
-1. Clone the repository 
-`git clone https://github.com/jareuhmee/uffsa.git`
-2. Navigate to the local project directory
-`cd uffsa`
-3. Install node modules 
-`npm install`
-4. Run the app in development mode 
-`npm run start`
+1. Clone the repository
+   
+    `git clone https://github.com/jareuhmee/uffsa.git`
 
-### How to Contribute
+3. Navigate to the local project directory
+
+    `cd uffsa`
+
+5. Install node modules
+   
+    `npm install`
+   
+6. Run the app in development mode
+   
+    `npm run start`
+
+## How to Contribute
 
 1. Create a new branch with your first and last name
-`git branch -b <your-name>`
 
-2. Switch to your new branch
-`git checkout <your-name>`
+    `git branch -b <your-name>`
 
-3. Make your changes to the code!
+3. Switch to your new branch
 
-4. Stage your changes for commit
-`git add .`
+    `git checkout <your-name>`
 
-5. Commit your changes and add a message describing what you did
-`git commit -m "blah blah blah"`
+4. Make your changes to the code!
 
-6. Push your changes
-`git push`
+5. Stage your changes for commit
 
-7. Open a pull request on GitHub so someone can review it
+    `git add .`
+
+6. Commit your changes and add a message describing what you did
+
+    `git commit -m "blah blah blah"`
+
+7. Push your changes
+
+    `git push`
+
+8. Open a pull request on GitHub so someone can review it
 
 **Make sure you `git pull` before making any changes*
 
