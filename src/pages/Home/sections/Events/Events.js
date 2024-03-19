@@ -1,35 +1,48 @@
-import React from 'react';
-import './Events.css';
+import React from "react";
+import "./Events.css";
 
-import { HashLink } from 'react-router-hash-link';
-
+import { HashLink } from "react-router-hash-link";
 
 const Events = () => {
   return (
     <section className="events-section" id="events">
-
       <div className="events-container">
+        <div className="events-list">
+          <h1 className="events-title title">Upcoming Events</h1>
 
-        <div className='events-list'>
-          <h1 className="events-title title">
-            Upcoming Events
-          </h1>
-
-          <h2 className='events-list__header title'>
-            Next GBM
-          </h2>
+          <h2 className="events-list__header title">Shadow GBM</h2>
           <p>
-            October 2, 2023
-          </p> 
+            Come out to UFFSA’s 2023-2024 Shadow GBM! Election nominations will
+            be right after!
+          </p>
+          <div className="events-info">
+            <p>📅 Date: Thursday, March 28</p>
+            <p>📍 Location: McCarty Hall A G186</p>
+            <p>🚪 Doors Open: 5:30 PM</p>
+            <p>🌟 Show Starts: 6:00 PM</p>
+          </div>
+          <br />
+          <a
+            href="https://www.instagram.com/reel/C4rWIT6t0yS/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button className="events-button">Instagram Post</button>
+          </a>
+          <a
+            href="https://docs.google.com/spreadsheets/d/1N9__exTivZmFryQ-6OSXCSmtiF4rHmO8OLfjp8rFMP8/edit?usp=sharing"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button className="events-button">Voter Eligibility</button>
+          </a>
           <br />
 
-          <h2 className='events-list__header title'>
-            Last GBM
-          </h2>
+          {/* <h2 className="events-list__header title">Last GBM</h2>
           <HashLink smooth to="/media#archive">
             Powerpuff Pinoys
           </HashLink>
-          <br />
+          <br /> */}
 
           {/* <h2 className='events-list__header title'>
             Fall Events
@@ -42,7 +55,6 @@ const Events = () => {
             Adobowl <br />
             Semi-Formal
           </p> */}
-
         </div>
 
         <iframe
@@ -53,6 +65,6 @@ const Events = () => {
       </div>
     </section>
   );
-}
+};
 
 export default Events;
