@@ -9,15 +9,15 @@ This project is NOT an open source project. Contributions are only intended for 
    
     `git clone https://github.com/jareuhmee/uffsa.git`
 
-3. Navigate to the local project directory
+2. Navigate to the local project directory
 
     `cd uffsa`
 
-5. Install node modules
+3. Install node modules
    
     `npm install`
    
-6. Run the app in development mode
+4. Run the app in development mode
    
     `npm run start`
 
