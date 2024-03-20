@@ -1,6 +1,8 @@
 # UFFSA Website
 http://uffsa.net
 
+This project is NOT an open source project. Contributions are only intended for UFFSA web interns.
+
 ## Get Started
 
 1. Clone the repository
@@ -21,29 +23,33 @@ http://uffsa.net
 
 ## How to Contribute
 
-1. Create a new branch with your first and last name
+1. Create a new branch with your first and last name (this should automatically switch you to your new branch)
 
-    `git branch -b <your-name>`
+    `git checkout -b <your-name>`
 
-3. Switch to your new branch
+    If you've already created this branch but aren't currently in it, you can simply omit the -b:
 
     `git checkout <your-name>`
 
-4. Make your changes to the code!
+2. Make your changes to the code!
 
-5. Stage your changes for commit
+3. Stage your changes for commit
 
     `git add .`
 
-6. Commit your changes and add a message describing what you did
+4. Commit your changes and add a message describing what you did
 
     `git commit -m "blah blah blah"`
 
-7. Push your changes
+5. Push your changes and set the upstream branch
+
+    `git push -u origin main`
+
+    If you've already set your upstream branch, you can skip setting it:
 
     `git push`
 
-8. Open a pull request on GitHub so someone can review it
+6. Open a pull request on GitHub so someone can review it
 
 **Make sure you `git pull` before making any changes*
 
