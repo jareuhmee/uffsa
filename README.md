@@ -1,8 +1,9 @@
 # UFFSA Website
 http://uffsa.net
 
-## Get Started
 This project is NOT an open source project. Contributions are only intended for UFFSA web interns.
+
+## Get Started
 
 1. Clone the repository
    
