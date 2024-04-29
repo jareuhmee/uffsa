@@ -37,3 +37,51 @@
     transform: scale(1.05);
     box-shadow: 0px 0px 5px var(--blue);
 }
+
+
+.big-box{
+    display: flex;
+    flex-direction: row;
+    background: var(--white);
+    padding: 10px;
+}
+
+.button-container{
+    padding: 20px;
+
+}
+.lynette-button{
+    background: #C3B1E1;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    border-radius: 493px;
+
+}
+
+.lynette-button:hover {
+    color: var(--white);
+    background-color: purple;
+    transform: scale(1.05);
+    box-shadow: 0px 0px 5px var(--blue);
+}
+
+.lynette{
+    color: red;
+    background: purple;
+    padding: 12px;
+    border: solid 10px gray;
+}
+
+.jare{
+    background: blueviolet;
+    margin: 75px;
+}
+
+.bear{
+    background: blue;
+    margin: 35px;
+}
+.vid-container{
+    background: cyan;
+    padding: 0!important;
+}
