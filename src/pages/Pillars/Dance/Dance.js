@@ -14,6 +14,8 @@ import '../Pillars.css';
 import './Dance.css';
 
 import danceLogo from '../../../assets/logos/dance.png';
+import aasa23 from '../../../pages/Pillars/Dance/aasa23.jpg';
+
 // import AASA from './aasa.jpeg';
 // import DTJ from './dtj.jpeg';
 // import PhilFest from './philfest.jpeg';
@@ -81,16 +83,12 @@ const Dance = () => {
             <TabPanel value={signatureEventsValue} index={0}>
                 <h2>Asian American Student Assembly</h2>
                 <h4>August 26 @ UF Curtis M. Philips Center</h4>
-                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-                    malesuada lacus ex, sit amet blandit leo lobortis eget. Lorem ipsum dolor
-                    sit amet, consectetur adipiscing elit. Suspendisse malesuada lacus ex,
-                    sit amet blandit leo lobortis eget.
+                <p> 2023 marked the 30th anniversary of AASA. The theme for this past year was <i> Coalesce </i>.
+                As AASU grows, it is important to recognize the unique contributions of each organization. FSA's
+                performance payed homage to the theme by combining modern and traditional Filipino dances.
                 </p>
-                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-                    malesuada lacus ex, sit amet blandit leo lobortis eget. Lorem ipsum dolor
-                    sit amet, consectetur adipiscing elit. Suspendisse malesuada lacus ex,
-                    sit amet blandit leo lobortis eget.
-                </p>
+                <img className='pillar-hero__main' src={aasa23} alt='aas23 picture'></img>
+
             </TabPanel>
             <TabPanel value={signatureEventsValue} index={1}>
                 <h2>Def Talent Jam</h2>
