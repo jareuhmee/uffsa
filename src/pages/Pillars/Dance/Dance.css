@@ -43,6 +43,10 @@
     height: 4px;
 }
 
+.not-bold {
+    font-weight: normal;
+}
+
 
 @media screen and (max-width: 768px) {
     .dance-tabs {
