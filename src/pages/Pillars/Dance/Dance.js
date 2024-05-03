@@ -134,38 +134,17 @@ const Dance = () => {
 
             <TabPanel value={regularActivitiesValue} index={0}>
                 <h2>Dance Workshops</h2>
-                <p> Stay tuned for more updates!
-                </p>
-                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-                    malesuada lacus ex, sit amet blandit leo lobortis eget. Lorem ipsum dolor
-                    sit amet, consectetur adipiscing elit. Suspendisse malesuada lacus ex,
-                    sit amet blandit leo lobortis eget.
-                </p>
+                <p> Stay tuned for more updates! </p>
             </TabPanel>
 
             <TabPanel value={regularActivitiesValue} index={1}>
                 <h2>Traditions</h2>
-                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-                    malesuada lacus ex, sit amet blandit leo lobortis eget. Lorem ipsum dolor
-                    sit amet, consectetur adipiscing elit.
-                </p>
-                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-                    malesuada lacus ex, sit amet blandit leo lobortis eget. Suspendisse malesuada lacus ex,
-                    sit amet blandit leo lobortis eget.
-                </p>
+                <p> Stay tuned for more updates! </p>
             </TabPanel>
 
             <TabPanel value={regularActivitiesValue} index={2}>
                 <h2>Collaborative Showcases</h2>
-                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor
-                    sit amet, consectetur adipiscing elit. Suspendisse malesuada lacus ex,
-                    sit amet blandit leo lobortis eget. Lorem ipsum dolor
-                    sit amet, consectetur adipiscing elit.
-                </p>
-                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-                    malesuada lacus ex, sit amet blandit leo lobortis eget. Lorem ipsum dolor
-                    sit amet, consectetur adipiscing elit.
-                </p>
+                <p> Stay tuned for more updates! </p>
             </TabPanel>
 
         </PillarRegularActivities>
