@@ -16,6 +16,7 @@ import './Dance.css';
 import danceLogo from '../../../assets/logos/dance.png';
 import aasa23 from '../../../pages/Pillars/Dance/aasa23.jpg';
 import dtj from '../../../pages/Pillars/Dance/dtj.jpg';
+import philfest2024 from '../../../pages/Pillars/Dance/2024_philfest.jpg';
 
 // import AASA from './aasa.jpeg';
 // import DTJ from './dtj.jpeg';
@@ -107,15 +108,11 @@ const Dance = () => {
             </TabPanel>
 
             <TabPanel value={signatureEventsValue} index={2}>
-                <h2>Philfest</h2>
-                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor
-                    sit amet, consectetur adipiscing elit. Suspendisse malesuada lacus ex,
-                    sit amet blandit leo lobortis eget.
+                <h2> Philfest </h2>
+                <p> Philfest is an annual celebration of Filipino culture that takes place in Tampa.
+                    This year's Philfest was from April 5 to April 7 and featured dancing, art, food, games, and more!
                 </p>
-                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-                    malesuada lacus ex, sit amet blandit leo lobortis eget. Lorem ipsum dolor
-                    sit amet, consectetur adipiscing elit.
-                </p>
+                <img className='pillar-hero__main' src={philfest2024} alt='philfest 2024 flyer'/>
             </TabPanel>
 
         </PillarSignatureEvents>
