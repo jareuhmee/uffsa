@@ -1,11 +1,13 @@
 {
   "files": {
-    "main.css": "/static/css/main.ec367518.css",
-    "main.js": "/static/js/main.5256b124.js",
+    "main.css": "/static/css/main.8442e286.css",
+    "main.js": "/static/js/main.35973204.js",
     "static/media/background.png": "/static/media/background.efffda988ddf80ad6279.png",
     "static/media/logo2.png": "/static/media/logo2.a566d9cf59acb754358b.png",
     "static/media/StudySocial.png": "/static/media/StudySocial.efa7df960f8928511e50.png",
     "static/media/grain.png": "/static/media/grain.a297bc3e3f17176232c9.png",
+    "static/media/2024_philfest.jpg": "/static/media/2024_philfest.b549927e2153ab72b156.jpg",
+    "static/media/aasa23.jpg": "/static/media/aasa23.f9e49d1df11b7ad1bc58.jpg",
     "static/media/Montserrat-VariableFont_wght.ttf": "/static/media/Montserrat-VariableFont_wght.c28a96c369871653b853.ttf",
     "static/media/Ahmad.jpg": "/static/media/Ahmad.021e7e492bbdef1a4e3e.jpg",
     "static/media/Daniella.jpg": "/static/media/Daniella.1eb58438f9068a313bf8.jpg",
@@ -16,6 +18,7 @@
     "static/media/Jeremy.jpg": "/static/media/Jeremy.362ff7a130b010bb5359.jpg",
     "static/media/Ghiya Strokes Reg.ttf": "/static/media/Ghiya Strokes Reg.95df9f6e51a7f9df623f.ttf",
     "static/media/Mika.jpg": "/static/media/Mika.193423bfce6f362f9694.jpg",
+    "static/media/dtj.jpg": "/static/media/dtj.78a687a21fbd7a8f9041.jpg",
     "static/media/Skyler.jpg": "/static/media/Skyler.40f0f3beb9bdbc4c608d.jpg",
     "static/media/sports.png": "/static/media/sports.0395c991529743606300.png",
     "static/media/philanthropy.png": "/static/media/philanthropy.2e66dda67a84953059d3.png",
@@ -52,11 +55,11 @@
     "static/media/Matthew.jpg": "/static/media/Matthew.e6a355394d386d4bbfa6.jpg",
     "static/media/logo.png": "/static/media/logo.2d474d98786a767124ce.png",
     "index.html": "/index.html",
-    "main.ec367518.css.map": "/static/css/main.ec367518.css.map",
-    "main.5256b124.js.map": "/static/js/main.5256b124.js.map"
+    "main.8442e286.css.map": "/static/css/main.8442e286.css.map",
+    "main.35973204.js.map": "/static/js/main.35973204.js.map"
   },
   "entrypoints": [
-    "static/css/main.ec367518.css",
-    "static/js/main.5256b124.js"
+    "static/css/main.8442e286.css",
+    "static/js/main.35973204.js"
   ]
 }
