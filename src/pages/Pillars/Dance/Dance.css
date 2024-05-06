@@ -47,8 +47,16 @@
     font-weight: normal;
 }
 
+.dance-images {
+    position: "relative";
+    width: 100%;
+}
 
+/* adjusts dimensions for mobile screens */
 @media screen and (max-width: 768px) {
+    /* .dance-images {
+        width: 100%;
+    } */
     .dance-tabs {
         padding: 0;
     }

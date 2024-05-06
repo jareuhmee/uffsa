@@ -89,12 +89,12 @@ const Dance = () => {
                 As AASU grows, it is important to recognize the unique contributions of each organization. FSA's
                 performance payed homage to the theme by combining modern and traditional Filipino dances.
                 </p>
-                <img className='pillar-hero__main' src={aasa23} alt='aas23 picture'/>
+                <img className='dance-images' src={aasa23} alt='aas23 picture'/>
 
             </TabPanel>
 
             <TabPanel value={signatureEventsValue} index={1}>
-                <h2>Def Talent Jam</h2>
+                <h2> Def Talent Jam </h2>
                 <p> Founded in 1993, Def Talent Jam (DTJ) unites Filipino collegiate organizations in the Southeast US
                 through its annual dance competition. Congrats to the 2023 winners! </p>
 
@@ -104,7 +104,7 @@ const Dance = () => {
                 <h3> 2nd Place: <span className = 'not-bold'> UNF INDAKation </span> </h3>
                 <h3> 3rd Place: <span className = 'not-bold'> FSU CapitILL State </span>  </h3>
                 <h3> Fan Favorite Exhibition Team: <span className = 'not-bold'> The Ace Company </span> </h3>
-                <img className='pillar-hero__main' src={dtj} alt='dtj photo'/>
+                <img className='dance-images' src={dtj} alt='dtj photo'/>
             </TabPanel>
 
             <TabPanel value={signatureEventsValue} index={2}>
@@ -112,7 +112,7 @@ const Dance = () => {
                 <p> Philfest is an annual celebration of Filipino culture that takes place in Tampa.
                     This year's Philfest was from April 5 to April 7 and featured dancing, art, food, games, and more!
                 </p>
-                <img className='pillar-hero__main' src={philfest2024} alt='philfest 2024 flyer'/>
+                <img className='dance-images' src={philfest2024} alt='philfest 2024 flyer'/>
             </TabPanel>
 
         </PillarSignatureEvents>
