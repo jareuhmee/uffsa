@@ -1,0 +1,80 @@
+.apparel-section {
+    position: relative;
+    width: 100%;
+    min-height: 70vh;
+    background-color: var(--white);
+    padding: 2rem;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .apparel-section__container {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    flex-direction: column;
+    max-width: 100%;
+    margin: auto;
+  }
+
+  .apparel-description__container {
+    position: relative;
+    width: 65ch;
+    max-width: 100%;
+    margin: auto;
+}
+
+
+  .apparel-vid {
+    position: relative;
+    width: 600px;
+    max-width: 100%;
+    margin: auto;
+    padding: 2rem;
+    box-sizing: border-box;
+}
+
+  
+  .slides-container {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    gap: 20px; 
+  }
+  
+  .image-container {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    gap: 10px; 
+  }
+  
+  .apparel-image {
+    width: 200px; 
+    height: 200px; 
+    object-fit: cover; 
+    border-radius: 8px;
+    margin: 0; 
+  }
+  
+  .image-caption {
+    text-align: center;
+    margin-top: 0.5rem;
+    font-size: 1rem;
+    color: #333;
+  }
+  
+  .apparel-section a {
+    color: var(--yellow);
+    text-decoration: none;
+    font-weight: 600;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .apparel-section a:hover {
+    color: white;
+    text-shadow: 0 0 1px white;
+  }

@@ -1,0 +1,49 @@
+.threads-section {
+    position: relative;
+    width: 100%;
+    min-height: 30vh;
+    background-color: var(--white);
+    padding: 2rem;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.threads-section a:hover {
+    color: white;
+    text-shadow: 0 0 1px white;
+}
+
+
+.threads-button {
+    position: relative;
+    width: 14rem;
+    padding: 1rem 2rem;
+    color: var(--black);
+    background-color: transparent;
+    border: 3px solid var(--black);
+    border-radius: 5px;
+    font-size: 1.25em;
+    cursor: pointer;
+    transition: all 0.3s;
+    margin: 1rem;
+    box-sizing: border-box;
+}
+
+.threads-desc {
+    position: relative;
+    width: 65ch;
+    max-width: 100%;
+    margin: auto;
+    margin-top: 20px; 
+}
+
+.threads-desc h2 {
+    margin-bottom: 10px; 
+}
+
+.threads-desc p {
+    margin-bottom: 15px; 
+}
