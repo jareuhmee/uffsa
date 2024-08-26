@@ -1,18 +1,15 @@
 import React from 'react';
 import './E-Board.css';
 
-import Andrew from '../photos/eboard/Andrew.jpg';
-import Elyza from '../photos/eboard/Elyza.jpg';
-import Jannila from '../photos/eboard/Jannila.jpg';
 import Jenzen from '../photos/eboard/Jenzen.jpg';
-import Johannah from '../photos/eboard/Johannah.jpg';
-import Nicelle from '../photos/eboard/Nicelle.jpg';
 import Rafael from '../photos/eboard/Rafael.jpg';
-import Rayvin from '../photos/eboard/Rayvin.jpg';
-import Rhyse from '../photos/eboard/Rhyse.jpg';
-import Rocky from '../photos/eboard/Rocky.jpg';
+import Sara from '../photos/eboard/Sara.jpg'
+import Ceyan from '../photos/eboard/Ceyan.jpg';
+import Matt from '../photos/eboard/Matt.jpg'
 import Theresse from '../photos/eboard/Theresse.jpg';
-import Thomas from '../photos/eboard/Thomas.jpg';
+import Juliana from '../photos/eboard/Juliana.JPG'
+import Brian from '../photos/eboard/Brian.JPG'
+import Default from './default.png';
 
 import temp from '../../../components/Header/logo2.png';
 
@@ -22,43 +19,11 @@ const EBoard = () => {
     <section className='eboard-section' id='eboard'>
       <h1 className='eboard-section-title title'>Executive Board</h1>
       <div className='eboard-container'>
-        <a href='https://www.instagram.com/rockyvillanuevaa/' target="_blank" rel="noopener noreferrer" className='eboard-card'>
-          <img src={Rocky} alt='Rocky Villanueva' />
+        <a href='https://www.instagram.com/rsunn_7/' target="_blank" rel="noopener noreferrer" className='eboard-card'>
+          <img src={Rafael} alt='Rafael Sunga' />
           <div className='eboard-card__text'>
-            <h1>Rocky Villanueva</h1>
+            <h1>Rafael Sunga</h1>
             <h2>Executive President</h2>
-          </div>
-        </a>
-
-        <a href='https://www.instagram.com/_andrew_bishop_/' target="_blank" rel="noopener noreferrer" className='eboard-card'>
-          <img src={Andrew} alt='Andrew Bishop' />
-          <div className='eboard-card__text'>
-            <h1>Andrew Bishop</h1>
-            <h2>Executive Vice President</h2>
-          </div>
-        </a>
-
-        <a href='https://www.instagram.com/tessar_29/' target="_blank" rel="noopener noreferrer" className='eboard-card'>
-          <img src={Theresse} alt='Theresse Racpan' />
-          <div className='eboard-card__text'>
-            <h1>Theresse Racpan</h1>
-            <h2>Vice President of Finance</h2>
-          </div>
-        </a>
-
-        <a href='https://www.instagram.com/johannahtador/' target="_blank" rel="noopener noreferrer" className='eboard-card'>
-          <img src={Johannah} alt='Johannah Tador' />
-          <div className='eboard-card__text'>
-            <h1>Johannah Tador</h1>
-            <h2>Vice President of Internal Affairs</h2>
-          </div>
-        </a>
-
-        <a href='https://www.instagram.com/nhiwah/' target="_blank" rel="noopener noreferrer" className='eboard-card'>
-          <img src={Jannila} alt='Jannila De Asis' />
-          <div className='eboard-card__text'>
-            <h1>Jannila De Asis</h1>
-            <h2>Vice President of Cultural Affairs</h2>
           </div>
         </a>
 
@@ -66,54 +31,78 @@ const EBoard = () => {
           <img src={Jenzen} alt='Jenzen Fernan' />
           <div className='eboard-card__text'>
             <h1>Jenzen Fernan</h1>
+            <h2>Executive Vice President</h2>
+          </div>
+        </a>
+
+        <a href='https://www.instagram.com/bree.ocampo/' target="_blank" rel="noopener noreferrer" className='eboard-card'>
+          <img src={Default} alt='Bree Ocampo' />
+          <div className='eboard-card__text'>
+            <h1>Bree Ocampo</h1>
+            <h2>Vice President of Finance</h2>
+          </div>
+        </a>
+
+        <a href='https://www.instagram.com/tessar_29/' target="_blank" rel="noopener noreferrer" className='eboard-card'>
+          <img src={Theresse} alt='Theresse Racpan' />
+          <div className='eboard-card__text'>
+            <h1>Theresse Racpan</h1>
+            <h2>Vice President of Internal Affairs</h2>
+          </div>
+        </a>
+
+        <a href='https://www.instagram.com/julianaxisabel/' target="_blank" rel="noopener noreferrer" className='eboard-card'>
+          <img src={Juliana} alt='Juliana Delgado' />
+          <div className='eboard-card__text'>
+            <h1>Juliana Delgado</h1>
             <h2>Vice President of Cultural Affairs</h2>
           </div>
         </a>
 
-        <a href='https://www.instagram.com/donutboyeats/' target="_blank" rel="noopener noreferrer" className='eboard-card'>
-          <img src={Thomas} alt='Thomas Kaw' />
+        <a href='https://www.instagram.com/bluebrainedbeing/' target="_blank" rel="noopener noreferrer" className='eboard-card'>
+          <img src={Brian} alt='Brian Paz' />
           <div className='eboard-card__text'>
-            <h1>Thomas Kaw</h1>
+            <h1>Brian Paz</h1>
+            <h2>Vice President of Cultural Affairs</h2>
+          </div>
+        </a>
+
+        <a href='https://www.instagram.com/_ceyan/' target="_blank" rel="noopener noreferrer" className='eboard-card'>
+          <img src={Ceyan} alt='Ceyan Ang' />
+          <div className='eboard-card__text'>
+            <h1>Ceyan Ang</h1>
             <h2>Vice President of Mass Communications</h2>
           </div>
         </a>
 
-        <a href='https://www.instagram.com/ekyza.uwu/' target="_blank" rel="noopener noreferrer" className='eboard-card'>
-          <img src={Elyza} alt='Elyza Navarro' />
+        <a href='https://www.instagram.com/sarabellum__/' target="_blank" rel="noopener noreferrer" className='eboard-card'>
+          <img src={Sara} alt='Sara Escobar' />
           <div className='eboard-card__text'>
-            <h1>Elyza Navarro</h1>
-            <h2>Vice President of Mass Communications</h2>
-          </div>
-        </a>
-
-        <a href='https://www.instagram.com/rhysesampang/' target="_blank" rel="noopener noreferrer" className='eboard-card'>
-          <img src={Rhyse} alt='Rhyse Sampang' />
-          <div className='eboard-card__text'>
-            <h1>Rhyse Sampang</h1>
+            <h1>Sara Escobar</h1>
             <h2>Vice President of Membership</h2>
           </div>
         </a>
 
-        <a href='https://www.instagram.com/rsunn_7/' target="_blank" rel="noopener noreferrer" className='eboard-card'>
-          <img src={Rafael} alt='Rafael Sunga' />
+        <a href='https://www.instagram.com/samanthabwin/' target="_blank" rel="noopener noreferrer" className='eboard-card'>
+          <img src={Default} alt='Samantha Baldwin' />
           <div className='eboard-card__text'>
-            <h1>Rafael Sunga</h1>
+            <h1>Samantha Baldwin</h1>
             <h2>Vice President of Membership</h2>
           </div>
         </a>
 
-        <a href='https://www.instagram.com/_stingrayvin_/' target="_blank" rel="noopener noreferrer" className='eboard-card'>
-          <img src={Rayvin} alt='Rayvin Velasco' />
+        <a href='https://www.instagram.com/yeematt/' target="_blank" rel="noopener noreferrer" className='eboard-card'>
+          <img src={Matt} alt='Matthew Yee' />
           <div className='eboard-card__text'>
-            <h1>Rayvin Velasco</h1>
+            <h1>Matthew Yee</h1>
             <h2>Vice President of Multimedia</h2>
           </div>
         </a>
 
-        <a href='https://www.instagram.com/nicellec/' target="_blank" rel="noopener noreferrer" className='eboard-card'>
-          <img src={Nicelle} alt='Nicelle Casenas' />
+        <a href='https://www.instagram.com/korixverges/' target="_blank" rel="noopener noreferrer" className='eboard-card'>
+          <img src={Default} alt='Kori Verges' />
           <div className='eboard-card__text'>
-            <h1>Nicelle Casenas</h1>
+            <h1>Kori Verges</h1>
             <h2>Vice President of External Affairs</h2>
           </div>
         </a>

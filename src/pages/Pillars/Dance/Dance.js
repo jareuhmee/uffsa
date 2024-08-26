@@ -84,7 +84,7 @@ const Dance = () => {
 
             <TabPanel value={signatureEventsValue} index={0}>
                 <h2> Asian American Student Assembly </h2>
-                <h4> August 26 @ UF Curtis M. Philips Center </h4>
+                <h4> August 25 @ UF Stephen C. Oc                                                                                      L </h4>
                 <p> 2023 marked the 30th anniversary of AASA. The theme for this past year was <i> Coalesce </i>.
                 As AASU grows, it is important to recognize the unique contributions of each organization. FSA's
                 performance payed homage to the theme by combining modern and traditional Filipino dances.
