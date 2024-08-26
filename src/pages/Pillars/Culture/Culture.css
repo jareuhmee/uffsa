@@ -23,6 +23,66 @@
     height: 4px;
 }
 
+.pillar-title {
+    font-size: 1.8rem;
+}
+
+.pillar-logo {
+    width: 75px;
+    height: 75px;
+    margin-right: 1rem;
+    position: relative;
+}
+
+.pillar-arrow {
+    position: absolute;
+    right: 2rem;
+}
+
+/* Pillar */
+.fb-button {
+    box-sizing: border-box;
+    position: relative;
+    width: 480px;
+    height: 90px;
+
+    text-decoration: none;
+    text-align: center;
+    font-style: italic;
+
+    padding: 0rem 1rem;
+    border-radius: 10px;
+
+    box-shadow: 2px 2px 5px black;
+    transition: all 0.3s;
+    color: white;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.button:hover {
+    transform: scale(1.03);
+    background-color: white !important;
+    box-shadow: 0 0 25px white;
+}
+
+.fb-button:hover {
+    color: var(--red);
+}
+
+.fb-logo {
+    width: 75px;
+    height: 75px;
+    margin-right: 1rem;
+    position: relative;
+}
+
+.button-arrow {
+    position: absolute;
+    right: 2rem;
+}
 
 @media screen and (max-width: 768px) {
     .culture-tabs {
@@ -31,5 +91,14 @@
     .culture-tabs .MuiTab-root {
         width: 45%;
         font-size: 0.85rem;
+    }
+    .button-title {
+        font-size: 1.4rem;
+    }
+    .fb-logo {
+        width: 75px;
+        height: 75px;
+        margin-right: 0.75rem;
+        position: relative;
     }
 }
