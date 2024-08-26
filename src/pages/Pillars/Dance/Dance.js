@@ -14,6 +14,10 @@ import '../Pillars.css';
 import './Dance.css';
 
 import danceLogo from '../../../assets/logos/dance.png';
+import aasa23 from '../../../pages/Pillars/Dance/aasa23.jpg';
+import dtj from '../../../pages/Pillars/Dance/dtj.jpg';
+import philfest2024 from '../../../pages/Pillars/Dance/2024_philfest.jpg';
+
 // import AASA from './aasa.jpeg';
 // import DTJ from './dtj.jpeg';
 // import PhilFest from './philfest.jpeg';
@@ -79,41 +83,36 @@ const Dance = () => {
             </Tabs>
 
             <TabPanel value={signatureEventsValue} index={0}>
-                <h2>Asian American Student Assembly</h2>
-                <h4>August 26 @ UF Curtis M. Philips Center</h4>
-                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-                    malesuada lacus ex, sit amet blandit leo lobortis eget. Lorem ipsum dolor
-                    sit amet, consectetur adipiscing elit. Suspendisse malesuada lacus ex,
-                    sit amet blandit leo lobortis eget.
+                <h2> Asian American Student Assembly </h2>
+                <h4> August 26 @ UF Curtis M. Philips Center </h4>
+                <p> 2023 marked the 30th anniversary of AASA. The theme for this past year was <i> Coalesce </i>.
+                As AASU grows, it is important to recognize the unique contributions of each organization. FSA's
+                performance payed homage to the theme by combining modern and traditional Filipino dances.
                 </p>
-                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-                    malesuada lacus ex, sit amet blandit leo lobortis eget. Lorem ipsum dolor
-                    sit amet, consectetur adipiscing elit. Suspendisse malesuada lacus ex,
-                    sit amet blandit leo lobortis eget.
-                </p>
+                <img className='dance-images' src={aasa23} alt='aas23 picture'/>
+
             </TabPanel>
+
             <TabPanel value={signatureEventsValue} index={1}>
-                <h2>Def Talent Jam</h2>
-                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-                    malesuada lacus ex, sit amet blandit leo lobortis eget. Lorem ipsum dolor
-                    sit amet, consectetur adipiscing elit.
-                </p>
-                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-                    malesuada lacus ex, sit amet blandit leo lobortis eget. Suspendisse malesuada lacus ex,
-                    sit amet blandit leo lobortis eget. Lorem ipsum dolor
-                    sit amet, consectetur adipiscing elit.
-                </p>
+                <h2> Def Talent Jam </h2>
+                <p> Founded in 1993, Def Talent Jam (DTJ) unites Filipino collegiate organizations in the Southeast US
+                through its annual dance competition. Congrats to the 2023 winners! </p>
+
+                {/* use span to make team names not bolded */}
+
+                <h3> 1st Place: <span className ='not-bold'> UCF FOB </span> </h3>
+                <h3> 2nd Place: <span className = 'not-bold'> UNF INDAKation </span> </h3>
+                <h3> 3rd Place: <span className = 'not-bold'> FSU CapitILL State </span>  </h3>
+                <h3> Fan Favorite Exhibition Team: <span className = 'not-bold'> The Ace Company </span> </h3>
+                <img className='dance-images' src={dtj} alt='dtj photo'/>
             </TabPanel>
+
             <TabPanel value={signatureEventsValue} index={2}>
-                <h2>Philfest</h2>
-                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor
-                    sit amet, consectetur adipiscing elit. Suspendisse malesuada lacus ex,
-                    sit amet blandit leo lobortis eget.
+                <h2> Philfest </h2>
+                <p> Philfest is an annual celebration of Filipino culture that takes place in Tampa.
+                    This year's Philfest was from April 5 to April 7 and featured dancing, art, food, games, and more!
                 </p>
-                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-                    malesuada lacus ex, sit amet blandit leo lobortis eget. Lorem ipsum dolor
-                    sit amet, consectetur adipiscing elit.
-                </p>
+                <img className='dance-images' src={philfest2024} alt='philfest 2024 flyer'/>
             </TabPanel>
 
         </PillarSignatureEvents>
@@ -135,39 +134,17 @@ const Dance = () => {
 
             <TabPanel value={regularActivitiesValue} index={0}>
                 <h2>Dance Workshops</h2>
-                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-                    malesuada lacus ex, sit amet blandit leo lobortis eget. Lorem ipsum dolor
-                    sit amet, consectetur adipiscing elit. Suspendisse malesuada lacus ex,
-                    sit amet blandit leo lobortis eget.
-                </p>
-                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-                    malesuada lacus ex, sit amet blandit leo lobortis eget. Lorem ipsum dolor
-                    sit amet, consectetur adipiscing elit. Suspendisse malesuada lacus ex,
-                    sit amet blandit leo lobortis eget.
-                </p>
+                <p> Stay tuned for more updates! </p>
             </TabPanel>
+
             <TabPanel value={regularActivitiesValue} index={1}>
                 <h2>Traditions</h2>
-                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-                    malesuada lacus ex, sit amet blandit leo lobortis eget. Lorem ipsum dolor
-                    sit amet, consectetur adipiscing elit.
-                </p>
-                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-                    malesuada lacus ex, sit amet blandit leo lobortis eget. Suspendisse malesuada lacus ex,
-                    sit amet blandit leo lobortis eget.
-                </p>
+                <p> Stay tuned for more updates! </p>
             </TabPanel>
+
             <TabPanel value={regularActivitiesValue} index={2}>
                 <h2>Collaborative Showcases</h2>
-                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor
-                    sit amet, consectetur adipiscing elit. Suspendisse malesuada lacus ex,
-                    sit amet blandit leo lobortis eget. Lorem ipsum dolor
-                    sit amet, consectetur adipiscing elit.
-                </p>
-                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-                    malesuada lacus ex, sit amet blandit leo lobortis eget. Lorem ipsum dolor
-                    sit amet, consectetur adipiscing elit.
-                </p>
+                <p> Stay tuned for more updates! </p>
             </TabPanel>
 
         </PillarRegularActivities>
