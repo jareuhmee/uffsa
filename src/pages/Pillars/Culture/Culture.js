@@ -15,6 +15,7 @@ import TabPanel from '../../../components/TabPanel/TabPanel';
 import './Culture.css';
 
 import fbLogo from '../../../pages/Pillars/Culture/fb_logo.png';
+// import igLogo from '../../../pages/Pillars/Culture/ig_logo.png'
 import cultureLogo from '../../../assets/logos/culture.png';
 import FacebookBlogImage from './UFFSA CULTURE.jpg';
 // import FAHM from './FAHM.jpeg';
@@ -79,7 +80,7 @@ const Culture = () => {
                     and opportunities for attendees to further embrace one another, expanding the Pamilya. 
                     Following our closing event, the annual Def Talent Jam competition takes place alongside 
                     other surprises!
-
+                </p>
                 <p> Filipino American History Month (FAHM) is celebrated every October to
                     recognize the contributions of Filipino Americans to the United States.
                     The month of October was chosen to commemorate the arrival of the first
@@ -88,6 +89,7 @@ const Culture = () => {
                     of 2009.
                 </p>
             </TabPanel>
+            
             <TabPanel value={signatureEventsValue} index={1}>
                 <h2>Barrio Fiesta</h2>
                 <p style={{ textAlign: 'justify' }}> Barrio Fiesta is a day-long event during the spring semester in celebration of 
