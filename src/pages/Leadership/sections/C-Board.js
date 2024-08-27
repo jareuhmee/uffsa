@@ -169,7 +169,7 @@ const CBoard = () => {
           <img src={Lynette} alt='Lynette Hemingway' />
           <div className='cboard-card__text'>
             <h1>Lynette Hemingway</h1>
-            <h2>Mass Communications Chair</h2>
+            <h2>Mass Comm. Chair</h2>
           </div>
         </a>
         <a href='https://www.instagram.com/jaden.delapaz/' target="_blank" rel="noopener noreferrer" className='cboard-card masscom-card'>
