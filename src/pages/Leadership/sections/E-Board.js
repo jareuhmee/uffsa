@@ -1,6 +1,7 @@
 import React from 'react';
 import './E-Board.css';
 
+import Bree from '../photos/eboard/Bree.jpg'
 import Jenzen from '../photos/eboard/Jenzen.jpg';
 import Rafael from '../photos/eboard/Rafael.jpg';
 import Sara from '../photos/eboard/Sara.jpg'
@@ -9,6 +10,7 @@ import Matt from '../photos/eboard/Matt.jpg'
 import Theresse from '../photos/eboard/Theresse.jpg';
 import Juliana from '../photos/eboard/Juliana.JPG'
 import Brian from '../photos/eboard/Brian.JPG'
+import Sam from '../photos/eboard/Sam.jpg'
 import Default from './default.png';
 
 import temp from '../../../components/Header/logo2.png';
@@ -36,7 +38,7 @@ const EBoard = () => {
         </a>
 
         <a href='https://www.instagram.com/bree.ocampo/' target="_blank" rel="noopener noreferrer" className='eboard-card'>
-          <img src={Default} alt='Bree Ocampo' />
+          <img src={Bree} alt='Bree Ocampo' />
           <div className='eboard-card__text'>
             <h1>Bree Ocampo</h1>
             <h2>Vice President of Finance</h2>
@@ -84,7 +86,7 @@ const EBoard = () => {
         </a>
 
         <a href='https://www.instagram.com/samanthabwin/' target="_blank" rel="noopener noreferrer" className='eboard-card'>
-          <img src={Default} alt='Samantha Baldwin' />
+          <img src={Sam} alt='Samantha Baldwin' />
           <div className='eboard-card__text'>
             <h1>Samantha Baldwin</h1>
             <h2>Vice President of Membership</h2>

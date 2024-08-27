@@ -1,32 +1,21 @@
 import React from 'react';
 import './C-Board.css';
 
-import Ahmad from '../photos/cboard/Ahmad.jpg';
-import Alexyss from '../photos/cboard/Alexyss.jpg';
-import Arielle from '../photos/cboard/Arielle.jpg';
-import Bianca from '../photos/cboard/Bianca.jpg';
-import Bryan from '../photos/cboard/Bryan.jpg';
-import Carson from '../photos/cboard/Carson.jpg';
-import Christian from '../photos/cboard/Christian.jpg';
-import Daniella from '../photos/cboard/Daniella.jpg';
-import Earth from '../photos/cboard/Earth.jpg';
-import Felix from '../photos/cboard/Felix.jpg';
-import JAnn from '../photos/cboard/J-Ann.jpg';
-import Jacob from '../photos/cboard/Jacob.jpg';
-import Jeremy from '../photos/cboard/Jeremy.jpg';
-import Justin from '../photos/cboard/Justin.jpg';
-import Karl from '../photos/cboard/Karl.jpg';
-import Magnicel from '../photos/cboard/Magnicel.jpg';
-import Maia from '../photos/cboard/Maia.jpg';
-import Matthew from '../photos/cboard/Matthew.jpg';
-import Maya from '../photos/cboard/Maya.jpg';
-import Mika from '../photos/cboard/Mika.jpg';
-import Sara from '../photos/cboard/Sara.jpg';
-import Serena from '../photos/cboard/Serena.jpg';
-import Skyler from '../photos/cboard/Skyler.jpg';
-import Sonia from '../photos/cboard/Sonia.jpg';
-import Vincent from '../photos/cboard/Vincent.jpg';
+import Ana from '../photos/cboard/Ana.jpg'
+import Gavin from '../photos/cboard/Gavin.jpg'
+import Gracie from '../photos/cboard/Gracie.jpg'
+import Sabrina from '../photos/cboard/Sabrina.jpg'
+import Brandon from '../photos/cboard/Brandon.jpg'
+import Rayvin from '../photos/cboard/Rayvin.jpg'
+import Reinalisa from '../photos/cboard/Reinalisa.jpg'
+import Rocky from '../photos/cboard/Rocky.jpg'
+import Ezequiel from '../photos/cboard/Ezequiel.jpg'
+import Megan from '../photos/cboard/Megan.jpg'
+import Wynn from '../photos/cboard/Wynn.JPG'
+import Lynette from '../photos/cboard/Lynette.jpg'
+import Jaden from '../photos/cboard/Jaden.jpg'
 
+import Default from './default.png';
 import temp from '../../../components/Header/logo2.png';
 
 
@@ -35,178 +24,164 @@ const CBoard = () => {
     <section className='cboard-section' id='cboard'>
       <h1 className='cboard-section-title title'>Chair Board</h1>
       <div className='cboard-container'>
-        <a href='https://www.instagram.com/se.rena1268/' target="_blank" rel="noopener noreferrer" className='cboard-card rush-card'>
-          <img src={Serena} alt='Serena Cardozo' />
+        <a href='https://www.instagram.com/brandon_almaria/' target="_blank" rel="noopener noreferrer" className='cboard-card rush-card'>
+          <img src={Brandon} alt='Brandon Almaria' />
           <div className='cboard-card__text'>
-            <h1>Serena Cardozo</h1>
+            <h1>Brandon Almaria</h1>
             <h2>Rush Chair</h2>
           </div>
         </a>
-        <a href='https://www.instagram.com/magnicelp/' target="_blank" rel="noopener noreferrer" className='cboard-card rush-card'>
-          <img src={Magnicel} alt='Magnicel Pulido' />
+        <a href='https://www.instagram.com/qracielucas/' target="_blank" rel="noopener noreferrer" className='cboard-card rush-card'>
+          <img src={Gracie} alt='Gracie Lucas' />
           <div className='cboard-card__text'>
-            <h1>Magnicel Pulido</h1>
+            <h1> Gracie Lucas</h1>
             <h2>Rush Chair</h2>
           </div>
         </a>
-        <a href='https://www.instagram.com/matthew_toe/' target="_blank" rel="noopener noreferrer" className='cboard-card rush-card'>
-          <img src={Matthew} alt='Matthew To' />
+        <a href='https://www.instagram.com/tinfoilducks/' target="_blank" rel="noopener noreferrer" className='cboard-card rush-card'>
+          <img src={Default} alt='Christina Maribbay' />
           <div className='cboard-card__text'>
-            <h1>Matthew To</h1>
+            <h1>Christina Maribbay</h1>
             <h2>Rush Chair</h2>
           </div>
         </a>
         <a href='https://www.instagram.com/karl_dreyes/' target="_blank" rel="noopener noreferrer" className='cboard-card acheesyment-card'>
-          <img src={Karl} alt='Karl Delosreyes' />
+          <img src={Rocky} alt='Rocky Villanueva' />
           <div className='cboard-card__text'>
-            <h1>Karl Delosreyes</h1>
-            <h2>Achievement Chair</h2>
+            <h1>Rocky Villanueva</h1>
+            <h2>Senior Advisor</h2>
           </div>
         </a>
-        <a href='https://www.instagram.com/biancamateoo/' target="_blank" rel="noopener noreferrer" className='cboard-card acheesyment-card'>
-          <img src={Bianca} alt='Bianca Mateo' />
+        <a href='https://www.instagram.com/ace_linem/' target="_blank" rel="noopener noreferrer" className='cboard-card culture-card'>
+          <img src={Default} alt='Aceline Manganti' />
           <div className='cboard-card__text'>
-            <h1>Bianca Mateo</h1>
-            <h2>Achievement Chair</h2>
-          </div>
-        </a>
-        <a href='https://www.instagram.com/soniaacheng/' target="_blank" rel="noopener noreferrer" className='cboard-card culture-card'>
-          <img src={Sonia} alt='Sonia Cheng' />
-          <div className='cboard-card__text'>
-            <h1>Sonia Cheng</h1>
+            <h1>Aceline Manganti</h1>
             <h2>Culture Chair</h2>
           </div>
         </a>
-        <a href='https://www.instagram.com/kusa.zz/' target="_blank" rel="noopener noreferrer" className='cboard-card culture-card'>
-          <img src={Justin} alt='Justin Fernandez' />
+        <a href='https://www.instagram.com/amada.starr/' target="_blank" rel="noopener noreferrer" className='cboard-card culture-card'>
+          <img src={Default} alt='Amada Starr' />
           <div className='cboard-card__text'>
-            <h1>Justin Fernandez</h1>
+            <h1>Amada Starr</h1>
             <h2>Culture Chair</h2>
           </div>
         </a>
-        <a href='https://www.instagram.com/kriziamelendez/' target="_blank" rel="noopener noreferrer" className='cboard-card culture-card'>
-          <img src={Mika} alt='Krizia Mika Melendez' />
+        <a href='https://www.instagram.com/palasiguegavin/' target="_blank" rel="noopener noreferrer" className='cboard-card culture-card'>
+          <img src={Gavin} alt='Gavin Palasigue' />
           <div className='cboard-card__text'>
-            <h1>Krizia Mika Melendez</h1>
+            <h1>Gavin Palasigue</h1>
             <h2>Culture Chair</h2>
           </div>
         </a>
-        <a href='https://www.instagram.com/lex_c.13/' target="_blank" rel="noopener noreferrer" className='cboard-card philanthropy-card'>
-          <img src={Alexyss} alt='Alexyss Cabrera' />
+        <a href='https://www.instagram.com/_hayden.pat/' target="_blank" rel="noopener noreferrer" className='cboard-card philanthropy-card'>
+          <img src={Default} alt='Hayden Patalinghug' />
           <div className='cboard-card__text'>
-            <h1>Alexyss Cabrera</h1>
+            <h1>Hayden Patalinghug</h1>
             <h2>Philanthropy Chair</h2>
           </div>
         </a>
-        <a href='https://www.instagram.com/mtthw._.flx/' target="_blank" rel="noopener noreferrer" className='cboard-card philanthropy-card'>
-          <img src={Felix} alt='Matthew Felix' />
+        <a href='https://www.instagram.com/ez_bau/' target="_blank" rel="noopener noreferrer" className='cboard-card philanthropy-card'>
+          <img src={Ezequiel} alt='Ezequiel Bautista' />
           <div className='cboard-card__text'>
-            <h1>Matthew Felix</h1>
+            <h1>Ezequiel Bautista</h1>
             <h2>Philanthropy Chair</h2>
           </div>
         </a>
-        <a href='https://www.instagram.com/bryank__19/' target="_blank" rel="noopener noreferrer" className='cboard-card philanthropy-card'>
-          <img src={Bryan} alt='Bryan Kim' />
+        <a href='https://www.instagram.com/pl_avo/' target="_blank" rel="noopener noreferrer" className='cboard-card advocacy-card'>
+          <img src={Sabrina} alt='Sabrina LaVopa' />
           <div className='cboard-card__text'>
-            <h1>Bryan Kim</h1>
-            <h2>Philanthropy Chair</h2>
-          </div>
-        </a>
-        <a href='https://www.instagram.com/ah.alar/' target="_blank" rel="noopener noreferrer" className='cboard-card advocacy-card'>
-          <img src={Ahmad} alt='Ahmad Alarachi' />
-          <div className='cboard-card__text'>
-            <h1>Ahmad Alarachi</h1>
+            <h1>Sabrina LaVopa</h1>
             <h2>Advocacy Chair</h2>
           </div>
         </a>
-        <a href='https://www.instagram.com/daniloxcaps/' target="_blank" rel="noopener noreferrer" className='cboard-card dance-card'>
-          <img src={Earth} alt='Earth Capungan' />
+        <a href='https://www.instagram.com/dana.j05/' target="_blank" rel="noopener noreferrer" className='cboard-card dance-card'>
+          <img src={Default} alt='Dana Johnson' />
           <div className='cboard-card__text'>
-            <h1>Earth Capungan</h1>
+            <h1>Dana Johnson</h1>
             <h2>Dance Coordinator</h2>
           </div>
         </a>
-        <a href='https://www.instagram.com/arielle.dicang/' target="_blank" rel="noopener noreferrer" className='cboard-card dance-card'>
-          <img src={Arielle} alt='Arielle Dicang' />
+        <a href='https://www.instagram.com/dana.j05/' target="_blank" rel="noopener noreferrer" className='cboard-card dance-card'>
+          <img src={Default} alt='Lance Mallari' />
           <div className='cboard-card__text'>
-            <h1>Arielle Dicang</h1>
+            <h1>Lance Mallari</h1>
             <h2>Dance Coordinator</h2>
           </div>
         </a>
-        <a href='https://www.instagram.com/skylerrphann/' target="_blank" rel="noopener noreferrer" className='cboard-card dance-card'>
-          <img src={Skyler} alt='Skyler Phan' />
+        <a href='https://www.instagram.com/meganabando_/' target="_blank" rel="noopener noreferrer" className='cboard-card dance-card'>
+          <img src={Megan} alt='Megan Abando' />
           <div className='cboard-card__text'>
-            <h1>Skyler Phan</h1>
+            <h1>Megan Abando</h1>
             <h2>Dance Coordinator</h2>
           </div>
         </a>
-        <a href='https://www.instagram.com/christian_eb0/' target="_blank" rel="noopener noreferrer" className='cboard-card sports-card'>
-          <img src={Christian} alt='Christian Ebo' />
+        <a href='https://www.instagram.com/ana_docuyanan' target="_blank" rel="noopener noreferrer" className='cboard-card sports-card'>
+          <img src={Ana} alt='Ana Docuyanan' />
           <div className='cboard-card__text'>
-            <h1>Christian Ebo</h1>
+            <h1>Ana Docuyanan</h1>
             <h2>Sports Coordinator</h2>
           </div>
         </a>
-        <a href='https://www.instagram.com/maya.patalinghug/' target="_blank" rel="noopener noreferrer" className='cboard-card sports-card'>
-          <img src={Maya} alt='Maya Patalinghug' />
+        <a href='https://www.instagram.com/r.einalisa' target="_blank" rel="noopener noreferrer" className='cboard-card sports-card'>
+          <img src={Reinalisa} alt='Reinalisa Anonuevo' />
           <div className='cboard-card__text'>
-            <h1>Maya Patalinghug</h1>
+            <h1>Reinalisa Anonuevo</h1>
             <h2>Sports Coordinator</h2>
           </div>
         </a>
-        <a href='https://www.instagram.com/carsonllorente/' target="_blank" rel="noopener noreferrer" className='cboard-card fundraising-card'>
-          <img src={Carson} alt='Carson Llorente' />
+        <a href='https://www.instagram.com/kaysiason/' target="_blank" rel="noopener noreferrer" className='cboard-card fundraising-card'>
+          <img src={Default} alt='Kayleen Siason' />
           <div className='cboard-card__text'>
-            <h1>Carson Llorente</h1>
+            <h1>Kayleen Siason</h1>
             <h2>Fundraising Chair</h2>
           </div>
         </a>
-        <a href='https://www.instagram.com/maialontok/' target="_blank" rel="noopener noreferrer" className='cboard-card fundraising-card'>
-          <img src={Maia} alt='Maia Lontok' />
+        <a href='https://www.instagram.com/renvambry/' target="_blank" rel="noopener noreferrer" className='cboard-card fundraising-card'>
+          <img src={Default} alt='Ambrose Carbunar' />
           <div className='cboard-card__text'>
-            <h1>Maia Lontok</h1>
+            <h1>Ambrose Carbunar</h1>
             <h2>Fundraising Chair</h2>
           </div>
         </a>
         <a href='https://www.instagram.com/jacob.patag/' target="_blank" rel="noopener noreferrer" className='cboard-card multimedia-card'>
-          <img src={Jacob} alt='Jacob Patag' />
+          <img src={Rayvin} alt='Rayvin Velasco' />
           <div className='cboard-card__text'>
-            <h1>Jacob Patag</h1>
+            <h1>Rayvin Velasco</h1>
             <h2>Multimedia Chair</h2>
           </div>
         </a>
         <a href='https://www.instagram.com/vincent.tol/' target="_blank" rel="noopener noreferrer" className='cboard-card multimedia-card'>
-          <img src={Vincent} alt='Vincent Toledo' />
+          <img src={Wynn} alt='Wynn Iong' />
           <div className='cboard-card__text'>
-            <h1>Vincent Toledo</h1>
+            <h1>Wynn Iong</h1>
             <h2>Multimedia Chair</h2>
           </div>
         </a>
-        <a href='https://www.instagram.com/danmllz/' target="_blank" rel="noopener noreferrer" className='cboard-card masscom-card'>
-          <img src={Daniella} alt='Daniella Cruz' />
+        <a href='https://www.instagram.com/zoezchu/' target="_blank" rel="noopener noreferrer" className='cboard-card masscom-card'>
+          <img src={Default} alt='Zoe Chu' />
           <div className='cboard-card__text'>
-            <h1>Daniella Cruz</h1>
+            <h1>Zoe Chu</h1>
             <h2>Mass Communications Chair</h2>
           </div>
         </a>
-        <a href='https://www.instagram.com/sarabellum__/' target="_blank" rel="noopener noreferrer" className='cboard-card masscom-card'>
-          <img src={Sara} alt='Sara Escobar' />
+        <a href='https://www.instagram.com/lynette_hemingway/' target="_blank" rel="noopener noreferrer" className='cboard-card masscom-card'>
+          <img src={Lynette} alt='Lynette Hemingway' />
           <div className='cboard-card__text'>
-            <h1>Sara Escobar</h1>
+            <h1>Lynette Hemingway</h1>
             <h2>Mass Communications Chair</h2>
           </div>
         </a>
-        <a href='https://www.instagram.com/janvldr/' target="_blank" rel="noopener noreferrer" className='cboard-card masscom-card'>
-          <img src={JAnn} alt='J-Ann Valledor' />
+        <a href='https://www.instagram.com/jaden.delapaz/' target="_blank" rel="noopener noreferrer" className='cboard-card masscom-card'>
+          <img src={Jaden} alt='Jaden Delapaz' />
           <div className='cboard-card__text'>
-            <h1>J-Ann Valledor</h1>
+            <h1>Jaden Delapaz</h1>
             <h2>Mass Communications Chair</h2>
           </div>
         </a>
-        <a href='https://www.instagram.com/jareuhmeme/' target="_blank" rel="noopener noreferrer" className='cboard-card webmaster-card'>
-          <img src={Jeremy} alt='Jeremy Garcia' />
+        <a href='https://www.instagram.com/mjuliannna/' target="_blank" rel="noopener noreferrer" className='cboard-card webmaster-card'>
+          <img src={Default} alt='MJ Tady' />
           <div className='cboard-card__text'>
-            <h1>Jeremy Garcia</h1>
+            <h1>MJ Tady</h1>
             <h2>Webmaster</h2>
           </div>
         </a>
