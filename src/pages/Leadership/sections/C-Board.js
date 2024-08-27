@@ -1,6 +1,7 @@
 import React from 'react';
 import './C-Board.css';
 
+import Amada from '../photos/cboard/Amada.jpg'
 import Ana from '../photos/cboard/Ana.jpg'
 import Gavin from '../photos/cboard/Gavin.jpg'
 import Gracie from '../photos/cboard/Gracie.jpg'
@@ -60,7 +61,7 @@ const CBoard = () => {
           </div>
         </a>
         <a href='https://www.instagram.com/amada.starr/' target="_blank" rel="noopener noreferrer" className='cboard-card culture-card'>
-          <img src={Default} alt='Amada Starr' />
+          <img src={Amada} alt='Amada Starr' />
           <div className='cboard-card__text'>
             <h1>Amada Starr</h1>
             <h2>Culture Chair</h2>
