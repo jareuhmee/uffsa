@@ -167,11 +167,20 @@
     position: relative;
     background: linear-gradient(#F9EFAF, #F7E98D);
     text-align: center;
-    padding-top: 4rem;
+    padding: 1rem; 
     width: 320px;
-    height: 320px;
+    height: auto;
+    min-height: 320px;
     box-sizing: border-box;
-	box-shadow: 5px 5px 10px -2px rgba(0, 0, 0, 0.3);
+    box-shadow: 5px 5px 10px -2px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+}
+
+.fsaplus-sticky-note img.sticky-note-image {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: contain;
 }
 
 .fsaplus-sticky-note::before {

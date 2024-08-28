@@ -3,6 +3,7 @@ import { FaFacebook, FaLinkedin } from 'react-icons/fa';
 import FsaPlusTitle from '../../../components/titles/FSA+ Title/FsaPlusTitle';
 
 import StudySocial from './StudySocial.png';
+import ClassConnector from './class connector qr code.png'
 
 // import HEAL from './org logos/HEAL.png';
 // import SASE from './org logos/SASE.png';
@@ -73,13 +74,10 @@ const FsaPlus = () => {
             <h1 className='fsaplus-main-resources-title title'>FSA+ Resources</h1>
 
             <div className='fsaplus-sticky-container'>
-
-                <div className='fsaplus-sticky-note'>
+              <div className='fsaplus-sticky-note'>
                   <h1 className='title'> Class Connector </h1>
-                  <p className='title'> [COMING SOON] </p>
-                  {/* <p className='title'> Form </p>
-                  <p className='title'> Spreadsheet </p> */}
-                </div>
+                  <img src={ClassConnector} alt='Class Connector QR Code' className='sticky-note-image' />
+              </div>
 
                 <div className='fsaplus-sticky-note'>
                   <h1 className='title'> FSA+ Library </h1>
