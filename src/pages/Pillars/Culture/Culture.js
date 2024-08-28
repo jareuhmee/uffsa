@@ -18,6 +18,7 @@ import fbLogo from '../../../pages/Pillars/Culture/fb_logo.png';
 // import igLogo from '../../../pages/Pillars/Culture/ig_logo.png'
 import cultureLogo from '../../../assets/logos/culture.png';
 import FacebookBlogImage from './UFFSA CULTURE.jpg';
+import Barrio2324 from './barrio2324.jpg';
 // import FAHM from './FAHM.jpeg';
 // import barrio from './barrio.jpeg';
 
@@ -43,8 +44,10 @@ const Culture = () => {
 
         <PillarDescription 
             backgroundColor={'var(--white)'}
-            style={{ textAlign: 'justify' }}
-            content="Welcome to the UFFSA culture page! We will be posting information about Filipino culture, Filipino history, and current events from the Philippines! We will also posting information about our huge fall culture event, Filipino American History Month. Also, get ready for the other big spring culture event, Barrio Fiesta! Get ready for a year of Filipino culture!"
+            content="Welcome to the UFFSA Culture Page! 
+                        We will be posting information about Filipino culture, history, and current events from the Philippines. 
+                        Stay tuned for updates on our big fall event, Filipino American History Month, 
+                        as well as our major spring event, Barrio Fiesta. Get ready for a year filled with Filipino culture!"
         />
 
         <PillarSignatureEvents>
@@ -62,7 +65,7 @@ const Culture = () => {
             <TabPanel value={signatureEventsValue} index={0}>
                 <h2>Filipino American History Month</h2>
 
-                <p style={{ textAlign: 'justify' }}> Filipino-American History Month (FAHM) is a month-long celebration of 
+                <p> Filipino-American History Month (FAHM) is a month-long celebration of 
                     Filipino culture from September to October. The opening ceremony kicks 
                     off the month with a day filled with coming together as a community, 
                     celebrating our collective heritage! During the ceremony, we will be 
@@ -73,7 +76,7 @@ const Culture = () => {
                     the year and onwards.
 
                 </p>
-                <p style={{ textAlign: 'justify' }}> Throughout the month, we host a variety of theme-related small events that 
+                <p> Throughout the month, we host a variety of theme-related small events that 
                     promote community for those interested in immersing themselves in Filipino 
                     history and forming new bonds with fellow members. Nearing the end of the month, 
                     we host the closing ceremony with an evening brimming with unforgettable performances 
@@ -92,12 +95,17 @@ const Culture = () => {
             
             <TabPanel value={signatureEventsValue} index={1}>
                 <h2>Barrio Fiesta</h2>
-                <p style={{ textAlign: 'justify' }}> Barrio Fiesta is a day-long event during the spring semester in celebration of 
+                <p> Barrio Fiesta is a day-long event during the spring semester in celebration of 
                     members of the Filipino community! There, participants can engage in a 
                     cultural festival with stage performances, games with audience participation, 
                     and intermission for food and merch stalls. Unique to this gathering, 
                     there is a fashion show, during which models display a multitude of traditional clothing.
                 </p>
+                <img 
+                    src={Barrio2324}
+                    alt="BARRIO FIESTA" 
+                    style={{ width: '100%', marginTop: '20px' }} 
+                />
             </TabPanel>
 
         </PillarSignatureEvents>
@@ -117,7 +125,7 @@ const Culture = () => {
 
             <TabPanel value={regularActivitiesValue} index={0}>
                 <h2>Facebook Blogs</h2>
-                <p style={{ textAlign: 'justify' }}> Join our Facebook group  <a href="https://www.facebook.com/groups/uffsaculture/" target="_blank">"UFFSA CULTURE"</a> to be updated on major events we are hosting or 
+                <p> Join our Facebook group  <a href="https://www.facebook.com/groups/uffsaculture/" target="_blank">"UFFSA CULTURE"</a> to be updated on major events we are hosting or 
                     celebrating this year! We are excited to showcase 
                     what we have planned to both new members of the group 
                     and our beloved alumni. Hope to see you become a member! 
@@ -136,7 +144,7 @@ const Culture = () => {
 
             <TabPanel value={regularActivitiesValue} index={1}>
                 <h2>MAFFIA</h2>
-                <p style={{ textAlign: 'justify' }}> Want to work behind-the-scenes? Join MAFFIA! 
+                <p> Want to work behind-the-scenes? Join MAFFIA! 
                     Our program is suited for first-time Pamilya members 
                     to get more involved with planning our wonderful FAHM activities 
                     and memorable culture segments for the GBMs!

@@ -162,21 +162,21 @@ const CBoard = () => {
           <img src={Default} alt='Zoe Chu' />
           <div className='cboard-card__text'>
             <h1>Zoe Chu</h1>
-            <h2>Mass Communications Chair</h2>
+            <h2>Mass Comms. Chair</h2>
           </div>
         </a>
         <a href='https://www.instagram.com/lynette_hemingway/' target="_blank" rel="noopener noreferrer" className='cboard-card masscom-card'>
           <img src={Lynette} alt='Lynette Hemingway' />
           <div className='cboard-card__text'>
             <h1>Lynette Hemingway</h1>
-            <h2>Mass Comm. Chair</h2>
+            <h2>Mass Comms. Chair</h2>
           </div>
         </a>
         <a href='https://www.instagram.com/jaden.delapaz/' target="_blank" rel="noopener noreferrer" className='cboard-card masscom-card'>
           <img src={Jaden} alt='Jaden Delapaz' />
           <div className='cboard-card__text'>
             <h1>Jaden Delapaz</h1>
-            <h2>Mass Communications Chair</h2>
+            <h2>Mass Comms. Chair</h2>
           </div>
         </a>
         <a href='https://www.instagram.com/mjuliannna/' target="_blank" rel="noopener noreferrer" className='cboard-card webmaster-card'>
