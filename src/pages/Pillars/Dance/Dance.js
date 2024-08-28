@@ -134,12 +134,14 @@ const Dance = () => {
 
             <TabPanel value={regularActivitiesValue} index={0}>
                 <h2>Dance Workshops</h2>
-                <p> Stay tuned for more updates! </p>
+                <p> Back-to-School Workshops will be held on September 6th!
+                    More information regarding location and times will be released soon.
+                 </p>
             </TabPanel>
 
             <TabPanel value={regularActivitiesValue} index={1}>
                 <h2>Traditions</h2>
-                <p> Stay tuned for more updates! </p>
+                <p> Traditions will be held on September 6th! </p>
             </TabPanel>
 
             <TabPanel value={regularActivitiesValue} index={2}>
