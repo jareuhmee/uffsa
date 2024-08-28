@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.e1b996d6.css",
-    "main.js": "/static/js/main.6db5462f.js",
+    "main.js": "/static/js/main.1496f09d.js",
     "static/media/background2.JPG": "/static/media/background2.7a6862dd01c23e51615f.JPG",
     "static/media/Sabrina.jpg": "/static/media/Sabrina.bb9c68609dab5dc82c61.jpg",
     "static/media/Sara.jpg": "/static/media/Sara.0c4b8fe73dba86325a61.jpg",
@@ -23,11 +23,12 @@
     "static/media/Lynette.jpg": "/static/media/Lynette.95acae6f856d7510ab6b.jpg",
     "static/media/Bree.jpg": "/static/media/Bree.903426f4475e66e0e476.jpg",
     "static/media/UFFSA CULTURE.jpg": "/static/media/UFFSA CULTURE.e0b558c4b5b71a8c45a4.jpg",
-    "static/media/aasa23.jpg": "/static/media/aasa23.f9e49d1df11b7ad1bc58.jpg",
     "static/media/Montserrat-VariableFont_wght.ttf": "/static/media/Montserrat-VariableFont_wght.c28a96c369871653b853.ttf",
     "static/media/Megan.jpg": "/static/media/Megan.f0b622e0c31213521012.jpg",
     "static/media/Ceyan.jpg": "/static/media/Ceyan.6e8c48a734b45f26d8f4.jpg",
     "static/media/Jaden.jpg": "/static/media/Jaden.f19da7908ff59e594b0b.jpg",
+    "static/media/aasa24.jpg": "/static/media/aasa24.99af28b232c609da4fbb.jpg",
+    "static/media/barrio2324.jpg": "/static/media/barrio2324.624b3c5e78e7a827cc29.jpg",
     "static/media/Rocky.jpg": "/static/media/Rocky.738a2b22dbff7b827518.jpg",
     "static/media/Sam.jpg": "/static/media/Sam.027a57be516a859b8f7b.jpg",
     "static/media/Ana.jpg": "/static/media/Ana.1a28d0a70205568aaa38.jpg",
@@ -49,10 +50,10 @@
     "static/media/logo.png": "/static/media/logo.2d474d98786a767124ce.png",
     "index.html": "/index.html",
     "main.e1b996d6.css.map": "/static/css/main.e1b996d6.css.map",
-    "main.6db5462f.js.map": "/static/js/main.6db5462f.js.map"
+    "main.1496f09d.js.map": "/static/js/main.1496f09d.js.map"
   },
   "entrypoints": [
     "static/css/main.e1b996d6.css",
-    "static/js/main.6db5462f.js"
+    "static/js/main.1496f09d.js"
   ]
 }
