@@ -144,14 +144,21 @@ const CBoard = () => {
             <h2>Fundraising Chair</h2>
           </div>
         </a>
-        <a href='https://www.instagram.com/jacob.patag/' target="_blank" rel="noopener noreferrer" className='cboard-card multimedia-card'>
+        <a href='' target="_blank" rel="noopener noreferrer" className='cboard-card multimedia-card'>
           <img src={Rayvin} alt='Rayvin Velasco' />
           <div className='cboard-card__text'>
             <h1>Rayvin Velasco</h1>
             <h2>Multimedia Chair</h2>
           </div>
         </a>
-        <a href='https://www.instagram.com/vincent.tol/' target="_blank" rel="noopener noreferrer" className='cboard-card multimedia-card'>
+        <a href='https://www.instagram.com/haileyyphm/' target="_blank" rel="noopener noreferrer" className='cboard-card multimedia-card'>
+          <img src={Default} alt=' Hailey Pham' />
+          <div className='cboard-card__text'>
+            <h1>Hailey Pham</h1>
+            <h2>Multimedia Chair</h2>
+          </div>
+        </a>
+        <a href='' target="_blank" rel="noopener noreferrer" className='cboard-card multimedia-card'>
           <img src={Wynn} alt='Wynn Iong' />
           <div className='cboard-card__text'>
             <h1>Wynn Iong</h1>
