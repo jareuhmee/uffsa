@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.3902c7ee.css",
-    "main.js": "/static/js/main.b3169541.js",
+    "main.js": "/static/js/main.74fe5e85.js",
     "static/media/background2.JPG": "/static/media/background2.7a6862dd01c23e51615f.JPG",
     "static/media/Sabrina.jpg": "/static/media/Sabrina.bb9c68609dab5dc82c61.jpg",
     "static/media/Sara.jpg": "/static/media/Sara.0c4b8fe73dba86325a61.jpg",
@@ -51,10 +51,10 @@
     "static/media/logo.png": "/static/media/logo.2d474d98786a767124ce.png",
     "index.html": "/index.html",
     "main.3902c7ee.css.map": "/static/css/main.3902c7ee.css.map",
-    "main.b3169541.js.map": "/static/js/main.b3169541.js.map"
+    "main.74fe5e85.js.map": "/static/js/main.74fe5e85.js.map"
   },
   "entrypoints": [
     "static/css/main.3902c7ee.css",
-    "static/js/main.b3169541.js"
+    "static/js/main.74fe5e85.js"
   ]
 }
