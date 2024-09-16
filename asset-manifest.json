@@ -1,10 +1,11 @@
 {
   "files": {
     "main.css": "/static/css/main.3902c7ee.css",
-    "main.js": "/static/js/main.74fe5e85.js",
+    "main.js": "/static/js/main.ff19d8db.js",
+    "static/media/Ambrose.jpg": "/static/media/Ambrose.8214a0f7305b0c5ac5dc.jpg",
     "static/media/background2.JPG": "/static/media/background2.7a6862dd01c23e51615f.JPG",
-    "static/media/Sabrina.jpg": "/static/media/Sabrina.bb9c68609dab5dc82c61.jpg",
     "static/media/Sara.jpg": "/static/media/Sara.0c4b8fe73dba86325a61.jpg",
+    "static/media/Sabrina.jpg": "/static/media/Sabrina.bb300d8f53d89fc34663.jpg",
     "static/media/image3.png": "/static/media/image3.37db7265c13bd0588e09.png",
     "static/media/Gavin.jpg": "/static/media/Gavin.4347d6d2cf3caa98c703.jpg",
     "static/media/logo2.png": "/static/media/logo2.a566d9cf59acb754358b.png",
@@ -17,6 +18,7 @@
     "static/media/Juliana.JPG": "/static/media/Juliana.e0486f0bdb0baa12e15a.JPG",
     "static/media/Brian.JPG": "/static/media/Brian.a6969481ae6144da7e30.JPG",
     "static/media/grain.png": "/static/media/grain.a297bc3e3f17176232c9.png",
+    "static/media/Kay.JPG": "/static/media/Kay.a6fe05d631a5e738427f.JPG",
     "static/media/image1.png": "/static/media/image1.0fc53cfe7b1e28e623d1.png",
     "static/media/2024_philfest.jpg": "/static/media/2024_philfest.b549927e2153ab72b156.jpg",
     "static/media/Theresse.jpg": "/static/media/Theresse.464b09c94a7a0970056f.jpg",
@@ -27,10 +29,12 @@
     "static/media/Megan.jpg": "/static/media/Megan.f0b622e0c31213521012.jpg",
     "static/media/Ceyan.jpg": "/static/media/Ceyan.6e8c48a734b45f26d8f4.jpg",
     "static/media/Jaden.jpg": "/static/media/Jaden.f19da7908ff59e594b0b.jpg",
+    "static/media/Kori.JPG": "/static/media/Kori.09812d139dae6eecf757.JPG",
     "static/media/aasa24.jpg": "/static/media/aasa24.99af28b232c609da4fbb.jpg",
     "static/media/barrio2324.jpg": "/static/media/barrio2324.624b3c5e78e7a827cc29.jpg",
     "static/media/Rocky.jpg": "/static/media/Rocky.738a2b22dbff7b827518.jpg",
     "static/media/Sam.jpg": "/static/media/Sam.027a57be516a859b8f7b.jpg",
+    "static/media/Zoe.JPG": "/static/media/Zoe.a3e46e61c5803fe72f30.JPG",
     "static/media/Ana.jpg": "/static/media/Ana.1a28d0a70205568aaa38.jpg",
     "static/media/Ghiya Strokes Reg.ttf": "/static/media/Ghiya Strokes Reg.95df9f6e51a7f9df623f.ttf",
     "static/media/Ezequiel.jpg": "/static/media/Ezequiel.fdebea7628e96d975ca7.jpg",
@@ -51,10 +55,10 @@
     "static/media/logo.png": "/static/media/logo.2d474d98786a767124ce.png",
     "index.html": "/index.html",
     "main.3902c7ee.css.map": "/static/css/main.3902c7ee.css.map",
-    "main.74fe5e85.js.map": "/static/js/main.74fe5e85.js.map"
+    "main.ff19d8db.js.map": "/static/js/main.ff19d8db.js.map"
   },
   "entrypoints": [
     "static/css/main.3902c7ee.css",
-    "static/js/main.74fe5e85.js"
+    "static/js/main.ff19d8db.js"
   ]
 }
