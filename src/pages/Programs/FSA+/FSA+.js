@@ -76,7 +76,8 @@ const FsaPlus = () => {
             <div className='fsaplus-sticky-container'>
               <div className='fsaplus-sticky-note'>
                   <h1 className='title'> Class Connector </h1>
-                  <img src={ClassConnector} alt='Class Connector QR Code' className='sticky-note-image' />
+                  <p className='title'> [COMING SOON] </p>
+                  {/*<img src={ClassConnector} alt='Class Connector QR Code' className='sticky-note-image' />*/}
               </div>
 
                 <div className='fsaplus-sticky-note'>

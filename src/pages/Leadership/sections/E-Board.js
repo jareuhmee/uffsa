@@ -11,6 +11,7 @@ import Theresse from '../photos/eboard/Theresse.jpg';
 import Juliana from '../photos/eboard/Juliana.JPG'
 import Brian from '../photos/eboard/Brian.JPG'
 import Sam from '../photos/eboard/Sam.jpg'
+import Kori from '../photos/eboard/Kori.JPG'
 import Default from './default.png';
 
 import temp from '../../../components/Header/logo2.png';
@@ -102,7 +103,7 @@ const EBoard = () => {
         </a>
 
         <a href='https://www.instagram.com/korixverges/' target="_blank" rel="noopener noreferrer" className='eboard-card'>
-          <img src={Default} alt='Kori Verges' />
+          <img src={Kori} alt='Kori Verges' />
           <div className='eboard-card__text'>
             <h1>Kori Verges</h1>
             <h2>Vice President of External Affairs</h2>
