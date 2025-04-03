@@ -96,13 +96,12 @@ const Philanthropy = () => {
             </TabPanel>
             <TabPanel value={regularActivitiesValue} index={1}>
                 <h2>MAFFIA</h2>
-                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-                    malesuada lacus ex, sit amet blandit leo lobortis eget. Lorem ipsum dolor
-                    sit amet, consectetur adipiscing elit.
-                </p>
-                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-                    malesuada lacus ex, sit amet blandit leo lobortis eget.  Suspendisse malesuada lacus ex,
-                    sit amet blandit leo lobortis eget.
+                <p> The Membership and FSA First-Year Involvement Alliance (MAFFIA) is a program at
+                    the UF Filipino Student Association designed for first-year students to gain leadership 
+                    skills while learning about the behind-the-scenes operations of the FSA. MAFFIA offers 
+                    sub-programs in culture, mass communications, multimedia, and philanthropy, along with 
+                    optional programs in dance, sports, and membership, providing a comprehensive experience 
+                    for new students to develop as leaders in their areas of interest.
                 </p>
             </TabPanel>
             <TabPanel value={regularActivitiesValue} index={2}>
