@@ -53,8 +53,11 @@
 
 .cboard-card img {
     width: 100px;
-    border-radius: 5px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 8px;
     background-color: white;
+    flex-shrink: 0;
 }
 
 .cboard-card h1 {
