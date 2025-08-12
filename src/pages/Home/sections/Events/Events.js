@@ -10,10 +10,16 @@ const Events = () => {
         <div className="events-list">
           <h1 className="events-title title">Upcoming Events</h1>
 
-          <h2 className="events-list__header title">Shadow GBM</h2>
+          <h2 className="events-list__header title">☀️Summer B Edition: GoFest!☀️</h2>
           <p>
-            Come out to UFFSA’s 2023-2024 Shadow GBM! Election nominations will
-            be right after!
+            <p>
+            Want to join in on the fun but have no idea what’s going on? 
+            Have no fear, the NMG is here! We’d love to have you at our events this GoFest weekend, so come check it out!
+            Make sure to check the main post on <strong>@uffsa’s</strong> page and follow <strong>@uffsafirst_years </strong>for future guides and first-year posts‼️
+            </p>
+
+            𖤓°⋆.ೃ࿔*:･𖤓°⋆.ೃ࿔*:･𖤓°⋆.ೃ࿔*:･
+
           </p>
           <div className="events-info">
             <p>📅 Date: Thursday, March 28</p>
@@ -23,19 +29,19 @@ const Events = () => {
           </div>
           <br />
           <a
-            href="https://www.instagram.com/reel/C4rWIT6t0yS/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
+            href="https://www.instagram.com/p/DL5cY0YOX_o/?img_index=1"
             target="_blank"
             rel="noopener noreferrer"
           >
             <button className="events-button">Instagram Post</button>
           </a>
-          <a
+          {/* <a
             href="https://docs.google.com/spreadsheets/d/1N9__exTivZmFryQ-6OSXCSmtiF4rHmO8OLfjp8rFMP8/edit?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
           >
             <button className="events-button">Voter Eligibility</button>
-          </a>
+          </a> */}
           <br />
 
           {/* <h2 className="events-list__header title">Last GBM</h2>

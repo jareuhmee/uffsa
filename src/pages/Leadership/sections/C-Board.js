@@ -17,6 +17,9 @@ import Mari from '../photos/mari.png';
 import Justin from '../photos/justin.jpeg';
 import Iya from '../photos/iya.JPG';
 import Mason from '../photos/mason.png';
+import Alex from '../photos/alex.png';
+import Elijah from '../photos/elijah.png';
+import Liam from '../photos/liam.png';
 import Default from './default.png';
 
 const CBoard = () => {
@@ -39,7 +42,7 @@ const CBoard = () => {
           </div>
         </a>
         <a href='https://www.instagram.com/liamcervante/' target="_blank" rel="noopener noreferrer" className='cboard-card philanthropy-card'>
-          <img src={Default} alt='Liam Cervantes' />
+          <img src={Liam} alt='Liam Cervantes' />
           <div className='cboard-card__text'>
             <h1>Liam Cervantes</h1>
             <h2>Philanthropy Chair</h2>
@@ -109,14 +112,14 @@ const CBoard = () => {
           </div>
         </a>
         <a href='https://www.instagram.com/asaclayan/' target="_blank" rel="noopener noreferrer" className='cboard-card rush-card'>
-          <img src={Default} alt='Alexandra Saclayan' />
+          <img src={Alex} alt='Alexandra Saclayan' />
           <div className='cboard-card__text'>
             <h1>Alexandra Saclayan</h1>
             <h2>Rush Chair</h2>
           </div>
         </a>
         <a href='https://www.instagram.com/e.maneja/' target="_blank" rel="noopener noreferrer" className='cboard-card rush-card'>
-          <img src={Default} alt='Elijah Maneja' />
+          <img src={Elijah} alt='Elijah Maneja' />
           <div className='cboard-card__text'>
             <h1>Elijah Maneja</h1>
             <h2>Rush Chair</h2>

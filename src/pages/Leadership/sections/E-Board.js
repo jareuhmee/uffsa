@@ -11,7 +11,7 @@ import Katheri from '../photos/katheri.png';
 import Max from '../photos/max.JPEG';
 import Dom from '../photos/dom.png';
 import Matt from '../photos/matt.jpeg';
-
+import Bekzod from '../photos/bekzod.jpeg';
 
 const EBoard = () => {
   return (
@@ -92,7 +92,7 @@ const EBoard = () => {
         </a>
 
         <a href='https://www.instagram.com/bombzod/' target="_blank" rel="noopener noreferrer" className='eboard-card'>
-          <img src={Default} alt='Bekzod Ismatulla' />
+          <img src={Bekzod} alt='Bekzod Ismatulla' />
           <div className='eboard-card__text'>
             <h1>Bekzod Ismatulla</h1>
             <h2>VP of External Affairs</h2>
