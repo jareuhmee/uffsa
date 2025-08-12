@@ -22,3 +22,71 @@
     color: white;
     text-shadow: 0 0 1px white;
 }
+
+.barkada-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  justify-content: center; 
+}
+
+.barkada-card {
+  flex: 0 1 350px; 
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(0,0,0,.08);
+  padding: 12px;
+}
+
+.barkada-embed {
+  position: relative;
+  width: 100%;
+  padding-top: 154.5455%;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(63,69,81,0.16);
+}
+
+.barkada-link{
+  display: inline-block;
+  margin-top: 10px;
+  text-decoration: none;
+  font-weight: 700;
+  color: var(--gold, #caa534);
+}
+.barkada-link:hover{ text-decoration: underline; }
+
+
+.barkada-title {
+  margin-bottom: 12px;
+  text-align: center;
+}
+
+.barkada-grid {
+  margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.barkada-card {
+  width: 300px; 
+  border-radius: 12px;
+  background: #fff;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+  overflow: hidden;
+  text-align: center;
+}
+
+.barkada-img {
+  width: 100%;
+  display: block;
+  border-bottom: 2px solid #eee;
+}
+
+.barkada-card-title {
+  padding: 10px;
+  font-weight: 700;
+  color: var(--gold, #caa534);
+}

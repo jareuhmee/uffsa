@@ -14,6 +14,35 @@
     font-size: 1rem;
 }
 
+.klikme-hero {
+  background: linear-gradient(90deg, #efe9f8 0%, #f7f3ff 60%, #ffffff 100%);
+  border: 1px solid var(--light-gray);
+  border-radius: 18px;
+  padding: 20px 24px;
+}
+
+.klikme-title {
+  font-weight: 800;
+  letter-spacing: 0.2px;
+  margin-left: 4px;
+}
+
+.klikme-subtitle {
+  opacity: 0.8;
+  margin-top: 4px;
+}
+
+/* Optional: nicer tabs contrast on light bg */
+.philanthropy-tabs .MuiTab-root {
+  font-weight: 700;
+  letter-spacing: 0.4px;
+}
+.philanthropy-tabs .MuiTabs-indicator {
+  height: 3px;
+  border-radius: 3px;
+}
+
+
 .philanthropy-tabs .Mui-selected {
     color: var(--dark-grayk);
 }

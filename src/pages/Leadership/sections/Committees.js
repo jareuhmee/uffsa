@@ -141,7 +141,6 @@ const Committees = () => {
             </p>
           }
         />
-
         <EventAccordion
           backgroundColor="var(--dark-gray)"
           header="Formal Committee"

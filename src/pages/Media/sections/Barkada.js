@@ -1,56 +1,46 @@
 import React from 'react';
 import './Barkada.css';
 
+// Add new Barkadas here (just append an object)
+const BARKADAS = [
+  { id: 'DAFsVSRfJUQ', title: 'Fall GBM 1 Barkada' },
+  { id: 'DAGQ4praPPg', title: 'Summer GBM Barkada' },
+  // { id: 'NEW_ID_HERE', title: 'Your Next Barkada' },
+];
+
+// Helper to build Canva URLs
+const embedUrl = (id) => `https://www.canva.com/design/${id}/view?embed`;
+const viewUrl  = (id) => `https://www.canva.com/design/${id}/view?utm_content=${id}&utm_campaign=designshare&utm_medium=embeds&utm_source=link`;
+
+const BarkadaCard = ({ id, title }) => (
+  <div className="barkada-card">
+    <div className="barkada-embed">
+      <iframe
+        loading="lazy"
+        title={title}
+        src={embedUrl(id)}
+        allowFullScreen
+        style={{ position: 'absolute', inset: 0, width: '100%', height: '100%', border: '0' }}
+      />
+    </div>
+    <a className="barkada-link" href={viewUrl(id)} target="_blank" rel="noopener noreferrer">
+      {title}
+    </a>
+  </div>
+);
+
 const BarkadaNewsletter = () => {
   return (
-    <section className='barkada-section' id='barkada'>
-      <h1 className='media-title title'>
-          Barkada Newsletter
-      </h1>
+    <section className="barkada-section" id="barkada">
+      <h1 className="media-title title">Barkada Newsletter</h1>
 
-      <div className='barkada-container'>
-        <div
-          style={{
-            position: "relative",
-            width: "100%",
-            height: 0,
-            paddingTop: "154.5455%",
-            paddingBottom: 0,
-            boxShadow: "0 2px 8px 0 rgba(63,69,81,0.16)",
-            marginTop: "1.6em",
-            marginBottom: "0.9em",
-            overflow: "hidden",
-            borderRadius: 8,
-            willChange: "transform"
-          }}
-        >
-          <iframe
-            loading="lazy"
-            style={{
-              position: "absolute",
-              width: "100%",
-              height: "100%",
-              top: 0,
-              left: 0,
-              border: "none",
-              padding: 0,
-              margin: 0
-            }}
-            src="https://www.canva.com/design/DAFsVSRfJUQ/view?embed"
-            allowFullScreen="allowfullscreen"
-            allow="fullscreen"
-          ></iframe>
-        </div>
-        <a
-          href="https://www.canva.com/design/DAFsVSRfJUQ/view?utm_content=DAFsVSRfJUQ&utm_campaign=designshare&utm_medium=embeds&utm_source=link"
-          target="_blank"
-          rel="noopener"
-        >
-          Fall GBM 1 Barkada
-        </a>{" "}
+      <div className="barkada-grid">
+        {BARKADAS.map((b) => (
+          <BarkadaCard key={b.id} id={b.id} title={b.title} />
+        ))}
       </div>
     </section>
   );
-}
+};
 
 export default BarkadaNewsletter;

@@ -82,38 +82,44 @@ const Dance = () => {
                 <Tab label="Philfest" />
             </Tabs>
 
-            <TabPanel value={signatureEventsValue} index={0}>
-                <h2> Asian American Student Assembly </h2>
-                <h4> August 25 @ UF Stephen C. Oc                                                                                      L </h4>
-                <p> 2024 marked the 31th anniversary of AASA. The theme for this past year was <i> Intertwined in Eternity </i>.
-                As AASU grows, it is important to recognize the unique contributions of each organization. FSA's
-                performance payed homage to the theme by combining modern and traditional Filipino dances.
-                </p>
-                <img className='dance-images' src={aasa24} alt='aas24 picture'/>
+           <TabPanel value={signatureEventsValue} index={1}>
+  <section className="event-section">
+    <h2 className="event-title">Def Talent Jam</h2>
 
-            </TabPanel>
+    <p className="event-blurb">
+      Hosted by UFFSA, along with the University of Florida Filipino Student Alumni Association (UFFSAA),
+      <strong> Def Talent Jam (DTJ)</strong> is one of the Southeast’s most anticipated events. This talent competition
+      brings FSAs and dance organizations from across the East Coast to battle it out for prizes, trophies, and, most importantly, pride.
+      Created in 1993, DTJ has grown from humble beginnings to an event enjoyed by thousands each year.
+      The weekend features UFFSA’s FAHM Closing Ceremony and the Adobowl flag football tournament, a headliner‑led dance
+      workshop, and a showcase competition to decide the best of the best. 
+    </p>
 
-            <TabPanel value={signatureEventsValue} index={1}>
-                <h2> Def Talent Jam </h2>
-                <p> Founded in 1993, Def Talent Jam (DTJ) unites Filipino collegiate organizations in the Southeast US
-                through its annual dance competition. Congrats to the 2023 winners! </p>
+    <div className="event-badges">
+      <span className="badge">Est. 1993</span>
+      <span className="badge">FAHM Closing</span>
+      <span className="badge">Adobowl</span>
+      <span className="badge">Headliner Workshop</span>
+      <span className="badge">Showcase Competition</span>
+    </div>
 
-                {/* use span to make team names not bolded */}
+    <div className="winners-card">
+      <h3 className="winners-title">Congratulations to the 2024 Winners!</h3>
+      <ul className="winners-list">
+        <li><span className="place">1st Place:</span> <span className="team">FSU CapitILL State</span></li>
+        <li><span className="place">2nd Place:</span> <span className="team">USF Forging a Movement</span></li>
+        <li><span className="place">3rd Place:</span> <span className="team">UCF Fresh Off the Beat</span></li>
+        <li><span className="place">Fan Favorite Exhibition Team:</span> <span className="team">Komodo Dance</span></li>
+      </ul>
+    </div>
 
-                <h3> 1st Place: <span className ='not-bold'> UCF FOB </span> </h3>
-                <h3> 2nd Place: <span className = 'not-bold'> UNF INDAKation </span> </h3>
-                <h3> 3rd Place: <span className = 'not-bold'> FSU CapitILL State </span>  </h3>
-                <h3> Fan Favorite Exhibition Team: <span className = 'not-bold'> The Ace Company </span> </h3>
-                <img className='dance-images' src={dtj} alt='dtj photo'/>
-            </TabPanel>
+    <figure className="event-figure">
+      <img className="event-image" src={dtj} alt="Def Talent Jam stage photo" />
+      <figcaption className="event-caption">Def Talent Jam — Southeast Filipino Dance Showcase</figcaption>
+    </figure>
+  </section>
+</TabPanel>
 
-            <TabPanel value={signatureEventsValue} index={2}>
-                <h2> Philfest </h2>
-                <p> Philfest is an annual celebration of Filipino culture that takes place in Tampa.
-                    This year's Philfest was from April 5 to April 7 and featured dancing, art, food, games, and more!
-                </p>
-                <img className='dance-images' src={philfest2024} alt='philfest 2024 flyer'/>
-            </TabPanel>
 
         </PillarSignatureEvents>
 
