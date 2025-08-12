@@ -14,9 +14,11 @@ const Committees = () => {
           header="Asian American Student Assembly (AASA) Committee"
           body={
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse malesuada lacus ex, 
-              sit amet blandit leo lobortis eget. Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-              Suspendisse malesuada lacus ex, sit amet blandit leo lobortis eget.
+              The Asian American Student Assembly or AASA is a UF welcome Assembly dedicated to celebrating Asian American Culture, Community, Identity, and Heritage. 
+              Explore all of Asia  without a plane upon entrance by walking around the tabling set up by our students, and learn more about each organization!
+              <p>
+              Finally, get entranced into the culture of each organzation through a set performances that will keep you on your toes cheering for an encore! Don’t worry you wouldn’t have to tell us your favorite (it’s UFFSA’s Wolfpack isn’t it 😉 )
+              </p>
             </p>
           }
         />
@@ -81,7 +83,7 @@ const Committees = () => {
           }
         />
 
-        <EventAccordion
+        {/* <EventAccordion
           backgroundColor="var(--dark-gray)"
           header="Semi-Formal Committee"
           body={
@@ -91,7 +93,7 @@ const Committees = () => {
               Suspendisse malesuada lacus ex, sit amet blandit leo lobortis eget.
             </p>
           }
-        />
+        /> */}
 
         <EventAccordion
           backgroundColor="var(--dark-gray)"
@@ -141,7 +143,7 @@ const Committees = () => {
             </p>
           }
         />
-        <EventAccordion
+        {/* <EventAccordion
           backgroundColor="var(--dark-gray)"
           header="Formal Committee"
           body={
@@ -151,7 +153,7 @@ const Committees = () => {
               Suspendisse malesuada lacus ex, sit amet blandit leo lobortis eget.
             </p>
           }
-        />
+        /> */}
 
       </div>
     </section>

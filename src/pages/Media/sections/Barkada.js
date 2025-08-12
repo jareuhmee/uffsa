@@ -3,7 +3,7 @@ import './Barkada.css';
 
 const BARKADAS = [
   { src: 'DAFsVSRfJUQ', title: 'Fall GBM 1 Barkada' },
-  { src: 'https://www.canva.com/design/DAGv01nF0_Q/gNM0lMEhnyV3wHR3BWyqdg/view', title: 'MangoFest Barkada' },
+  { src: 'https://www.canva.com/design/DAGv03Z4Mt0/prF1FeQtLFG0szGNll1r3A/view', title: 'MangoFest Barkada' },
 ];
 
 const toEmbedUrl = (input) => {
