@@ -3,8 +3,10 @@
     width: 100%;
     min-height: 70vh;
     background-color: var(--white);
-    padding: 2rem;
     box-sizing: border-box;
+    padding: 2rem 0;      
+    box-sizing: border-box;
+    overflow-x: hidden; 
 }
 
 .archive-section__container {
@@ -38,6 +40,7 @@
   border-radius: 16px;
   overflow: hidden;
   background: #eaf1f7;
+  max-width: 300px;
   box-shadow: 0 10px 28px rgba(0,0,0,.08), 0 2px 8px rgba(0,0,0,.06);
 }
 
@@ -89,4 +92,24 @@
 @media (max-width: 640px){
   .pdf-card{ border-radius: 14px; }
   .pdf-fullscreen{ width: 36px; height: 36px; right: 10px; bottom: 10px; }
+}
+.pdf-card {
+  position: relative;
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+  border-radius: 16px;
+  overflow: hidden;
+  background: #eaf1f7;
+  box-shadow: 0 10px 28px rgba(0,0,0,.08), 0 2px 8px rgba(0,0,0,.06);
+}
+
+.pdf-card img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.pdf-card:hover {
+  transform: scale(1.05); 
 }
