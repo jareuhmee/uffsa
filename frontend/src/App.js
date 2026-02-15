@@ -22,6 +22,8 @@ import Media from './pages/Media/Media'
 import Shop from './pages/Shop/Shop';
 import OrderPage from './pages/Shop/sections/order-pages/OrderPage';
 
+import Login from './pages/Auth/Login';
+
 function RedirectHandler() {
   const navigate = useNavigate();
 
@@ -64,6 +66,7 @@ function App() {
         <Route path="/shop" element={<Shop />} />
         <Route path="/order" element={<OrderPage />} />
 
+        <Route path="/login" element={<Login />} />
 
         <Route path="*" element={<Navigate to="/" />} />
       </Routes>
