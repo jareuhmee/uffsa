@@ -4,7 +4,9 @@ import './Login.css';
 const Login = () => {
   return (
     <div className="auth-page">
-      <p>COOKING...</p>
+      <div className="auth-card">
+        <h2>Login</h2>
+      </div>
     </div>
   );
 };

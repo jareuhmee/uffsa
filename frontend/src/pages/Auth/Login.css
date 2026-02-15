@@ -6,3 +6,11 @@
     justify-content: center;
     color: white;
   }
+
+.auth-card {
+    background-color: white;
+    border-radius: 16px;
+    padding: 7rem;
+    min-width: 360px;
+    color: var(--black);
+}
