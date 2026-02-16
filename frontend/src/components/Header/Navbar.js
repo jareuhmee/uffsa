@@ -186,6 +186,11 @@ function Navbar(props) {
                 <ul className={`navbar-list ${isMenuOpen ? 'active' : ''}`} id="linkList">
                   {list1.props.children}
                   {list2.props.children}
+                  <li className="navbar-login-item">
+                    <HashLink to="/login" className="navbar-login-button" onClick={handleMenuToggle}>
+                      Login
+                    </HashLink>
+                  </li>
                 </ul>
             </nav>
         );
@@ -200,6 +205,9 @@ function Navbar(props) {
                   </HashLink>
                 </div>
                 {list2}
+                <HashLink to="/login" className="navbar-login-button">
+                  Login
+                </HashLink>
             </nav>
         );
       }
