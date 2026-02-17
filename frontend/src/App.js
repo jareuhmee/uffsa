@@ -23,6 +23,7 @@ import Shop from './pages/Shop/Shop';
 import OrderPage from './pages/Shop/sections/order-pages/OrderPage';
 
 import Login from './pages/Auth/Login';
+import Signup from './pages/Auth/Signup';
 
 function RedirectHandler() {
   const navigate = useNavigate();
@@ -41,13 +42,15 @@ function RedirectHandler() {
   return null;
 }
 
+const AUTH_PATHS = ['/login', '/signup'];
+
 function AppContent() {
   const location = useLocation();
-  const isLoginPage = location.pathname === '/login';
+  const isAuthPage = AUTH_PATHS.includes(location.pathname);
 
   return (
     <>
-      {!isLoginPage && <Header />}
+      {!isAuthPage && <Header />}
       <Routes>
         <Route path="/" element={<Home />} />
         
@@ -69,10 +72,11 @@ function AppContent() {
         <Route path="/order" element={<OrderPage />} />
 
         <Route path="/login" element={<Login />} />
+        <Route path="/signup" element={<Signup />} />
 
         <Route path="*" element={<Navigate to="/" />} />
       </Routes>
-      {!isLoginPage && <Footer />}
+      {!isAuthPage && <Footer />}
     </>
   );
 }
