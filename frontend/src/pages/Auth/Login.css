@@ -1,4 +1,4 @@
-/* Login page: centered card, mascot, no heading text */
+/* Login page */
 
 .login-page {
   min-height: 100vh;
@@ -31,9 +31,9 @@
   position: absolute;
   bottom: 0;
   left: 0;
-  width: 90%;
+  width: 70%;
   max-width: 537px;
-  height: 80%;
+  height: 60%;
   max-height: 759px;
   pointer-events: none;
   overflow: hidden;
@@ -59,23 +59,22 @@
   z-index: 1;
 }
 
-.login-logo {
-  font-family: 'Ghiya Strokes', sans-serif;
-  font-weight: 100;
-  font-size: clamp(2.75rem, 5vw, 4rem);
-  letter-spacing: 2px;
+.login-hero {
+  font-family: 'Montserrat', sans-serif;
+  font-size: clamp(1.75rem, 4vw, 2.25rem);
+  font-weight: 600;
   color: white;
-  margin: 0 0 0.5rem 0;
-  text-transform: lowercase;
+  margin: 0 0 0.75rem 0;
+  letter-spacing: 0.02em;
 }
 
 .login-card {
   background-color: white;
   border-radius: 20px;
-  padding: 2.25rem 2.25rem 1.75rem;
+  padding: 2.75rem 2.75rem 2.25rem;
   width: 100%;
   min-width: 320px;
-  max-width: 400px;
+  max-width: 500px;
   color: var(--black);
   box-shadow: 0 10px 40px rgba(0, 0, 0, 0.15);
 }
@@ -117,6 +116,14 @@
   box-shadow: 0 0 0 3px rgba(59, 123, 176, 0.15);
 }
 
+.login-remember-row {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+
 .login-checkbox-label {
   display: flex;
   align-items: center;
@@ -124,6 +131,7 @@
   cursor: pointer;
   font-size: 0.9rem;
   color: var(--black);
+  padding: 0.2rem 0;
 }
 
 .login-checkbox {
@@ -133,24 +141,12 @@
   cursor: pointer;
 }
 
-.login-actions {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: flex-end;
-  justify-content: space-between;
-  gap: 1rem;
-  margin-top: 0.35rem;
-}
-
-.login-links {
-  display: flex;
-  flex-direction: column;
-  gap: 0.3rem;
-}
-
 .login-links-text {
+  display: block;
   font-size: 0.9rem;
   color: var(--black);
+  margin-top: 0.5rem;
+  text-align: center;
 }
 
 .login-links-text a {
@@ -168,6 +164,8 @@
   font-weight: 600;
   color: var(--blue);
   text-decoration: none;
+  padding: 0.2rem 0;
+  margin-left: auto;
 }
 
 .login-link-forgot:hover {
@@ -176,6 +174,7 @@
 
 /* Login Submit Button */
 .login-submit {
+  margin-top: 0.5rem;
   padding: 0.4rem 2rem;
   font-family: inherit;
   font-size: 0.85rem;
@@ -183,7 +182,7 @@
   letter-spacing: 0.1em;
   color: white;
   background-color: #CB5260;
-  border: 1px solid #000000;
+  border: none;
   border-radius: 5px;
   cursor: pointer;
   transition: all 0.3s;
@@ -192,7 +191,6 @@
 .login-submit:hover {
   color: var(--blue);
   background-color: white;
-  border-color: white;
   transform: scale(1.05);
   box-shadow: 0px 0px 5px white;
 }
@@ -217,8 +215,8 @@
     padding: 1.5rem;
   }
 
-  .login-logo {
-    font-size: 2.25rem;
+  .login-hero {
+    font-size: 1.5rem;
   }
 
   .login-card {

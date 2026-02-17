@@ -14,7 +14,7 @@ const Login = () => {
       </div>
 
       <div className="login-center">
-        <h2 className="login-logo">uffsa</h2>
+        <p className="login-hero">Welcome back!</p>
         <div className="login-card">
           <form className="login-form" onSubmit={(e) => e.preventDefault()}>
             <label className="login-label" htmlFor="login-email">
@@ -39,24 +39,23 @@ const Login = () => {
               autoComplete="current-password"
             />
 
-            <label className="login-checkbox-label">
-              <input type="checkbox" className="login-checkbox" />
-              <span>Remember me</span>
-            </label>
-
-            <div className="login-actions">
-              <div className="login-links">
-                <span className="login-links-text">
-                  Don&apos;t have an account? <Link to="/signup">Sign up</Link>
-                </span>
-                <Link to="/forgot-password" className="login-link-forgot">
-                  Forgot password?
-                </Link>
-              </div>
-              <button type="submit" className="login-submit">
-                Login
-              </button>
+            <div className="login-remember-row">
+              <label className="login-checkbox-label">
+                <input type="checkbox" className="login-checkbox" />
+                <span>Remember me</span>
+              </label>
+              <Link to="/forgot-password" className="login-link-forgot">
+                Forgot password?
+              </Link>
             </div>
+
+            <button type="submit" className="login-submit">
+              Login
+            </button>
+
+            <span className="login-links-text">
+              Don&apos;t have an account? <Link to="/signup">Sign up</Link>
+            </span>
           </form>
         </div>
       </div>
