@@ -24,6 +24,7 @@ import OrderPage from './pages/Shop/sections/order-pages/OrderPage';
 
 import Login from './pages/Auth/Login';
 import Signup from './pages/Auth/Signup';
+import ForgotPassword from './pages/Auth/ForgotPassword';
 
 function RedirectHandler() {
   const navigate = useNavigate();
@@ -42,7 +43,7 @@ function RedirectHandler() {
   return null;
 }
 
-const AUTH_PATHS = ['/login', '/signup'];
+const AUTH_PATHS = ['/login', '/signup', '/forgot-password'];
 
 function AppContent() {
   const location = useLocation();
@@ -73,6 +74,7 @@ function AppContent() {
 
         <Route path="/login" element={<Login />} />
         <Route path="/signup" element={<Signup />} />
+        <Route path="/forgot-password" element={<ForgotPassword />} />
 
         <Route path="*" element={<Navigate to="/" />} />
       </Routes>
