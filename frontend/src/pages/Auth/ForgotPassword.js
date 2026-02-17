@@ -7,8 +7,8 @@ const ForgotPassword = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // In a real app, this would send an email with a reset link
-    // For frontend-only, navigate directly to create password page
+    // would send an email with a reset link (needs to link with backend)
+    // front end only - navigates directly to create password page 
     navigate('/create-password');
   };
 
@@ -27,7 +27,7 @@ const ForgotPassword = () => {
         <div className="forgot-card">
           <form className="forgot-form" onSubmit={handleSubmit}>
             <p className="forgot-description">
-              Enter your email and we&apos;ll send you a link to reset your password.
+              Enter your email and we will send you a link to reset your password.
             </p>
 
             <label className="forgot-label" htmlFor="forgot-email">
