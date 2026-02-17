@@ -1,16 +1,236 @@
-.auth-page {
-    min-height: 100vh;
-    background-color: var(--blue);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: white;
+/* Login page: centered card, mascot, no heading text */
+
+.login-page {
+  min-height: 100vh;
+  background-color: var(--blue);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  position: relative;
+}
+
+.login-back {
+  position: absolute;
+  top: 1.5rem;
+  left: 1.5rem;
+  color: white;
+  font-size: 1.75rem;
+  text-decoration: none;
+  line-height: 1;
+  z-index: 2;
+  transition: opacity 0.2s;
+}
+
+.login-back:hover {
+  opacity: 0.85;
+}
+
+/* Mascot*/
+.login-mascot {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 90%;
+  max-width: 537px;
+  height: 80%;
+  max-height: 759px;
+  pointer-events: none;
+  overflow: hidden;
+  z-index: 0;
+}
+
+.login-mascot-img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  object-position: left bottom;
+  opacity: 1;
+}
+
+/* Login card */
+.login-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  position: relative;
+  z-index: 1;
+}
+
+.login-logo {
+  font-family: 'Ghiya Strokes', sans-serif;
+  font-weight: 100;
+  font-size: clamp(2.75rem, 5vw, 4rem);
+  letter-spacing: 2px;
+  color: white;
+  margin: 0 0 0.5rem 0;
+  text-transform: lowercase;
+}
+
+.login-card {
+  background-color: white;
+  border-radius: 20px;
+  padding: 2.25rem 2.25rem 1.75rem;
+  width: 100%;
+  min-width: 320px;
+  max-width: 400px;
+  color: var(--black);
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.15);
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.15rem;
+}
+
+.login-label {
+  display: block;
+  font-size: 0.9rem;
+  font-weight: 600;
+  margin-bottom: 0.3rem;
+  color: var(--black);
+}
+
+.login-input {
+  width: 100%;
+  padding: 0.7rem 1rem;
+  font-family: inherit;
+  font-size: 1rem;
+  border: 1px solid #d1d5db;
+  border-radius: 10px;
+  background: white;
+  color: var(--black);
+  box-sizing: border-box;
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.login-input::placeholder {
+  color: #9ca3af;
+}
+
+.login-input:focus {
+  outline: none;
+  border-color: var(--blue);
+  box-shadow: 0 0 0 3px rgba(59, 123, 176, 0.15);
+}
+
+.login-checkbox-label {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  cursor: pointer;
+  font-size: 0.9rem;
+  color: var(--black);
+}
+
+.login-checkbox {
+  width: 1.1rem;
+  height: 1.1rem;
+  accent-color: var(--blue);
+  cursor: pointer;
+}
+
+.login-actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-top: 0.35rem;
+}
+
+.login-links {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+.login-links-text {
+  font-size: 0.9rem;
+  color: var(--black);
+}
+
+.login-links-text a {
+  color: var(--blue);
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.login-links-text a:hover {
+  text-decoration: underline;
+}
+
+.login-link-forgot {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--blue);
+  text-decoration: none;
+}
+
+.login-link-forgot:hover {
+  text-decoration: underline;
+}
+
+/* Login Submit Button */
+.login-submit {
+  padding: 0.4rem 2rem;
+  font-family: inherit;
+  font-size: 0.85rem;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  color: white;
+  background-color: #CB5260;
+  border: 1px solid #000000;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.login-submit:hover {
+  color: var(--blue);
+  background-color: white;
+  border-color: white;
+  transform: scale(1.05);
+  box-shadow: 0px 0px 5px white;
+}
+
+.login-submit:active {
+  transform: scale(1.02);
+}
+
+@media (max-width: 768px) {
+  .login-back {
+    top: 1.25rem;
+    left: 1.25rem;
   }
 
-.auth-card {
-    background-color: white;
-    border-radius: 16px;
-    padding: 7rem;
-    min-width: 360px;
-    color: var(--black);
+  .login-mascot {
+    width: 50%;
+    max-height: 220px;
+    opacity: 0.8;
+  }
+
+  .login-center {
+    padding: 1.5rem;
+  }
+
+  .login-logo {
+    font-size: 2.25rem;
+  }
+
+  .login-card {
+    max-width: 100%;
+  }
+
+  .login-actions {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .login-submit {
+    width: 100%;
+  }
 }

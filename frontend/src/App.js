@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import { BrowserRouter, Route, Routes, useNavigate, Navigate } from 'react-router-dom';
+import { BrowserRouter, Route, Routes, useNavigate, useLocation, Navigate } from 'react-router-dom';
 
 import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer"
@@ -41,11 +41,13 @@ function RedirectHandler() {
   return null;
 }
 
-function App() {
+function AppContent() {
+  const location = useLocation();
+  const isLoginPage = location.pathname === '/login';
+
   return (
-    <BrowserRouter>
-      <RedirectHandler />
-      <Header />
+    <>
+      {!isLoginPage && <Header />}
       <Routes>
         <Route path="/" element={<Home />} />
         
@@ -70,7 +72,16 @@ function App() {
 
         <Route path="*" element={<Navigate to="/" />} />
       </Routes>
-      <Footer />
+      {!isLoginPage && <Footer />}
+    </>
+  );
+}
+
+function App() {
+  return (
+    <BrowserRouter>
+      <RedirectHandler />
+      <AppContent />
     </BrowserRouter>
   );
 }
