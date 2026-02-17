@@ -14,7 +14,7 @@ const Login = () => {
       </div>
 
       <div className="login-center">
-        <p className="login-hero">Welcome back!</p>
+        <p className="login-hero">Login</p>
         <div className="login-card">
           <form className="login-form" onSubmit={(e) => e.preventDefault()}>
             <label className="login-label" htmlFor="login-email">
