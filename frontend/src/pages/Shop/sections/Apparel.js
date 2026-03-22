@@ -1,5 +1,6 @@
 import React, { useEffect, useState} from 'react';
 import { Link } from 'react-router-dom';
+import InstagramPost from "../../../components/InstaPosts/InstagramPost"; 
 
 import './Apparel.css';
 import Image1 from '../images/image1.png';
@@ -52,7 +53,27 @@ const Apparel = () => {
     <section className="apparel-section" id="apparel">
       <h1 className='shop-title title'>Apparel</h1>
 
-      <h2>Spring 2025</h2>
+      <h2>Fall 2025</h2> {/* new update for fall 2025, instagram post for a hoodie */}
+      <div className="apparel-blocks">
+        <div className="apparel-item">
+          <figure className="event-figure">
+            <InstagramPost url="https://www.instagram.com/p/DRQ3FxNDVSh/?igsh=emFjaWJnMTY5ams3" />
+            </figure>
+            <div style={{ display: 'flex', gap: '15px', justifyContent: 'center', marginTop: '15px' }}>
+              <Link className="order-button" to="/order?apparel=fall25shirt">
+                Order Shirt
+              </Link>
+              <Link className="order-button" to="/order?apparel=fall25hoodie">
+                Order Hoodie
+              </Link>
+              <Link className="order-button" to="/order?apparel=fall25both">
+                Order Both
+              </Link>
+            </div>
+          </div>
+      </div>
+
+      <h2 style={{ marginTop: '60px' }}>Spring 2025</h2>
       <div className="apparel-blocks">
         <div className="apparel-item">
           <img src={SP25ShirtFront} alt="Spring 2025 Shirt Front" className="sp25-apparel-cover"/>
