@@ -31,17 +31,17 @@ const Fundraising = () => {
             <img
               src={image1}
               alt="Fundraising Event 1"
-              style={{ maxWidth: '70%', height: 'auto', borderRadius: '8px', boxShadow: '0 2px 8px 0 rgba(63, 69, 81, 0.16)', marginTop: '20px' }}
+              style={{ maxWidth: '70%', height: 'auto', borderRadius: '8px', boxShadow: '0 2px 8px 0 rgba(63, 69, 81, 0.16)', marginTop: '30px' }}
             />
             <img
               src={image2}
               alt="Fundraising Event 2"
-              style={{ maxWidth: '70%', height: 'auto', borderRadius: '8px', boxShadow: '0 2px 8px 0 rgba(63, 69, 81, 0.16)', marginTop: '20px' }}
+              style={{ maxWidth: '70%', height: 'auto', borderRadius: '8px', boxShadow: '0 2px 8px 0 rgba(63, 69, 81, 0.16)', marginTop: '30px' }}
             />
             <img
               src={image3}
               alt="Fundraising Event 3"
-              style={{ maxWidth: '70%', height: 'auto', borderRadius: '8px', boxShadow: '0 2px 8px 0 rgba(63, 69, 81, 0.16)', marginTop: '20px' }}
+              style={{ maxWidth: '70%', height: 'auto', borderRadius: '8px', boxShadow: '0 2px 8px 0 rgba(63, 69, 81, 0.16)', marginTop: '30px' }}
             />
           </div>
         </div>
