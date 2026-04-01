@@ -2,72 +2,112 @@ import React from "react";
 import "./Events.css";
 
 import { HashLink } from "react-router-hash-link";
+import { FaLink, FaInstagram, FaRegCalendar } from 'react-icons/fa';
 
 const Events = () => {
   return (
     <section className="events-section" id="events">
       <div className="events-container">
-        <div className="events-list">
-          <h1 className="events-title title">Upcoming Events</h1>
-
-          <h2 className="events-list__header title">☀️Summer B Edition: GoFest!☀️</h2>
-          <p>
-            <p>
-              Want to join in on the fun but have no idea what’s going on?
-              Have no fear, the NMG is here! We’d love to have you at our events this GoFest weekend, so come check it out!
-              Make sure to check the main post on <strong>@uffsa’s</strong> page and follow <strong>@uffsafirst_years </strong>for future guides and first-year posts‼️
+        <h1 className="events-title title">☔ April Events ☔</h1>
+        <div className="event-grid">
+          <div className="event-card">
+            <h2 className="event-card-title title">👤 Pinoy Note: Shadow GBM 👤</h2>
+            <p className="event-card-description">
+              Beware of the Notebook ✍️ and the Shinigami who likes Apples… See the shadows of current board members…⚫️ try to 
+              find who is behind this in Death Note written with a Filipino twist. Are you ready to see the chaos of the 
+              notebook⁉️ Come out to FSA’s Shadow GBM with Executive Board election nominations will be right after!!
             </p>
-
-            𖤓°⋆.ೃ࿔*:･𖤓°⋆.ೃ࿔*:･𖤓°⋆.ೃ࿔*:･
-
-          </p>
-          <div className="events-info">
-            <p>📅 Date: Thursday, March 28</p>
-            <p>📍 Location: McCarty Hall A G186</p>
-            <p>🚪 Doors Open: 5:30 PM</p>
-            <p>🌟 Show Starts: 6:00 PM</p>
+            <p className="event-description-separator">✧･ﾟ:*✧･ﾟ:*✧･ﾟ:*✧*:･ﾟ✧*:･ﾟ✧*:･ﾟ✧</p>
+            <div className="events-info">
+              <p>📅 Date: Wednesday, April 1st</p>
+              <p>📍 Location: CSE E222</p>
+              <p>🚪 Doors Open: 5:30 PM</p>
+              <p>🕑 Event Starts: 6:00 PM</p>
+            </div>
+            <a
+              href="https://www.instagram.com/p/DWUg5vXEbJz/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <button className="events-button">Instagram Post</button>
+            </a>
           </div>
-          <br />
-          <a
-            href="https://www.instagram.com/p/DL5cY0YOX_o/?img_index=1"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <button className="events-button">Instagram Post</button>
-          </a>
-          {/* <a
-            href="https://docs.google.com/spreadsheets/d/1N9__exTivZmFryQ-6OSXCSmtiF4rHmO8OLfjp8rFMP8/edit?usp=sharing"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <button className="events-button">Voter Eligibility</button>
-          </a> */}
-          <br />
 
-          {/* <h2 className="events-list__header title">Last GBM</h2>
-          <HashLink smooth to="/media#archive">
-            Powerpuff Pinoys
-          </HashLink>
-          <br /> */}
+          <div className="event-card">
+            <h2 className="event-card-title title">✏️ E-Board Nominations ✏️</h2>
+            <p className="event-card-description">
+              It’s that time of year! If you want to get involved on FSA’s executive board for the upcoming 2026-2027 school year, 
+              make sure to come to our Shadow GBM and stay afterwards for nominations!
+            </p>
+            <p className="event-description-separator">⋆⁺｡˚⋆˙‧₊☽☾₊‧˙⋆˚｡⁺⋆◯⋆⁺｡˚⋆˙‧₊☽☾₊‧˙⋆˚｡⁺⋆</p>
+            <div className="events-info">
+              <p>📅 Date: Wednesday, April 1st</p>
+              <p>📍 Location: CSE E222</p>
+              <p>🕑 Event Starts: After Shadow GBM</p>
+            </div>
+            <a
+              href="https://www.instagram.com/p/DWcEbRlEYJ5/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <button className="events-button">Instagram Post</button>
+            </a>
+          </div>
 
-          {/* <h2 className='events-list__header title'>
-            Fall Events
-          </h2>
-          <p>
-            AASA <br />
-            FAHM <br />
-            AKA <br />
-            DTJ <br />
-            Adobowl <br />
-            Semi-Formal
-          </p> */}
+          <div className="event-card">
+            <h2 className="event-card-title title">🎤 WIT Karaoke Social 🎤</h2>
+            <p className="event-card-description">
+              Are YOU interested in being one of the interns behind uffsa.net? 🧑‍💻 Do YOU like to sing? Good news! Come out 
+              to our karaoke social to learn more about the program, meet current interns, and have a fun time! Even if you’re 
+              not looking to join the program next semester, we still encourage you all to sing your heart out with us!
+            </p>
+            <p className="event-description-separator">-ˋˏ ༻❁༺༻❁༺༻❁༺༻❁༺༻❁༺ ˎˊ-</p>
+            <div className="events-info">
+              <p>📅 Date: Thursday, April 2nd</p>
+              <p>📍 Location: Stage 7 Karaoke | 4110 SW 34th St</p>
+              <p>🕑 Time: 7:00 - 9:00 PM</p>
+            </div>
+            <a
+              href="https://www.instagram.com/p/DWl-PHCDUoD/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <button className="events-button">Instagram Post</button>
+            </a>
+          </div>
+
+          <div className="event-card">
+            <h2 className="event-card-title title">🎾 Sports Social 🎾</h2>
+            <p className="event-card-description">
+              Join EMPRESS and the Filipino Student Association for a fun afternoon of movement and wellness. Meet new people and 
+              support your well-being through exercise!
+            </p>
+            <p className="event-description-separator">*ੈ✩‧₊˚༺☆༻*ੈ✩‧₊˚*ੈ✩‧₊˚༺☆༻*ੈ✩‧₊˚</p>
+            <div className="events-info">
+              <p>📅 Date: Sunday, April 5th</p>
+              <p>📍 Location: Westside Recreation Center Basketball Courts</p>
+              <p>🕑 Time: 2:00 - 4:00 PM</p>
+            </div>
+            <a
+              href="https://www.instagram.com/p/DWWdC5QEQDS/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <button className="events-button">Instagram Post</button>
+            </a>
+          </div>
+
         </div>
-
-        <iframe
-          src="https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%23F5C52A&ctz=America%2FNew_York&showPrint=0&showDate=1&showNav=1&showTitle=0&showTabs=0&showCalendars=1&showTz=0&src=NjliZGNmZjFlOWY2ZjUxZDNkNmM4MTYzNjdkNGFjOTZiYmY2YjJlYTEwMGE0YTQ1MmRiZjljZDlkMzg4ZDU5YUBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&src=NmNjZDhjNjliZTZjOGNiOTllYjk0ZDNmY2I1MGU3ODlkMmRjMGYzODBlYTFlYzdiNTI1MDRhNTViYWM5NmY1M0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t&src=dWZmc2EuZGFuY2VAZ21haWwuY29t&color=%23E4C441&color=%237986CB&color=%23E67C73"
-          className="events-calendar"
-          title="calendar"
-        />
+        <section className='events-description'>
+          <div className='events-calendar__container' id='events'>
+            <h1 className='title'>Events Calendar</h1>
+            <iframe
+                src="https://calendar.google.com/calendar/embed?src=c_e54f2747e1492f344b5d9f1fff1fe7bad869036ae95ef33a8b49f04576a56fbc%40group.calendar.google.com&ctz=America%2FNew_York"
+                className="events-calendar"
+                title="calendar"
+            />
+          </div>
+        </section>
       </div>
     </section>
   );

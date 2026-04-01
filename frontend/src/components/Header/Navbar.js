@@ -186,6 +186,11 @@ function Navbar(props) {
                 <ul className={`navbar-list ${isMenuOpen ? 'active' : ''}`} id="linkList">
                   {list1.props.children}
                   {list2.props.children}
+                  <li className="navbar-login-item">
+                    <HashLink to="/login" className="navbar-login-button" onClick={handleMenuToggle}>
+                      Login
+                    </HashLink>
+                  </li>
                 </ul>
             </nav>
         );
@@ -193,13 +198,20 @@ function Navbar(props) {
       else {
         navbar = (
             <nav className="navbar">
-                {list1}
+                <div className="navbar-left">
+                    {list1}
+                </div>
                 <div className="navbar-logo">
                   <HashLink smooth to="/#">
                       <img src={logo} id="logo" alt="Logo" style={{ width: `${logoWidth}rem` }} />
                   </HashLink>
                 </div>
-                {list2}
+                <div className="navbar-right">
+                    {list2}
+                    <HashLink to="/login" className="navbar-login-button">
+                      Login
+                    </HashLink>
+                </div>
             </nav>
         );
       }

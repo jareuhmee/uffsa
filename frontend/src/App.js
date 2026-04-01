@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import { BrowserRouter, Route, Routes, useNavigate, Navigate } from 'react-router-dom';
+import { BrowserRouter, Route, Routes, useNavigate, useLocation, Navigate } from 'react-router-dom';
 
 import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer"
@@ -22,6 +22,11 @@ import Media from './pages/Media/Media'
 import Shop from './pages/Shop/Shop';
 import OrderPage from './pages/Shop/sections/order-pages/OrderPage';
 
+import Login from './pages/Auth/Login';
+import Signup from './pages/Auth/Signup';
+import ForgotPassword from './pages/Auth/ForgotPassword';
+import CreatePassword from './pages/Auth/CreatePassword';
+
 function RedirectHandler() {
   const navigate = useNavigate();
 
@@ -39,11 +44,15 @@ function RedirectHandler() {
   return null;
 }
 
-function App() {
+const AUTH_PATHS = ['/login', '/signup', '/forgot-password', '/create-password'];
+
+function AppContent() {
+  const location = useLocation();
+  const isAuthPage = AUTH_PATHS.includes(location.pathname);
+
   return (
-    <BrowserRouter>
-      <RedirectHandler />
-      <Header />
+    <>
+      {!isAuthPage && <Header />}
       <Routes>
         <Route path="/" element={<Home />} />
         
@@ -64,10 +73,23 @@ function App() {
         <Route path="/shop" element={<Shop />} />
         <Route path="/order" element={<OrderPage />} />
 
+        <Route path="/login" element={<Login />} />
+        <Route path="/signup" element={<Signup />} />
+        <Route path="/forgot-password" element={<ForgotPassword />} />
+        <Route path="/create-password" element={<CreatePassword />} />
 
         <Route path="*" element={<Navigate to="/" />} />
       </Routes>
-      <Footer />
+      {!isAuthPage && <Footer />}
+    </>
+  );
+}
+
+function App() {
+  return (
+    <BrowserRouter>
+      <RedirectHandler />
+      <AppContent />
     </BrowserRouter>
   );
 }
