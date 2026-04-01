@@ -8,24 +8,24 @@ const Events = () => {
   return (
     <section className="events-section" id="events">
       <div className="events-container">
-        <h1 className="events-title title">💕 February Events 💕</h1>
+        <h1 className="events-title title">☔ April Events ☔</h1>
         <div className="event-grid">
           <div className="event-card">
-            <h2 className="event-card-title title">🎵 GBM 2: Mahal La Land 🎵</h2>
+            <h2 className="event-card-title title">👤 Pinoy Note: Shadow GBM 👤</h2>
             <p className="event-card-description">
-              Don’t waste your lovely night 🌙, come check out our second spring GBM and dance along with your fellow FSA members 
-              at Mahal La Land! Join us for a night of singing tunes 🎤🎶, walking down a city of stars, and following your 
-              dreams✨🌌💫. After we reach our “The End”, stick around for our RAKA Reveal, then join us for a bittersweet snack 
-              at Blaze Pizza for a slice of luck to carry on with your life’s journey!
+              Beware of the Notebook ✍️ and the Shinigami who likes Apples… See the shadows of current board members…⚫️ try to 
+              find who is behind this in Death Note written with a Filipino twist. Are you ready to see the chaos of the 
+              notebook⁉️ Come out to FSA’s Shadow GBM with Executive Board election nominations will be right after!!
             </p>
             <p className="event-description-separator">✧･ﾟ:*✧･ﾟ:*✧･ﾟ:*✧*:･ﾟ✧*:･ﾟ✧*:･ﾟ✧</p>
             <div className="events-info">
-              <p>📅 Date: Monday, February 16th</p>
-              <p>📍 Location: LIT 101</p>
-              <p>🎵 Event Starts: 5:30 PM</p>
+              <p>📅 Date: Wednesday, April 1st</p>
+              <p>📍 Location: CSE E222</p>
+              <p>🚪 Doors Open: 5:30 PM</p>
+              <p>🕑 Event Starts: 6:00 PM</p>
             </div>
             <a
-              href="https://www.instagram.com/p/DUoAQGFkRVq/"
+              href="https://www.instagram.com/p/DWUg5vXEbJz/"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -34,21 +34,19 @@ const Events = () => {
           </div>
 
           <div className="event-card">
-            <h2 className="event-card-title title">👾 Kirby's RAKA-Venture 👾</h2>
+            <h2 className="event-card-title title">✏️ E-Board Nominations ✏️</h2>
             <p className="event-card-description">
-              Go on cool adventures like Kirby and his friends for RAKA 2026 (Ate, Kuya, Ading - translated from Big Sister, 
-              Big Brother, Little Sibling)! RAKA Week is FSA’s annual tradition of forging new bonds with Ates and Kuyas who 
-              want to help their Adings branch out into their dreamland! Whether you’re more of a star, waddledee, or anyone in 
-              between, join us for our RAKA reveal and second day activity with your new bigs. Apply now and gain pamilya–Kirby style!
+              It’s that time of year! If you want to get involved on FSA’s executive board for the upcoming 2026-2027 school year, 
+              make sure to come to our Shadow GBM and stay afterwards for nominations!
             </p>
             <p className="event-description-separator">⋆⁺｡˚⋆˙‧₊☽☾₊‧˙⋆˚｡⁺⋆◯⋆⁺｡˚⋆˙‧₊☽☾₊‧˙⋆˚｡⁺⋆</p>
             <div className="events-info">
-              <p>📅 Date: February 16-17th</p>
-              <p>📍 Location: Retiz Room 2215</p>
-              <p>🍴 Event Starts: After GBM 2</p>
+              <p>📅 Date: Wednesday, April 1st</p>
+              <p>📍 Location: CSE E222</p>
+              <p>🕑 Event Starts: After Shadow GBM</p>
             </div>
             <a
-              href="https://www.instagram.com/p/DT3WFhGEbM1/"
+              href="https://www.instagram.com/p/DWcEbRlEYJ5/"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -57,42 +55,41 @@ const Events = () => {
           </div>
 
           <div className="event-card">
-            <h2 className="event-card-title title">🔊 Woodser Weekend 🔊</h2>
+            <h2 className="event-card-title title">🎤 WIT Karaoke Social 🎤</h2>
             <p className="event-card-description">
-              Maybe exams are stressing you out 😵‍💫 and your mind needs some clarity 🙂‍↕️. Don’t ISOlate yourself in your room 
-              stressed ❌ — instead, stay the night at this years…WOODSER WEEKEND happening on Saturday, February 21st. 
-              Enjoy a night full of activities 🎯, bonding along the warm campfire 🔥, and did we mention FREE FOOD??
-              With trails to embark 🌿, the night to light up 🌌, and springs to relax and enjoy, there’s something for 
-              everyone to enjoy!
-            </p>
-            <p className="event-description-separator">*ੈ✩‧₊˚༺☆༻*ੈ✩‧₊˚*ੈ✩‧₊˚༺☆༻*ੈ✩‧₊˚</p>
-            <div className="events-info">
-              <p>📅 Date: February 21-22nd</p>
-              <p>📍 Location: Ichetuknee Cabins</p>
-              <p>💌 Event Starts: 6:30 - 7:30 PM</p>
-            </div>
-            <a
-              href="https://www.instagram.com/p/DUD8w45kSFG/?img_index=1"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <button className="events-button">Instagram Post</button>
-            </a>
-          </div>
-
-          <div className="event-card">
-            <h2 className="event-card-title title">‼️ Barrio ‼️</h2>
-            <p className="event-card-description">
-              Barrio Fiesta is the University of Florida Filipino Student Association’s biggest cultural event of the spring 
-              semester. Members of UFFSA and the Gainesville community come together to celebrate the Filipino culture through 
-              a variety of performances like traditional dance, singing, and many more. More info coming soon!
+              Are YOU interested in being one of the interns behind uffsa.net? 🧑‍💻 Do YOU like to sing? Good news! Come out 
+              to our karaoke social to learn more about the program, meet current interns, and have a fun time! Even if you’re 
+              not looking to join the program next semester, we still encourage you all to sing your heart out with us!
             </p>
             <p className="event-description-separator">-ˋˏ ༻❁༺༻❁༺༻❁༺༻❁༺༻❁༺ ˎˊ-</p>
             <div className="events-info">
-              <p>📅 Date: Saturday, February 28th</p>
+              <p>📅 Date: Thursday, April 2nd</p>
+              <p>📍 Location: Stage 7 Karaoke | 4110 SW 34th St</p>
+              <p>🕑 Time: 7:00 - 9:00 PM</p>
             </div>
             <a
-              href="https://www.instagram.com/p/DURrC36jVS6/"
+              href="https://www.instagram.com/p/DWl-PHCDUoD/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <button className="events-button">Instagram Post</button>
+            </a>
+          </div>
+
+          <div className="event-card">
+            <h2 className="event-card-title title">🎾 Sports Social 🎾</h2>
+            <p className="event-card-description">
+              Join EMPRESS and the Filipino Student Association for a fun afternoon of movement and wellness. Meet new people and 
+              support your well-being through exercise!
+            </p>
+            <p className="event-description-separator">*ੈ✩‧₊˚༺☆༻*ੈ✩‧₊˚*ੈ✩‧₊˚༺☆༻*ੈ✩‧₊˚</p>
+            <div className="events-info">
+              <p>📅 Date: Sunday, April 5th</p>
+              <p>📍 Location: Westside Recreation Center Basketball Courts</p>
+              <p>🕑 Time: 2:00 - 4:00 PM</p>
+            </div>
+            <a
+              href="https://www.instagram.com/p/DWWdC5QEQDS/"
               target="_blank"
               rel="noopener noreferrer"
             >
