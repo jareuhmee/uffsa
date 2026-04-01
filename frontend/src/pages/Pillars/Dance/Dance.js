@@ -88,7 +88,7 @@ const Dance = () => {
     <h2 className="event-title">Def Talent Jam</h2>
 
     <figure className="event-figure">
-      <InstagramPost url="https://www.instagram.com/p/DC40hG1IaUE/" />
+      <InstagramPost url="https://www.instagram.com/p/DOZxDc8DKyx/" />
       <figcaption className="event-caption">Def Talent Jam — Southeast Filipino Dance Showcase</figcaption>
     </figure>
 
@@ -111,12 +111,12 @@ const Dance = () => {
     <div className="event-blurb">DTJ’s highly anticipated set is open for students from all years to sign up for. Make sure to sign up and immerse yourself in an unforgettable experience!</div>    
     <br></br>
     <div className="winners-card">
-      <h3 className="winners-title">Congratulations to the 2024 Winners!</h3>
+      <h3 className="winners-title">Congratulations to the 2025 Winners!</h3>
       <ul className="winners-list">
         <li><span className="place">1st Place:</span> <span className="team">FSU CapitILL State</span></li>
-        <li><span className="place">2nd Place:</span> <span className="team">USF Forging a Movement</span></li>
-        <li><span className="place">3rd Place:</span> <span className="team">UCF Fresh Off the Beat</span></li>
-        <li><span className="place">Fan Favorite Exhibition Team:</span> <span className="team">Komodo Dance</span></li>
+        <li><span className="place">2nd Place:</span> <span className="team">UNF INDAKtion</span></li>
+        <li><span className="place">3rd Place:</span> <span className="team">USF Forging a Movement</span></li>
+        <li><span className="place">Fan Favorite Exhibition Team:</span> <span className="team">The ACE Company</span></li>
       </ul>
     </div>
 
@@ -172,14 +172,15 @@ const Dance = () => {
 
             <TabPanel value={regularActivitiesValue} index={0}>
                 <h2>Dance Workshops</h2>
-                <p> Back-to-School Workshops will be held on September 6th!
-                    More information regarding location and times will be released soon.
+        
+                <p> Workshops will be held on January 25th!
+                    More information regarding location and times will be released on @uffsawolfpack.
                  </p>
             </TabPanel>
 
             <TabPanel value={regularActivitiesValue} index={1}>
                 <h2>Traditions</h2>
-                <p> Traditions will be held on September 6th! </p>
+                <p> Traditions will be held on January 25th! </p>
             </TabPanel>
 
             <TabPanel value={regularActivitiesValue} index={2}>
