@@ -209,7 +209,7 @@ function Navbar(props) {
                 <div className="navbar-right">
                     {list2}
                     <HashLink to="/login" className="navbar-login-button">
-                      Login
+                      LOGIN
                     </HashLink>
                 </div>
             </nav>

@@ -1,12 +1,164 @@
-import React from 'react';
+import React, { useMemo, useState } from 'react';
+import { ReactFlow, Background, Controls, MarkerType } from '@xyflow/react';
+import '@xyflow/react/dist/style.css';
+import dagre from '@dagrejs/dagre';
 import AKATitle from '../../../components/titles/AKA Title/AKATitle';
+import aka_data from '../../../data/aka_data.json';
+import akaConsolidatedData from '../../../data/akaConsolidated.json';
+import raka_data from '../../../data/raka_data.json';
+import rakaConsolidated from '../../../data/rakaConsolidated.json';
 
 import './AKA.css';
 
+const dagreGraph = new dagre.graphlib.Graph();
+dagreGraph.setDefaultEdgeLabel(() => ({}));
+
+const nodeWidth = 172;
+const nodeHeight = 36;
+
+const getLayoutedElements = (nodes, edges, direction = 'TB') => {
+  dagreGraph.setGraph({
+     rankdir: 'direction',
+     nodesep: 90,
+     ranksep: 100,
+     marginx: 50,
+     marginy: 50
+  });
+
+  nodes.forEach((node) => {
+    dagreGraph.setNode(node.id, { width: nodeWidth, height: nodeHeight });
+  });
+
+  edges.forEach((edge) => {
+    dagreGraph.setEdge(edge.source, edge.target, { weight: 2 });
+  });
+
+  dagre.layout(dagreGraph);
+
+  const newNodes = nodes.map((node) => {
+    const nodeWithPosition = dagreGraph.node(node.id);
+    return {
+      ...node,
+      targetPosition: 'top',
+      sourcePosition: 'bottom',
+      position: {
+        x: nodeWithPosition.x - nodeWidth / 2,
+        y: nodeWithPosition.y - nodeHeight / 2,
+      },
+    };
+  });
+
+  return { nodes: newNodes, edges };
+};
+
 const AKA = () => {
+  const [selectedNodeId, setSelectedNodeId] = useState(null);
+
+  const { nodes, edges } = useMemo(() => {
+    const initialNodes = [];
+    const initialEdges = [];
+    const seenNodes = new Set();
+    const sourceSet = new Set();
+    const targetSet = new Set();
+
+    const dataToProcess = akaConsolidatedData.pairings;
+
+    const getIsPartOfFamily = (nodeId) => {
+      if (!selectedNodeId) return true;
+      if (nodeId === selectedNodeId) return true;
+
+      const pairing = akaConsolidatedData.pairings.find(p => p.source === selectedNodeId);
+      return pairing ? pairing.targets.includes(nodeId) : false;
+    };
+
+    dataToProcess.forEach(pairing => {
+      sourceSet.add(pairing.source);
+      pairing.targets.forEach(target => targetSet.add(target));
+    });
+
+    dataToProcess.forEach((pairing, index) => {
+      const { source, targets } = pairing;
+
+      if (!seenNodes.has(source)) {
+        const isFamily = getIsPartOfFamily(source);
+        let role = sourceSet.has(source) && targetSet.has(source) ? 'big' : 'gbig';
+        initialNodes.push({
+          id: source,
+          data: { label: source },
+          position: { x: index * 200, y: 0 },
+          className: `node-${role}`,
+          style: {
+            opacity: selectedNodeId && !isFamily ? 0.3 : 1,
+            transition: 'opacity 0.3s ease'
+          }
+        });
+        seenNodes.add(source);
+      }
+
+      targets.forEach((target, tIndex) => {
+        if (!seenNodes.has(target)) {
+          const isFamily = getIsPartOfFamily(target);
+          let role = sourceSet.has(target) ? 'big' : 'little';
+          initialNodes.push({
+            id: target,
+            data: { label: target },
+            position: { x: index * 200 + tIndex * 50, y: 150 },
+            className: `node-${role}`,
+            style: {
+              opacity: selectedNodeId && !isFamily ? 0.3 : 1,
+              transition: 'opacity 0.3s ease'
+          }
+
+          });
+          seenNodes.add(target);
+        }
+
+        // Logic for highlighting the specific lineage
+        const isHighlighted = source === selectedNodeId;
+
+        initialEdges.push({
+          id: `e-${source}-${target}`,
+          source: source,
+          target: target,
+          type: 'step',
+          pathOptions: { borderRadius: 20 },
+          animated: isHighlighted,
+          style: { 
+            stroke: isHighlighted ? '#3B82F6' : '#94a3b8', 
+            strokeWidth: isHighlighted ? 4 : 2 
+          },
+          markerEnd: {
+            type: MarkerType.ArrowClosed,
+            color: isHighlighted ? '#3B82F6' : '#94a3b8',
+          },
+        });
+      });
+    });
+
+    return getLayoutedElements(initialNodes, initialEdges);
+  }, [selectedNodeId]); 
+
   return (<>
     <div className='aka-page'>
       <AKATitle color="white" />
+
+      {/* AKA RAKA Tree Container */}
+      <div className= 'aka-graph__section'>
+        <div id='family-tree-container' className='graph-container'>
+          <ReactFlow 
+            nodes={nodes} 
+            edges={edges} 
+            onNodeClick={(event, node) => setSelectedNodeId(node.id)}
+            onPaneClick={() => setSelectedNodeId(null)} 
+            fitView
+            fitViewOptions={{ padding: 0.8 }}
+            minZoom={0.05}
+          >
+          <Background variant="dots" gap={12} size={1} />
+          <Controls />
+          </ReactFlow>        
+          </div>
+      </div>
 
       <div className='aka-description'>
         <div className='aka-description__container'>

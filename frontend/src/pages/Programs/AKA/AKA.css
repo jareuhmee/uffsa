@@ -74,3 +74,94 @@
     transform: scale(1.05);
     box-shadow: 0px 0px 5px var(--black);
 }
+
+.aka-graph__section {
+    width: 100%;
+    display: flex;
+    background-color: #fdfdfd;
+    padding: 20px 0;
+    justify-content: center;
+}
+
+.graph-container {
+    width: 90%;
+    max-width: 1200px;
+    height: 50vh;
+    min-height: 400px;
+    border: 1px solid #eee;
+    border-radius: 12px;
+    background: white;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+    position: relative;
+    overflow: hidden;
+    padding: 10px;
+}
+
+.graph-container .react-flow {
+  width: 100%;
+  height: 100%;
+  overflow: visible;
+}
+
+@media (max-width: 768px) {
+    .graph-container {
+        height: 60vh;
+        width: 95%;
+    }
+}
+
+.node-gbig {
+  background: #EF4444;
+  color: white;
+  border-radius: 50px;
+  font-weight: bold;
+}
+
+.node-big {
+  background: #3B82F6;
+  color: white;
+  border-radius: 50px;
+}
+
+.node-little {
+  background: #FBBF24;
+  color: black;
+  border-radius: 50px;
+}
+
+.react-flow__node {
+  border-radius: 25px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
+  padding: 8px 15px;
+  border: 1px solid #ddd;
+}
+.react-flow__edge-path {
+  stroke: #cbd5e1;
+  stroke-width: 2;
+}
+
+.react-flow__edge {
+  z-index: 0;
+}
+
+.react-flow__node {
+  z-index: 10;
+}
+
+.react-flow__controls {
+  left: 15px;
+  bottom: 15px;
+  z-index: 100;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  background: white;
+  padding: 4px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.react-flow__attribution {
+  display: none;
+}
